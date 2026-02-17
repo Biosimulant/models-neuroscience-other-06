@@ -1,0 +1,8 @@
+# Script for running automated tests on OSB using Travis-CI, see https://github.com/OpenSourceBrain/osb-model-validation
+
+system: Testing Golgi
+
+experiments:
+  ionic_currents_and_calcium:
+    expected:
+      spike times:  [0.0872, 0.289275, 0.40795, 0.427975, 0.46725, 0.5052, 0.543625, 0.5817, 0.61495, 0.6531, 0.6899, 0.9723, 1.193425, 1.700725, 1.83335, 1.9736, 2.11625]

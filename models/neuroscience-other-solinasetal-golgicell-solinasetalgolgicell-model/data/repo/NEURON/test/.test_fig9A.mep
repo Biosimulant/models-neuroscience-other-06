@@ -1,0 +1,19 @@
+# Script for running automated tests on OSB using Travis-CI, see https://github.com/OpenSourceBrain/osb-model-validation
+
+system: Testing Golgi
+
+experiments:
+  subthreshold oscillations and spike coupling control:
+    expected:
+      spike times: [0.0872, 0.289275, 0.49925, 0.713925, 0.932725, 1.154675]
+  subthreshold oscillations and spike coupling INa IK-V IK-C block:
+    expected:
+      spike times: [0.0733, 0.342575, 0.638525, 0.937125, 1.236725]
+  subthreshold oscillations and spike coupling INa IK-V IK-C and Ihcn2 block:
+    expected:
+      spike times:  [0.10235, 0.437725, 0.80185, 1.168925]
+  subthreshold oscillations and spike coupling INa IK-V IK-C and Ihcn2 block and 10pA:
+    expected:
+      spike times:  [0.070075, 0.331475, 0.6188, 0.908225, 1.198325]
+
+   

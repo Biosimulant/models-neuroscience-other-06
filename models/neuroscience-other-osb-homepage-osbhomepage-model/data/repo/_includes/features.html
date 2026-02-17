@@ -1,0 +1,125 @@
+<section id="features-section" class="features-section">
+    <div class="container">
+        <div class="row overflow-hidden p-3 text-center">
+            <div class="col-xs-12 col-lg-10 mx-auto">
+                <h6 class="mb-4 overview-section-text">{{site.data.features.features}}</h6>
+            </div>
+            <div class="col-xs-12 col-lg-9 mx-auto">
+                <h1 class="display-5 mb-4 overview-section-title">{{site.data.features.title}}</h1>
+            </div>
+            <div class="col-xs-12 col-lg-6 mx-auto">
+                <p class="lead fw-normal mb-5 overview-section-brief">{{site.data.features.brief}}</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="tabs-container">
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <a class="nav-link active" id="NetPyNE-tab" data-bs-toggle="tab" href="#NetPyNE-tab-carousel-item" role="tab" aria-controls="nav-home" aria-selected="true">NetPyNE</a>
+                    <a class="nav-link" id="NWBExplorer-tab" data-bs-toggle="tab" href="#NWBExplorer-tab-carousel-item" role="tab" aria-controls="nav-profile" aria-selected="false">NWB Explorer</a>
+                    <a class="nav-link" id="JupyterLab-tab" data-bs-toggle="tab" href="#JupyterLab-tab-carousel-item" role="tab" aria-controls="nav-contact" aria-selected="false">JupyterLab</a>
+                    <a class="nav-link" id="OSBv1-tab" data-bs-toggle="tab" href="#OSBv1-tab-carousel-item" role="tab" aria-controls="nav-contact" aria-selected="false">OSBv1</a>
+                </div>
+            </nav>
+            <div class="carousel-wrapper">
+                <div id="features-carousel" class="carousel carousel-dark">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" id="NetPyNE-tab-carousel-item">
+                            <div class="carousel-item-inner">
+                                <div class="image-wrapper">
+                                    <img src="{{site.data.features.sliderData[0].image}}" class="d-block" alt="{{site.data.features.sliderData[0].alt}}">
+                                </div>
+
+                                <div class="carousel-caption d-flex">
+                                    {{site.data.features.sliderData[0].icon}}
+                                    <p class="text-start">
+                                        <b>{{site.data.features.sliderData[0].title}}</b> {{site.data.features.sliderData[0].text}}
+                                    </p>
+                                    <a href="{{site.data.features.sliderData[0].link}}" target="_blank" class="transparent-btn">{{site.data.features.LearnMore}}</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item" id="NWBExplorer-tab-carousel-item">
+                            <div class="carousel-item-inner">
+                                <div class="image-wrapper">
+                                    <img src="{{site.data.features.sliderData[1].image}}" class="d-block" alt="{{site.data.features.sliderData[1].alt}}">
+                                </div>
+
+                                <div class="carousel-caption d-flex">
+                                    {{site.data.features.sliderData[1].icon}}
+                                    <p class="text-start">
+                                        <b>{{site.data.features.sliderData[1].title}}</b> {{site.data.features.sliderData[1].text}}
+                                    </p>
+                                    <a href="{{site.data.features.sliderData[1].link}}" target="_blank" class="transparent-btn">{{site.data.features.LearnMore}}</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item" id="JupyterLab-tab-carousel-item">
+                            <div class="carousel-item-inner">
+                                <div class="image-wrapper">
+                                    <img src="{{site.data.features.sliderData[2].image}}" class="d-block" alt="{{site.data.features.sliderData[2].alt}}">
+                                </div>
+
+                                <div class="carousel-caption d-flex">
+                                    <img src="{{site.data.features.sliderData[2].icon}}" width="38" height="38" style="opacity: 1; width: 35px; height: 38px" class="d-block" alt="{{site.data.features.sliderData[1].alt}}">
+
+
+                                    <p class="text-start">
+                                        <b>{{site.data.features.sliderData[2].title}}</b> {{site.data.features.sliderData[2].text}}
+                                    </p>
+                                    <a href="{{site.data.features.sliderData[2].link}}" target="_blank" class="transparent-btn">{{site.data.features.LearnMore}}</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item" id="OSBv1-tab-carousel-item">
+                            <div class="carousel-item-inner">
+                                <div class="image-wrapper">
+                                    <img src="{{site.data.features.sliderData[3].image}}" class="d-block" alt="{{site.data.features.sliderData[3].alt}}">
+                                </div>
+
+                                <div class="carousel-caption d-flex">
+                                    <img src="{{site.data.features.sliderData[3].icon}}" width="38" height="38" style="opacity: 1; width: 35px; height: 38px" class="d-block" alt="{{site.data.features.sliderData[3].alt}}">
+
+
+                                    <p class="text-start">
+                                        <b>{{site.data.features.sliderData[3].title}}</b> {{site.data.features.sliderData[3].text}}
+                                    </p>
+                                    <a href="{{site.data.features.sliderData[3].link}}" target="_blank" class="transparent-btn">{{site.data.features.LearnMore}}</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#features-carousel" data-bs-slide="prev">
+                    <span aria-hidden="true">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="40" height="40" rx="20" fill="white" fill-opacity="0.1" />
+                            <path d="M23 14L17 20L23 26" stroke="white" stroke-opacity="0.4" stroke-width="2"
+                                  stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </span>
+                        <span class="visually-hidden">{{site.data.features.Previous}}</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#features-carousel"
+                            data-bs-slide="next">
+                    <span aria-hidden="true">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="40" height="40" rx="20" fill="white" fill-opacity="0.1" />
+                            <path d="M17 26L23 20L17 14" stroke="white" stroke-opacity="0.4" stroke-width="2"
+                                  stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </span>
+                        <span class="visually-hidden">{{site.data.features.Next}}</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+

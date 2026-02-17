@@ -1,0 +1,9 @@
+.idea
+/osb/generate.sh
+/osb/regenerate.sh
+/osb/runHub.sh
+/osb/runLocal.sh
+/osb_models/regenerate.sh
+/osb_models/run2.sh
+/osb_models/runHub.sh
+/osb_models/runLocal.sh

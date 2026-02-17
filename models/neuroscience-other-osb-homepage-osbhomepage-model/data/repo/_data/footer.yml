@@ -1,0 +1,73 @@
+PoweredBy: Powered by
+metacellLink: https://metacell.us
+Product: OSB Platform
+ProductLinks: [
+  {
+    name: "OSBv2",
+    href: "https://v2.opensourcebrain.org",
+  },
+  {
+    name: "Overview",
+    href: "https://docs.opensourcebrain.org/OSBv2/Overview.html",
+  },
+  {
+    name: "Features",
+    href: "https://docs.opensourcebrain.org/OSBv2/Guided_tour.html",
+  },
+  {
+    name: "Events",
+    href: "https://docs.opensourcebrain.org/General/Meetings.html",
+  },
+  {
+    name: "OSBv1",
+    href: "https://v1.opensourcebrain.org",
+  },
+]
+
+Resources: Resources
+ResourcesLinks: [
+  {
+    name: "Documentation",
+    href: "https://docs.opensourcebrain.org",
+  },
+  {
+    name: "Help Center",
+    href: "https://docs.opensourcebrain.org/General/Contacts.html",
+  },
+  {
+    name: "Report a problem",
+    href: "https://docs.opensourcebrain.org/General/Contacts.html#report-a-bug-request-a-feature",
+  },
+  {
+    name: "Code of Conduct",
+    href: "https://docs.opensourcebrain.org/General/CoC.html",
+  },
+]
+
+GettingStarted: Getting started
+GettingStartedLinks: [
+  {
+    name: "Guided Tour",
+    href: "https://docs.opensourcebrain.org/OSBv2/Guided_tour.html",
+  },
+  {
+    name: "Browse repositories",
+    href: "https://v2.opensourcebrain.org/repositories",
+  },
+  {
+    name: "Browse workspaces",
+    href: "https://v2.opensourcebrain.org",
+  },
+]
+
+Contact: Contact
+ContactLinks: [
+  {
+    name: "Twitter/X",
+    href: "https://twitter.com/OSBTeam",
+  },
+  {
+    name: "Get in touch",
+    href: "https://docs.opensourcebrain.org/General/Contacts.html",
+  },
+]

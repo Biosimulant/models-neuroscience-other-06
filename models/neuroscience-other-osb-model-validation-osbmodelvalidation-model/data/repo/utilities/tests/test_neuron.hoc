@@ -1,0 +1,8 @@
+print "NEURON Engine running..."
+
+create soma
+access soma
+insert Kv2like
+forall psection()
+
+print "Hello from NEURON: ", nrnversion()

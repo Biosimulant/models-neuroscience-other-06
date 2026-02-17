@@ -1,0 +1,21 @@
+# Script for running automated tests on OSB using Travis-CI, see https://github.com/OpenSourceBrain/osb-model-validation
+
+system: Testing Golgi
+
+experiments:
+  phar_pacemaking_control:
+    expected:
+      spike times: [0.0872, 0.289275, 0.49925, 0.713925, 0.932725, 1.154675, 1.378975, 1.605075, 1.83265]
+
+  phar_pacemaking_Ih:
+    expected:
+      spike times: [0.1737, 0.54695, 0.9444, 1.367075, 1.81075]
+
+
+  phar_pacemaking_INaP:
+    expected:
+      resting: -59
+
+
+
+ 

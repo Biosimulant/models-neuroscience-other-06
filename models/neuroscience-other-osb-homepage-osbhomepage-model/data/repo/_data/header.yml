@@ -1,0 +1,22 @@
+login: Login
+loginLink: https://v2.opensourcebrain.org
+headText: OSBv2 is now available at
+
+links: [
+  {
+    name: "Home",
+    href: "#",
+  },
+  {
+    name: "Docs",
+    href: "https://docs.opensourcebrain.org",
+  },
+  {
+    name: "FAQ",
+    href: "https://docs.opensourcebrain.org/General/FAQ.html",
+  },
+  {
+    name: "Contact",
+    href: "https://docs.opensourcebrain.org/General/Contacts.html",
+  },
+]

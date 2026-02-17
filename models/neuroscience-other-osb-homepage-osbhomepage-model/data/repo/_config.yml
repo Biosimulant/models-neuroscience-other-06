@@ -1,0 +1,22 @@
+url: https://metacell.github.io
+baseurl: /
+
+# Site settings
+title: Open Source Brain
+email: info@openasourcebrain.org
+description: ''
+githubLink: https://github.com/OpenSourceBrain/OSB_homepage
+copyright: 2024 OSB
+metacellLink: https://metacell.us/
+appLink: https://v2.opensourcebrain.org
+
+# Collections
+collections:
+  - communities
+  - elements
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+googleAnalytics: G-7WB9DSRE52

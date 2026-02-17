@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Page moved</title>
+      
+   </head>
+   <body>
+      <p>Page not found -- trying to redirect...</p>
+      <p id="more"></p>
+      <script>
+        const v1AddressMatches = ["login", "account", "projects", "docs", "users", "groups", "admin", "settings", "about", "tutorials", "geppettoError.html"]
+        for(const address of v1AddressMatches) {
+         if(window.location.pathname.includes(address)) {
+
+            document.getElementById("more").innerHTML = "Redirecting to v1.opensourcebrain.org...";
+
+            if (window.location.href.includes("www")) {
+               window.location.href = window.location.href.replace("www.opensourcebrain.org", "v1.opensourcebrain.org")
+            }
+            else {
+               window.location.href = window.location.href.replace("opensourcebrain.org", "v1.opensourcebrain.org")
+            }
+         }
+        }
+        if(window.location.pathname.includes("workspaces")) {
+         window.location.href = window.location.href.replace("www.", "")
+        }
+      </script>
+      <p>If you are still seeing this page, please <a href="https://docs.opensourcebrain.org/General/Contacts.html">get in contact</a>.</p>
+   </body>
+</html>
