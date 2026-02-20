@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/93349
   download_url: https://modeldb.science/download/93349
   license: ''
-bsim:
+biosim:
   entrypoint: src.pyramidal_neuron_deep_constrained_by_experiment_93349_model:PyramidalNeuronDeepConstrainedByExperiment93349Model
   init_kwargs:
     model_path: data/93349.zip

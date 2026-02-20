@@ -19,7 +19,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/StochasticityShowcase
   download_url: https://github.com/OpenSourceBrain/StochasticityShowcase.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.stochasticityshowcase_stochasticityshowcase_model:StochasticityshowcaseStochasticityshowcaseModel
   init_kwargs:
     model_path: data/repo

@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/123848
   download_url: https://modeldb.science/download/123848
   license: ''
-bsim:
+biosim:
   entrypoint: src.na_channel_mutations_in_the_dentate_gyrus_thomas_123848_model:NaChannelMutationsInTheDentateGyrusThomas123848Model
   init_kwargs:
     model_path: data/123848.zip

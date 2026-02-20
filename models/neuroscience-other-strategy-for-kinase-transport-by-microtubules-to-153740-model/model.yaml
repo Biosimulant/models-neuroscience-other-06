@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/153740
   download_url: https://modeldb.science/download/153740
   license: ''
-bsim:
+biosim:
   entrypoint: src.strategy_for_kinase_transport_by_microtubules_to_153740_model:StrategyForKinaseTransportByMicrotubulesTo153740Model
   init_kwargs:
     model_path: data/153740.zip

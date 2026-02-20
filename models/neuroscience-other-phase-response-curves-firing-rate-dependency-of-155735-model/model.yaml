@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/155735
   download_url: https://modeldb.science/download/155735
   license: ''
-bsim:
+biosim:
   entrypoint: src.phase_response_curves_firing_rate_dependency_of_155735_model:PhaseResponseCurvesFiringRateDependencyOf155735Model
   init_kwargs:
     model_path: data/155735.zip

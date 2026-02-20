@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/114394
   download_url: https://modeldb.science/download/114394
   license: ''
-bsim:
+biosim:
   entrypoint: src.na_channel_dependence_of_ap_initiation_in_cortic_114394_model:NaChannelDependenceOfApInitiationInCortic114394Model
   init_kwargs:
     model_path: data/114394.zip

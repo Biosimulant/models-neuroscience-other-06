@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/OSB_Status
   download_url: https://github.com/OpenSourceBrain/OSB_Status.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.osb_status_osbstatus_model:OsbStatusOsbstatusModel
   init_kwargs:
     model_path: data/repo

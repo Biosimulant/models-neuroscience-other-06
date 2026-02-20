@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/58957
   download_url: https://modeldb.science/download/58957
   license: ''
-bsim:
+biosim:
   entrypoint: src.proximal_inhibition_of_renshaw_cells_bui_et_al_2_58957_model:ProximalInhibitionOfRenshawCellsBuiEtAl258957Model
   init_kwargs:
     model_path: data/58957.zip

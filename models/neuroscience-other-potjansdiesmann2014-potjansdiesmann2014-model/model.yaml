@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/PotjansDiesmann2014
   download_url: https://github.com/OpenSourceBrain/PotjansDiesmann2014.git
   license: GPL-3.0
-bsim:
+biosim:
   entrypoint: src.potjansdiesmann2014_potjansdiesmann2014_model:Potjansdiesmann2014Potjansdiesmann2014Model
   init_kwargs:
     model_path: data/repo

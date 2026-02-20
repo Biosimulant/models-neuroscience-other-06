@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/182134
   download_url: https://modeldb.science/download/182134
   license: ''
-bsim:
+biosim:
   entrypoint: src.normal_ripples_abnormal_ripples_and_fast_ripples_182134_model:NormalRipplesAbnormalRipplesAndFastRipples182134Model
   init_kwargs:
     model_path: data/182134.zip

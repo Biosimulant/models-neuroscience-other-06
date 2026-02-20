@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/53427
   download_url: https://modeldb.science/download/53427
   license: ''
-bsim:
+biosim:
   entrypoint: src.paired_turbulence_and_light_effect_on_calcium_in_53427_model:PairedTurbulenceAndLightEffectOnCalciumIn53427Model
   init_kwargs:
     model_path: data/53427.zip

@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/115968
   download_url: https://modeldb.science/download/115968
   license: ''
-bsim:
+biosim:
   entrypoint: src.polychronization_computation_with_spikes_izhikev_115968_model:PolychronizationComputationWithSpikesIzhikev115968Model
   init_kwargs:
     model_path: data/115968.zip

@@ -20,7 +20,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/WeilerEtAl08-LaminarCortex
   download_url: https://github.com/OpenSourceBrain/WeilerEtAl08-LaminarCortex.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.weileretal08_laminarcortex_weileretal08laminarcortex_model:Weileretal08LaminarcortexWeileretal08laminarcortexModel
   init_kwargs:
     model_path: data/repo

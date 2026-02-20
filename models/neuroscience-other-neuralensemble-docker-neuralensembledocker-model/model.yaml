@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/neuralensemble-docker
   download_url: https://github.com/OpenSourceBrain/neuralensemble-docker.git
   license: MIT
-bsim:
+biosim:
   entrypoint: src.neuralensemble_docker_neuralensembledocker_model:NeuralensembleDockerNeuralensembledockerModel
   init_kwargs:
     model_path: data/repo

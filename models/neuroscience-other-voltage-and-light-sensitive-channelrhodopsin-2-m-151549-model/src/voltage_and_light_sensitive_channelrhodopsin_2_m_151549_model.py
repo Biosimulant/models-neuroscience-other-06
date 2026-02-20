@@ -16,13 +16,13 @@ from pathlib import Path
 from typing import Any, Dict, Optional, Set, TYPE_CHECKING
 
 if TYPE_CHECKING:  # pragma: no cover - typing only
-    from bsim import BioWorld
+    from biosim import BioWorld
 
-import bsim
-from bsim.signals import BioSignal, SignalMetadata
+import biosim
+from biosim.signals import BioSignal, SignalMetadata
 
 
-class OtherVoltageAndLightSensitiveChannelrhodopsin2ModelChr2(bsim.BioModule):
+class OtherVoltageAndLightSensitiveChannelrhodopsin2ModelChr2(biosim.BioModule):
     """Placeholder BioModule wrapper for: Voltage and light-sensitive Channelrhodopsin-2 model (ChR2) (Williams et al. 2013).
 
     This model's original format is not directly supported by the auto-generator.

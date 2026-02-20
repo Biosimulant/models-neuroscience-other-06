@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/148644
   download_url: https://modeldb.science/download/148644
   license: ''
-bsim:
+biosim:
   entrypoint: src.neuronal_morphology_goes_digital_parekh_and_asco_148644_model:NeuronalMorphologyGoesDigitalParekhAndAsco148644Model
   init_kwargs:
     model_path: data/148644.zip

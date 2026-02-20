@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/neuroConstructShowcase
   download_url: https://github.com/OpenSourceBrain/neuroConstructShowcase.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.neuroconstructshowcase_neuroconstructshowcase_model:NeuroconstructshowcaseNeuroconstructshowcaseModel
   init_kwargs:
     model_path: data/repo

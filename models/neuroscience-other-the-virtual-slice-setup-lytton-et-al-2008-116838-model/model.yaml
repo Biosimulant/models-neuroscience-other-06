@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/116838
   download_url: https://modeldb.science/download/116838
   license: ''
-bsim:
+biosim:
   entrypoint: src.the_virtual_slice_setup_lytton_et_al_2008_116838_model:TheVirtualSliceSetupLyttonEtAl2008116838Model
   init_kwargs:
     model_path: data/116838.zip

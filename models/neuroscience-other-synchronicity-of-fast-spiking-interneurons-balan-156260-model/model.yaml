@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/156260
   download_url: https://modeldb.science/download/156260
   license: ''
-bsim:
+biosim:
   entrypoint: src.synchronicity_of_fast_spiking_interneurons_balan_156260_model:SynchronicityOfFastSpikingInterneuronsBalan156260Model
   init_kwargs:
     model_path: data/156260.zip

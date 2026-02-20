@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/152636
   download_url: https://modeldb.science/download/152636
   license: ''
-bsim:
+biosim:
   entrypoint: src.temperature_dependent_pyloric_pacemaker_kernel_c_152636_model:TemperatureDependentPyloricPacemakerKernelC152636Model
   init_kwargs:
     model_path: data/152636.zip

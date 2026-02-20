@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/154288
   download_url: https://modeldb.science/download/154288
   license: ''
-bsim:
+biosim:
   entrypoint: src.time_warp_invariant_neuronal_processing_gutig_an_154288_model:TimeWarpInvariantNeuronalProcessingGutigAn154288Model
   init_kwargs:
     model_path: data/154288.zip

@@ -19,7 +19,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/SolinasEtAl-GolgiCell
   download_url: https://github.com/OpenSourceBrain/SolinasEtAl-GolgiCell.git
   license: NOASSERTION
-bsim:
+biosim:
   entrypoint: src.solinasetal_golgicell_solinasetalgolgicell_model:SolinasetalGolgicellSolinasetalgolgicellModel
   init_kwargs:
     model_path: data/repo

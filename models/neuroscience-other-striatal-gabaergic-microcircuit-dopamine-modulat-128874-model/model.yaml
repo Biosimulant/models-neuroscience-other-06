@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/128874
   download_url: https://modeldb.science/download/128874
   license: ''
-bsim:
+biosim:
   entrypoint: src.striatal_gabaergic_microcircuit_dopamine_modulat_128874_model:StriatalGabaergicMicrocircuitDopamineModulat128874Model
   init_kwargs:
     model_path: data/128874.zip

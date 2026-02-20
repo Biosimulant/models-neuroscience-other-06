@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/MUSICShowcase
   download_url: https://github.com/OpenSourceBrain/MUSICShowcase.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.musicshowcase_musicshowcase_model:MusicshowcaseMusicshowcaseModel
   init_kwargs:
     model_path: data/repo

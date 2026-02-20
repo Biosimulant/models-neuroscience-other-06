@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/139883
   download_url: https://modeldb.science/download/139883
   license: ''
-bsim:
+biosim:
   entrypoint: src.reconstructing_cerebellar_granule_layer_evoked_l_139883_model:ReconstructingCerebellarGranuleLayerEvokedL139883Model
   init_kwargs:
     model_path: data/139883.zip

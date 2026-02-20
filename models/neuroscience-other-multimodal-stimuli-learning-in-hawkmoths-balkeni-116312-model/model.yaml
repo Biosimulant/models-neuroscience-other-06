@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/116312
   download_url: https://modeldb.science/download/116312
   license: ''
-bsim:
+biosim:
   entrypoint: src.multimodal_stimuli_learning_in_hawkmoths_balkeni_116312_model:MultimodalStimuliLearningInHawkmothsBalkeni116312Model
   init_kwargs:
     model_path: data/116312.zip

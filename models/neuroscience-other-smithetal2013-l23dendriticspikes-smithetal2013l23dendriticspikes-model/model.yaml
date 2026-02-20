@@ -19,7 +19,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/SmithEtAl2013-L23DendriticSpikes
   download_url: https://github.com/OpenSourceBrain/SmithEtAl2013-L23DendriticSpikes.git
   license: NOASSERTION
-bsim:
+biosim:
   entrypoint: src.smithetal2013_l23dendriticspikes_smithetal2013l23dendriticspikes_model:Smithetal2013L23dendriticspikesSmithetal2013l23dendriticspikesModel
   init_kwargs:
     model_path: data/repo

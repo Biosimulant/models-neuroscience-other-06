@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/150621
   download_url: https://modeldb.science/download/150621
   license: ''
-bsim:
+biosim:
   entrypoint: src.striatal_output_neuron_mahon_deniau_charpier_del_150621_model:StriatalOutputNeuronMahonDeniauCharpierDel150621Model
   init_kwargs:
     model_path: data/150621.zip

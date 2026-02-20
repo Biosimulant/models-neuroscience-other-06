@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/151549
   download_url: https://modeldb.science/download/151549
   license: ''
-bsim:
+biosim:
   entrypoint: src.voltage_and_light_sensitive_channelrhodopsin_2_m_151549_model:VoltageAndLightSensitiveChannelrhodopsin2M151549Model
   init_kwargs:
     model_path: data/151549.zip

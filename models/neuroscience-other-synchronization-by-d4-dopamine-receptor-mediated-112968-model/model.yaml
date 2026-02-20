@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/112968
   download_url: https://modeldb.science/download/112968
   license: ''
-bsim:
+biosim:
   entrypoint: src.synchronization_by_d4_dopamine_receptor_mediated_112968_model:SynchronizationByD4DopamineReceptorMediated112968Model
   init_kwargs:
     model_path: data/112968.zip

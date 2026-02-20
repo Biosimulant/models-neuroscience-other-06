@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/84599
   download_url: https://modeldb.science/download/84599
   license: ''
-bsim:
+biosim:
   entrypoint: src.synaptic_integration_of_an_identified_nonspiking_84599_model:SynapticIntegrationOfAnIdentifiedNonspiking84599Model
   init_kwargs:
     model_path: data/84599.zip

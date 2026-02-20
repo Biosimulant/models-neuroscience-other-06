@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/141226
   download_url: https://modeldb.science/download/141226
   license: ''
-bsim:
+biosim:
   entrypoint: src.multiscale_interactions_between_chemical_and_ele_141226_model:MultiscaleInteractionsBetweenChemicalAndEle141226Model
   init_kwargs:
     model_path: data/141226.zip

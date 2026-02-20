@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/118014
   download_url: https://modeldb.science/download/118014
   license: ''
-bsim:
+biosim:
   entrypoint: src.roles_of_i_a_and_morphology_in_ap_prop_in_ca1_py_118014_model:RolesOfIAAndMorphologyInApPropInCa1Py118014Model
   init_kwargs:
     model_path: data/118014.zip

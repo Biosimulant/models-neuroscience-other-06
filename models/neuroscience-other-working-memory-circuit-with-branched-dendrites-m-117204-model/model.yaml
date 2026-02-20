@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/117204
   download_url: https://modeldb.science/download/117204
   license: ''
-bsim:
+biosim:
   entrypoint: src.working_memory_circuit_with_branched_dendrites_m_117204_model:WorkingMemoryCircuitWithBranchedDendritesM117204Model
   init_kwargs:
     model_path: data/117204.zip

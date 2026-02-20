@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/144027
   download_url: https://modeldb.science/download/144027
   license: ''
-bsim:
+biosim:
   entrypoint: src.perturbation_sensitivity_implies_high_noise_and_144027_model:PerturbationSensitivityImpliesHighNoiseAnd144027Model
   init_kwargs:
     model_path: data/144027.zip

@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/NeuroDataShare
   download_url: https://github.com/OpenSourceBrain/NeuroDataShare.git
   license: MIT
-bsim:
+biosim:
   entrypoint: src.neurodatashare_neurodatashare_model:NeurodatashareNeurodatashareModel
   init_kwargs:
     model_path: data/repo

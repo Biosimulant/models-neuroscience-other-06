@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/153573
   download_url: https://modeldb.science/download/153573
   license: ''
-bsim:
+biosim:
   entrypoint: src.striatal_dopamine_ramping_an_explanation_by_rein_153573_model:StriatalDopamineRampingAnExplanationByRein153573Model
   init_kwargs:
     model_path: data/153573.zip

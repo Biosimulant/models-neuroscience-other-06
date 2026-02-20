@@ -16,13 +16,13 @@ from pathlib import Path
 from typing import Any, Dict, Optional, Set, TYPE_CHECKING
 
 if TYPE_CHECKING:  # pragma: no cover - typing only
-    from bsim import BioWorld
+    from biosim import BioWorld
 
-import bsim
-from bsim.signals import BioSignal, SignalMetadata
+import biosim
+from biosim.signals import BioSignal, SignalMetadata
 
 
-class OtherPyramidalNeuronCoincidenceDetectionTunedByDendritic(bsim.BioModule):
+class OtherPyramidalNeuronCoincidenceDetectionTunedByDendritic(biosim.BioModule):
     """Placeholder BioModule wrapper for: Pyramidal neuron coincidence detection tuned by dendritic branching pattern (Schaefer et al 2003).
 
     This model's original format is not directly supported by the auto-generator.

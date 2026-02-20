@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/126640
   download_url: https://modeldb.science/download/126640
   license: ''
-bsim:
+biosim:
   entrypoint: src.nacc_medium_spiny_neuron_effects_of_cannabinoid_126640_model:NaccMediumSpinyNeuronEffectsOfCannabinoid126640Model
   init_kwargs:
     model_path: data/126640.zip

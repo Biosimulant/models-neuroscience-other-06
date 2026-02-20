@@ -19,7 +19,7 @@ upstream:
   original_url: https://modeldb.science/151482
   download_url: https://modeldb.science/download/151482
   license: ''
-bsim:
+biosim:
   entrypoint: src.sympathetic_preganglionic_neurone_briant_et_al_2_151482_model:SympatheticPreganglionicNeuroneBriantEtAl2151482Model
   init_kwargs:
     model_path: data/151482.zip

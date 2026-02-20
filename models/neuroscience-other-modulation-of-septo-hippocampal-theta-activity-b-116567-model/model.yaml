@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/116567
   download_url: https://modeldb.science/download/116567
   license: ''
-bsim:
+biosim:
   entrypoint: src.modulation_of_septo_hippocampal_theta_activity_b_116567_model:ModulationOfSeptoHippocampalThetaActivityB116567Model
   init_kwargs:
     model_path: data/116567.zip

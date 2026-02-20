@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/83523
   download_url: https://modeldb.science/download/83523
   license: ''
-bsim:
+biosim:
   entrypoint: src.subthreshold_inact_of_k_channels_modulates_aps_i_83523_model:SubthresholdInactOfKChannelsModulatesApsI83523Model
   init_kwargs:
     model_path: data/83523.zip

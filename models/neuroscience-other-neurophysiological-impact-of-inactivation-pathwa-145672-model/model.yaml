@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/145672
   download_url: https://modeldb.science/download/145672
   license: ''
-bsim:
+biosim:
   entrypoint: src.neurophysiological_impact_of_inactivation_pathwa_145672_model:NeurophysiologicalImpactOfInactivationPathwa145672Model
   init_kwargs:
     model_path: data/145672.zip

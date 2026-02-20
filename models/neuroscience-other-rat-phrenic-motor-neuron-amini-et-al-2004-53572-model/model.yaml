@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/53572
   download_url: https://modeldb.science/download/53572
   license: ''
-bsim:
+biosim:
   entrypoint: src.rat_phrenic_motor_neuron_amini_et_al_2004_53572_model:RatPhrenicMotorNeuronAminiEtAl200453572Model
   init_kwargs:
     model_path: data/53572.zip

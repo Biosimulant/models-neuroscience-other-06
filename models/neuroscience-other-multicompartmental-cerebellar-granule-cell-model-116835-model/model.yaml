@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/116835
   download_url: https://modeldb.science/download/116835
   license: ''
-bsim:
+biosim:
   entrypoint: src.multicompartmental_cerebellar_granule_cell_model_116835_model:MulticompartmentalCerebellarGranuleCellModel116835Model
   init_kwargs:
     model_path: data/116835.zip

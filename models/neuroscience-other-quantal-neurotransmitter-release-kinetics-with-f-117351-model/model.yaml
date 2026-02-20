@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/117351
   download_url: https://modeldb.science/download/117351
   license: ''
-bsim:
+biosim:
   entrypoint: src.quantal_neurotransmitter_release_kinetics_with_f_117351_model:QuantalNeurotransmitterReleaseKineticsWithF117351Model
   init_kwargs:
     model_path: data/117351.zip

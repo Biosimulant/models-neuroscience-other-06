@@ -16,13 +16,13 @@ from pathlib import Path
 from typing import Any, Dict, Optional, Set, TYPE_CHECKING
 
 if TYPE_CHECKING:  # pragma: no cover - typing only
-    from bsim import BioWorld
+    from biosim import BioWorld
 
-import bsim
-from bsim.signals import BioSignal, SignalMetadata
+import biosim
+from biosim.signals import BioSignal, SignalMetadata
 
 
-class OtherSynapticIntegrationOfAnIdentifiedNonspiking(bsim.BioModule):
+class OtherSynapticIntegrationOfAnIdentifiedNonspiking(biosim.BioModule):
     """Placeholder BioModule wrapper for: Synaptic integration of an identified nonspiking interneuron in crayfish (Takashima et al 2006).
 
     This model's original format is not directly supported by the auto-generator.

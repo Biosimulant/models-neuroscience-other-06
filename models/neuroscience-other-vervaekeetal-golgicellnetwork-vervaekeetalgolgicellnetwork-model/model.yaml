@@ -19,7 +19,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/VervaekeEtAl-GolgiCellNetwork
   download_url: https://github.com/OpenSourceBrain/VervaekeEtAl-GolgiCellNetwork.git
   license: NOASSERTION
-bsim:
+biosim:
   entrypoint: src.vervaekeetal_golgicellnetwork_vervaekeetalgolgicellnetwork_model:VervaekeetalGolgicellnetworkVervaekeetalgolgicellnetworkModel
   init_kwargs:
     model_path: data/repo

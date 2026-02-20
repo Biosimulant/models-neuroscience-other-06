@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/168861
   download_url: https://modeldb.science/download/168861
   license: ''
-bsim:
+biosim:
   entrypoint: src.neurite_electrophysiological_mechanical_coupling_168861_model:NeuriteElectrophysiologicalMechanicalCoupling168861Model
   init_kwargs:
     model_path: data/168861.zip

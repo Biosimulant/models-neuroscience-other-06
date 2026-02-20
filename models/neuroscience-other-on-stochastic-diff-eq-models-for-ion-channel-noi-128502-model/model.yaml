@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/128502
   download_url: https://modeldb.science/download/128502
   license: ''
-bsim:
+biosim:
   entrypoint: src.on_stochastic_diff_eq_models_for_ion_channel_noi_128502_model:OnStochasticDiffEqModelsForIonChannelNoi128502Model
   init_kwargs:
     model_path: data/128502.zip

@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/154739
   download_url: https://modeldb.science/download/154739
   license: ''
-bsim:
+biosim:
   entrypoint: src.norns_neural_network_studio_visser_and_van_gils_154739_model:NornsNeuralNetworkStudioVisserAndVanGils154739Model
   init_kwargs:
     model_path: data/154739.zip

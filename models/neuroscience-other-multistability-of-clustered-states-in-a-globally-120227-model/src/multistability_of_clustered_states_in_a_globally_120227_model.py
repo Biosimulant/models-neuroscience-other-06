@@ -16,13 +16,13 @@ from pathlib import Path
 from typing import Any, Dict, Optional, Set, TYPE_CHECKING
 
 if TYPE_CHECKING:  # pragma: no cover - typing only
-    from bsim import BioWorld
+    from biosim import BioWorld
 
-import bsim
-from bsim.signals import BioSignal, SignalMetadata
+import biosim
+from biosim.signals import BioSignal, SignalMetadata
 
 
-class OtherMultistabilityOfClusteredStatesInAGloballyInhibitory(bsim.BioModule):
+class OtherMultistabilityOfClusteredStatesInAGloballyInhibitory(biosim.BioModule):
     """Placeholder BioModule wrapper for: Multistability of clustered states in a globally inhibitory network (Chandrasekaran et al. 2009).
 
     This model's original format is not directly supported by the auto-generator.

@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/112922
   download_url: https://modeldb.science/download/112922
   license: ''
-bsim:
+biosim:
   entrypoint: src.spikes_synchrony_and_attentive_learning_by_lamin_112922_model:SpikesSynchronyAndAttentiveLearningByLamin112922Model
   init_kwargs:
     model_path: data/112922.zip

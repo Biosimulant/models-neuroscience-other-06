@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/153988
   download_url: https://modeldb.science/download/153988
   license: ''
-bsim:
+biosim:
   entrypoint: src.stable_propagation_of_synchronous_spiking_in_cor_153988_model:StablePropagationOfSynchronousSpikingInCor153988Model
   init_kwargs:
     model_path: data/153988.zip

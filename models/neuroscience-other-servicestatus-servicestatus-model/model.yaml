@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/ServiceStatus
   download_url: https://github.com/OpenSourceBrain/ServiceStatus.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.servicestatus_servicestatus_model:ServicestatusServicestatusModel
   init_kwargs:
     model_path: data/repo

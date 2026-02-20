@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/140788
   download_url: https://modeldb.science/download/140788
   license: ''
-bsim:
+biosim:
   entrypoint: src.motoneuron_model_of_self_sustained_firing_after_140788_model:MotoneuronModelOfSelfSustainedFiringAfter140788Model
   init_kwargs:
     model_path: data/140788.zip

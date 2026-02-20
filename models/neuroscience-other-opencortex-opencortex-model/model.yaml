@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/OpenCortex
   download_url: https://github.com/OpenSourceBrain/OpenCortex.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.opencortex_opencortex_model:OpencortexOpencortexModel
   init_kwargs:
     model_path: data/repo

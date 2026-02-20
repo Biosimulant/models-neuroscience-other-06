@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/64216
   download_url: https://modeldb.science/download/64216
   license: ''
-bsim:
+biosim:
   entrypoint: src.reciprocal_regulation_of_rod_and_cone_synapse_by_64216_model:ReciprocalRegulationOfRodAndConeSynapseBy64216Model
   init_kwargs:
     model_path: data/64216.zip

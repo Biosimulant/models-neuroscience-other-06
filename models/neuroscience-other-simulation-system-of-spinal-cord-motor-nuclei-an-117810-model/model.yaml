@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/117810
   download_url: https://modeldb.science/download/117810
   license: ''
-bsim:
+biosim:
   entrypoint: src.simulation_system_of_spinal_cord_motor_nuclei_an_117810_model:SimulationSystemOfSpinalCordMotorNucleiAn117810Model
   init_kwargs:
     model_path: data/117810.zip

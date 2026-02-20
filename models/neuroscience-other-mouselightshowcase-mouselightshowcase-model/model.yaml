@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/MouseLightShowcase
   download_url: https://github.com/OpenSourceBrain/MouseLightShowcase.git
   license: NOASSERTION
-bsim:
+biosim:
   entrypoint: src.mouselightshowcase_mouselightshowcase_model:MouselightshowcaseMouselightshowcaseModel
   init_kwargs:
     model_path: data/repo

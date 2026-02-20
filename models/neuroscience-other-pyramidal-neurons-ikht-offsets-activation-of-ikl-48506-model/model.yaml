@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/48506
   download_url: https://modeldb.science/download/48506
   license: ''
-bsim:
+biosim:
   entrypoint: src.pyramidal_neurons_ikht_offsets_activation_of_ikl_48506_model:PyramidalNeuronsIkhtOffsetsActivationOfIkl48506Model
   init_kwargs:
     model_path: data/48506.zip

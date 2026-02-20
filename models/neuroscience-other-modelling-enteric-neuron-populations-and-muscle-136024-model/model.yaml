@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/136024
   download_url: https://modeldb.science/download/136024
   license: ''
-bsim:
+biosim:
   entrypoint: src.modelling_enteric_neuron_populations_and_muscle_136024_model:ModellingEntericNeuronPopulationsAndMuscle136024Model
   init_kwargs:
     model_path: data/136024.zip

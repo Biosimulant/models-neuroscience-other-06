@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/64228
   download_url: https://modeldb.science/download/64228
   license: ''
-bsim:
+biosim:
   entrypoint: src.simulated_light_response_in_rod_photoreceptors_l_64228_model:SimulatedLightResponseInRodPhotoreceptorsL64228Model
   init_kwargs:
     model_path: data/64228.zip

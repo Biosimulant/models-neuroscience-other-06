@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/144590
   download_url: https://modeldb.science/download/144590
   license: ''
-bsim:
+biosim:
   entrypoint: src.network_model_with_dynamic_ion_concentrations_ul_144590_model:NetworkModelWithDynamicIonConcentrationsUl144590Model
   init_kwargs:
     model_path: data/144590.zip

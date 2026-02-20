@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/182135
   download_url: https://modeldb.science/download/182135
   license: ''
-bsim:
+biosim:
   entrypoint: src.netmorph_creates_nns_with_realistic_neuron_morph_182135_model:NetmorphCreatesNnsWithRealisticNeuronMorph182135Model
   init_kwargs:
     model_path: data/182135.zip

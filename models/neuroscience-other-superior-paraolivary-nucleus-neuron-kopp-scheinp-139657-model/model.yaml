@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/139657
   download_url: https://modeldb.science/download/139657
   license: ''
-bsim:
+biosim:
   entrypoint: src.superior_paraolivary_nucleus_neuron_kopp_scheinp_139657_model:SuperiorParaolivaryNucleusNeuronKoppScheinp139657Model
   init_kwargs:
     model_path: data/139657.zip

@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/154293
   download_url: https://modeldb.science/download/154293
   license: ''
-bsim:
+biosim:
   entrypoint: src.reliability_of_spike_timing_is_a_general_propert_154293_model:ReliabilityOfSpikeTimingIsAGeneralPropert154293Model
   init_kwargs:
     model_path: data/154293.zip

@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/93449
   download_url: https://modeldb.science/download/93449
   license: ''
-bsim:
+biosim:
   entrypoint: src.optimal_deep_brain_stimulation_of_the_subthalami_93449_model:OptimalDeepBrainStimulationOfTheSubthalami93449Model
   init_kwargs:
     model_path: data/93449.zip

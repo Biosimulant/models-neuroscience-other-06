@@ -16,13 +16,13 @@ from pathlib import Path
 from typing import Any, Dict, Optional, Set, TYPE_CHECKING
 
 if TYPE_CHECKING:  # pragma: no cover - typing only
-    from bsim import BioWorld
+    from biosim import BioWorld
 
-import bsim
-from bsim.signals import BioSignal, SignalMetadata
+import biosim
+from biosim.signals import BioSignal, SignalMetadata
 
 
-class OtherStudyOfAugmentedRubinAndTerman2004DeepBrainStim(bsim.BioModule):
+class OtherStudyOfAugmentedRubinAndTerman2004DeepBrainStim(biosim.BioModule):
     """Placeholder BioModule wrapper for: Study of augmented Rubin and Terman 2004 deep brain stim. model in Parkinsons (Pascual et al. 2006).
 
     This model's original format is not directly supported by the auto-generator.

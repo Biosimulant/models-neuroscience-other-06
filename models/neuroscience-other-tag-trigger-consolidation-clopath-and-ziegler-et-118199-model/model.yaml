@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/118199
   download_url: https://modeldb.science/download/118199
   license: ''
-bsim:
+biosim:
   entrypoint: src.tag_trigger_consolidation_clopath_and_ziegler_et_118199_model:TagTriggerConsolidationClopathAndZieglerEt118199Model
   init_kwargs:
     model_path: data/118199.zip

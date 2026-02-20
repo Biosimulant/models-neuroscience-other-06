@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/112359
   download_url: https://modeldb.science/download/112359
   license: ''
-bsim:
+biosim:
   entrypoint: src.nigral_dopaminergic_neurons_effects_of_ethanol_o_112359_model:NigralDopaminergicNeuronsEffectsOfEthanolO112359Model
   init_kwargs:
     model_path: data/112359.zip

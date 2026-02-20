@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/127305
   download_url: https://modeldb.science/download/127305
   license: ''
-bsim:
+biosim:
   entrypoint: src.spatial_summation_of_excitatory_and_inhibitory_i_127305_model:SpatialSummationOfExcitatoryAndInhibitoryI127305Model
   init_kwargs:
     model_path: data/127305.zip

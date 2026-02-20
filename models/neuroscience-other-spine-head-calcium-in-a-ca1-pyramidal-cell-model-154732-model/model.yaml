@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/154732
   download_url: https://modeldb.science/download/154732
   license: ''
-bsim:
+biosim:
   entrypoint: src.spine_head_calcium_in_a_ca1_pyramidal_cell_model_154732_model:SpineHeadCalciumInACa1PyramidalCellModel154732Model
   init_kwargs:
     model_path: data/154732.zip

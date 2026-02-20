@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/79237
   download_url: https://modeldb.science/download/79237
   license: ''
-bsim:
+biosim:
   entrypoint: src.simulation_study_of_andersen_tawil_syndrome_sung_79237_model:SimulationStudyOfAndersenTawilSyndromeSung79237Model
   init_kwargs:
     model_path: data/79237.zip

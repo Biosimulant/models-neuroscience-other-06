@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/127192
   download_url: https://modeldb.science/download/127192
   license: ''
-bsim:
+biosim:
   entrypoint: src.network_topologies_for_producing_limited_sustain_127192_model:NetworkTopologiesForProducingLimitedSustain127192Model
   init_kwargs:
     model_path: data/127192.zip

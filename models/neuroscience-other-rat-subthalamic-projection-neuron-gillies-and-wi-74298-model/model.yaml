@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/74298
   download_url: https://modeldb.science/download/74298
   license: ''
-bsim:
+biosim:
   entrypoint: src.rat_subthalamic_projection_neuron_gillies_and_wi_74298_model:RatSubthalamicProjectionNeuronGilliesAndWi74298Model
   init_kwargs:
     model_path: data/74298.zip

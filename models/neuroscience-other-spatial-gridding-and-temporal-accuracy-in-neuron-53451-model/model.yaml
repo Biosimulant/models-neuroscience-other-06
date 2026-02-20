@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/53451
   download_url: https://modeldb.science/download/53451
   license: ''
-bsim:
+biosim:
   entrypoint: src.spatial_gridding_and_temporal_accuracy_in_neuron_53451_model:SpatialGriddingAndTemporalAccuracyInNeuron53451Model
   init_kwargs:
     model_path: data/53451.zip

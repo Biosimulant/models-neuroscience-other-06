@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/OSB_Metadata
   download_url: https://github.com/OpenSourceBrain/OSB_Metadata.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.osb_metadata_osbmetadata_model:OsbMetadataOsbmetadataModel
   init_kwargs:
     model_path: data/repo

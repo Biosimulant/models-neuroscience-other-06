@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/139266
   download_url: https://modeldb.science/download/139266
   license: ''
-bsim:
+biosim:
   entrypoint: src.single_neuron_with_ion_concentrations_to_model_a_139266_model:SingleNeuronWithIonConcentrationsToModelA139266Model
   init_kwargs:
     model_path: data/139266.zip

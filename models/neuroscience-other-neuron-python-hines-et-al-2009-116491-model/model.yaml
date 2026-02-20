@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/116491
   download_url: https://modeldb.science/download/116491
   license: ''
-bsim:
+biosim:
   entrypoint: src.neuron_python_hines_et_al_2009_116491_model:NeuronPythonHinesEtAl2009116491Model
   init_kwargs:
     model_path: data/116491.zip

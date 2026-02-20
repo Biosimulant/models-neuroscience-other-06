@@ -16,13 +16,13 @@ from pathlib import Path
 from typing import Any, Dict, Optional, Set, TYPE_CHECKING
 
 if TYPE_CHECKING:  # pragma: no cover - typing only
-    from bsim import BioWorld
+    from biosim import BioWorld
 
-import bsim
-from bsim.signals import BioSignal, SignalMetadata
+import biosim
+from biosim.signals import BioSignal, SignalMetadata
 
 
-class OtherPairedTurbulenceAndLightEffectOnCalciumIncreaseIn(bsim.BioModule):
+class OtherPairedTurbulenceAndLightEffectOnCalciumIncreaseIn(biosim.BioModule):
     """Placeholder BioModule wrapper for: Paired turbulence and light effect on calcium increase in Hermissenda (Blackwell 2004).
 
     This model's original format is not directly supported by the auto-generator.

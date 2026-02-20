@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/91387
   download_url: https://modeldb.science/download/91387
   license: ''
-bsim:
+biosim:
   entrypoint: src.olfactory_bulb_network_model_of_gamma_oscillatio_91387_model:OlfactoryBulbNetworkModelOfGammaOscillatio91387Model
   init_kwargs:
     model_path: data/91387.zip

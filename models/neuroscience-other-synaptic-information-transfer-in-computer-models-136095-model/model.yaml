@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/136095
   download_url: https://modeldb.science/download/136095
   license: ''
-bsim:
+biosim:
   entrypoint: src.synaptic_information_transfer_in_computer_models_136095_model:SynapticInformationTransferInComputerModels136095Model
   init_kwargs:
     model_path: data/136095.zip

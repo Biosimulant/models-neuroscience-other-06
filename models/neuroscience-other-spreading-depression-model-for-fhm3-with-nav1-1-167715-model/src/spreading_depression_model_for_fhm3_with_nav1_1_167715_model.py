@@ -16,13 +16,13 @@ from pathlib import Path
 from typing import Any, Dict, Optional, Set, TYPE_CHECKING
 
 if TYPE_CHECKING:  # pragma: no cover - typing only
-    from bsim import BioWorld
+    from biosim import BioWorld
 
-import bsim
-from bsim.signals import BioSignal, SignalMetadata
+import biosim
+from biosim.signals import BioSignal, SignalMetadata
 
 
-class OtherSpreadingDepressionModelForFhm3WithNav11Mutation(bsim.BioModule):
+class OtherSpreadingDepressionModelForFhm3WithNav11Mutation(biosim.BioModule):
     """Placeholder BioModule wrapper for: Spreading depression model for FHM3 with Nav1.1 mutation (Dahlem et al. 2014).
 
     This model's original format is not directly supported by the auto-generator.

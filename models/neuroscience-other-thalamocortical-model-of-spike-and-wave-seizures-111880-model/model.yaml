@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/111880
   download_url: https://modeldb.science/download/111880
   license: ''
-bsim:
+biosim:
   entrypoint: src.thalamocortical_model_of_spike_and_wave_seizures_111880_model:ThalamocorticalModelOfSpikeAndWaveSeizures111880Model
   init_kwargs:
     model_path: data/111880.zip

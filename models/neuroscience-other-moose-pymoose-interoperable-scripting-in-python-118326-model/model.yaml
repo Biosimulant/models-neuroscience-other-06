@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/118326
   download_url: https://modeldb.science/download/118326
   license: ''
-bsim:
+biosim:
   entrypoint: src.moose_pymoose_interoperable_scripting_in_python_118326_model:MoosePymooseInteroperableScriptingInPython118326Model
   init_kwargs:
     model_path: data/118326.zip

@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/Poirazi2003-CA1PyramidalCell
   download_url: https://github.com/OpenSourceBrain/Poirazi2003-CA1PyramidalCell.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.poirazi2003_ca1pyramidalcell_poirazi2003ca1pyramidalcell_model:Poirazi2003Ca1pyramidalcellPoirazi2003ca1pyramidalcellModel
   init_kwargs:
     model_path: data/repo

@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/org.geppetto.persistence
   download_url: https://github.com/OpenSourceBrain/org.geppetto.persistence.git
   license: NOASSERTION
-bsim:
+biosim:
   entrypoint: src.org_geppetto_persistence_orggeppettopersistence_model:OrgGeppettoPersistenceOrggeppettopersistenceModel
   init_kwargs:
     model_path: data/repo

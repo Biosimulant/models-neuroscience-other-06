@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/97263
   download_url: https://modeldb.science/download/97263
   license: ''
-bsim:
+biosim:
   entrypoint: src.olfactory_bulb_mitral_and_granule_cell_dendroden_97263_model:OlfactoryBulbMitralAndGranuleCellDendroden97263Model
   init_kwargs:
     model_path: data/97263.zip

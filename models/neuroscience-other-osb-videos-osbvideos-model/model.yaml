@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/OSB_Videos
   download_url: https://github.com/OpenSourceBrain/OSB_Videos.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.osb_videos_osbvideos_model:OsbVideosOsbvideosModel
   init_kwargs:
     model_path: data/repo

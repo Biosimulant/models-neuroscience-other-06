@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/112836
   download_url: https://modeldb.science/download/112836
   license: ''
-bsim:
+biosim:
   entrypoint: src.spike_trains_in_hodgkin_huxley_model_and_isis_of_112836_model:SpikeTrainsInHodgkinHuxleyModelAndIsisOf112836Model
   init_kwargs:
     model_path: data/112836.zip

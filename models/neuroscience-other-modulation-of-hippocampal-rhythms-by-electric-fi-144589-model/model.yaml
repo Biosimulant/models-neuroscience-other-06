@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/144589
   download_url: https://modeldb.science/download/144589
   license: ''
-bsim:
+biosim:
   entrypoint: src.modulation_of_hippocampal_rhythms_by_electric_fi_144589_model:ModulationOfHippocampalRhythmsByElectricFi144589Model
   init_kwargs:
     model_path: data/144589.zip

@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/118392
   download_url: https://modeldb.science/download/118392
   license: ''
-bsim:
+biosim:
   entrypoint: src.phase_oscillator_models_for_lamprey_central_patt_118392_model:PhaseOscillatorModelsForLampreyCentralPatt118392Model
   init_kwargs:
     model_path: data/118392.zip

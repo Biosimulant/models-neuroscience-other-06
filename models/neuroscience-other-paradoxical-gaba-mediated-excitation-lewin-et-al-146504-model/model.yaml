@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/146504
   download_url: https://modeldb.science/download/146504
   license: ''
-bsim:
+biosim:
   entrypoint: src.paradoxical_gaba_mediated_excitation_lewin_et_al_146504_model:ParadoxicalGabaMediatedExcitationLewinEtAl146504Model
   init_kwargs:
     model_path: data/146504.zip

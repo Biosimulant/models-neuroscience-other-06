@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/moose-core
   download_url: https://github.com/OpenSourceBrain/moose-core.git
   license: GPL-3.0
-bsim:
+biosim:
   entrypoint: src.moose_core_moosecore_model:MooseCoreMoosecoreModel
   init_kwargs:
     model_path: data/repo

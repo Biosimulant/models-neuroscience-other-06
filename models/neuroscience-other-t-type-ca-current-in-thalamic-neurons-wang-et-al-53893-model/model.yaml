@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/53893
   download_url: https://modeldb.science/download/53893
   license: ''
-bsim:
+biosim:
   entrypoint: src.t_type_ca_current_in_thalamic_neurons_wang_et_al_53893_model:TTypeCaCurrentInThalamicNeuronsWangEtAl53893Model
   init_kwargs:
     model_path: data/53893.zip

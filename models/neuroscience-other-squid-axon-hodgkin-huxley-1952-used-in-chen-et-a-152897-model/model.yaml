@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/152897
   download_url: https://modeldb.science/download/152897
   license: ''
-bsim:
+biosim:
   entrypoint: src.squid_axon_hodgkin_huxley_1952_used_in_chen_et_a_152897_model:SquidAxonHodgkinHuxley1952UsedInChenEtA152897Model
   init_kwargs:
     model_path: data/152897.zip

@@ -19,7 +19,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/MultiscaleISN
   download_url: https://github.com/OpenSourceBrain/MultiscaleISN.git
   license: NOASSERTION
-bsim:
+biosim:
   entrypoint: src.multiscaleisn_multiscaleisn_model:MultiscaleisnMultiscaleisnModel
   init_kwargs:
     model_path: data/repo

@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/167715
   download_url: https://modeldb.science/download/167715
   license: ''
-bsim:
+biosim:
   entrypoint: src.spreading_depression_model_for_fhm3_with_nav1_1_167715_model:SpreadingDepressionModelForFhm3WithNav11167715Model
   init_kwargs:
     model_path: data/167715.zip

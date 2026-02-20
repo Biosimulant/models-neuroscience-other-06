@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/tutorials
   download_url: https://github.com/OpenSourceBrain/tutorials.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.tutorials_tutorials_model:TutorialsTutorialsModel
   init_kwargs:
     model_path: data/repo

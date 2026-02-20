@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/153985
   download_url: https://modeldb.science/download/153985
   license: ''
-bsim:
+biosim:
   entrypoint: src.sensitivity_of_noisy_neurons_to_coincident_input_153985_model:SensitivityOfNoisyNeuronsToCoincidentInput153985Model
   init_kwargs:
     model_path: data/153985.zip

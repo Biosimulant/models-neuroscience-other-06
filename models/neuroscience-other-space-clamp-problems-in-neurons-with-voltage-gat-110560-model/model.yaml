@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/110560
   download_url: https://modeldb.science/download/110560
   license: ''
-bsim:
+biosim:
   entrypoint: src.space_clamp_problems_in_neurons_with_voltage_gat_110560_model:SpaceClampProblemsInNeuronsWithVoltageGat110560Model
   init_kwargs:
     model_path: data/110560.zip

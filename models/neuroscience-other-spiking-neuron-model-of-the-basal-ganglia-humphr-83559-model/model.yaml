@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/83559
   download_url: https://modeldb.science/download/83559
   license: ''
-bsim:
+biosim:
   entrypoint: src.spiking_neuron_model_of_the_basal_ganglia_humphr_83559_model:SpikingNeuronModelOfTheBasalGangliaHumphr83559Model
   init_kwargs:
     model_path: data/83559.zip

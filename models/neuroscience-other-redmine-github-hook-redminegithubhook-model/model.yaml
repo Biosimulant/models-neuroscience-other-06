@@ -19,7 +19,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/redmine_github_hook
   download_url: https://github.com/OpenSourceBrain/redmine_github_hook.git
   license: MIT
-bsim:
+biosim:
   entrypoint: src.redmine_github_hook_redminegithubhook_model:RedmineGithubHookRedminegithubhookModel
   init_kwargs:
     model_path: data/repo

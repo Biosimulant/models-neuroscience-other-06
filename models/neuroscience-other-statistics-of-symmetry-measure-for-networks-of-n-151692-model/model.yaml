@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/151692
   download_url: https://modeldb.science/download/151692
   license: ''
-bsim:
+biosim:
   entrypoint: src.statistics_of_symmetry_measure_for_networks_of_n_151692_model:StatisticsOfSymmetryMeasureForNetworksOfN151692Model
   init_kwargs:
     model_path: data/151692.zip

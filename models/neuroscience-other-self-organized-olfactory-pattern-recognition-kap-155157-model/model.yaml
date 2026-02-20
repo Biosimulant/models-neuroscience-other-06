@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/155157
   download_url: https://modeldb.science/download/155157
   license: ''
-bsim:
+biosim:
   entrypoint: src.self_organized_olfactory_pattern_recognition_kap_155157_model:SelfOrganizedOlfactoryPatternRecognitionKap155157Model
   init_kwargs:
     model_path: data/155157.zip

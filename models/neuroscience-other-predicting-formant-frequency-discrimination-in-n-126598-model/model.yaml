@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/126598
   download_url: https://modeldb.science/download/126598
   license: ''
-bsim:
+biosim:
   entrypoint: src.predicting_formant_frequency_discrimination_in_n_126598_model:PredictingFormantFrequencyDiscriminationInN126598Model
   init_kwargs:
     model_path: data/126598.zip

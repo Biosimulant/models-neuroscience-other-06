@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/168314
   download_url: https://modeldb.science/download/168314
   license: ''
-bsim:
+biosim:
   entrypoint: src.role_for_short_term_plasticity_and_olm_cells_in_168314_model:RoleForShortTermPlasticityAndOlmCellsIn168314Model
   init_kwargs:
     model_path: data/168314.zip

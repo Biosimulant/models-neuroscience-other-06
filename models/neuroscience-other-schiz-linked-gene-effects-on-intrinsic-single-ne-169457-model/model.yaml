@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/169457
   download_url: https://modeldb.science/download/169457
   license: ''
-bsim:
+biosim:
   entrypoint: src.schiz_linked_gene_effects_on_intrinsic_single_ne_169457_model:SchizLinkedGeneEffectsOnIntrinsicSingleNe169457Model
   init_kwargs:
     model_path: data/169457.zip

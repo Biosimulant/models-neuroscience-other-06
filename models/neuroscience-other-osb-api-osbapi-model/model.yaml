@@ -19,7 +19,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/OSB_API
   download_url: https://github.com/OpenSourceBrain/OSB_API.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.osb_api_osbapi_model:OsbApiOsbapiModel
   init_kwargs:
     model_path: data/repo

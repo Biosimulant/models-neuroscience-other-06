@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/143100
   download_url: https://modeldb.science/download/143100
   license: ''
-bsim:
+biosim:
   entrypoint: src.phase_response_curve_of_a_globus_pallidal_neuron_143100_model:PhaseResponseCurveOfAGlobusPallidalNeuron143100Model
   init_kwargs:
     model_path: data/143100.zip

@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/97274
   download_url: https://modeldb.science/download/97274
   license: ''
-bsim:
+biosim:
   entrypoint: src.vesicular_pool_simulations_of_synaptic_depressio_97274_model:VesicularPoolSimulationsOfSynapticDepressio97274Model
   init_kwargs:
     model_path: data/97274.zip

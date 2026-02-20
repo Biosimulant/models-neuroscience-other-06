@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/118759
   download_url: https://modeldb.science/download/118759
   license: ''
-bsim:
+biosim:
   entrypoint: src.permeation_and_inactivation_of_cav1_2_ca2_channe_118759_model:PermeationAndInactivationOfCav12Ca2Channe118759Model
   init_kwargs:
     model_path: data/118759.zip

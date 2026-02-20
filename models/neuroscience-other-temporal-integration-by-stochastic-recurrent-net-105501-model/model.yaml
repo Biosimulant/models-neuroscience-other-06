@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/105501
   download_url: https://modeldb.science/download/105501
   license: ''
-bsim:
+biosim:
   entrypoint: src.temporal_integration_by_stochastic_recurrent_net_105501_model:TemporalIntegrationByStochasticRecurrentNet105501Model
   init_kwargs:
     model_path: data/105501.zip

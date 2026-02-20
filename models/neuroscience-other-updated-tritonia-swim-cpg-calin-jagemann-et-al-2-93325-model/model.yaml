@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/93325
   download_url: https://modeldb.science/download/93325
   license: ''
-bsim:
+biosim:
   entrypoint: src.updated_tritonia_swim_cpg_calin_jagemann_et_al_2_93325_model:UpdatedTritoniaSwimCpgCalinJagemannEtAl293325Model
   init_kwargs:
     model_path: data/93325.zip

@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/83547
   download_url: https://modeldb.science/download/83547
   license: ''
-bsim:
+biosim:
   entrypoint: src.regulation_of_the_firing_pattern_in_dopamine_neu_83547_model:RegulationOfTheFiringPatternInDopamineNeu83547Model
   init_kwargs:
     model_path: data/83547.zip

@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/PinskyRinzelModel
   download_url: https://github.com/OpenSourceBrain/PinskyRinzelModel.git
   license: NOASSERTION
-bsim:
+biosim:
   entrypoint: src.pinskyrinzelmodel_pinskyrinzelmodel_model:PinskyrinzelmodelPinskyrinzelmodelModel
   init_kwargs:
     model_path: data/repo

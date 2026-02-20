@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/55273
   download_url: https://modeldb.science/download/55273
   license: ''
-bsim:
+biosim:
   entrypoint: src.regulation_of_kcnq2_kcnq3_current_by_g_protein_c_55273_model:RegulationOfKcnq2Kcnq3CurrentByGProteinC55273Model
   init_kwargs:
     model_path: data/55273.zip

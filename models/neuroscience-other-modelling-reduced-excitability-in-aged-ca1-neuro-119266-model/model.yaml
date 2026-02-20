@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/119266
   download_url: https://modeldb.science/download/119266
   license: ''
-bsim:
+biosim:
   entrypoint: src.modelling_reduced_excitability_in_aged_ca1_neuro_119266_model:ModellingReducedExcitabilityInAgedCa1Neuro119266Model
   init_kwargs:
     model_path: data/119266.zip

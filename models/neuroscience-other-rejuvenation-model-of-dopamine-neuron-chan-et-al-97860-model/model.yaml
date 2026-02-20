@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/97860
   download_url: https://modeldb.science/download/97860
   license: ''
-bsim:
+biosim:
   entrypoint: src.rejuvenation_model_of_dopamine_neuron_chan_et_al_97860_model:RejuvenationModelOfDopamineNeuronChanEtAl97860Model
   init_kwargs:
     model_path: data/97860.zip

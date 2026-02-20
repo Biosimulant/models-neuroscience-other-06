@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/149100
   download_url: https://modeldb.science/download/149100
   license: ''
-bsim:
+biosim:
   entrypoint: src.preserving_axosomatic_spiking_features_despite_d_149100_model:PreservingAxosomaticSpikingFeaturesDespiteD149100Model
   init_kwargs:
     model_path: data/149100.zip

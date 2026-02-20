@@ -19,7 +19,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/recaptcha
   download_url: https://github.com/OpenSourceBrain/recaptcha.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.recaptcha_recaptcha_model:RecaptchaRecaptchaModel
   init_kwargs:
     model_path: data/repo

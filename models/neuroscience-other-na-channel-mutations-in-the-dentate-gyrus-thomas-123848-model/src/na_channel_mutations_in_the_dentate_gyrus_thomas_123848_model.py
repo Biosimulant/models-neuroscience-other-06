@@ -16,13 +16,13 @@ from pathlib import Path
 from typing import Any, Dict, Optional, Set, TYPE_CHECKING
 
 if TYPE_CHECKING:  # pragma: no cover - typing only
-    from bsim import BioWorld
+    from biosim import BioWorld
 
-import bsim
-from bsim.signals import BioSignal, SignalMetadata
+import biosim
+from biosim.signals import BioSignal, SignalMetadata
 
 
-class OtherNaChannelMutationsInTheDentateGyrusThomasEtAl2009(bsim.BioModule):
+class OtherNaChannelMutationsInTheDentateGyrusThomasEtAl2009(biosim.BioModule):
     """Placeholder BioModule wrapper for: Na channel mutations in the dentate gyrus (Thomas et al. 2009).
 
     This model's original format is not directly supported by the auto-generator.

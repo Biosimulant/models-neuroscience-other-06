@@ -16,13 +16,13 @@ from pathlib import Path
 from typing import Any, Dict, Optional, Set, TYPE_CHECKING
 
 if TYPE_CHECKING:  # pragma: no cover - typing only
-    from bsim import BioWorld
+    from biosim import BioWorld
 
-import bsim
-from bsim.signals import BioSignal, SignalMetadata
+import biosim
+from biosim.signals import BioSignal, SignalMetadata
 
 
-class OtherOlfactoryBulbMitralCellGapJunctionNnModelBurst(bsim.BioModule):
+class OtherOlfactoryBulbMitralCellGapJunctionNnModelBurst(biosim.BioModule):
     """Placeholder BioModule wrapper for: Olfactory bulb mitral cell gap junction NN model: burst firing and synchrony (O`Connor et al. 2012).
 
     This model's original format is not directly supported by the auto-generator.

@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/50219
   download_url: https://modeldb.science/download/50219
   license: ''
-bsim:
+biosim:
   entrypoint: src.network_model_of_the_granular_layer_of_the_cereb_50219_model:NetworkModelOfTheGranularLayerOfTheCereb50219Model
   init_kwargs:
     model_path: data/50219.zip

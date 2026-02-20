@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/137502
   download_url: https://modeldb.science/download/137502
   license: ''
-bsim:
+biosim:
   entrypoint: src.striatal_gabaergic_microcircuit_spatial_scales_o_137502_model:StriatalGabaergicMicrocircuitSpatialScalesO137502Model
   init_kwargs:
     model_path: data/137502.zip

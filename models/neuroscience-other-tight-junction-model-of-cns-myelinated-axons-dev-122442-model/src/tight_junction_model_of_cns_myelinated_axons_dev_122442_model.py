@@ -16,13 +16,13 @@ from pathlib import Path
 from typing import Any, Dict, Optional, Set, TYPE_CHECKING
 
 if TYPE_CHECKING:  # pragma: no cover - typing only
-    from bsim import BioWorld
+    from biosim import BioWorld
 
-import bsim
-from bsim.signals import BioSignal, SignalMetadata
+import biosim
+from biosim.signals import BioSignal, SignalMetadata
 
 
-class OtherTightJunctionModelOfCnsMyelinatedAxonsDevauxAndGow(bsim.BioModule):
+class OtherTightJunctionModelOfCnsMyelinatedAxonsDevauxAndGow(biosim.BioModule):
     """Placeholder BioModule wrapper for: Tight junction model of CNS myelinated axons (Devaux and Gow 2008).
 
     This model's original format is not directly supported by the auto-generator.

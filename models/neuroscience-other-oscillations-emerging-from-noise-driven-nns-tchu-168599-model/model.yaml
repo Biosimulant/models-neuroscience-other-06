@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/168599
   download_url: https://modeldb.science/download/168599
   license: ''
-bsim:
+biosim:
   entrypoint: src.oscillations_emerging_from_noise_driven_nns_tchu_168599_model:OscillationsEmergingFromNoiseDrivenNnsTchu168599Model
   init_kwargs:
     model_path: data/168599.zip

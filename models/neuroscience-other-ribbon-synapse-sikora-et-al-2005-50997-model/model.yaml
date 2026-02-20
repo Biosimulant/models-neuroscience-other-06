@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/50997
   download_url: https://modeldb.science/download/50997
   license: ''
-bsim:
+biosim:
   entrypoint: src.ribbon_synapse_sikora_et_al_2005_50997_model:RibbonSynapseSikoraEtAl200550997Model
   init_kwargs:
     model_path: data/50997.zip

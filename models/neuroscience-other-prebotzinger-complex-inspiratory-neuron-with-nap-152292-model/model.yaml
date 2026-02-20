@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/152292
   download_url: https://modeldb.science/download/152292
   license: ''
-bsim:
+biosim:
   entrypoint: src.prebotzinger_complex_inspiratory_neuron_with_nap_152292_model:PrebotzingerComplexInspiratoryNeuronWithNap152292Model
   init_kwargs:
     model_path: data/152292.zip

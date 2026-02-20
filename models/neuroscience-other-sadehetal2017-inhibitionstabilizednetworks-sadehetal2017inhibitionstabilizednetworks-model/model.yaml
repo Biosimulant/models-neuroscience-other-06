@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/SadehEtAl2017-InhibitionStabilizedNetworks
   download_url: https://github.com/OpenSourceBrain/SadehEtAl2017-InhibitionStabilizedNetworks.git
   license: NOASSERTION
-bsim:
+biosim:
   entrypoint: src.sadehetal2017_inhibitionstabilizednetworks_sadehetal2017inhibitionstabilizednetworks_model:Sadehetal2017InhibitionstabilizednetworksSadehetal2017inhibitionstabilizednetworksModel
   init_kwargs:
     model_path: data/repo

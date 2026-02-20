@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/83319
   download_url: https://modeldb.science/download/83319
   license: ''
-bsim:
+biosim:
   entrypoint: src.networks_of_spiking_neurons_a_review_of_tools_an_83319_model:NetworksOfSpikingNeuronsAReviewOfToolsAn83319Model
   init_kwargs:
     model_path: data/83319.zip

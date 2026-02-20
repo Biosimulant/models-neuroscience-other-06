@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/146030
   download_url: https://modeldb.science/download/146030
   license: ''
-bsim:
+biosim:
   entrypoint: src.olfactory_bulb_mitral_cell_gap_junction_nn_model_146030_model:OlfactoryBulbMitralCellGapJunctionNnModel146030Model
   init_kwargs:
     model_path: data/146030.zip

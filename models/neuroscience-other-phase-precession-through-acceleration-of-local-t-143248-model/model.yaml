@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/143248
   download_url: https://modeldb.science/download/143248
   license: ''
-bsim:
+biosim:
   entrypoint: src.phase_precession_through_acceleration_of_local_t_143248_model:PhasePrecessionThroughAccelerationOfLocalT143248Model
   init_kwargs:
     model_path: data/143248.zip

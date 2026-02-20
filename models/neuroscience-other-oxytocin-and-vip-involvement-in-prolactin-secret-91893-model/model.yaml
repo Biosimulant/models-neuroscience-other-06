@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/91893
   download_url: https://modeldb.science/download/91893
   license: ''
-bsim:
+biosim:
   entrypoint: src.oxytocin_and_vip_involvement_in_prolactin_secret_91893_model:OxytocinAndVipInvolvementInProlactinSecret91893Model
   init_kwargs:
     model_path: data/91893.zip

@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/62673
   download_url: https://modeldb.science/download/62673
   license: ''
-bsim:
+biosim:
   entrypoint: src.sodium_currents_activate_without_a_delay_baranau_62673_model:SodiumCurrentsActivateWithoutADelayBaranau62673Model
   init_kwargs:
     model_path: data/62673.zip

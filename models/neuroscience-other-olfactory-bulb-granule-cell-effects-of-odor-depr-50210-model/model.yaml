@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/50210
   download_url: https://modeldb.science/download/50210
   license: ''
-bsim:
+biosim:
   entrypoint: src.olfactory_bulb_granule_cell_effects_of_odor_depr_50210_model:OlfactoryBulbGranuleCellEffectsOfOdorDepr50210Model
   init_kwargs:
     model_path: data/50210.zip

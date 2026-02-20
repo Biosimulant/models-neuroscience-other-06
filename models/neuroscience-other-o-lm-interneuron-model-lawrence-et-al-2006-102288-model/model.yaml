@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/102288
   download_url: https://modeldb.science/download/102288
   license: ''
-bsim:
+biosim:
   entrypoint: src.o_lm_interneuron_model_lawrence_et_al_2006_102288_model:OLmInterneuronModelLawrenceEtAl2006102288Model
   init_kwargs:
     model_path: data/102288.zip

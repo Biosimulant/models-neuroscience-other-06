@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/64259
   download_url: https://modeldb.science/download/64259
   license: ''
-bsim:
+biosim:
   entrypoint: src.steady_state_vm_distribution_of_neurons_subject_64259_model:SteadyStateVmDistributionOfNeuronsSubject64259Model
   init_kwargs:
     model_path: data/64259.zip

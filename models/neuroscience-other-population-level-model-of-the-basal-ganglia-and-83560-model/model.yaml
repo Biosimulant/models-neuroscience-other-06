@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/83560
   download_url: https://modeldb.science/download/83560
   license: ''
-bsim:
+biosim:
   entrypoint: src.population_level_model_of_the_basal_ganglia_and_83560_model:PopulationLevelModelOfTheBasalGangliaAnd83560Model
   init_kwargs:
     model_path: data/83560.zip

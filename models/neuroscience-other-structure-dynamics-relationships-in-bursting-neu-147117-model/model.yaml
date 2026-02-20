@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/147117
   download_url: https://modeldb.science/download/147117
   license: ''
-bsim:
+biosim:
   entrypoint: src.structure_dynamics_relationships_in_bursting_neu_147117_model:StructureDynamicsRelationshipsInBurstingNeu147117Model
   init_kwargs:
     model_path: data/147117.zip

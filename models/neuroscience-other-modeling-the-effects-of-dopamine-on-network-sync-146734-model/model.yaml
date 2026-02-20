@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/146734
   download_url: https://modeldb.science/download/146734
   license: ''
-bsim:
+biosim:
   entrypoint: src.modeling_the_effects_of_dopamine_on_network_sync_146734_model:ModelingTheEffectsOfDopamineOnNetworkSync146734Model
   init_kwargs:
     model_path: data/146734.zip

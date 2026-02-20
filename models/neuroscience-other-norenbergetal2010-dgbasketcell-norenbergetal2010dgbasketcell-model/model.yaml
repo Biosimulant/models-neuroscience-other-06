@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/NorenbergEtAl2010_DGBasketCell
   download_url: https://github.com/OpenSourceBrain/NorenbergEtAl2010_DGBasketCell.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.norenbergetal2010_dgbasketcell_norenbergetal2010dgbasketcell_model:Norenbergetal2010DgbasketcellNorenbergetal2010dgbasketcellModel
   init_kwargs:
     model_path: data/repo

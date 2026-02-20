@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/123987
   download_url: https://modeldb.science/download/123987
   license: ''
-bsim:
+biosim:
   entrypoint: src.neural_model_of_frog_ventilatory_rhythmogenesis_123987_model:NeuralModelOfFrogVentilatoryRhythmogenesis123987Model
   init_kwargs:
     model_path: data/123987.zip

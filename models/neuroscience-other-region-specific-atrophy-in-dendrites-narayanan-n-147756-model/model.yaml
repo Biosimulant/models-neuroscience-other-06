@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/147756
   download_url: https://modeldb.science/download/147756
   license: ''
-bsim:
+biosim:
   entrypoint: src.region_specific_atrophy_in_dendrites_narayanan_n_147756_model:RegionSpecificAtrophyInDendritesNarayananN147756Model
   init_kwargs:
     model_path: data/147756.zip

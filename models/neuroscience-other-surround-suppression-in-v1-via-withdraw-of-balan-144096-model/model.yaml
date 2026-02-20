@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/144096
   download_url: https://modeldb.science/download/144096
   license: ''
-bsim:
+biosim:
   entrypoint: src.surround_suppression_in_v1_via_withdraw_of_balan_144096_model:SurroundSuppressionInV1ViaWithdrawOfBalan144096Model
   init_kwargs:
     model_path: data/144096.zip

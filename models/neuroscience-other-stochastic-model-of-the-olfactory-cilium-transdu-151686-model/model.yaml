@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/151686
   download_url: https://modeldb.science/download/151686
   license: ''
-bsim:
+biosim:
   entrypoint: src.stochastic_model_of_the_olfactory_cilium_transdu_151686_model:StochasticModelOfTheOlfactoryCiliumTransdu151686Model
   init_kwargs:
     model_path: data/151686.zip

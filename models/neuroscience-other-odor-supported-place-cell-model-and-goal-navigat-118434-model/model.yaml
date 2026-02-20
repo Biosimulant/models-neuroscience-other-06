@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/118434
   download_url: https://modeldb.science/download/118434
   license: ''
-bsim:
+biosim:
   entrypoint: src.odor_supported_place_cell_model_and_goal_navigat_118434_model:OdorSupportedPlaceCellModelAndGoalNavigat118434Model
   init_kwargs:
     model_path: data/118434.zip

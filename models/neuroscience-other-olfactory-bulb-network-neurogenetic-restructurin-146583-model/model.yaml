@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/146583
   download_url: https://modeldb.science/download/146583
   license: ''
-bsim:
+biosim:
   entrypoint: src.olfactory_bulb_network_neurogenetic_restructurin_146583_model:OlfactoryBulbNetworkNeurogeneticRestructurin146583Model
   init_kwargs:
     model_path: data/146583.zip

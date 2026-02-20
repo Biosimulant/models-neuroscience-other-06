@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/140471
   download_url: https://modeldb.science/download/140471
   license: ''
-bsim:
+biosim:
   entrypoint: src.shaping_of_action_potentials_by_different_types_140471_model:ShapingOfActionPotentialsByDifferentTypes140471Model
   init_kwargs:
     model_path: data/140471.zip

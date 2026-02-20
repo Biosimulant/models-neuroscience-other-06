@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/141063
   download_url: https://modeldb.science/download/141063
   license: ''
-bsim:
+biosim:
   entrypoint: src.role_of_ih_in_firing_patterns_of_cold_thermorece_141063_model:RoleOfIhInFiringPatternsOfColdThermorece141063Model
   init_kwargs:
     model_path: data/141063.zip

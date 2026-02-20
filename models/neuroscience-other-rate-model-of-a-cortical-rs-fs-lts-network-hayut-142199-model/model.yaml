@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/142199
   download_url: https://modeldb.science/download/142199
   license: ''
-bsim:
+biosim:
   entrypoint: src.rate_model_of_a_cortical_rs_fs_lts_network_hayut_142199_model:RateModelOfACorticalRsFsLtsNetworkHayut142199Model
   init_kwargs:
     model_path: data/142199.zip

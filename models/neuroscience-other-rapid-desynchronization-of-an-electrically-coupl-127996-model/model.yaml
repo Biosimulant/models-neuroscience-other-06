@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/127996
   download_url: https://modeldb.science/download/127996
   license: ''
-bsim:
+biosim:
   entrypoint: src.rapid_desynchronization_of_an_electrically_coupl_127996_model:RapidDesynchronizationOfAnElectricallyCoupl127996Model
   init_kwargs:
     model_path: data/127996.zip

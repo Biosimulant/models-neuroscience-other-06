@@ -19,7 +19,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/VERTEXShowcase
   download_url: https://github.com/OpenSourceBrain/VERTEXShowcase.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.vertexshowcase_vertexshowcase_model:VertexshowcaseVertexshowcaseModel
   init_kwargs:
     model_path: data/repo

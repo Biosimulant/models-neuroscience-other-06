@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/126465
   download_url: https://modeldb.science/download/126465
   license: ''
-bsim:
+biosim:
   entrypoint: src.spike_timing_based_computation_in_sound_localiza_126465_model:SpikeTimingBasedComputationInSoundLocaliza126465Model
   init_kwargs:
     model_path: data/126465.zip

@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/64212
   download_url: https://modeldb.science/download/64212
   license: ''
-bsim:
+biosim:
   entrypoint: src.vomeronasal_sensory_neuron_shimazaki_et_al_2006_64212_model:VomeronasalSensoryNeuronShimazakiEtAl200664212Model
   init_kwargs:
     model_path: data/64212.zip

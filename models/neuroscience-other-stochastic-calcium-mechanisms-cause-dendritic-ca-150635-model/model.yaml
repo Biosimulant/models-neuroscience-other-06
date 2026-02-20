@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/150635
   download_url: https://modeldb.science/download/150635
   license: ''
-bsim:
+biosim:
   entrypoint: src.stochastic_calcium_mechanisms_cause_dendritic_ca_150635_model:StochasticCalciumMechanismsCauseDendriticCa150635Model
   init_kwargs:
     model_path: data/150635.zip

@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/153196
   download_url: https://modeldb.science/download/153196
   license: ''
-bsim:
+biosim:
   entrypoint: src.optical_stimulation_of_a_channelrhodopsin_2_posi_153196_model:OpticalStimulationOfAChannelrhodopsin2Posi153196Model
   init_kwargs:
     model_path: data/153196.zip

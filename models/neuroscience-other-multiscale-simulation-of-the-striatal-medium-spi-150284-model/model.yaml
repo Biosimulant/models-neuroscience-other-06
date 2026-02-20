@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/150284
   download_url: https://modeldb.science/download/150284
   license: ''
-bsim:
+biosim:
   entrypoint: src.multiscale_simulation_of_the_striatal_medium_spi_150284_model:MultiscaleSimulationOfTheStriatalMediumSpi150284Model
   init_kwargs:
     model_path: data/150284.zip

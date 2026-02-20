@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/85112
   download_url: https://modeldb.science/download/85112
   license: ''
-bsim:
+biosim:
   entrypoint: src.models_of_na_channels_from_a_paper_on_the_pkc_co_85112_model:ModelsOfNaChannelsFromAPaperOnThePkcCo85112Model
   init_kwargs:
     model_path: data/85112.zip

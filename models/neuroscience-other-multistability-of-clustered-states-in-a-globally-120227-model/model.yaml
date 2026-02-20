@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/120227
   download_url: https://modeldb.science/download/120227
   license: ''
-bsim:
+biosim:
   entrypoint: src.multistability_of_clustered_states_in_a_globally_120227_model:MultistabilityOfClusteredStatesInAGlobally120227Model
   init_kwargs:
     model_path: data/120227.zip

@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/64170
   download_url: https://modeldb.science/download/64170
   license: ''
-bsim:
+biosim:
   entrypoint: src.voltage_attenuation_in_ca1_pyramidal_neuron_dend_64170_model:VoltageAttenuationInCa1PyramidalNeuronDend64170Model
   init_kwargs:
     model_path: data/64170.zip

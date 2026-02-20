@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/97972
   download_url: https://modeldb.science/download/97972
   license: ''
-bsim:
+biosim:
   entrypoint: src.roles_of_subthalamic_nucleus_and_dbs_in_reinforc_97972_model:RolesOfSubthalamicNucleusAndDbsInReinforc97972Model
   init_kwargs:
     model_path: data/97972.zip

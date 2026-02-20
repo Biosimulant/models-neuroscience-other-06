@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/119214
   download_url: https://modeldb.science/download/119214
   license: ''
-bsim:
+biosim:
   entrypoint: src.new_and_corrected_simulations_of_synaptic_facili_119214_model:NewAndCorrectedSimulationsOfSynapticFacili119214Model
   init_kwargs:
     model_path: data/119214.zip

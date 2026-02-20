@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/143083
   download_url: https://modeldb.science/download/143083
   license: ''
-bsim:
+biosim:
   entrypoint: src.stdp_and_oscillations_produce_phase_locking_mull_143083_model:StdpAndOscillationsProducePhaseLockingMull143083Model
   init_kwargs:
     model_path: data/143083.zip

@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/147141
   download_url: https://modeldb.science/download/147141
   license: ''
-bsim:
+biosim:
   entrypoint: src.synaptic_scaling_balances_learning_in_a_spiking_147141_model:SynapticScalingBalancesLearningInASpiking147141Model
   init_kwargs:
     model_path: data/147141.zip

@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/148035
   download_url: https://modeldb.science/download/148035
   license: ''
-bsim:
+biosim:
   entrypoint: src.spiking_gridplacemap_model_pilly_and_grossberg_p_148035_model:SpikingGridplacemapModelPillyAndGrossbergP148035Model
   init_kwargs:
     model_path: data/148035.zip

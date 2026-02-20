@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/168858
   download_url: https://modeldb.science/download/168858
   license: ''
-bsim:
+biosim:
   entrypoint: src.rhesus_monkey_layer_3_pyramidal_neurons_young_vs_168858_model:RhesusMonkeyLayer3PyramidalNeuronsYoungVs168858Model
   init_kwargs:
     model_path: data/168858.zip

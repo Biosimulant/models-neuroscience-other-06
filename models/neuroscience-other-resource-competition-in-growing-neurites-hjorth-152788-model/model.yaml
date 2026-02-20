@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/152788
   download_url: https://modeldb.science/download/152788
   license: ''
-bsim:
+biosim:
   entrypoint: src.resource_competition_in_growing_neurites_hjorth_152788_model:ResourceCompetitionInGrowingNeuritesHjorth152788Model
   init_kwargs:
     model_path: data/152788.zip

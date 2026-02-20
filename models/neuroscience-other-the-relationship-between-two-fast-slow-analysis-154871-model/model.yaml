@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/154871
   download_url: https://modeldb.science/download/154871
   license: ''
-bsim:
+biosim:
   entrypoint: src.the_relationship_between_two_fast_slow_analysis_154871_model:TheRelationshipBetweenTwoFastSlowAnalysis154871Model
   init_kwargs:
     model_path: data/154871.zip

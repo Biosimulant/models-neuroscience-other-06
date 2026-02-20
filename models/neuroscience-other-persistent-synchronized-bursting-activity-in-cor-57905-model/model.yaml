@@ -19,7 +19,7 @@ upstream:
   original_url: https://modeldb.science/57905
   download_url: https://modeldb.science/download/57905
   license: ''
-bsim:
+biosim:
   entrypoint: src.persistent_synchronized_bursting_activity_in_cor_57905_model:PersistentSynchronizedBurstingActivityInCor57905Model
   init_kwargs:
     model_path: data/57905.zip

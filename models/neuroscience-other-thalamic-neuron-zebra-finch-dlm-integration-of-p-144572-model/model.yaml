@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/144572
   download_url: https://modeldb.science/download/144572
   license: ''
-bsim:
+biosim:
   entrypoint: src.thalamic_neuron_zebra_finch_dlm_integration_of_p_144572_model:ThalamicNeuronZebraFinchDlmIntegrationOfP144572Model
   init_kwargs:
     model_path: data/144572.zip

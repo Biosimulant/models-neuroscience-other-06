@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/117966
   download_url: https://modeldb.science/download/117966
   license: ''
-bsim:
+biosim:
   entrypoint: src.spike_response_model_simulator_jolivet_et_al_200_117966_model:SpikeResponseModelSimulatorJolivetEtAl200117966Model
   init_kwargs:
     model_path: data/117966.zip

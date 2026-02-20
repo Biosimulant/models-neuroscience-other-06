@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/93416
   download_url: https://modeldb.science/download/93416
   license: ''
-bsim:
+biosim:
   entrypoint: src.periodicity_in_na_channel_properties_alters_mode_93416_model:PeriodicityInNaChannelPropertiesAltersMode93416Model
   init_kwargs:
     model_path: data/93416.zip

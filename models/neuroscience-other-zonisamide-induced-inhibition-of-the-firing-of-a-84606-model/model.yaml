@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/84606
   download_url: https://modeldb.science/download/84606
   license: ''
-bsim:
+biosim:
   entrypoint: src.zonisamide_induced_inhibition_of_the_firing_of_a_84606_model:ZonisamideInducedInhibitionOfTheFiringOfA84606Model
   init_kwargs:
     model_path: data/84606.zip

@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/136097
   download_url: https://modeldb.science/download/136097
   license: ''
-bsim:
+biosim:
   entrypoint: src.multiscale_model_of_olfactory_receptor_neuron_in_136097_model:MultiscaleModelOfOlfactoryReceptorNeuronIn136097Model
   init_kwargs:
     model_path: data/136097.zip

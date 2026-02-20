@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/150437
   download_url: https://modeldb.science/download/150437
   license: ''
-bsim:
+biosim:
   entrypoint: src.network_bursts_in_cultured_nn_result_from_differ_150437_model:NetworkBurstsInCulturedNnResultFromDiffer150437Model
   init_kwargs:
     model_path: data/150437.zip

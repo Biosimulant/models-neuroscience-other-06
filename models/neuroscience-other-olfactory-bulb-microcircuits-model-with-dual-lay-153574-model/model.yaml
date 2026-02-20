@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/153574
   download_url: https://modeldb.science/download/153574
   license: ''
-bsim:
+biosim:
   entrypoint: src.olfactory_bulb_microcircuits_model_with_dual_lay_153574_model:OlfactoryBulbMicrocircuitsModelWithDualLay153574Model
   init_kwargs:
     model_path: data/153574.zip

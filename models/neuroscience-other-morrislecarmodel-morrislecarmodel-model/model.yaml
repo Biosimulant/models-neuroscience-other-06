@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/MorrisLecarModel
   download_url: https://github.com/OpenSourceBrain/MorrisLecarModel.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.morrislecarmodel_morrislecarmodel_model:MorrislecarmodelMorrislecarmodelModel
   init_kwargs:
     model_path: data/repo

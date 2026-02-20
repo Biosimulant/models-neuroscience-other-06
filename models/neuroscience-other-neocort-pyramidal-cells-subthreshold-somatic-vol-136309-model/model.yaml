@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/136309
   download_url: https://modeldb.science/download/136309
   license: ''
-bsim:
+biosim:
   entrypoint: src.neocort_pyramidal_cells_subthreshold_somatic_vol_136309_model:NeocortPyramidalCellsSubthresholdSomaticVol136309Model
   init_kwargs:
     model_path: data/136309.zip

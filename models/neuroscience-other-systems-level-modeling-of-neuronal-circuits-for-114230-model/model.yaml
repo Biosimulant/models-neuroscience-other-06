@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/114230
   download_url: https://modeldb.science/download/114230
   license: ''
-bsim:
+biosim:
   entrypoint: src.systems_level_modeling_of_neuronal_circuits_for_114230_model:SystemsLevelModelingOfNeuronalCircuitsFor114230Model
   init_kwargs:
     model_path: data/114230.zip

@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/150245
   download_url: https://modeldb.science/download/150245
   license: ''
-bsim:
+biosim:
   entrypoint: src.sensorimotor_cortex_reinforcement_learning_of_2_150245_model:SensorimotorCortexReinforcementLearningOf2150245Model
   init_kwargs:
     model_path: data/150245.zip

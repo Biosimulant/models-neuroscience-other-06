@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/53559
   download_url: https://modeldb.science/download/53559
   license: ''
-bsim:
+biosim:
   entrypoint: src.s_cell_network_moss_et_al_2005_53559_model:SCellNetworkMossEtAl200553559Model
   init_kwargs:
     model_path: data/53559.zip

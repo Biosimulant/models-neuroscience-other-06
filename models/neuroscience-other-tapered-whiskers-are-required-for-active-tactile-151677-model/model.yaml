@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/151677
   download_url: https://modeldb.science/download/151677
   license: ''
-bsim:
+biosim:
   entrypoint: src.tapered_whiskers_are_required_for_active_tactile_151677_model:TaperedWhiskersAreRequiredForActiveTactile151677Model
   init_kwargs:
     model_path: data/151677.zip

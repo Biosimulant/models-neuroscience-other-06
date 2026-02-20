@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/50391
   download_url: https://modeldb.science/download/50391
   license: ''
-bsim:
+biosim:
   entrypoint: src.spontaneous_firing_caused_by_stochastic_channel_50391_model:SpontaneousFiringCausedByStochasticChannel50391Model
   init_kwargs:
     model_path: data/50391.zip

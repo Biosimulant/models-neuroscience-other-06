@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/147461
   download_url: https://modeldb.science/download/147461
   license: ''
-bsim:
+biosim:
   entrypoint: src.storing_serial_order_in_intrinsic_excitability_a_147461_model:StoringSerialOrderInIntrinsicExcitabilityA147461Model
   init_kwargs:
     model_path: data/147461.zip

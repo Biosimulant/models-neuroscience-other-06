@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/120692
   download_url: https://modeldb.science/download/120692
   license: ''
-bsim:
+biosim:
   entrypoint: src.sodium_potassium_atpase_pump_chapman_et_al_1983_120692_model:SodiumPotassiumAtpasePumpChapmanEtAl1983120692Model
   init_kwargs:
     model_path: data/120692.zip

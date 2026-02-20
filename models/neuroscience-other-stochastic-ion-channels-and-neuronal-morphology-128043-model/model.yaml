@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/128043
   download_url: https://modeldb.science/download/128043
   license: ''
-bsim:
+biosim:
   entrypoint: src.stochastic_ion_channels_and_neuronal_morphology_128043_model:StochasticIonChannelsAndNeuronalMorphology128043Model
   init_kwargs:
     model_path: data/128043.zip

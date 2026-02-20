@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/NSGPortalShowcase
   download_url: https://github.com/OpenSourceBrain/NSGPortalShowcase.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.nsgportalshowcase_nsgportalshowcase_model:NsgportalshowcaseNsgportalshowcaseModel
   init_kwargs:
     model_path: data/repo

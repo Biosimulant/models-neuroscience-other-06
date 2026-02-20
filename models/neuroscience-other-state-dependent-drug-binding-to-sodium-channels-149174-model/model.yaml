@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/149174
   download_url: https://modeldb.science/download/149174
   license: ''
-bsim:
+biosim:
   entrypoint: src.state_dependent_drug_binding_to_sodium_channels_149174_model:StateDependentDrugBindingToSodiumChannels149174Model
   init_kwargs:
     model_path: data/149174.zip

@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/122442
   download_url: https://modeldb.science/download/122442
   license: ''
-bsim:
+biosim:
   entrypoint: src.tight_junction_model_of_cns_myelinated_axons_dev_122442_model:TightJunctionModelOfCnsMyelinatedAxonsDev122442Model
   init_kwargs:
     model_path: data/122442.zip

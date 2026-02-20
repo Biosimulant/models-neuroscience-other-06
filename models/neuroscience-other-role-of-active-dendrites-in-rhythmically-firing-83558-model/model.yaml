@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/83558
   download_url: https://modeldb.science/download/83558
   license: ''
-bsim:
+biosim:
   entrypoint: src.role_of_active_dendrites_in_rhythmically_firing_83558_model:RoleOfActiveDendritesInRhythmicallyFiring83558Model
   init_kwargs:
     model_path: data/83558.zip

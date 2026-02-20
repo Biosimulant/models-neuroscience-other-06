@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/116945
   download_url: https://modeldb.science/download/116945
   license: ''
-bsim:
+biosim:
   entrypoint: src.spike_frequency_adaptation_in_the_lgmd_peron_and_116945_model:SpikeFrequencyAdaptationInTheLgmdPeronAnd116945Model
   init_kwargs:
     model_path: data/116945.zip

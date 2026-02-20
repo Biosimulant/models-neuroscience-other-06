@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/118524
   download_url: https://modeldb.science/download/118524
   license: ''
-bsim:
+biosim:
   entrypoint: src.virtual_retina_biological_retina_simulator_with_118524_model:VirtualRetinaBiologicalRetinaSimulatorWith118524Model
   init_kwargs:
     model_path: data/118524.zip

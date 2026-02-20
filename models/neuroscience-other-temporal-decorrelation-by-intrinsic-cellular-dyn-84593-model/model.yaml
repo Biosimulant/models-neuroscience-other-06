@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/84593
   download_url: https://modeldb.science/download/84593
   license: ''
-bsim:
+biosim:
   entrypoint: src.temporal_decorrelation_by_intrinsic_cellular_dyn_84593_model:TemporalDecorrelationByIntrinsicCellularDyn84593Model
   init_kwargs:
     model_path: data/84593.zip

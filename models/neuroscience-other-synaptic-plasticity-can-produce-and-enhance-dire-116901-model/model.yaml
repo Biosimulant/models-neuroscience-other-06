@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/116901
   download_url: https://modeldb.science/download/116901
   license: ''
-bsim:
+biosim:
   entrypoint: src.synaptic_plasticity_can_produce_and_enhance_dire_116901_model:SynapticPlasticityCanProduceAndEnhanceDire116901Model
   init_kwargs:
     model_path: data/116901.zip

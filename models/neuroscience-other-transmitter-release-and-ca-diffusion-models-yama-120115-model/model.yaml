@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/120115
   download_url: https://modeldb.science/download/120115
   license: ''
-bsim:
+biosim:
   entrypoint: src.transmitter_release_and_ca_diffusion_models_yama_120115_model:TransmitterReleaseAndCaDiffusionModelsYama120115Model
   init_kwargs:
     model_path: data/120115.zip

@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/152111
   download_url: https://modeldb.science/download/152111
   license: ''
-bsim:
+biosim:
   entrypoint: src.olfactory_bulb_juxtaglomerular_models_carey_et_a_152111_model:OlfactoryBulbJuxtaglomerularModelsCareyEtA152111Model
   init_kwargs:
     model_path: data/152111.zip

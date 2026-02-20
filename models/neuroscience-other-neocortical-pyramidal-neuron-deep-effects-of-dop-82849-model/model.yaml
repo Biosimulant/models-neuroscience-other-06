@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/82849
   download_url: https://modeldb.science/download/82849
   license: ''
-bsim:
+biosim:
   entrypoint: src.neocortical_pyramidal_neuron_deep_effects_of_dop_82849_model:NeocorticalPyramidalNeuronDeepEffectsOfDop82849Model
   init_kwargs:
     model_path: data/82849.zip

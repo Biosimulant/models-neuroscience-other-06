@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/64266
   download_url: https://modeldb.science/download/64266
   license: ''
-bsim:
+biosim:
   entrypoint: src.simple_model_of_barrel_specific_segregation_in_c_64266_model:SimpleModelOfBarrelSpecificSegregationInC64266Model
   init_kwargs:
     model_path: data/64266.zip

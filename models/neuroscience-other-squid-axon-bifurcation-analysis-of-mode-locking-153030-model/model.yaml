@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/153030
   download_url: https://modeldb.science/download/153030
   license: ''
-bsim:
+biosim:
   entrypoint: src.squid_axon_bifurcation_analysis_of_mode_locking_153030_model:SquidAxonBifurcationAnalysisOfModeLocking153030Model
   init_kwargs:
     model_path: data/153030.zip

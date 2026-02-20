@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/87585
   download_url: https://modeldb.science/download/87585
   license: ''
-bsim:
+biosim:
   entrypoint: src.sodium_channel_mutations_causing_generalized_epi_87585_model:SodiumChannelMutationsCausingGeneralizedEpi87585Model
   init_kwargs:
     model_path: data/87585.zip

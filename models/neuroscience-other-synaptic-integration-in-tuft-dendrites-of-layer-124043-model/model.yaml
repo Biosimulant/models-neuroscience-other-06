@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/124043
   download_url: https://modeldb.science/download/124043
   license: ''
-bsim:
+biosim:
   entrypoint: src.synaptic_integration_in_tuft_dendrites_of_layer_124043_model:SynapticIntegrationInTuftDendritesOfLayer124043Model
   init_kwargs:
     model_path: data/124043.zip

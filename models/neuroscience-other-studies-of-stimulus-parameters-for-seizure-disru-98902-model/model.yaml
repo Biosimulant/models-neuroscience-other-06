@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/98902
   download_url: https://modeldb.science/download/98902
   license: ''
-bsim:
+biosim:
   entrypoint: src.studies_of_stimulus_parameters_for_seizure_disru_98902_model:StudiesOfStimulusParametersForSeizureDisru98902Model
   init_kwargs:
     model_path: data/98902.zip

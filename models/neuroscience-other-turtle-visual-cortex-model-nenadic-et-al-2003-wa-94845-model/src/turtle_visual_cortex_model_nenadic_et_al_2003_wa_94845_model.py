@@ -16,13 +16,13 @@ from pathlib import Path
 from typing import Any, Dict, Optional, Set, TYPE_CHECKING
 
 if TYPE_CHECKING:  # pragma: no cover - typing only
-    from bsim import BioWorld
+    from biosim import BioWorld
 
-import bsim
-from bsim.signals import BioSignal, SignalMetadata
+import biosim
+from biosim.signals import BioSignal, SignalMetadata
 
 
-class OtherTurtleVisualCortexModelNenadicEtAl2003WangEtAl(bsim.BioModule):
+class OtherTurtleVisualCortexModelNenadicEtAl2003WangEtAl(biosim.BioModule):
     """Placeholder BioModule wrapper for: Turtle visual cortex model (Nenadic et al. 2003, Wang et al. 2005, Wang et al. 2006).
 
     This model's original format is not directly supported by the auto-generator.

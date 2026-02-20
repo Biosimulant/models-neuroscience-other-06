@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/97874
   download_url: https://modeldb.science/download/97874
   license: ''
-bsim:
+biosim:
   entrypoint: src.neural_query_system_nqs_data_mining_from_within_97874_model:NeuralQuerySystemNqsDataMiningFromWithin97874Model
   init_kwargs:
     model_path: data/97874.zip

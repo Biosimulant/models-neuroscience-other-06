@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/112079
   download_url: https://modeldb.science/download/112079
   license: ''
-bsim:
+biosim:
   entrypoint: src.properties_of_aconitine_induced_block_of_kdr_cur_112079_model:PropertiesOfAconitineInducedBlockOfKdrCur112079Model
   init_kwargs:
     model_path: data/112079.zip

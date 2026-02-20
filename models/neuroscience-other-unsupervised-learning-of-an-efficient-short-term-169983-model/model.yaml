@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/169983
   download_url: https://modeldb.science/download/169983
   license: ''
-bsim:
+biosim:
   entrypoint: src.unsupervised_learning_of_an_efficient_short_term_169983_model:UnsupervisedLearningOfAnEfficientShortTerm169983Model
   init_kwargs:
     model_path: data/169983.zip

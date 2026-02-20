@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/153351
   download_url: https://modeldb.science/download/153351
   license: ''
-bsim:
+biosim:
   entrypoint: src.python_based_toolkits_for_steps_chen_and_de_schu_153351_model:PythonBasedToolkitsForStepsChenAndDeSchu153351Model
   init_kwargs:
     model_path: data/153351.zip

@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/116837
   download_url: https://modeldb.science/download/116837
   license: ''
-bsim:
+biosim:
   entrypoint: src.reward_modulated_stdp_legenstein_et_al_2008_116837_model:RewardModulatedStdpLegensteinEtAl2008116837Model
   init_kwargs:
     model_path: data/116837.zip

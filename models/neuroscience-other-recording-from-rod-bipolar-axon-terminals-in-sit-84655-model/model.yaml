@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/84655
   download_url: https://modeldb.science/download/84655
   license: ''
-bsim:
+biosim:
   entrypoint: src.recording_from_rod_bipolar_axon_terminals_in_sit_84655_model:RecordingFromRodBipolarAxonTerminalsInSit84655Model
   init_kwargs:
     model_path: data/84655.zip

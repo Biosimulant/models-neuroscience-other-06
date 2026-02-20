@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/168874
   download_url: https://modeldb.science/download/168874
   license: ''
-bsim:
+biosim:
   entrypoint: src.neuronal_dendrite_calcium_wave_model_neymotin_et_168874_model:NeuronalDendriteCalciumWaveModelNeymotinEt168874Model
   init_kwargs:
     model_path: data/168874.zip

@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/126489
   download_url: https://modeldb.science/download/126489
   license: ''
-bsim:
+biosim:
   entrypoint: src.models_analysis_for_auditory_nerve_synapse_zhang_126489_model:ModelsAnalysisForAuditoryNerveSynapseZhang126489Model
   init_kwargs:
     model_path: data/126489.zip

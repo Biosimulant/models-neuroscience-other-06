@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/83512
   download_url: https://modeldb.science/download/83512
   license: ''
-bsim:
+biosim:
   entrypoint: src.prefrontal_cortical_mechanisms_for_goal_directed_83512_model:PrefrontalCorticalMechanismsForGoalDirected83512Model
   init_kwargs:
     model_path: data/83512.zip

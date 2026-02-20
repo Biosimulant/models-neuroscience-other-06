@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/118020
   download_url: https://modeldb.science/download/118020
   license: ''
-bsim:
+biosim:
   entrypoint: src.reduction_of_nonlinear_ode_systems_possessing_mu_118020_model:ReductionOfNonlinearOdeSystemsPossessingMu118020Model
   init_kwargs:
     model_path: data/118020.zip

@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/147185
   download_url: https://modeldb.science/download/147185
   license: ''
-bsim:
+biosim:
   entrypoint: src.neuronvisio_a_gui_with_3d_capabilities_for_neuro_147185_model:NeuronvisioAGuiWith3dCapabilitiesForNeuro147185Model
   init_kwargs:
     model_path: data/147185.zip

@@ -19,7 +19,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/VierlingClaassenEtAl2010
   download_url: https://github.com/OpenSourceBrain/VierlingClaassenEtAl2010.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.vierlingclaassenetal2010_vierlingclaassenetal2010_model:Vierlingclaassenetal2010Vierlingclaassenetal2010Model
   init_kwargs:
     model_path: data/repo

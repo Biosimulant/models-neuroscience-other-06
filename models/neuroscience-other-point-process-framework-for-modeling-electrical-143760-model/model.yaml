@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/143760
   download_url: https://modeldb.science/download/143760
   license: ''
-bsim:
+biosim:
   entrypoint: src.point_process_framework_for_modeling_electrical_143760_model:PointProcessFrameworkForModelingElectrical143760Model
   init_kwargs:
     model_path: data/143760.zip

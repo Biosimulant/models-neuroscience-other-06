@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/123986
   download_url: https://modeldb.science/download/123986
   license: ''
-bsim:
+biosim:
   entrypoint: src.oscillation_and_coding_in_a_proposed_nn_model_of_123986_model:OscillationAndCodingInAProposedNnModelOf123986Model
   init_kwargs:
     model_path: data/123986.zip

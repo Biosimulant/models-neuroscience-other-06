@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/136310
   download_url: https://modeldb.science/download/136310
   license: ''
-bsim:
+biosim:
   entrypoint: src.modeling_local_field_potentials_bedard_et_al_200_136310_model:ModelingLocalFieldPotentialsBedardEtAl200136310Model
   init_kwargs:
     model_path: data/136310.zip

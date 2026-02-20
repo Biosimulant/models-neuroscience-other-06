@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/58581
   download_url: https://modeldb.science/download/58581
   license: ''
-bsim:
+biosim:
   entrypoint: src.role_of_kcnq1_and_iks_in_cardiac_repolarization_58581_model:RoleOfKcnq1AndIksInCardiacRepolarization58581Model
   init_kwargs:
     model_path: data/58581.zip

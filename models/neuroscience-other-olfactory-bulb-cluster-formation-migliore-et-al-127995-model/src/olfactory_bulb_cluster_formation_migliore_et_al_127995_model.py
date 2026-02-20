@@ -16,13 +16,13 @@ from pathlib import Path
 from typing import Any, Dict, Optional, Set, TYPE_CHECKING
 
 if TYPE_CHECKING:  # pragma: no cover - typing only
-    from bsim import BioWorld
+    from biosim import BioWorld
 
-import bsim
-from bsim.signals import BioSignal, SignalMetadata
+import biosim
+from biosim.signals import BioSignal, SignalMetadata
 
 
-class OtherOlfactoryBulbClusterFormationMiglioreEtAl2010(bsim.BioModule):
+class OtherOlfactoryBulbClusterFormationMiglioreEtAl2010(biosim.BioModule):
     """Placeholder BioModule wrapper for: Olfactory bulb cluster formation (Migliore et al. 2010).
 
     This model's original format is not directly supported by the auto-generator.

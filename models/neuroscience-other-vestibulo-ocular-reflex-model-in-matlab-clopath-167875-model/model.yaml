@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/167875
   download_url: https://modeldb.science/download/167875
   license: ''
-bsim:
+biosim:
   entrypoint: src.vestibulo_ocular_reflex_model_in_matlab_clopath_167875_model:VestibuloOcularReflexModelInMatlabClopath167875Model
   init_kwargs:
     model_path: data/167875.zip

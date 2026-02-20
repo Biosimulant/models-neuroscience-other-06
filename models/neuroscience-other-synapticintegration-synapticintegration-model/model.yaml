@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/SynapticIntegration
   download_url: https://github.com/OpenSourceBrain/SynapticIntegration.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.synapticintegration_synapticintegration_model:SynapticintegrationSynapticintegrationModel
   init_kwargs:
     model_path: data/repo

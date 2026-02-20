@@ -19,7 +19,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/RothmanEtAl_KoleEtAl_PyrCell
   download_url: https://github.com/OpenSourceBrain/RothmanEtAl_KoleEtAl_PyrCell.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.rothmanetal_koleetal_pyrcell_rothmanetalkoleetalpyrcell_model:RothmanetalKoleetalPyrcellRothmanetalkoleetalpyrcellModel
   init_kwargs:
     model_path: data/repo

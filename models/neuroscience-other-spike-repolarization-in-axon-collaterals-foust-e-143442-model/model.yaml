@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/143442
   download_url: https://modeldb.science/download/143442
   license: ''
-bsim:
+biosim:
   entrypoint: src.spike_repolarization_in_axon_collaterals_foust_e_143442_model:SpikeRepolarizationInAxonCollateralsFoustE143442Model
   init_kwargs:
     model_path: data/143442.zip

@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/95870
   download_url: https://modeldb.science/download/95870
   license: ''
-bsim:
+biosim:
   entrypoint: src.rod_photoreceptor_barnes_and_hille_1989_publio_e_95870_model:RodPhotoreceptorBarnesAndHille1989PublioE95870Model
   init_kwargs:
     model_path: data/95870.zip

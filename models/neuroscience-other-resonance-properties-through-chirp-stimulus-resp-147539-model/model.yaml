@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/147539
   download_url: https://modeldb.science/download/147539
   license: ''
-bsim:
+biosim:
   entrypoint: src.resonance_properties_through_chirp_stimulus_resp_147539_model:ResonancePropertiesThroughChirpStimulusResp147539Model
   init_kwargs:
     model_path: data/147539.zip

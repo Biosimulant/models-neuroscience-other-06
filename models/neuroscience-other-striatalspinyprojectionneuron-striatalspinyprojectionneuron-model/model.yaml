@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/StriatalSpinyProjectionNeuron
   download_url: https://github.com/OpenSourceBrain/StriatalSpinyProjectionNeuron.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.striatalspinyprojectionneuron_striatalspinyprojectionneuron_model:StriatalspinyprojectionneuronStriatalspinyprojectionneuronModel
   init_kwargs:
     model_path: data/repo

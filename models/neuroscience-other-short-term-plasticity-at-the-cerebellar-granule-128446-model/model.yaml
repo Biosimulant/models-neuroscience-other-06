@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/128446
   download_url: https://modeldb.science/download/128446
   license: ''
-bsim:
+biosim:
   entrypoint: src.short_term_plasticity_at_the_cerebellar_granule_128446_model:ShortTermPlasticityAtTheCerebellarGranule128446Model
   init_kwargs:
     model_path: data/128446.zip

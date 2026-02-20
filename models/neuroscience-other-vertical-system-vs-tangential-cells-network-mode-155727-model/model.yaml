@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/155727
   download_url: https://modeldb.science/download/155727
   license: ''
-bsim:
+biosim:
   entrypoint: src.vertical_system_vs_tangential_cells_network_mode_155727_model:VerticalSystemVsTangentialCellsNetworkMode155727Model
   init_kwargs:
     model_path: data/155727.zip

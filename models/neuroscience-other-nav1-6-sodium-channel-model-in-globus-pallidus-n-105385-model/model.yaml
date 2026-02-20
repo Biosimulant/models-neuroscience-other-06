@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/105385
   download_url: https://modeldb.science/download/105385
   license: ''
-bsim:
+biosim:
   entrypoint: src.nav1_6_sodium_channel_model_in_globus_pallidus_n_105385_model:Nav16SodiumChannelModelInGlobusPallidusN105385Model
   init_kwargs:
     model_path: data/105385.zip

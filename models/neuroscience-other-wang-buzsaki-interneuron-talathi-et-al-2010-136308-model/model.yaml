@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/136308
   download_url: https://modeldb.science/download/136308
   license: ''
-bsim:
+biosim:
   entrypoint: src.wang_buzsaki_interneuron_talathi_et_al_2010_136308_model:WangBuzsakiInterneuronTalathiEtAl2010136308Model
   init_kwargs:
     model_path: data/136308.zip

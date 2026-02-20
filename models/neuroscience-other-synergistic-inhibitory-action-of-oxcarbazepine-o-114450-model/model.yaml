@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/114450
   download_url: https://modeldb.science/download/114450
   license: ''
-bsim:
+biosim:
   entrypoint: src.synergistic_inhibitory_action_of_oxcarbazepine_o_114450_model:SynergisticInhibitoryActionOfOxcarbazepineO114450Model
   init_kwargs:
     model_path: data/114450.zip

@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/113649
   download_url: https://modeldb.science/download/113649
   license: ''
-bsim:
+biosim:
   entrypoint: src.multiple_mechanisms_of_short_term_plasticity_at_113649_model:MultipleMechanismsOfShortTermPlasticityAt113649Model
   init_kwargs:
     model_path: data/113649.zip

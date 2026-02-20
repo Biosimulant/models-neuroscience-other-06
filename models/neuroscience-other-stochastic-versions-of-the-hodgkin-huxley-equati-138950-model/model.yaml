@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/138950
   download_url: https://modeldb.science/download/138950
   license: ''
-bsim:
+biosim:
   entrypoint: src.stochastic_versions_of_the_hodgkin_huxley_equati_138950_model:StochasticVersionsOfTheHodgkinHuxleyEquati138950Model
   init_kwargs:
     model_path: data/138950.zip

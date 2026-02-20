@@ -16,13 +16,13 @@ from pathlib import Path
 from typing import Any, Dict, Optional, Set, TYPE_CHECKING
 
 if TYPE_CHECKING:  # pragma: no cover - typing only
-    from bsim import BioWorld
+    from biosim import BioWorld
 
-import bsim
-from bsim.signals import BioSignal, SignalMetadata
+import biosim
+from biosim.signals import BioSignal, SignalMetadata
 
 
-class OtherReliabilityOfSpikeTimingIsAGeneralPropertyOf(bsim.BioModule):
+class OtherReliabilityOfSpikeTimingIsAGeneralPropertyOf(biosim.BioModule):
     """Placeholder BioModule wrapper for: Reliability of spike timing is a general property of spiking model neurons (Brette & Guigon 2003).
 
     This model's original format is not directly supported by the auto-generator.

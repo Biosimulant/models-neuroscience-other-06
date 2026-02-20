@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/V1NetworkModels
   download_url: https://github.com/OpenSourceBrain/V1NetworkModels.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.v1networkmodels_v1networkmodels_model:V1networkmodelsV1networkmodelsModel
   init_kwargs:
     model_path: data/repo

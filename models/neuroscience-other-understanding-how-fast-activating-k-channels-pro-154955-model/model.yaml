@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/154955
   download_url: https://modeldb.science/download/154955
   license: ''
-bsim:
+biosim:
   entrypoint: src.understanding_how_fast_activating_k_channels_pro_154955_model:UnderstandingHowFastActivatingKChannelsPro154955Model
   init_kwargs:
     model_path: data/154955.zip

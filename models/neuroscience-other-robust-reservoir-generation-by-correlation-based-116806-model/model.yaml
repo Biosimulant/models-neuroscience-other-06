@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/116806
   download_url: https://modeldb.science/download/116806
   license: ''
-bsim:
+biosim:
   entrypoint: src.robust_reservoir_generation_by_correlation_based_116806_model:RobustReservoirGenerationByCorrelationBased116806Model
   init_kwargs:
     model_path: data/116806.zip

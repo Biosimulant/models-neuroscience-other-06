@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/136296
   download_url: https://modeldb.science/download/136296
   license: ''
-bsim:
+biosim:
   entrypoint: src.myelinated_nerve_fibre_myelin_resistance_depende_136296_model:MyelinatedNerveFibreMyelinResistanceDepende136296Model
   init_kwargs:
     model_path: data/136296.zip

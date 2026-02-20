@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/143602
   download_url: https://modeldb.science/download/143602
   license: ''
-bsim:
+biosim:
   entrypoint: src.principles_of_computational_modelling_in_neurosc_143602_model:PrinciplesOfComputationalModellingInNeurosc143602Model
   init_kwargs:
     model_path: data/143602.zip

@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/144523
   download_url: https://modeldb.science/download/144523
   license: ''
-bsim:
+biosim:
   entrypoint: src.std_dependent_and_independent_encoding_of_input_144523_model:StdDependentAndIndependentEncodingOfInput144523Model
   init_kwargs:
     model_path: data/144523.zip

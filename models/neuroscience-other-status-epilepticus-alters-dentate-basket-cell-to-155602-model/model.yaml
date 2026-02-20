@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/155602
   download_url: https://modeldb.science/download/155602
   license: ''
-bsim:
+biosim:
   entrypoint: src.status_epilepticus_alters_dentate_basket_cell_to_155602_model:StatusEpilepticusAltersDentateBasketCellTo155602Model
   init_kwargs:
     model_path: data/155602.zip

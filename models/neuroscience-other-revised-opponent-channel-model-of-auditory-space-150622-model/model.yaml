@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/150622
   download_url: https://modeldb.science/download/150622
   license: ''
-bsim:
+biosim:
   entrypoint: src.revised_opponent_channel_model_of_auditory_space_150622_model:RevisedOpponentChannelModelOfAuditorySpace150622Model
   init_kwargs:
     model_path: data/150622.zip

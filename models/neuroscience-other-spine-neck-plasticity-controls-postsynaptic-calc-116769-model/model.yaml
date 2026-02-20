@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/116769
   download_url: https://modeldb.science/download/116769
   license: ''
-bsim:
+biosim:
   entrypoint: src.spine_neck_plasticity_controls_postsynaptic_calc_116769_model:SpineNeckPlasticityControlsPostsynapticCalc116769Model
   init_kwargs:
     model_path: data/116769.zip

@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/127190
   download_url: https://modeldb.science/download/127190
   license: ''
-bsim:
+biosim:
   entrypoint: src.pipette_and_membrane_patch_geometry_effects_on_g_127190_model:PipetteAndMembranePatchGeometryEffectsOnG127190Model
   init_kwargs:
     model_path: data/127190.zip

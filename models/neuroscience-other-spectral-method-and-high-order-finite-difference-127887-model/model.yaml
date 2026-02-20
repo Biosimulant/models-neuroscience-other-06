@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/127887
   download_url: https://modeldb.science/download/127887
   license: ''
-bsim:
+biosim:
   entrypoint: src.spectral_method_and_high_order_finite_difference_127887_model:SpectralMethodAndHighOrderFiniteDifference127887Model
   init_kwargs:
     model_path: data/127887.zip

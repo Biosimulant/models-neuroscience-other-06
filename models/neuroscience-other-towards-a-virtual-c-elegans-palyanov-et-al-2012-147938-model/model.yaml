@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/147938
   download_url: https://modeldb.science/download/147938
   license: ''
-bsim:
+biosim:
   entrypoint: src.towards_a_virtual_c_elegans_palyanov_et_al_2012_147938_model:TowardsAVirtualCElegansPalyanovEtAl2012147938Model
   init_kwargs:
     model_path: data/147938.zip

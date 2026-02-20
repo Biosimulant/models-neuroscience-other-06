@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/144526
   download_url: https://modeldb.science/download/144526
   license: ''
-bsim:
+biosim:
   entrypoint: src.state_and_location_dependence_of_action_potentia_144526_model:StateAndLocationDependenceOfActionPotentia144526Model
   init_kwargs:
     model_path: data/144526.zip

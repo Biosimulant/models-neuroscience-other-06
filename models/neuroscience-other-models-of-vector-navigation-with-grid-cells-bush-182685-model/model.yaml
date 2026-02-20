@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/182685
   download_url: https://modeldb.science/download/182685
   license: ''
-bsim:
+biosim:
   entrypoint: src.models_of_vector_navigation_with_grid_cells_bush_182685_model:ModelsOfVectorNavigationWithGridCellsBush182685Model
   init_kwargs:
     model_path: data/182685.zip

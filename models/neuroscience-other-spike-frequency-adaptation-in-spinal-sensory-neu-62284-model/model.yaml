@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/62284
   download_url: https://modeldb.science/download/62284
   license: ''
-bsim:
+biosim:
   entrypoint: src.spike_frequency_adaptation_in_spinal_sensory_neu_62284_model:SpikeFrequencyAdaptationInSpinalSensoryNeu62284Model
   init_kwargs:
     model_path: data/62284.zip

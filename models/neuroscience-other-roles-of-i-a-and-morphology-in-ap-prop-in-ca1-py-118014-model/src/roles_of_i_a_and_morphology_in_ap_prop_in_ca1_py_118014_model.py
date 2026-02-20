@@ -16,13 +16,13 @@ from pathlib import Path
 from typing import Any, Dict, Optional, Set, TYPE_CHECKING
 
 if TYPE_CHECKING:  # pragma: no cover - typing only
-    from bsim import BioWorld
+    from biosim import BioWorld
 
-import bsim
-from bsim.signals import BioSignal, SignalMetadata
+import biosim
+from biosim.signals import BioSignal, SignalMetadata
 
 
-class OtherRolesOfIAAndMorphologyInApPropInCa1Pyramidal(bsim.BioModule):
+class OtherRolesOfIAAndMorphologyInApPropInCa1Pyramidal(biosim.BioModule):
     """Placeholder BioModule wrapper for: Roles of I(A) and morphology in AP prop. in CA1 pyramidal cell dendrites (Acker and White 2007).
 
     This model's original format is not directly supported by the auto-generator.

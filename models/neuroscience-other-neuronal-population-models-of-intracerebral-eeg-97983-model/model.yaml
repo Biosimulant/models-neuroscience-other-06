@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/97983
   download_url: https://modeldb.science/download/97983
   license: ''
-bsim:
+biosim:
   entrypoint: src.neuronal_population_models_of_intracerebral_eeg_97983_model:NeuronalPopulationModelsOfIntracerebralEeg97983Model
   init_kwargs:
     model_path: data/97983.zip

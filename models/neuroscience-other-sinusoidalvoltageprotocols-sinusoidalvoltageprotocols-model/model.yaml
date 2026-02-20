@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/SinusoidalVoltageProtocols
   download_url: https://github.com/OpenSourceBrain/SinusoidalVoltageProtocols.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.sinusoidalvoltageprotocols_sinusoidalvoltageprotocols_model:SinusoidalvoltageprotocolsSinusoidalvoltageprotocolsModel
   init_kwargs:
     model_path: data/repo

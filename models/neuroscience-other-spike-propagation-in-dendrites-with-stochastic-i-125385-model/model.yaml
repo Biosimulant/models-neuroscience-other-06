@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/125385
   download_url: https://modeldb.science/download/125385
   license: ''
-bsim:
+biosim:
   entrypoint: src.spike_propagation_in_dendrites_with_stochastic_i_125385_model:SpikePropagationInDendritesWithStochasticI125385Model
   init_kwargs:
     model_path: data/125385.zip

@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/152197
   download_url: https://modeldb.science/download/152197
   license: ''
-bsim:
+biosim:
   entrypoint: src.simulated_cortical_color_opponent_receptive_fiel_152197_model:SimulatedCorticalColorOpponentReceptiveFiel152197Model
   init_kwargs:
     model_path: data/152197.zip

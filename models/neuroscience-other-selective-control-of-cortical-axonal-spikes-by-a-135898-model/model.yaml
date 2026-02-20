@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/135898
   download_url: https://modeldb.science/download/135898
   license: ''
-bsim:
+biosim:
   entrypoint: src.selective_control_of_cortical_axonal_spikes_by_a_135898_model:SelectiveControlOfCorticalAxonalSpikesByA135898Model
   init_kwargs:
     model_path: data/135898.zip

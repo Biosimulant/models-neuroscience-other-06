@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/NWBShowcase
   download_url: https://github.com/OpenSourceBrain/NWBShowcase.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.nwbshowcase_nwbshowcase_model:NwbshowcaseNwbshowcaseModel
   init_kwargs:
     model_path: data/model.xml

@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/97868
   download_url: https://modeldb.science/download/97868
   license: ''
-bsim:
+biosim:
   entrypoint: src.neuron_interfaces_to_mysql_and_the_spud_feature_97868_model:NeuronInterfacesToMysqlAndTheSpudFeature97868Model
   init_kwargs:
     model_path: data/97868.zip

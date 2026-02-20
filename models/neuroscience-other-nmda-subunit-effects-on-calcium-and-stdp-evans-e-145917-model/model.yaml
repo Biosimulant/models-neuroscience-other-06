@@ -19,7 +19,7 @@ upstream:
   original_url: https://modeldb.science/145917
   download_url: https://modeldb.science/download/145917
   license: ''
-bsim:
+biosim:
   entrypoint: src.nmda_subunit_effects_on_calcium_and_stdp_evans_e_145917_model:NmdaSubunitEffectsOnCalciumAndStdpEvansE145917Model
   init_kwargs:
     model_path: data/145917.zip

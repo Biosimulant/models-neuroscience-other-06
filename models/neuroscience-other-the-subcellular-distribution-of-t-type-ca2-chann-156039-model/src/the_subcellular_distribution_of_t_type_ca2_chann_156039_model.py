@@ -16,13 +16,13 @@ from pathlib import Path
 from typing import Any, Dict, Optional, Set, TYPE_CHECKING
 
 if TYPE_CHECKING:  # pragma: no cover - typing only
-    from bsim import BioWorld
+    from biosim import BioWorld
 
-import bsim
-from bsim.signals import BioSignal, SignalMetadata
+import biosim
+from biosim.signals import BioSignal, SignalMetadata
 
 
-class OtherTheSubcellularDistributionOfTTypeCa2ChannelsInLgn(bsim.BioModule):
+class OtherTheSubcellularDistributionOfTTypeCa2ChannelsInLgn(biosim.BioModule):
     """Placeholder BioModule wrapper for: The subcellular distribution of T-type Ca2+ channels in LGN interneurons (Allken et al. 2014).
 
     This model's original format is not directly supported by the auto-generator.

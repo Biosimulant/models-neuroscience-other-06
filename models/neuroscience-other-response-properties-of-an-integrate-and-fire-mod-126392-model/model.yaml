@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/126392
   download_url: https://modeldb.science/download/126392
   license: ''
-bsim:
+biosim:
   entrypoint: src.response_properties_of_an_integrate_and_fire_mod_126392_model:ResponsePropertiesOfAnIntegrateAndFireMod126392Model
   init_kwargs:
     model_path: data/126392.zip

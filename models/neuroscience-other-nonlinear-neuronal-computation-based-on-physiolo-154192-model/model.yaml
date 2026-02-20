@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/154192
   download_url: https://modeldb.science/download/154192
   license: ''
-bsim:
+biosim:
   entrypoint: src.nonlinear_neuronal_computation_based_on_physiolo_154192_model:NonlinearNeuronalComputationBasedOnPhysiolo154192Model
   init_kwargs:
     model_path: data/154192.zip

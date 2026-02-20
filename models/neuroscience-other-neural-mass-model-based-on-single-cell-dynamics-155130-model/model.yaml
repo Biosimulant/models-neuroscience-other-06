@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/155130
   download_url: https://modeldb.science/download/155130
   license: ''
-bsim:
+biosim:
   entrypoint: src.neural_mass_model_based_on_single_cell_dynamics_155130_model:NeuralMassModelBasedOnSingleCellDynamics155130Model
   init_kwargs:
     model_path: data/155130.zip

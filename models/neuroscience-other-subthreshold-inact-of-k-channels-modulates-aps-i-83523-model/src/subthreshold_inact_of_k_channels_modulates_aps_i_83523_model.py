@@ -16,13 +16,13 @@ from pathlib import Path
 from typing import Any, Dict, Optional, Set, TYPE_CHECKING
 
 if TYPE_CHECKING:  # pragma: no cover - typing only
-    from bsim import BioWorld
+    from biosim import BioWorld
 
-import bsim
-from bsim.signals import BioSignal, SignalMetadata
+import biosim
+from biosim.signals import BioSignal, SignalMetadata
 
 
-class OtherSubthresholdInactOfKChannelsModulatesApsInBitufted(bsim.BioModule):
+class OtherSubthresholdInactOfKChannelsModulatesApsInBitufted(biosim.BioModule):
     """Placeholder BioModule wrapper for: Subthreshold inact. of K channels modulates APs in bitufted interneurons (Korngreen et al 2005).
 
     This model's original format is not directly supported by the auto-generator.

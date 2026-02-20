@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/125529
   download_url: https://modeldb.science/download/125529
   license: ''
-bsim:
+biosim:
   entrypoint: src.respiratory_central_pattern_generator_network_in_125529_model:RespiratoryCentralPatternGeneratorNetworkIn125529Model
   init_kwargs:
     model_path: data/125529.zip

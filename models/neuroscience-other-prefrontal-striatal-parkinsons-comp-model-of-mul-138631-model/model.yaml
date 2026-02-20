@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/138631
   download_url: https://modeldb.science/download/138631
   license: ''
-bsim:
+biosim:
   entrypoint: src.prefrontal_striatal_parkinsons_comp_model_of_mul_138631_model:PrefrontalStriatalParkinsonsCompModelOfMul138631Model
   init_kwargs:
     model_path: data/138631.zip

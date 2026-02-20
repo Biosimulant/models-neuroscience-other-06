@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/169023
   download_url: https://modeldb.science/download/169023
   license: ''
-bsim:
+biosim:
   entrypoint: src.single_cell_model_with_variable_ion_concentratio_169023_model:SingleCellModelWithVariableIonConcentratio169023Model
   init_kwargs:
     model_path: data/169023.zip

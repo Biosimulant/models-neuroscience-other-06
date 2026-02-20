@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/83344
   download_url: https://modeldb.science/download/83344
   license: ''
-bsim:
+biosim:
   entrypoint: src.pyramidal_neuron_coincidence_detection_tuned_by_83344_model:PyramidalNeuronCoincidenceDetectionTunedBy83344Model
   init_kwargs:
     model_path: data/83344.zip

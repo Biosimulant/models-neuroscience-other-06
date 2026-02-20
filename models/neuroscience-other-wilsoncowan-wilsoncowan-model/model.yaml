@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/WilsonCowan
   download_url: https://github.com/OpenSourceBrain/WilsonCowan.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.wilsoncowan_wilsoncowan_model:WilsoncowanWilsoncowanModel
   init_kwargs:
     model_path: data/repo

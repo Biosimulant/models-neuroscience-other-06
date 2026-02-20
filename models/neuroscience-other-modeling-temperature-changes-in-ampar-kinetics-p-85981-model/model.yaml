@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/85981
   download_url: https://modeldb.science/download/85981
   license: ''
-bsim:
+biosim:
   entrypoint: src.modeling_temperature_changes_in_ampar_kinetics_p_85981_model:ModelingTemperatureChangesInAmparKineticsP85981Model
   init_kwargs:
     model_path: data/85981.zip

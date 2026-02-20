@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/129067
   download_url: https://modeldb.science/download/129067
   license: ''
-bsim:
+biosim:
   entrypoint: src.synthesis_of_spatial_tuning_functions_from_theta_129067_model:SynthesisOfSpatialTuningFunctionsFromTheta129067Model
   init_kwargs:
     model_path: data/129067.zip

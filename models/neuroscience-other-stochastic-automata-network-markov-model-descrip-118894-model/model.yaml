@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/118894
   download_url: https://modeldb.science/download/118894
   license: ''
-bsim:
+biosim:
   entrypoint: src.stochastic_automata_network_markov_model_descrip_118894_model:StochasticAutomataNetworkMarkovModelDescrip118894Model
   init_kwargs:
     model_path: data/118894.zip

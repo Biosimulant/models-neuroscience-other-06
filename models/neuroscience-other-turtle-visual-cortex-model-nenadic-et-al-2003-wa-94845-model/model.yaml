@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/94845
   download_url: https://modeldb.science/download/94845
   license: ''
-bsim:
+biosim:
   entrypoint: src.turtle_visual_cortex_model_nenadic_et_al_2003_wa_94845_model:TurtleVisualCortexModelNenadicEtAl2003Wa94845Model
   init_kwargs:
     model_path: data/94845.zip

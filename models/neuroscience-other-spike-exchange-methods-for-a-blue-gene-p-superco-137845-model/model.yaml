@@ -19,7 +19,7 @@ upstream:
   original_url: https://modeldb.science/137845
   download_url: https://modeldb.science/download/137845
   license: ''
-bsim:
+biosim:
   entrypoint: src.spike_exchange_methods_for_a_blue_gene_p_superco_137845_model:SpikeExchangeMethodsForABlueGenePSuperco137845Model
   init_kwargs:
     model_path: data/137845.zip

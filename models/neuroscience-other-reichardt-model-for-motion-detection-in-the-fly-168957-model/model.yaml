@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/168957
   download_url: https://modeldb.science/download/168957
   license: ''
-bsim:
+biosim:
   entrypoint: src.reichardt_model_for_motion_detection_in_the_fly_168957_model:ReichardtModelForMotionDetectionInTheFly168957Model
   init_kwargs:
     model_path: data/168957.zip

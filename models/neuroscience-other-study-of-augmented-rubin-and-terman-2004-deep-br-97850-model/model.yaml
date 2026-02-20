@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/97850
   download_url: https://modeldb.science/download/97850
   license: ''
-bsim:
+biosim:
   entrypoint: src.study_of_augmented_rubin_and_terman_2004_deep_br_97850_model:StudyOfAugmentedRubinAndTerman2004DeepBr97850Model
   init_kwargs:
     model_path: data/97850.zip

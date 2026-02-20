@@ -16,13 +16,13 @@ from pathlib import Path
 from typing import Any, Dict, Optional, Set, TYPE_CHECKING
 
 if TYPE_CHECKING:  # pragma: no cover - typing only
-    from bsim import BioWorld
+    from biosim import BioWorld
 
-import bsim
-from bsim.signals import BioSignal, SignalMetadata
+import biosim
+from biosim.signals import BioSignal, SignalMetadata
 
 
-class OtherMotorCortexMicrocircuitSimulationBasedOnBrain(bsim.BioModule):
+class OtherMotorCortexMicrocircuitSimulationBasedOnBrain(biosim.BioModule):
     """Placeholder BioModule wrapper for: Motor cortex microcircuit simulation based on brain activity mapping (Chadderdon et al. 2014).
 
     This model's original format is not directly supported by the auto-generator.

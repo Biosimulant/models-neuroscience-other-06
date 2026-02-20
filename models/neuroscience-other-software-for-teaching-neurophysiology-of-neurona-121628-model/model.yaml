@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/121628
   download_url: https://modeldb.science/download/121628
   license: ''
-bsim:
+biosim:
   entrypoint: src.software_for_teaching_neurophysiology_of_neurona_121628_model:SoftwareForTeachingNeurophysiologyOfNeurona121628Model
   init_kwargs:
     model_path: data/121628.zip

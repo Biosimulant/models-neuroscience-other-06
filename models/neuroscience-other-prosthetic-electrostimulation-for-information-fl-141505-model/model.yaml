@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/141505
   download_url: https://modeldb.science/download/141505
   license: ''
-bsim:
+biosim:
   entrypoint: src.prosthetic_electrostimulation_for_information_fl_141505_model:ProstheticElectrostimulationForInformationFl141505Model
   init_kwargs:
     model_path: data/141505.zip

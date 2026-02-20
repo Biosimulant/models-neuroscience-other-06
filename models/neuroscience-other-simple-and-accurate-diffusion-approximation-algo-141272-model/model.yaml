@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/141272
   download_url: https://modeldb.science/download/141272
   license: ''
-bsim:
+biosim:
   entrypoint: src.simple_and_accurate_diffusion_approximation_algo_141272_model:SimpleAndAccurateDiffusionApproximationAlgo141272Model
   init_kwargs:
     model_path: data/141272.zip

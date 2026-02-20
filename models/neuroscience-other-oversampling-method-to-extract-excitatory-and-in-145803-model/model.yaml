@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/145803
   download_url: https://modeldb.science/download/145803
   license: ''
-bsim:
+biosim:
   entrypoint: src.oversampling_method_to_extract_excitatory_and_in_145803_model:OversamplingMethodToExtractExcitatoryAndIn145803Model
   init_kwargs:
     model_path: data/145803.zip

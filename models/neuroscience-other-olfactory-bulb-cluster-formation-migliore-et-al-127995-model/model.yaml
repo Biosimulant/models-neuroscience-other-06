@@ -19,7 +19,7 @@ upstream:
   original_url: https://modeldb.science/127995
   download_url: https://modeldb.science/download/127995
   license: ''
-bsim:
+biosim:
   entrypoint: src.olfactory_bulb_cluster_formation_migliore_et_al_127995_model:OlfactoryBulbClusterFormationMiglioreEtAl127995Model
   init_kwargs:
     model_path: data/127995.zip

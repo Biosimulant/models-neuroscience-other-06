@@ -16,13 +16,13 @@ from pathlib import Path
 from typing import Any, Dict, Optional, Set, TYPE_CHECKING
 
 if TYPE_CHECKING:  # pragma: no cover - typing only
-    from bsim import BioWorld
+    from biosim import BioWorld
 
-import bsim
-from bsim.signals import BioSignal, SignalMetadata
+import biosim
+from biosim.signals import BioSignal, SignalMetadata
 
 
-class OtherRegulationOfKcnq2Kcnq3CurrentByGProteinCyclingSuh(bsim.BioModule):
+class OtherRegulationOfKcnq2Kcnq3CurrentByGProteinCyclingSuh(biosim.BioModule):
     """Placeholder BioModule wrapper for: Regulation of KCNQ2/KCNQ3 current by G protein cycling (Suh et al 2004).
 
     This model's original format is not directly supported by the auto-generator.

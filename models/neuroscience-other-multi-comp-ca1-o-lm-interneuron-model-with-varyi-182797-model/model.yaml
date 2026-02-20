@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/182797
   download_url: https://modeldb.science/download/182797
   license: ''
-bsim:
+biosim:
   entrypoint: src.multi_comp_ca1_o_lm_interneuron_model_with_varyi_182797_model:MultiCompCa1OLmInterneuronModelWithVaryi182797Model
   init_kwargs:
     model_path: data/182797.zip

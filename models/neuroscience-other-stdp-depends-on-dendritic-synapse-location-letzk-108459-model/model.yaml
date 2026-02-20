@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/108459
   download_url: https://modeldb.science/download/108459
   license: ''
-bsim:
+biosim:
   entrypoint: src.stdp_depends_on_dendritic_synapse_location_letzk_108459_model:StdpDependsOnDendriticSynapseLocationLetzk108459Model
   init_kwargs:
     model_path: data/108459.zip

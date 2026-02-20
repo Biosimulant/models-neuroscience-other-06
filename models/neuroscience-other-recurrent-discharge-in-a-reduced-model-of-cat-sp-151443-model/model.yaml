@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/151443
   download_url: https://modeldb.science/download/151443
   license: ''
-bsim:
+biosim:
   entrypoint: src.recurrent_discharge_in_a_reduced_model_of_cat_sp_151443_model:RecurrentDischargeInAReducedModelOfCatSp151443Model
   init_kwargs:
     model_path: data/151443.zip

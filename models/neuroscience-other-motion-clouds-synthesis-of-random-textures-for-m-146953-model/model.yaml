@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/146953
   download_url: https://modeldb.science/download/146953
   license: ''
-bsim:
+biosim:
   entrypoint: src.motion_clouds_synthesis_of_random_textures_for_m_146953_model:MotionCloudsSynthesisOfRandomTexturesForM146953Model
   init_kwargs:
     model_path: data/146953.zip

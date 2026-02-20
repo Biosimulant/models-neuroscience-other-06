@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/54896
   download_url: https://modeldb.science/download/54896
   license: ''
-bsim:
+biosim:
   entrypoint: src.olfactory_receptor_neuron_model_dougherty_et_al_54896_model:OlfactoryReceptorNeuronModelDoughertyEtAl54896Model
   init_kwargs:
     model_path: data/54896.zip

@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/125125
   download_url: https://modeldb.science/download/125125
   license: ''
-bsim:
+biosim:
   entrypoint: src.reduced_leech_heart_interneuron_channell_et_al_2_125125_model:ReducedLeechHeartInterneuronChannellEtAl2125125Model
   init_kwargs:
     model_path: data/125125.zip

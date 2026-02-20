@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/PINGnets
   download_url: https://github.com/OpenSourceBrain/PINGnets.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.pingnets_pingnets_model:PingnetsPingnetsModel
   init_kwargs:
     model_path: data/repo

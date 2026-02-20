@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/113426
   download_url: https://modeldb.science/download/113426
   license: ''
-bsim:
+biosim:
   entrypoint: src.stability_of_complex_spike_timing_dependent_plas_113426_model:StabilityOfComplexSpikeTimingDependentPlas113426Model
   init_kwargs:
     model_path: data/113426.zip

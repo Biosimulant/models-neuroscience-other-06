@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/144054
   download_url: https://modeldb.science/download/144054
   license: ''
-bsim:
+biosim:
   entrypoint: src.synchrony_by_synapse_location_mctavish_et_al_201_144054_model:SynchronyBySynapseLocationMctavishEtAl201144054Model
   init_kwargs:
     model_path: data/144054.zip

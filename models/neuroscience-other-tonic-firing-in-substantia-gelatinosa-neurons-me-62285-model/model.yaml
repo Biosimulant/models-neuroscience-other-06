@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/62285
   download_url: https://modeldb.science/download/62285
   license: ''
-bsim:
+biosim:
   entrypoint: src.tonic_firing_in_substantia_gelatinosa_neurons_me_62285_model:TonicFiringInSubstantiaGelatinosaNeuronsMe62285Model
   init_kwargs:
     model_path: data/62285.zip

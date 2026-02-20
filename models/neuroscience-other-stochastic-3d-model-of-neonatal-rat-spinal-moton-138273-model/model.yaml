@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/138273
   download_url: https://modeldb.science/download/138273
   license: ''
-bsim:
+biosim:
   entrypoint: src.stochastic_3d_model_of_neonatal_rat_spinal_moton_138273_model:Stochastic3dModelOfNeonatalRatSpinalMoton138273Model
   init_kwargs:
     model_path: data/138273.zip

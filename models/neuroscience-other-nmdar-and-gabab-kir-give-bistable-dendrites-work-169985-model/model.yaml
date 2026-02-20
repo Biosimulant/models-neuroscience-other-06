@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/169985
   download_url: https://modeldb.science/download/169985
   license: ''
-bsim:
+biosim:
   entrypoint: src.nmdar_and_gabab_kir_give_bistable_dendrites_work_169985_model:NmdarAndGababKirGiveBistableDendritesWork169985Model
   init_kwargs:
     model_path: data/169985.zip

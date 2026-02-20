@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/153697
   download_url: https://modeldb.science/download/153697
   license: ''
-bsim:
+biosim:
   entrypoint: src.phase_locking_in_leaky_integrate_and_fire_model_153697_model:PhaseLockingInLeakyIntegrateAndFireModel153697Model
   init_kwargs:
     model_path: data/153697.zip

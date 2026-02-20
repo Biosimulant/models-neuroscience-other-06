@@ -19,7 +19,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/WangBuzsaki1996
   download_url: https://github.com/OpenSourceBrain/WangBuzsaki1996.git
   license: NOASSERTION
-bsim:
+biosim:
   entrypoint: src.wangbuzsaki1996_wangbuzsaki1996_model:Wangbuzsaki1996Wangbuzsaki1996Model
   init_kwargs:
     model_path: data/repo

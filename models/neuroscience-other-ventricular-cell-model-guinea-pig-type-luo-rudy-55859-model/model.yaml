@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/55859
   download_url: https://modeldb.science/download/55859
   license: ''
-bsim:
+biosim:
   entrypoint: src.ventricular_cell_model_guinea_pig_type_luo_rudy_55859_model:VentricularCellModelGuineaPigTypeLuoRudy55859Model
   init_kwargs:
     model_path: data/55859.zip

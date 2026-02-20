@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/169984
   download_url: https://modeldb.science/download/169984
   license: ''
-bsim:
+biosim:
   entrypoint: src.striatal_nn_model_of_msns_and_fsis_investigated_169984_model:StriatalNnModelOfMsnsAndFsisInvestigated169984Model
   init_kwargs:
     model_path: data/169984.zip

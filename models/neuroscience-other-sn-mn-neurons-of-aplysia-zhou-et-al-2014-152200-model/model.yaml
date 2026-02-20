@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/152200
   download_url: https://modeldb.science/download/152200
   license: ''
-bsim:
+biosim:
   entrypoint: src.sn_mn_neurons_of_aplysia_zhou_et_al_2014_152200_model:SnMnNeuronsOfAplysiaZhouEtAl2014152200Model
   init_kwargs:
     model_path: data/152200.zip

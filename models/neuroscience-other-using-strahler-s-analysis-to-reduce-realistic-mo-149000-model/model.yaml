@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/149000
   download_url: https://modeldb.science/download/149000
   license: ''
-bsim:
+biosim:
   entrypoint: src.using_strahler_s_analysis_to_reduce_realistic_mo_149000_model:UsingStrahlerSAnalysisToReduceRealisticMo149000Model
   init_kwargs:
     model_path: data/149000.zip

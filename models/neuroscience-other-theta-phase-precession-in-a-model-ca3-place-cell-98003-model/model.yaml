@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/98003
   download_url: https://modeldb.science/download/98003
   license: ''
-bsim:
+biosim:
   entrypoint: src.theta_phase_precession_in_a_model_ca3_place_cell_98003_model:ThetaPhasePrecessionInAModelCa3PlaceCell98003Model
   init_kwargs:
     model_path: data/98003.zip

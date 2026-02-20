@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/144481
   download_url: https://modeldb.science/download/144481
   license: ''
-bsim:
+biosim:
   entrypoint: src.nodes_of_ranvier_with_left_shifted_nav_channels_144481_model:NodesOfRanvierWithLeftShiftedNavChannels144481Model
   init_kwargs:
     model_path: data/144481.zip

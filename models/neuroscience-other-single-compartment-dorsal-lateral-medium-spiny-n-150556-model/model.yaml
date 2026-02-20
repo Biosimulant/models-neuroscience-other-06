@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/150556
   download_url: https://modeldb.science/download/150556
   license: ''
-bsim:
+biosim:
   entrypoint: src.single_compartment_dorsal_lateral_medium_spiny_n_150556_model:SingleCompartmentDorsalLateralMediumSpinyN150556Model
   init_kwargs:
     model_path: data/150556.zip

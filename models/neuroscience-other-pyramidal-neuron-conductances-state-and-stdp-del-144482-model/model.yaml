@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/144482
   download_url: https://modeldb.science/download/144482
   license: ''
-bsim:
+biosim:
   entrypoint: src.pyramidal_neuron_conductances_state_and_stdp_del_144482_model:PyramidalNeuronConductancesStateAndStdpDel144482Model
   init_kwargs:
     model_path: data/144482.zip

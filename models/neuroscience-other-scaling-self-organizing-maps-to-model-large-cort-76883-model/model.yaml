@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/76883
   download_url: https://modeldb.science/download/76883
   license: ''
-bsim:
+biosim:
   entrypoint: src.scaling_self_organizing_maps_to_model_large_cort_76883_model:ScalingSelfOrganizingMapsToModelLargeCort76883Model
   init_kwargs:
     model_path: data/76883.zip

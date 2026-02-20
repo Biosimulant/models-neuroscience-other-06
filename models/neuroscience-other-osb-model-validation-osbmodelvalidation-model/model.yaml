@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/osb-model-validation
   download_url: https://github.com/OpenSourceBrain/osb-model-validation.git
   license: LGPL-3.0
-bsim:
+biosim:
   entrypoint: src.osb_model_validation_osbmodelvalidation_model:OsbModelValidationOsbmodelvalidationModel
   init_kwargs:
     model_path: data/repo

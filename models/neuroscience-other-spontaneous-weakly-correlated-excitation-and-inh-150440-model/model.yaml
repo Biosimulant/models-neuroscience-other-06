@@ -18,7 +18,7 @@ upstream:
   original_url: https://modeldb.science/150440
   download_url: https://modeldb.science/download/150440
   license: ''
-bsim:
+biosim:
   entrypoint: src.spontaneous_weakly_correlated_excitation_and_inh_150440_model:SpontaneousWeaklyCorrelatedExcitationAndInh150440Model
   init_kwargs:
     model_path: data/150440.zip

@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/152966
   download_url: https://modeldb.science/download/152966
   license: ''
-bsim:
+biosim:
   entrypoint: src.ventricular_cell_model_luo_rudy_dynamic_model_lu_152966_model:VentricularCellModelLuoRudyDynamicModelLu152966Model
   init_kwargs:
     model_path: data/152966.zip

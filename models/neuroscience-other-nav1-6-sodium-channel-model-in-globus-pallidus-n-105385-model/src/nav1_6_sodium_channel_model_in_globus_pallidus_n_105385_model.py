@@ -16,13 +16,13 @@ from pathlib import Path
 from typing import Any, Dict, Optional, Set, TYPE_CHECKING
 
 if TYPE_CHECKING:  # pragma: no cover - typing only
-    from bsim import BioWorld
+    from biosim import BioWorld
 
-import bsim
-from bsim.signals import BioSignal, SignalMetadata
+import biosim
+from biosim.signals import BioSignal, SignalMetadata
 
 
-class OtherNav16SodiumChannelModelInGlobusPallidusNeurons(bsim.BioModule):
+class OtherNav16SodiumChannelModelInGlobusPallidusNeurons(biosim.BioModule):
     """Placeholder BioModule wrapper for: Nav1.6 sodium channel model in globus pallidus neurons (Mercer et al. 2007).
 
     This model's original format is not directly supported by the auto-generator.

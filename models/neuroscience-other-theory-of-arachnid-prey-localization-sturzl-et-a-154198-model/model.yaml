@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/154198
   download_url: https://modeldb.science/download/154198
   license: ''
-bsim:
+biosim:
   entrypoint: src.theory_of_arachnid_prey_localization_sturzl_et_a_154198_model:TheoryOfArachnidPreyLocalizationSturzlEtA154198Model
   init_kwargs:
     model_path: data/154198.zip

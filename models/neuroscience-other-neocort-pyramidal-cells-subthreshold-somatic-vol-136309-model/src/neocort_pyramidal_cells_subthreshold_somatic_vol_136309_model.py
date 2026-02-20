@@ -16,13 +16,13 @@ from pathlib import Path
 from typing import Any, Dict, Optional, Set, TYPE_CHECKING
 
 if TYPE_CHECKING:  # pragma: no cover - typing only
-    from bsim import BioWorld
+    from biosim import BioWorld
 
-import bsim
-from bsim.signals import BioSignal, SignalMetadata
+import biosim
+from biosim.signals import BioSignal, SignalMetadata
 
 
-class OtherNeocortPyramidalCellsSubthresholdSomaticVoltage(bsim.BioModule):
+class OtherNeocortPyramidalCellsSubthresholdSomaticVoltage(biosim.BioModule):
     """Placeholder BioModule wrapper for: Neocort. pyramidal cells subthreshold somatic voltage controls spike propagation (Munro Kopell 2012).
 
     This model's original format is not directly supported by the auto-generator.

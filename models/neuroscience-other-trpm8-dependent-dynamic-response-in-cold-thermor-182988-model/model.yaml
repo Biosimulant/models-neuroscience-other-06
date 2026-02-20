@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/182988
   download_url: https://modeldb.science/download/182988
   license: ''
-bsim:
+biosim:
   entrypoint: src.trpm8_dependent_dynamic_response_in_cold_thermor_182988_model:Trpm8DependentDynamicResponseInColdThermor182988Model
   init_kwargs:
     model_path: data/182988.zip

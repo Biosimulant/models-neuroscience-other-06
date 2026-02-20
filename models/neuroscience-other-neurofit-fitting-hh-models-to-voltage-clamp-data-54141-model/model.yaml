@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/54141
   download_url: https://modeldb.science/download/54141
   license: ''
-bsim:
+biosim:
   entrypoint: src.neurofit_fitting_hh_models_to_voltage_clamp_data_54141_model:NeurofitFittingHhModelsToVoltageClampData54141Model
   init_kwargs:
     model_path: data/54141.zip

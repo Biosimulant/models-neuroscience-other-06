@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/143633
   download_url: https://modeldb.science/download/143633
   license: ''
-bsim:
+biosim:
   entrypoint: src.thalamic_network_model_of_deep_brain_stimulation_143633_model:ThalamicNetworkModelOfDeepBrainStimulation143633Model
   init_kwargs:
     model_path: data/143633.zip

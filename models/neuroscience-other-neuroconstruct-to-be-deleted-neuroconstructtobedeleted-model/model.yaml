@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/neuroConstruct_to_be_deleted
   download_url: https://github.com/OpenSourceBrain/neuroConstruct_to_be_deleted.git
   license: GPL-2.0
-bsim:
+biosim:
   entrypoint: src.neuroconstruct_to_be_deleted_neuroconstructtobedeleted_model:NeuroconstructToBeDeletedNeuroconstructtobedeletedModel
   init_kwargs:
     model_path: data/repo

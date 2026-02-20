@@ -19,7 +19,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/pynsgr
   download_url: https://github.com/OpenSourceBrain/pynsgr.git
   license: MIT
-bsim:
+biosim:
   entrypoint: src.pynsgr_pynsgr_model:PynsgrPynsgrModel
   init_kwargs:
     model_path: data/repo

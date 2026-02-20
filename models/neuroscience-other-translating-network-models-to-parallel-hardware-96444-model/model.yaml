@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/96444
   download_url: https://modeldb.science/download/96444
   license: ''
-bsim:
+biosim:
   entrypoint: src.translating_network_models_to_parallel_hardware_96444_model:TranslatingNetworkModelsToParallelHardware96444Model
   init_kwargs:
     model_path: data/96444.zip

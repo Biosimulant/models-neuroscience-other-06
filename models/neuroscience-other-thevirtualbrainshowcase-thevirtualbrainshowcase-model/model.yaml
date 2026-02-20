@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/TheVirtualBrainShowcase
   download_url: https://github.com/OpenSourceBrain/TheVirtualBrainShowcase.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.thevirtualbrainshowcase_thevirtualbrainshowcase_model:ThevirtualbrainshowcaseThevirtualbrainshowcaseModel
   init_kwargs:
     model_path: data/repo

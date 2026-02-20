@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/118261
   download_url: https://modeldb.science/download/118261
   license: ''
-bsim:
+biosim:
   entrypoint: src.multisensory_integration_in_the_superior_collicu_118261_model:MultisensoryIntegrationInTheSuperiorCollicu118261Model
   init_kwargs:
     model_path: data/118261.zip

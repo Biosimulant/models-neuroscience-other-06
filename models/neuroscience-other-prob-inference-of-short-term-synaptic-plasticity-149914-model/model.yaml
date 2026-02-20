@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/149914
   download_url: https://modeldb.science/download/149914
   license: ''
-bsim:
+biosim:
   entrypoint: src.prob_inference_of_short_term_synaptic_plasticity_149914_model:ProbInferenceOfShortTermSynapticPlasticity149914Model
   init_kwargs:
     model_path: data/149914.zip

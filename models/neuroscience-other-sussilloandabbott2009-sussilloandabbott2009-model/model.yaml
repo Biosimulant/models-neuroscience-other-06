@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/SussilloAndAbbott2009
   download_url: https://github.com/OpenSourceBrain/SussilloAndAbbott2009.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.sussilloandabbott2009_sussilloandabbott2009_model:Sussilloandabbott2009Sussilloandabbott2009Model
   init_kwargs:
     model_path: data/repo

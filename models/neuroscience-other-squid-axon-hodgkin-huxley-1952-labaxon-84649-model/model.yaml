@@ -19,7 +19,7 @@ upstream:
   original_url: https://modeldb.science/84649
   download_url: https://modeldb.science/download/84649
   license: ''
-bsim:
+biosim:
   entrypoint: src.squid_axon_hodgkin_huxley_1952_labaxon_84649_model:SquidAxonHodgkinHuxley1952Labaxon84649Model
   init_kwargs:
     model_path: data/84649.zip

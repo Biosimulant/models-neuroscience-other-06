@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/117508
   download_url: https://modeldb.science/download/117508
   license: ''
-bsim:
+biosim:
   entrypoint: src.rat_alpha7_nachr_desensitization_is_modulated_by_117508_model:RatAlpha7NachrDesensitizationIsModulatedBy117508Model
   init_kwargs:
     model_path: data/117508.zip

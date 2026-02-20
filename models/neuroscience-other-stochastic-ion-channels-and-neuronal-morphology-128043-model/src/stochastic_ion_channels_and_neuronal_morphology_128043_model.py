@@ -16,13 +16,13 @@ from pathlib import Path
 from typing import Any, Dict, Optional, Set, TYPE_CHECKING
 
 if TYPE_CHECKING:  # pragma: no cover - typing only
-    from bsim import BioWorld
+    from biosim import BioWorld
 
-import bsim
-from bsim.signals import BioSignal, SignalMetadata
+import biosim
+from biosim.signals import BioSignal, SignalMetadata
 
 
-class OtherStochasticIonChannelsAndNeuronalMorphologyCannonEt(bsim.BioModule):
+class OtherStochasticIonChannelsAndNeuronalMorphologyCannonEt(biosim.BioModule):
     """Placeholder BioModule wrapper for: Stochastic ion channels and neuronal morphology (Cannon et al. 2010).
 
     This model's original format is not directly supported by the auto-generator.

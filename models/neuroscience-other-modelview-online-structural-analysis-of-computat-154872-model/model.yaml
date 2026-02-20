@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/154872
   download_url: https://modeldb.science/download/154872
   license: ''
-bsim:
+biosim:
   entrypoint: src.modelview_online_structural_analysis_of_computat_154872_model:ModelviewOnlineStructuralAnalysisOfComputat154872Model
   init_kwargs:
     model_path: data/154872.zip

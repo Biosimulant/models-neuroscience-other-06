@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/144489
   download_url: https://modeldb.science/download/144489
   license: ''
-bsim:
+biosim:
   entrypoint: src.reflected_sde_hodgkin_huxley_model_dangerfield_e_144489_model:ReflectedSdeHodgkinHuxleyModelDangerfieldE144489Model
   init_kwargs:
     model_path: data/144489.zip

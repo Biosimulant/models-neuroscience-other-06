@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/138951
   download_url: https://modeldb.science/download/138951
   license: ''
-bsim:
+biosim:
   entrypoint: src.modular_grid_cell_responses_as_a_basis_for_hippo_138951_model:ModularGridCellResponsesAsABasisForHippo138951Model
   init_kwargs:
     model_path: data/138951.zip

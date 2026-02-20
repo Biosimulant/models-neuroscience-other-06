@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/168310
   download_url: https://modeldb.science/download/168310
   license: ''
-bsim:
+biosim:
   entrypoint: src.pyramidal_neuron_fast_regular_and_irregular_spik_168310_model:PyramidalNeuronFastRegularAndIrregularSpik168310Model
   init_kwargs:
     model_path: data/168310.zip

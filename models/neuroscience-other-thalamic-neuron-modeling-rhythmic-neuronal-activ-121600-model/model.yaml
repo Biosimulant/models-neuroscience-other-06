@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/121600
   download_url: https://modeldb.science/download/121600
   license: ''
-bsim:
+biosim:
   entrypoint: src.thalamic_neuron_modeling_rhythmic_neuronal_activ_121600_model:ThalamicNeuronModelingRhythmicNeuronalActiv121600Model
   init_kwargs:
     model_path: data/121600.zip

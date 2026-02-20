@@ -16,13 +16,13 @@ from pathlib import Path
 from typing import Any, Dict, Optional, Set, TYPE_CHECKING
 
 if TYPE_CHECKING:  # pragma: no cover - typing only
-    from bsim import BioWorld
+    from biosim import BioWorld
 
-import bsim
-from bsim.signals import BioSignal, SignalMetadata
+import biosim
+from biosim.signals import BioSignal, SignalMetadata
 
 
-class OtherSchizLinkedGeneEffectsOnIntrinsicSingleNeuron(bsim.BioModule):
+class OtherSchizLinkedGeneEffectsOnIntrinsicSingleNeuron(biosim.BioModule):
     """Placeholder BioModule wrapper for: Schiz.-linked gene effects on intrinsic single-neuron excitability (Maki-Marttunen et al. 2016).
 
     This model's original format is not directly supported by the auto-generator.

@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/149415
   download_url: https://modeldb.science/download/149415
   license: ''
-bsim:
+biosim:
   entrypoint: src.olfactory_computations_in_mitral_granule_cell_ci_149415_model:OlfactoryComputationsInMitralGranuleCellCi149415Model
   init_kwargs:
     model_path: data/149415.zip

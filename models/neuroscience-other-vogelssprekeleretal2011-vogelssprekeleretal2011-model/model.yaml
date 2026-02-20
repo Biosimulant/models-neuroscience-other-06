@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/VogelsSprekelerEtAl2011
   download_url: https://github.com/OpenSourceBrain/VogelsSprekelerEtAl2011.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.vogelssprekeleretal2011_vogelssprekeleretal2011_model:Vogelssprekeleretal2011Vogelssprekeleretal2011Model
   init_kwargs:
     model_path: data/repo

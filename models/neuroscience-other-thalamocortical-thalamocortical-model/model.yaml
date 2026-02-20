@@ -19,7 +19,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/Thalamocortical
   download_url: https://github.com/OpenSourceBrain/Thalamocortical.git
   license: NOASSERTION
-bsim:
+biosim:
   entrypoint: src.thalamocortical_thalamocortical_model:ThalamocorticalThalamocorticalModel
   init_kwargs:
     model_path: data/repo

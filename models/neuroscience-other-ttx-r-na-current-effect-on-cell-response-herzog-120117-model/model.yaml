@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/120117
   download_url: https://modeldb.science/download/120117
   license: ''
-bsim:
+biosim:
   entrypoint: src.ttx_r_na_current_effect_on_cell_response_herzog_120117_model:TtxRNaCurrentEffectOnCellResponseHerzog120117Model
   init_kwargs:
     model_path: data/120117.zip

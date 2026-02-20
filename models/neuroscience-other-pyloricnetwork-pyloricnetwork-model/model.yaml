@@ -19,7 +19,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/PyloricNetwork
   download_url: https://github.com/OpenSourceBrain/PyloricNetwork.git
   license: NOASSERTION
-bsim:
+biosim:
   entrypoint: src.pyloricnetwork_pyloricnetwork_model:PyloricnetworkPyloricnetworkModel
   init_kwargs:
     model_path: data/repo

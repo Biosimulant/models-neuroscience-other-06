@@ -16,13 +16,13 @@ from pathlib import Path
 from typing import Any, Dict, Optional, Set, TYPE_CHECKING
 
 if TYPE_CHECKING:  # pragma: no cover - typing only
-    from bsim import BioWorld
+    from biosim import BioWorld
 
-import bsim
-from bsim.signals import BioSignal, SignalMetadata
+import biosim
+from biosim.signals import BioSignal, SignalMetadata
 
 
-class OtherThetaPhasePrecessionInAModelCa3PlaceCellBakerAnd(bsim.BioModule):
+class OtherThetaPhasePrecessionInAModelCa3PlaceCellBakerAnd(biosim.BioModule):
     """Placeholder BioModule wrapper for: Theta phase precession in a model CA3 place cell (Baker and Olds 2007).
 
     This model's original format is not directly supported by the auto-generator.

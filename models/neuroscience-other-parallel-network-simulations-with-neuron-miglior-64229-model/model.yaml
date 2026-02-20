@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/64229
   download_url: https://modeldb.science/download/64229
   license: ''
-bsim:
+biosim:
   entrypoint: src.parallel_network_simulations_with_neuron_miglior_64229_model:ParallelNetworkSimulationsWithNeuronMiglior64229Model
   init_kwargs:
     model_path: data/64229.zip

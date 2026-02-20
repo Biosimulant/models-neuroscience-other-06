@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/168407
   download_url: https://modeldb.science/download/168407
   license: ''
-bsim:
+biosim:
   entrypoint: src.network_models_of_frequency_modulated_sweep_dete_168407_model:NetworkModelsOfFrequencyModulatedSweepDete168407Model
   init_kwargs:
     model_path: data/168407.zip

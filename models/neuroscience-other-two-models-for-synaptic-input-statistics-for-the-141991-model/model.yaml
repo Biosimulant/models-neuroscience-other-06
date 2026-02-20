@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/141991
   download_url: https://modeldb.science/download/141991
   license: ''
-bsim:
+biosim:
   entrypoint: src.two_models_for_synaptic_input_statistics_for_the_141991_model:TwoModelsForSynapticInputStatisticsForThe141991Model
   init_kwargs:
     model_path: data/141991.zip

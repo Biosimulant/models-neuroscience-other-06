@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/121259
   download_url: https://modeldb.science/download/121259
   license: ''
-bsim:
+biosim:
   entrypoint: src.small_world_networks_of_type_i_and_type_ii_excit_121259_model:SmallWorldNetworksOfTypeIAndTypeIiExcit121259Model
   init_kwargs:
     model_path: data/121259.zip

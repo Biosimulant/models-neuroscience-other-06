@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/144579
   download_url: https://modeldb.science/download/144579
   license: ''
-bsim:
+biosim:
   entrypoint: src.parametric_computation_and_persistent_gamma_in_a_144579_model:ParametricComputationAndPersistentGammaInA144579Model
   init_kwargs:
     model_path: data/144579.zip
