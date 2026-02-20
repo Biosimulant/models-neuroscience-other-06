@@ -1,0 +1,36 @@
+modules:
+  neural_model_1:
+    class: src.neural_model_of_frog_ventilatory_rhythmogenesis_123987_model:NeuralModelOfFrogVentilatoryRhythmogenesis123987Model
+    args:
+      model_path: data/123987.zip
+  neural_model_2:
+    class: src.neural_model_of_two_interval_discrimination_mach_50656_model:NeuralModelOfTwoIntervalDiscriminationMach50656Model
+    args:
+      model_path: data/50656.zip
+  neural_modeling_3:
+    class: src.neural_modeling_of_an_internal_clock_yamazaki_an_115966_model:NeuralModelingOfAnInternalClockYamazakiAn115966Model
+    args:
+      model_path: data/115966.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: neural_model_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: neural_model_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: neural_modeling_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

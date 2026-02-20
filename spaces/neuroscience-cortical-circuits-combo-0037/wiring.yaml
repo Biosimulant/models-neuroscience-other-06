@@ -1,0 +1,36 @@
+modules:
+  voltage_based_1:
+    class: src.voltage_based_stdp_synapse_clopath_et_al_2010_144566_model:VoltageBasedStdpSynapseClopathEtAl2010144566Model
+    args:
+      model_path: data/144566.zip
+  vomeronasal_sens_2:
+    class: src.vomeronasal_sensory_neuron_shimazaki_et_al_2006_64212_model:VomeronasalSensoryNeuronShimazakiEtAl200664212Model
+    args:
+      model_path: data/64212.zip
+  wang_buzsaki_3:
+    class: src.wang_buzsaki_interneuron_talathi_et_al_2010_136308_model:WangBuzsakiInterneuronTalathiEtAl2010136308Model
+    args:
+      model_path: data/136308.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: voltage_based_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: vomeronasal_sens_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: wang_buzsaki_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

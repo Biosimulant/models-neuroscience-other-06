@@ -1,0 +1,36 @@
+modules:
+  models_for_1:
+    class: src.models_for_diotic_and_dichotic_detection_davidso_126636_model:ModelsForDioticAndDichoticDetectionDavidso126636Model
+    args:
+      model_path: data/126636.zip
+  models_of_2:
+    class: src.models_of_na_channels_from_a_paper_on_the_pkc_co_85112_model:ModelsOfNaChannelsFromAPaperOnThePkcCo85112Model
+    args:
+      model_path: data/85112.zip
+  models_of_3:
+    class: src.models_of_vector_navigation_with_grid_cells_bush_182685_model:ModelsOfVectorNavigationWithGridCellsBush182685Model
+    args:
+      model_path: data/182685.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: models_for_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: models_of_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: models_of_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

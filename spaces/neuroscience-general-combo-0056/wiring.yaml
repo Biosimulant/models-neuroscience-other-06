@@ -1,0 +1,44 @@
+modules:
+  numerical_integr_1:
+    class: src.numerical_integration_of_izhikevich_and_hh_model_117361_model:NumericalIntegrationOfIzhikevichAndHhModel117361Model
+    args:
+      model_path: data/117361.zip
+  nwbshowcase_2:
+    class: src.nwbshowcase_nwbshowcase_model:NwbshowcaseNwbshowcaseModel
+    args:
+      model_path: data/model.xml
+  odor_supported_3:
+    class: src.odor_supported_place_cell_model_and_goal_navigat_118434_model:OdorSupportedPlaceCellModelAndGoalNavigat118434Model
+    args:
+      model_path: data/118434.zip
+  olfactory_bulb_4:
+    class: src.olfactory_bulb_granule_cell_effects_of_odor_depr_50210_model:OlfactoryBulbGranuleCellEffectsOfOdorDepr50210Model
+    args:
+      model_path: data/50210.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: numerical_integr_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: nwbshowcase_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: odor_supported_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: olfactory_bulb_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

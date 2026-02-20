@@ -1,0 +1,75 @@
+schema_version: '2.0'
+title: 'Neuroscience: General (COMBO_0055)'
+description: Neuroscience general comparative space with 3 models, configured as non-causal
+  co-simulation.
+models:
+- repo: Biosimulant/models-neuroscience-other-06
+  alias: nonlinear_neuron_1
+  manifest_path: models/neuroscience-other-nonlinear-neuronal-computation-based-on-physiolo-154192-model/model.yaml
+  parameters:
+    model_path: data/154192.zip
+- repo: Biosimulant/models-neuroscience-other-06
+  alias: norns_neural_2
+  manifest_path: models/neuroscience-other-norns-neural-network-studio-visser-and-van-gils-154739-model/model.yaml
+  parameters:
+    model_path: data/154739.zip
+- repo: Biosimulant/models-neuroscience-other-06
+  alias: nsgportalshowcas_3
+  manifest_path: models/neuroscience-other-nsgportalshowcase-nsgportalshowcase-model/model.yaml
+  parameters:
+    model_path: data/repo
+- repo: Biosimulant/models-observability
+  alias: state_compare_mon
+  manifest_path: models/observability-state-comparison-monitor/model.yaml
+  parameters:
+    max_points: 2000
+    min_dt: 1.0
+- repo: Biosimulant/models-observability
+  alias: state_metrics_mon
+  manifest_path: models/observability-state-metrics-monitor/model.yaml
+  parameters:
+    max_points: 2000
+    min_dt: 1.0
+runtime:
+  duration: 0.3
+  tick_dt: 0.01
+  initial_inputs: {}
+wiring:
+- from: nonlinear_neuron_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: norns_neural_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: nsgportalshowcas_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+scientific_context:
+  question: How do general mechanisms compare across these models?
+  mode: comparative
+  assumptions:
+  - Model implementations are used as published in their curated manifests without
+    biological reinterpretation.
+  - Time integration uses a shared global tick compatible with model min_dt constraints.
+  - Comparative (non-causal) mode is used because full deterministic IO coverage for
+    causal coupling was not satisfied.
+  expected_observables:
+  - Model output trajectories under shared runtime settings.
+  - Cross-model agreement/divergence in key state or metric signals.
+  - Relative behavior comparison without causal linkage claims.
+  limitations:
+  - No new biology is introduced beyond what upstream models encode.
+  - Cross-model semantic matching is rule-based and may under-connect uncertain routes.
+  provenance:
+  - 'neuroscience-other-nonlinear-neuronal-computation-based-on-physiolo-154192-model
+    :: modeldb:154192 :: https://modeldb.science/154192'
+  - 'neuroscience-other-norns-neural-network-studio-visser-and-van-gils-154739-model
+    :: modeldb:154739 :: https://modeldb.science/154739'
+  - 'neuroscience-other-nsgportalshowcase-nsgportalshowcase-model :: opensourcebrain:NSGPortalShowcase
+    :: https://github.com/OpenSourceBrain/NSGPortalShowcase'
+  visualization_rationale: A dedicated monitor model receives all participating model
+    state streams (`state_a..state_d`) so trajectories can be compared in one place
+    without claiming causal coupling when IO semantics are incomplete.

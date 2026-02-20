@@ -1,0 +1,44 @@
+modules:
+  olfactory_bulb_1:
+    class: src.olfactory_bulb_network_neurogenetic_restructurin_146583_model:OlfactoryBulbNetworkNeurogeneticRestructurin146583Model
+    args:
+      model_path: data/146583.zip
+  olfactory_comput_2:
+    class: src.olfactory_computations_in_mitral_granule_cell_ci_149415_model:OlfactoryComputationsInMitralGranuleCellCi149415Model
+    args:
+      model_path: data/149415.zip
+  on_stochastic_3:
+    class: src.on_stochastic_diff_eq_models_for_ion_channel_noi_128502_model:OnStochasticDiffEqModelsForIonChannelNoi128502Model
+    args:
+      model_path: data/128502.zip
+  optical_stimulat_4:
+    class: src.optical_stimulation_of_a_channelrhodopsin_2_posi_153196_model:OpticalStimulationOfAChannelrhodopsin2Posi153196Model
+    args:
+      model_path: data/153196.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: olfactory_bulb_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: olfactory_comput_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: on_stochastic_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: optical_stimulat_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

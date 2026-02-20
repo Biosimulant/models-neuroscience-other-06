@@ -1,0 +1,44 @@
+modules:
+  osb_metadata_1:
+    class: src.osb_metadata_osbmetadata_model:OsbMetadataOsbmetadataModel
+    args:
+      model_path: data/repo
+  osb_model_2:
+    class: src.osb_model_validation_osbmodelvalidation_model:OsbModelValidationOsbmodelvalidationModel
+    args:
+      model_path: data/repo
+  osb_status_3:
+    class: src.osb_status_osbstatus_model:OsbStatusOsbstatusModel
+    args:
+      model_path: data/repo
+  osb_videos_4:
+    class: src.osb_videos_osbvideos_model:OsbVideosOsbvideosModel
+    args:
+      model_path: data/repo
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: osb_metadata_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: osb_model_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: osb_status_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: osb_videos_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

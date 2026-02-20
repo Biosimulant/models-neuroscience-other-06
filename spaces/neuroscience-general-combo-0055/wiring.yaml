@@ -1,0 +1,36 @@
+modules:
+  nonlinear_neuron_1:
+    class: src.nonlinear_neuronal_computation_based_on_physiolo_154192_model:NonlinearNeuronalComputationBasedOnPhysiolo154192Model
+    args:
+      model_path: data/154192.zip
+  norns_neural_2:
+    class: src.norns_neural_network_studio_visser_and_van_gils_154739_model:NornsNeuralNetworkStudioVisserAndVanGils154739Model
+    args:
+      model_path: data/154739.zip
+  nsgportalshowcas_3:
+    class: src.nsgportalshowcase_nsgportalshowcase_model:NsgportalshowcaseNsgportalshowcaseModel
+    args:
+      model_path: data/repo
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: nonlinear_neuron_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: norns_neural_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: nsgportalshowcas_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

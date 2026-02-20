@@ -1,0 +1,44 @@
+modules:
+  short_term_1:
+    class: src.short_term_plasticity_at_the_cerebellar_granule_128446_model:ShortTermPlasticityAtTheCerebellarGranule128446Model
+    args:
+      model_path: data/128446.zip
+  spatial_summatio_2:
+    class: src.spatial_summation_of_excitatory_and_inhibitory_i_127305_model:SpatialSummationOfExcitatoryAndInhibitoryI127305Model
+    args:
+      model_path: data/127305.zip
+  spiking_gridplac_3:
+    class: src.spiking_gridplacemap_model_pilly_and_grossberg_p_148035_model:SpikingGridplacemapModelPillyAndGrossbergP148035Model
+    args:
+      model_path: data/148035.zip
+  spine_head_4:
+    class: src.spine_head_calcium_in_a_ca1_pyramidal_cell_model_154732_model:SpineHeadCalciumInACa1PyramidalCellModel154732Model
+    args:
+      model_path: data/154732.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: short_term_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: spatial_summatio_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: spiking_gridplac_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: spine_head_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

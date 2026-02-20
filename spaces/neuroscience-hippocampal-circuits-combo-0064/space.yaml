@@ -1,0 +1,86 @@
+schema_version: '2.0'
+title: 'Neuroscience: Hippocampal Circuits (COMBO_0064)'
+description: Neuroscience hippocampal circuits comparative space with 4 models, configured
+  as non-causal co-simulation.
+models:
+- repo: Biosimulant/models-neuroscience-other-06
+  alias: multi_comp_1
+  manifest_path: models/neuroscience-other-multi-comp-ca1-o-lm-interneuron-model-with-varyi-182797-model/model.yaml
+  parameters:
+    model_path: data/182797.zip
+- repo: Biosimulant/models-neuroscience-other-06
+  alias: na_channel_2
+  manifest_path: models/neuroscience-other-na-channel-mutations-in-the-dentate-gyrus-thomas-123848-model/model.yaml
+  parameters:
+    model_path: data/123848.zip
+- repo: Biosimulant/models-neuroscience-other-06
+  alias: network_model_3
+  manifest_path: models/neuroscience-other-network-model-of-the-granular-layer-of-the-cereb-50219-model/model.yaml
+  parameters:
+    model_path: data/50219.zip
+- repo: Biosimulant/models-neuroscience-other-06
+  alias: norenbergetal201_4
+  manifest_path: models/neuroscience-other-norenbergetal2010-dgbasketcell-norenbergetal2010dgbasketcell-model/model.yaml
+  parameters:
+    model_path: data/repo
+- repo: Biosimulant/models-observability
+  alias: state_compare_mon
+  manifest_path: models/observability-state-comparison-monitor/model.yaml
+  parameters:
+    max_points: 2000
+    min_dt: 1.0
+- repo: Biosimulant/models-observability
+  alias: state_metrics_mon
+  manifest_path: models/observability-state-metrics-monitor/model.yaml
+  parameters:
+    max_points: 2000
+    min_dt: 1.0
+runtime:
+  duration: 0.3
+  tick_dt: 0.01
+  initial_inputs: {}
+wiring:
+- from: multi_comp_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: na_channel_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: network_model_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: norenbergetal201_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d
+scientific_context:
+  question: How do recurrent hippocampal motifs shape network dynamics over time?
+  mode: comparative
+  assumptions:
+  - Model implementations are used as published in their curated manifests without
+    biological reinterpretation.
+  - Time integration uses a shared global tick compatible with model min_dt constraints.
+  - Comparative (non-causal) mode is used because full deterministic IO coverage for
+    causal coupling was not satisfied.
+  expected_observables:
+  - Model output trajectories under shared runtime settings.
+  - Cross-model agreement/divergence in key state or metric signals.
+  - Relative behavior comparison without causal linkage claims.
+  limitations:
+  - No new biology is introduced beyond what upstream models encode.
+  - Cross-model semantic matching is rule-based and may under-connect uncertain routes.
+  provenance:
+  - 'neuroscience-other-multi-comp-ca1-o-lm-interneuron-model-with-varyi-182797-model
+    :: modeldb:182797 :: https://modeldb.science/182797'
+  - 'neuroscience-other-na-channel-mutations-in-the-dentate-gyrus-thomas-123848-model
+    :: modeldb:123848 :: https://modeldb.science/123848'
+  - 'neuroscience-other-network-model-of-the-granular-layer-of-the-cereb-50219-model
+    :: modeldb:50219 :: https://modeldb.science/50219'
+  - 'neuroscience-other-norenbergetal2010-dgbasketcell-norenbergetal2010dgbasketcell-model
+    :: opensourcebrain:NorenbergEtAl2010_DGBasketCell :: https://github.com/OpenSourceBrain/NorenbergEtAl2010_DGBasketCell'
+  visualization_rationale: A dedicated monitor model receives all participating model
+    state streams (`state_a..state_d`) so trajectories can be compared in one place
+    without claiming causal coupling when IO semantics are incomplete.

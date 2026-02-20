@@ -1,0 +1,28 @@
+modules:
+  prefrontal_corti_1:
+    class: src.prefrontal_cortical_mechanisms_for_goal_directed_83512_model:PrefrontalCorticalMechanismsForGoalDirected83512Model
+    args:
+      model_path: data/83512.zip
+  prefrontal_stria_2:
+    class: src.prefrontal_striatal_parkinsons_comp_model_of_mul_138631_model:PrefrontalStriatalParkinsonsCompModelOfMul138631Model
+    args:
+      model_path: data/138631.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: prefrontal_corti_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: prefrontal_stria_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

@@ -1,0 +1,28 @@
+modules:
+  selective_contro_1:
+    class: src.selective_control_of_cortical_axonal_spikes_by_a_135898_model:SelectiveControlOfCorticalAxonalSpikesByA135898Model
+    args:
+      model_path: data/135898.zip
+  simple_model_2:
+    class: src.simple_model_of_barrel_specific_segregation_in_c_64266_model:SimpleModelOfBarrelSpecificSegregationInC64266Model
+    args:
+      model_path: data/64266.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: selective_contro_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: simple_model_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

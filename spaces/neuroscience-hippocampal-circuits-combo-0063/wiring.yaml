@@ -1,0 +1,44 @@
+modules:
+  modelling_reduce_1:
+    class: src.modelling_reduced_excitability_in_aged_ca1_neuro_119266_model:ModellingReducedExcitabilityInAgedCa1Neuro119266Model
+    args:
+      model_path: data/119266.zip
+  modular_grid_2:
+    class: src.modular_grid_cell_responses_as_a_basis_for_hippo_138951_model:ModularGridCellResponsesAsABasisForHippo138951Model
+    args:
+      model_path: data/138951.zip
+  modulation_of_3:
+    class: src.modulation_of_hippocampal_rhythms_by_electric_fi_144589_model:ModulationOfHippocampalRhythmsByElectricFi144589Model
+    args:
+      model_path: data/144589.zip
+  modulation_of_4:
+    class: src.modulation_of_septo_hippocampal_theta_activity_b_116567_model:ModulationOfSeptoHippocampalThetaActivityB116567Model
+    args:
+      model_path: data/116567.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: modelling_reduce_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: modular_grid_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: modulation_of_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: modulation_of_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

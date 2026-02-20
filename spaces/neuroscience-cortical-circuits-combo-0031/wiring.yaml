@@ -1,0 +1,36 @@
+modules:
+  synaptic_gating_1:
+    class: src.synaptic_gating_at_axonal_branches_and_sharp_wav_150446_model:SynapticGatingAtAxonalBranchesAndSharpWav150446Model
+    args:
+      model_path: data/150446.zip
+  synaptic_integra_2:
+    class: src.synaptic_integration_in_tuft_dendrites_of_layer_124043_model:SynapticIntegrationInTuftDendritesOfLayer124043Model
+    args:
+      model_path: data/124043.zip
+  synchrony_by_3:
+    class: src.synchrony_by_synapse_location_mctavish_et_al_201_144054_model:SynchronyBySynapseLocationMctavishEtAl201144054Model
+    args:
+      model_path: data/144054.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: synaptic_gating_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: synaptic_integra_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: synchrony_by_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

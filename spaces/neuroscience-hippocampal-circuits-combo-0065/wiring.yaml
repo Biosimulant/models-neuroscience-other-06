@@ -1,0 +1,44 @@
+modules:
+  normal_ripples_1:
+    class: src.normal_ripples_abnormal_ripples_and_fast_ripples_182134_model:NormalRipplesAbnormalRipplesAndFastRipples182134Model
+    args:
+      model_path: data/182134.zip
+  parvalbumin_posi_2:
+    class: src.parvalbumin_positive_basket_cells_differentiate_153280_model:ParvalbuminPositiveBasketCellsDifferentiate153280Model
+    args:
+      model_path: data/153280.zip
+  phase_precession_3:
+    class: src.phase_precession_through_acceleration_of_local_t_143248_model:PhasePrecessionThroughAccelerationOfLocalT143248Model
+    args:
+      model_path: data/143248.zip
+  pinskyrinzelmode_4:
+    class: src.pinskyrinzelmodel_pinskyrinzelmodel_model:PinskyrinzelmodelPinskyrinzelmodelModel
+    args:
+      model_path: data/repo
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: normal_ripples_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: parvalbumin_posi_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: phase_precession_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: pinskyrinzelmode_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

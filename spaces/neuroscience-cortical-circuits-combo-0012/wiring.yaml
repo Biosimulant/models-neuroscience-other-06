@@ -1,0 +1,28 @@
+modules:
+  preserving_axoso_1:
+    class: src.preserving_axosomatic_spiking_features_despite_d_149100_model:PreservingAxosomaticSpikingFeaturesDespiteD149100Model
+    args:
+      model_path: data/149100.zip
+  proximal_inhibit_2:
+    class: src.proximal_inhibition_of_renshaw_cells_bui_et_al_2_58957_model:ProximalInhibitionOfRenshawCellsBuiEtAl258957Model
+    args:
+      model_path: data/58957.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: preserving_axoso_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: proximal_inhibit_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

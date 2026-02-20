@@ -1,0 +1,44 @@
+modules:
+  multiple_mechani_1:
+    class: src.multiple_mechanisms_of_short_term_plasticity_at_113649_model:MultipleMechanismsOfShortTermPlasticityAt113649Model
+    args:
+      model_path: data/113649.zip
+  multiscale_inter_2:
+    class: src.multiscale_interactions_between_chemical_and_ele_141226_model:MultiscaleInteractionsBetweenChemicalAndEle141226Model
+    args:
+      model_path: data/141226.zip
+  multistability_o_3:
+    class: src.multistability_of_clustered_states_in_a_globally_120227_model:MultistabilityOfClusteredStatesInAGlobally120227Model
+    args:
+      model_path: data/120227.zip
+  netmorph_creates_4:
+    class: src.netmorph_creates_nns_with_realistic_neuron_morph_182135_model:NetmorphCreatesNnsWithRealisticNeuronMorph182135Model
+    args:
+      model_path: data/182135.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: multiple_mechani_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: multiscale_inter_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: multistability_o_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: netmorph_creates_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

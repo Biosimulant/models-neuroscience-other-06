@@ -1,0 +1,44 @@
+modules:
+  oscillating_neur_1:
+    class: src.oscillating_neurons_in_the_cochlear_nucleus_bahm_87454_model:OscillatingNeuronsInTheCochlearNucleusBahm87454Model
+    args:
+      model_path: data/87454.zip
+  oscillations_pha_2:
+    class: src.oscillations_phase_of_firing_coding_and_stdp_an_123928_model:OscillationsPhaseOfFiringCodingAndStdpAn123928Model
+    args:
+      model_path: data/123928.zip
+  parametric_compu_3:
+    class: src.parametric_computation_and_persistent_gamma_in_a_144579_model:ParametricComputationAndPersistentGammaInA144579Model
+    args:
+      model_path: data/144579.zip
+  prob_inference_4:
+    class: src.prob_inference_of_short_term_synaptic_plasticity_149914_model:ProbInferenceOfShortTermSynapticPlasticity149914Model
+    args:
+      model_path: data/149914.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: oscillating_neur_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: oscillations_pha_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: parametric_compu_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: prob_inference_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

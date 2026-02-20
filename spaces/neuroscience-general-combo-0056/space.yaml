@@ -1,0 +1,86 @@
+schema_version: '2.0'
+title: 'Neuroscience: General (COMBO_0056)'
+description: Neuroscience general comparative space with 4 models, configured as non-causal
+  co-simulation.
+models:
+- repo: Biosimulant/models-neuroscience-other-06
+  alias: numerical_integr_1
+  manifest_path: models/neuroscience-other-numerical-integration-of-izhikevich-and-hh-model-117361-model/model.yaml
+  parameters:
+    model_path: data/117361.zip
+- repo: Biosimulant/models-neuroscience-other-06
+  alias: nwbshowcase_2
+  manifest_path: models/neuroscience-other-nwbshowcase-nwbshowcase-model/model.yaml
+  parameters:
+    model_path: data/model.xml
+- repo: Biosimulant/models-neuroscience-other-06
+  alias: odor_supported_3
+  manifest_path: models/neuroscience-other-odor-supported-place-cell-model-and-goal-navigat-118434-model/model.yaml
+  parameters:
+    model_path: data/118434.zip
+- repo: Biosimulant/models-neuroscience-other-06
+  alias: olfactory_bulb_4
+  manifest_path: models/neuroscience-other-olfactory-bulb-granule-cell-effects-of-odor-depr-50210-model/model.yaml
+  parameters:
+    model_path: data/50210.zip
+- repo: Biosimulant/models-observability
+  alias: state_compare_mon
+  manifest_path: models/observability-state-comparison-monitor/model.yaml
+  parameters:
+    max_points: 2000
+    min_dt: 1.0
+- repo: Biosimulant/models-observability
+  alias: state_metrics_mon
+  manifest_path: models/observability-state-metrics-monitor/model.yaml
+  parameters:
+    max_points: 2000
+    min_dt: 1.0
+runtime:
+  duration: 0.3
+  tick_dt: 0.01
+  initial_inputs: {}
+wiring:
+- from: numerical_integr_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: nwbshowcase_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: odor_supported_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: olfactory_bulb_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d
+scientific_context:
+  question: How do general mechanisms compare across these models?
+  mode: comparative
+  assumptions:
+  - Model implementations are used as published in their curated manifests without
+    biological reinterpretation.
+  - Time integration uses a shared global tick compatible with model min_dt constraints.
+  - Comparative (non-causal) mode is used because full deterministic IO coverage for
+    causal coupling was not satisfied.
+  expected_observables:
+  - Model output trajectories under shared runtime settings.
+  - Cross-model agreement/divergence in key state or metric signals.
+  - Relative behavior comparison without causal linkage claims.
+  limitations:
+  - No new biology is introduced beyond what upstream models encode.
+  - Cross-model semantic matching is rule-based and may under-connect uncertain routes.
+  provenance:
+  - 'neuroscience-other-numerical-integration-of-izhikevich-and-hh-model-117361-model
+    :: modeldb:117361 :: https://modeldb.science/117361'
+  - 'neuroscience-other-nwbshowcase-nwbshowcase-model :: opensourcebrain:NWBShowcase
+    :: https://github.com/OpenSourceBrain/NWBShowcase'
+  - 'neuroscience-other-odor-supported-place-cell-model-and-goal-navigat-118434-model
+    :: modeldb:118434 :: https://modeldb.science/118434'
+  - 'neuroscience-other-olfactory-bulb-granule-cell-effects-of-odor-depr-50210-model
+    :: modeldb:50210 :: https://modeldb.science/50210'
+  visualization_rationale: A dedicated monitor model receives all participating model
+    state streams (`state_a..state_d`) so trajectories can be compared in one place
+    without claiming causal coupling when IO semantics are incomplete.

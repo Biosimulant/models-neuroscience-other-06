@@ -1,0 +1,44 @@
+modules:
+  stdp_depends_1:
+    class: src.stdp_depends_on_dendritic_synapse_location_letzk_108459_model:StdpDependsOnDendriticSynapseLocationLetzk108459Model
+    args:
+      model_path: data/108459.zip
+  steady_state_2:
+    class: src.steady_state_vm_distribution_of_neurons_subject_64259_model:SteadyStateVmDistributionOfNeuronsSubject64259Model
+    args:
+      model_path: data/64259.zip
+  storing_serial_3:
+    class: src.storing_serial_order_in_intrinsic_excitability_a_147461_model:StoringSerialOrderInIntrinsicExcitabilityA147461Model
+    args:
+      model_path: data/147461.zip
+  synaptic_informa_4:
+    class: src.synaptic_information_transfer_in_computer_models_136095_model:SynapticInformationTransferInComputerModels136095Model
+    args:
+      model_path: data/136095.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: stdp_depends_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: steady_state_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: storing_serial_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: synaptic_informa_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

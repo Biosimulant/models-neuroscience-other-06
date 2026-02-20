@@ -1,0 +1,86 @@
+schema_version: '2.0'
+title: 'Neuroscience: Synaptic Plasticity (COMBO_0075)'
+description: Neuroscience synaptic plasticity comparative space with 4 models, configured
+  as non-causal co-simulation.
+models:
+- repo: Biosimulant/models-neuroscience-other-06
+  alias: stdp_depends_1
+  manifest_path: models/neuroscience-other-stdp-depends-on-dendritic-synapse-location-letzk-108459-model/model.yaml
+  parameters:
+    model_path: data/108459.zip
+- repo: Biosimulant/models-neuroscience-other-06
+  alias: steady_state_2
+  manifest_path: models/neuroscience-other-steady-state-vm-distribution-of-neurons-subject-64259-model/model.yaml
+  parameters:
+    model_path: data/64259.zip
+- repo: Biosimulant/models-neuroscience-other-06
+  alias: storing_serial_3
+  manifest_path: models/neuroscience-other-storing-serial-order-in-intrinsic-excitability-a-147461-model/model.yaml
+  parameters:
+    model_path: data/147461.zip
+- repo: Biosimulant/models-neuroscience-other-06
+  alias: synaptic_informa_4
+  manifest_path: models/neuroscience-other-synaptic-information-transfer-in-computer-models-136095-model/model.yaml
+  parameters:
+    model_path: data/136095.zip
+- repo: Biosimulant/models-observability
+  alias: state_compare_mon
+  manifest_path: models/observability-state-comparison-monitor/model.yaml
+  parameters:
+    max_points: 2000
+    min_dt: 1.0
+- repo: Biosimulant/models-observability
+  alias: state_metrics_mon
+  manifest_path: models/observability-state-metrics-monitor/model.yaml
+  parameters:
+    max_points: 2000
+    min_dt: 1.0
+runtime:
+  duration: 0.3
+  tick_dt: 0.01
+  initial_inputs: {}
+wiring:
+- from: stdp_depends_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: steady_state_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: storing_serial_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: synaptic_informa_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d
+scientific_context:
+  question: How do synaptic changes influence network-level outcomes?
+  mode: comparative
+  assumptions:
+  - Model implementations are used as published in their curated manifests without
+    biological reinterpretation.
+  - Time integration uses a shared global tick compatible with model min_dt constraints.
+  - Comparative (non-causal) mode is used because full deterministic IO coverage for
+    causal coupling was not satisfied.
+  expected_observables:
+  - Model output trajectories under shared runtime settings.
+  - Cross-model agreement/divergence in key state or metric signals.
+  - Relative behavior comparison without causal linkage claims.
+  limitations:
+  - No new biology is introduced beyond what upstream models encode.
+  - Cross-model semantic matching is rule-based and may under-connect uncertain routes.
+  provenance:
+  - 'neuroscience-other-stdp-depends-on-dendritic-synapse-location-letzk-108459-model
+    :: modeldb:108459 :: https://modeldb.science/108459'
+  - 'neuroscience-other-steady-state-vm-distribution-of-neurons-subject-64259-model
+    :: modeldb:64259 :: https://modeldb.science/64259'
+  - 'neuroscience-other-storing-serial-order-in-intrinsic-excitability-a-147461-model
+    :: modeldb:147461 :: https://modeldb.science/147461'
+  - 'neuroscience-other-synaptic-information-transfer-in-computer-models-136095-model
+    :: modeldb:136095 :: https://modeldb.science/136095'
+  visualization_rationale: A dedicated monitor model receives all participating model
+    state streams (`state_a..state_d`) so trajectories can be compared in one place
+    without claiming causal coupling when IO semantics are incomplete.

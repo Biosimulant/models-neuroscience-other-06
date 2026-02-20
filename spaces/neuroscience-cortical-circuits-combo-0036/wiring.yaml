@@ -1,0 +1,36 @@
+modules:
+  v1networkmodels_1:
+    class: src.v1networkmodels_v1networkmodels_model:V1networkmodelsV1networkmodelsModel
+    args:
+      model_path: data/repo
+  vierlingclaassen_2:
+    class: src.vierlingclaassenetal2010_vierlingclaassenetal2010_model:Vierlingclaassenetal2010Vierlingclaassenetal2010Model
+    args:
+      model_path: data/repo
+  vogelssprekelere_3:
+    class: src.vogelssprekeleretal2011_vogelssprekeleretal2011_model:Vogelssprekeleretal2011Vogelssprekeleretal2011Model
+    args:
+      model_path: data/repo
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: v1networkmodels_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: vierlingclaassen_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: vogelssprekelere_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

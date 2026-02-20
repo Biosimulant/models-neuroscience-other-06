@@ -1,0 +1,44 @@
+modules:
+  pyramidal_neuron_1:
+    class: src.pyramidal_neurons_switch_from_integrators_to_res_116386_model:PyramidalNeuronsSwitchFromIntegratorsToRes116386Model
+    args:
+      model_path: data/116386.zip
+  python_demo_2:
+    class: src.python_demo_of_the_vmt_method_to_extract_conduct_116870_model:PythonDemoOfTheVmtMethodToExtractConduct116870Model
+    args:
+      model_path: data/116870.zip
+  reciprocal_regul_3:
+    class: src.reciprocal_regulation_of_rod_and_cone_synapse_by_64216_model:ReciprocalRegulationOfRodAndConeSynapseBy64216Model
+    args:
+      model_path: data/64216.zip
+  relative_spike_4:
+    class: src.relative_spike_time_coding_and_stdp_based_orient_141062_model:RelativeSpikeTimeCodingAndStdpBasedOrient141062Model
+    args:
+      model_path: data/141062.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: pyramidal_neuron_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: python_demo_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: reciprocal_regul_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: relative_spike_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

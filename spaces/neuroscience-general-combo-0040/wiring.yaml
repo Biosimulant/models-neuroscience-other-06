@@ -1,0 +1,36 @@
+modules:
+  modelview_online_1:
+    class: src.modelview_online_structural_analysis_of_computat_154872_model:ModelviewOnlineStructuralAnalysisOfComputat154872Model
+    args:
+      model_path: data/154872.zip
+  moose_core_2:
+    class: src.moose_core_moosecore_model:MooseCoreMoosecoreModel
+    args:
+      model_path: data/repo
+  moose_pymoose_3:
+    class: src.moose_pymoose_interoperable_scripting_in_python_118326_model:MoosePymooseInteroperableScriptingInPython118326Model
+    args:
+      model_path: data/118326.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: modelview_online_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: moose_core_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: moose_pymoose_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

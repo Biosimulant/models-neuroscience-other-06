@@ -1,0 +1,44 @@
+modules:
+  oscillation_and_1:
+    class: src.oscillation_and_coding_in_a_proposed_nn_model_of_123986_model:OscillationAndCodingInAProposedNnModelOf123986Model
+    args:
+      model_path: data/123986.zip
+  oscillations_eme_2:
+    class: src.oscillations_emerging_from_noise_driven_nns_tchu_168599_model:OscillationsEmergingFromNoiseDrivenNnsTchu168599Model
+    args:
+      model_path: data/168599.zip
+  oversampling_met_3:
+    class: src.oversampling_method_to_extract_excitatory_and_in_145803_model:OversamplingMethodToExtractExcitatoryAndIn145803Model
+    args:
+      model_path: data/145803.zip
+  oxytocin_and_4:
+    class: src.oxytocin_and_vip_involvement_in_prolactin_secret_91893_model:OxytocinAndVipInvolvementInProlactinSecret91893Model
+    args:
+      model_path: data/91893.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: oscillation_and_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: oscillations_eme_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: oversampling_met_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: oxytocin_and_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

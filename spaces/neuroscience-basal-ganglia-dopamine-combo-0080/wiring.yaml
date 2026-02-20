@@ -1,0 +1,44 @@
+modules:
+  rejuvenation_mod_1:
+    class: src.rejuvenation_model_of_dopamine_neuron_chan_et_al_97860_model:RejuvenationModelOfDopamineNeuronChanEtAl97860Model
+    args:
+      model_path: data/97860.zip
+  roles_of_2:
+    class: src.roles_of_subthalamic_nucleus_and_dbs_in_reinforc_97972_model:RolesOfSubthalamicNucleusAndDbsInReinforc97972Model
+    args:
+      model_path: data/97972.zip
+  single_compartme_3:
+    class: src.single_compartment_dorsal_lateral_medium_spiny_n_150556_model:SingleCompartmentDorsalLateralMediumSpinyN150556Model
+    args:
+      model_path: data/150556.zip
+  spiking_neuron_4:
+    class: src.spiking_neuron_model_of_the_basal_ganglia_humphr_83559_model:SpikingNeuronModelOfTheBasalGangliaHumphr83559Model
+    args:
+      model_path: data/83559.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: rejuvenation_mod_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: roles_of_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: single_compartme_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: spiking_neuron_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

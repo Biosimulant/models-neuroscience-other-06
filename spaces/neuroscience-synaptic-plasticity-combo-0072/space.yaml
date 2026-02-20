@@ -1,0 +1,86 @@
+schema_version: '2.0'
+title: 'Neuroscience: Synaptic Plasticity (COMBO_0072)'
+description: Neuroscience synaptic plasticity comparative space with 4 models, configured
+  as non-causal co-simulation.
+models:
+- repo: Biosimulant/models-neuroscience-other-06
+  alias: pyramidal_neuron_1
+  manifest_path: models/neuroscience-other-pyramidal-neurons-switch-from-integrators-to-res-116386-model/model.yaml
+  parameters:
+    model_path: data/116386.zip
+- repo: Biosimulant/models-neuroscience-other-06
+  alias: python_demo_2
+  manifest_path: models/neuroscience-other-python-demo-of-the-vmt-method-to-extract-conduct-116870-model/model.yaml
+  parameters:
+    model_path: data/116870.zip
+- repo: Biosimulant/models-neuroscience-other-06
+  alias: reciprocal_regul_3
+  manifest_path: models/neuroscience-other-reciprocal-regulation-of-rod-and-cone-synapse-by-64216-model/model.yaml
+  parameters:
+    model_path: data/64216.zip
+- repo: Biosimulant/models-neuroscience-other-06
+  alias: relative_spike_4
+  manifest_path: models/neuroscience-other-relative-spike-time-coding-and-stdp-based-orient-141062-model/model.yaml
+  parameters:
+    model_path: data/141062.zip
+- repo: Biosimulant/models-observability
+  alias: state_compare_mon
+  manifest_path: models/observability-state-comparison-monitor/model.yaml
+  parameters:
+    max_points: 2000
+    min_dt: 1.0
+- repo: Biosimulant/models-observability
+  alias: state_metrics_mon
+  manifest_path: models/observability-state-metrics-monitor/model.yaml
+  parameters:
+    max_points: 2000
+    min_dt: 1.0
+runtime:
+  duration: 0.3
+  tick_dt: 0.01
+  initial_inputs: {}
+wiring:
+- from: pyramidal_neuron_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: python_demo_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: reciprocal_regul_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: relative_spike_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d
+scientific_context:
+  question: How do synaptic changes influence network-level outcomes?
+  mode: comparative
+  assumptions:
+  - Model implementations are used as published in their curated manifests without
+    biological reinterpretation.
+  - Time integration uses a shared global tick compatible with model min_dt constraints.
+  - Comparative (non-causal) mode is used because full deterministic IO coverage for
+    causal coupling was not satisfied.
+  expected_observables:
+  - Model output trajectories under shared runtime settings.
+  - Cross-model agreement/divergence in key state or metric signals.
+  - Relative behavior comparison without causal linkage claims.
+  limitations:
+  - No new biology is introduced beyond what upstream models encode.
+  - Cross-model semantic matching is rule-based and may under-connect uncertain routes.
+  provenance:
+  - 'neuroscience-other-pyramidal-neurons-switch-from-integrators-to-res-116386-model
+    :: modeldb:116386 :: https://modeldb.science/116386'
+  - 'neuroscience-other-python-demo-of-the-vmt-method-to-extract-conduct-116870-model
+    :: modeldb:116870 :: https://modeldb.science/116870'
+  - 'neuroscience-other-reciprocal-regulation-of-rod-and-cone-synapse-by-64216-model
+    :: modeldb:64216 :: https://modeldb.science/64216'
+  - 'neuroscience-other-relative-spike-time-coding-and-stdp-based-orient-141062-model
+    :: modeldb:141062 :: https://modeldb.science/141062'
+  visualization_rationale: A dedicated monitor model receives all participating model
+    state streams (`state_a..state_d`) so trajectories can be compared in one place
+    without claiming causal coupling when IO semantics are incomplete.

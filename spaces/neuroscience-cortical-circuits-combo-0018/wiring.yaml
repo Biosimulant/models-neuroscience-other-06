@@ -1,0 +1,28 @@
+modules:
+  rhesus_monkey_1:
+    class: src.rhesus_monkey_layer_3_pyramidal_neurons_v1_vs_pf_144553_model:RhesusMonkeyLayer3PyramidalNeuronsV1VsPf144553Model
+    args:
+      model_path: data/144553.zip
+  rhesus_monkey_2:
+    class: src.rhesus_monkey_layer_3_pyramidal_neurons_young_vs_168858_model:RhesusMonkeyLayer3PyramidalNeuronsYoungVs168858Model
+    args:
+      model_path: data/168858.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: rhesus_monkey_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: rhesus_monkey_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

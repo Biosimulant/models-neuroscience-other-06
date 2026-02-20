@@ -1,0 +1,44 @@
+modules:
+  state_dependent_1:
+    class: src.state_dependent_drug_binding_to_sodium_channels_149174_model:StateDependentDrugBindingToSodiumChannels149174Model
+    args:
+      model_path: data/149174.zip
+  status_epileptic_2:
+    class: src.status_epilepticus_alters_dentate_basket_cell_to_155602_model:StatusEpilepticusAltersDentateBasketCellTo155602Model
+    args:
+      model_path: data/155602.zip
+  stochastic_calci_3:
+    class: src.stochastic_calcium_mechanisms_cause_dendritic_ca_150635_model:StochasticCalciumMechanismsCauseDendriticCa150635Model
+    args:
+      model_path: data/150635.zip
+  theta_phase_4:
+    class: src.theta_phase_precession_in_a_model_ca3_place_cell_98003_model:ThetaPhasePrecessionInAModelCa3PlaceCell98003Model
+    args:
+      model_path: data/98003.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: state_dependent_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: status_epileptic_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: stochastic_calci_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: theta_phase_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

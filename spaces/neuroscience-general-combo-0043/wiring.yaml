@@ -1,0 +1,36 @@
+modules:
+  multicompartment_1:
+    class: src.multicompartmental_cerebellar_granule_cell_model_116835_model:MulticompartmentalCerebellarGranuleCellModel116835Model
+    args:
+      model_path: data/116835.zip
+  multimodal_stimu_2:
+    class: src.multimodal_stimuli_learning_in_hawkmoths_balkeni_116312_model:MultimodalStimuliLearningInHawkmothsBalkeni116312Model
+    args:
+      model_path: data/116312.zip
+  multiscale_model_3:
+    class: src.multiscale_model_of_olfactory_receptor_neuron_in_136097_model:MultiscaleModelOfOlfactoryReceptorNeuronIn136097Model
+    args:
+      model_path: data/136097.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: multicompartment_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: multimodal_stimu_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: multiscale_model_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

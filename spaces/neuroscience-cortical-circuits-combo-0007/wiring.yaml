@@ -1,0 +1,28 @@
+modules:
+  opencortex_1:
+    class: src.opencortex_opencortex_model:OpencortexOpencortexModel
+    args:
+      model_path: data/repo
+  opponent_channel_2:
+    class: src.opponent_channel_model_of_the_cortical_represent_146050_model:OpponentChannelModelOfTheCorticalRepresent146050Model
+    args:
+      model_path: data/146050.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: opencortex_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: opponent_channel_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

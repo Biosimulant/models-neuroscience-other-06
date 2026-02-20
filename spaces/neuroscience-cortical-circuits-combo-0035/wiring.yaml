@@ -1,0 +1,36 @@
+modules:
+  towards_a_1:
+    class: src.towards_a_virtual_c_elegans_palyanov_et_al_2012_147938_model:TowardsAVirtualCElegansPalyanovEtAl2012147938Model
+    args:
+      model_path: data/147938.zip
+  turtle_visual_2:
+    class: src.turtle_visual_cortex_model_nenadic_et_al_2003_wa_94845_model:TurtleVisualCortexModelNenadicEtAl2003Wa94845Model
+    args:
+      model_path: data/94845.zip
+  updated_tritonia_3:
+    class: src.updated_tritonia_swim_cpg_calin_jagemann_et_al_2_93325_model:UpdatedTritoniaSwimCpgCalinJagemannEtAl293325Model
+    args:
+      model_path: data/93325.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: towards_a_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: turtle_visual_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: updated_tritonia_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

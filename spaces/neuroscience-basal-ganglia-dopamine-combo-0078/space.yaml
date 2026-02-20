@@ -1,0 +1,86 @@
+schema_version: '2.0'
+title: 'Neuroscience: Basal Ganglia Dopamine (COMBO_0078)'
+description: Neuroscience basal ganglia dopamine comparative space with 4 models,
+  configured as non-causal co-simulation.
+models:
+- repo: Biosimulant/models-neuroscience-other-06
+  alias: multiscale_simul_1
+  manifest_path: models/neuroscience-other-multiscale-simulation-of-the-striatal-medium-spi-150284-model/model.yaml
+  parameters:
+    model_path: data/150284.zip
+- repo: Biosimulant/models-neuroscience-other-06
+  alias: nacc_medium_2
+  manifest_path: models/neuroscience-other-nacc-medium-spiny-neuron-effects-of-cannabinoid-126640-model/model.yaml
+  parameters:
+    model_path: data/126640.zip
+- repo: Biosimulant/models-neuroscience-other-06
+  alias: nigral_dopaminer_3
+  manifest_path: models/neuroscience-other-nigral-dopaminergic-neurons-effects-of-ethanol-o-112359-model/model.yaml
+  parameters:
+    model_path: data/112359.zip
+- repo: Biosimulant/models-neuroscience-other-06
+  alias: optimal_deep_4
+  manifest_path: models/neuroscience-other-optimal-deep-brain-stimulation-of-the-subthalami-93449-model/model.yaml
+  parameters:
+    model_path: data/93449.zip
+- repo: Biosimulant/models-observability
+  alias: state_compare_mon
+  manifest_path: models/observability-state-comparison-monitor/model.yaml
+  parameters:
+    max_points: 2000
+    min_dt: 1.0
+- repo: Biosimulant/models-observability
+  alias: state_metrics_mon
+  manifest_path: models/observability-state-metrics-monitor/model.yaml
+  parameters:
+    max_points: 2000
+    min_dt: 1.0
+runtime:
+  duration: 0.3
+  tick_dt: 0.01
+  initial_inputs: {}
+wiring:
+- from: multiscale_simul_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: nacc_medium_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: nigral_dopaminer_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: optimal_deep_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d
+scientific_context:
+  question: How do basal ganglia dopamine mechanisms compare across these models?
+  mode: comparative
+  assumptions:
+  - Model implementations are used as published in their curated manifests without
+    biological reinterpretation.
+  - Time integration uses a shared global tick compatible with model min_dt constraints.
+  - Comparative (non-causal) mode is used because full deterministic IO coverage for
+    causal coupling was not satisfied.
+  expected_observables:
+  - Model output trajectories under shared runtime settings.
+  - Cross-model agreement/divergence in key state or metric signals.
+  - Relative behavior comparison without causal linkage claims.
+  limitations:
+  - No new biology is introduced beyond what upstream models encode.
+  - Cross-model semantic matching is rule-based and may under-connect uncertain routes.
+  provenance:
+  - 'neuroscience-other-multiscale-simulation-of-the-striatal-medium-spi-150284-model
+    :: modeldb:150284 :: https://modeldb.science/150284'
+  - 'neuroscience-other-nacc-medium-spiny-neuron-effects-of-cannabinoid-126640-model
+    :: modeldb:126640 :: https://modeldb.science/126640'
+  - 'neuroscience-other-nigral-dopaminergic-neurons-effects-of-ethanol-o-112359-model
+    :: modeldb:112359 :: https://modeldb.science/112359'
+  - 'neuroscience-other-optimal-deep-brain-stimulation-of-the-subthalami-93449-model
+    :: modeldb:93449 :: https://modeldb.science/93449'
+  visualization_rationale: A dedicated monitor model receives all participating model
+    state streams (`state_a..state_d`) so trajectories can be compared in one place
+    without claiming causal coupling when IO semantics are incomplete.

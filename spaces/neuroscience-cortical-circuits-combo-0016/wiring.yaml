@@ -1,0 +1,28 @@
+modules:
+  reconstructing_c_1:
+    class: src.reconstructing_cerebellar_granule_layer_evoked_l_139883_model:ReconstructingCerebellarGranuleLayerEvokedL139883Model
+    args:
+      model_path: data/139883.zip
+  reduced_leech_2:
+    class: src.reduced_leech_heart_interneuron_channell_et_al_2_125125_model:ReducedLeechHeartInterneuronChannellEtAl2125125Model
+    args:
+      model_path: data/125125.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: reconstructing_c_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: reduced_leech_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

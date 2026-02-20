@@ -1,0 +1,28 @@
+modules:
+  network_topologi_1:
+    class: src.network_topologies_for_producing_limited_sustain_127192_model:NetworkTopologiesForProducingLimitedSustain127192Model
+    args:
+      model_path: data/127192.zip
+  neuron_python_2:
+    class: src.neuron_python_hines_et_al_2009_116491_model:NeuronPythonHinesEtAl2009116491Model
+    args:
+      model_path: data/116491.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: network_topologi_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: neuron_python_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

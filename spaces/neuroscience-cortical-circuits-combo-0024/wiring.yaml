@@ -1,0 +1,28 @@
+modules:
+  sn_mn_1:
+    class: src.sn_mn_neurons_of_aplysia_zhou_et_al_2014_152200_model:SnMnNeuronsOfAplysiaZhouEtAl2014152200Model
+    args:
+      model_path: data/152200.zip
+  sodium_channel_2:
+    class: src.sodium_channel_mutations_causing_generalized_epi_87585_model:SodiumChannelMutationsCausingGeneralizedEpi87585Model
+    args:
+      model_path: data/87585.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: sn_mn_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: sodium_channel_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

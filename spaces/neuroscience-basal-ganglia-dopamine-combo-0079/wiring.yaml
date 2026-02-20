@@ -1,0 +1,44 @@
+modules:
+  phase_response_1:
+    class: src.phase_response_curve_of_a_globus_pallidal_neuron_143100_model:PhaseResponseCurveOfAGlobusPallidalNeuron143100Model
+    args:
+      model_path: data/143100.zip
+  rat_subthalamic_2:
+    class: src.rat_subthalamic_projection_neuron_gillies_and_wi_74298_model:RatSubthalamicProjectionNeuronGilliesAndWi74298Model
+    args:
+      model_path: data/74298.zip
+  regulation_of_3:
+    class: src.regulation_of_firing_frequency_in_a_midbrain_dop_127507_model:RegulationOfFiringFrequencyInAMidbrainDop127507Model
+    args:
+      model_path: data/127507.zip
+  regulation_of_4:
+    class: src.regulation_of_the_firing_pattern_in_dopamine_neu_83547_model:RegulationOfTheFiringPatternInDopamineNeu83547Model
+    args:
+      model_path: data/83547.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: phase_response_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: rat_subthalamic_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: regulation_of_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: regulation_of_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

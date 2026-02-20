@@ -1,0 +1,44 @@
+modules:
+  olfactory_bulb_1:
+    class: src.olfactory_bulb_juxtaglomerular_models_carey_et_a_152111_model:OlfactoryBulbJuxtaglomerularModelsCareyEtA152111Model
+    args:
+      model_path: data/152111.zip
+  olfactory_bulb_2:
+    class: src.olfactory_bulb_mitral_and_granule_cell_dendroden_97263_model:OlfactoryBulbMitralAndGranuleCellDendroden97263Model
+    args:
+      model_path: data/97263.zip
+  olfactory_bulb_3:
+    class: src.olfactory_bulb_mitral_cell_gap_junction_nn_model_146030_model:OlfactoryBulbMitralCellGapJunctionNnModel146030Model
+    args:
+      model_path: data/146030.zip
+  olfactory_bulb_4:
+    class: src.olfactory_bulb_network_model_of_gamma_oscillatio_91387_model:OlfactoryBulbNetworkModelOfGammaOscillatio91387Model
+    args:
+      model_path: data/91387.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: olfactory_bulb_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: olfactory_bulb_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: olfactory_bulb_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: olfactory_bulb_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

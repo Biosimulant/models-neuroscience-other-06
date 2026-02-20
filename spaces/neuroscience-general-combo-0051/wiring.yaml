@@ -1,0 +1,36 @@
+modules:
+  neuroelectrosciu_1:
+    class: src.neuroelectrosciunit_neuroelectrosciunit_model:NeuroelectrosciunitNeuroelectrosciunitModel
+    args:
+      model_path: data/repo
+  neurofit_fitting_2:
+    class: src.neurofit_fitting_hh_models_to_voltage_clamp_data_54141_model:NeurofitFittingHhModelsToVoltageClampData54141Model
+    args:
+      model_path: data/54141.zip
+  neuron_interface_3:
+    class: src.neuron_interfaces_to_mysql_and_the_spud_feature_97868_model:NeuronInterfacesToMysqlAndTheSpudFeature97868Model
+    args:
+      model_path: data/97868.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: neuroelectrosciu_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: neurofit_fitting_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: neuron_interface_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

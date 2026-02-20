@@ -1,0 +1,28 @@
+modules:
+  stdp_and_1:
+    class: src.stdp_and_nmdar_subunits_gerkin_et_al_2007_87216_model:StdpAndNmdarSubunitsGerkinEtAl200787216Model
+    args:
+      model_path: data/87216.zip
+  stdp_promotes_2:
+    class: src.stdp_promotes_synchrony_of_inhibitory_networks_i_119159_model:StdpPromotesSynchronyOfInhibitoryNetworksI119159Model
+    args:
+      model_path: data/119159.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: stdp_and_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: stdp_promotes_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

@@ -1,0 +1,36 @@
+modules:
+  neuronal_dendrit_1:
+    class: src.neuronal_dendrite_calcium_wave_model_neymotin_et_168874_model:NeuronalDendriteCalciumWaveModelNeymotinEt168874Model
+    args:
+      model_path: data/168874.zip
+  neuronal_morphol_2:
+    class: src.neuronal_morphology_goes_digital_parekh_and_asco_148644_model:NeuronalMorphologyGoesDigitalParekhAndAsco148644Model
+    args:
+      model_path: data/148644.zip
+  neuronal_populat_3:
+    class: src.neuronal_population_models_of_intracerebral_eeg_97983_model:NeuronalPopulationModelsOfIntracerebralEeg97983Model
+    args:
+      model_path: data/97983.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: neuronal_dendrit_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: neuronal_morphol_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: neuronal_populat_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

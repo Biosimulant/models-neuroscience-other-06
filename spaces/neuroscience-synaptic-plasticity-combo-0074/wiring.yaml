@@ -1,0 +1,44 @@
+modules:
+  simulations_of_1:
+    class: src.simulations_of_motor_unit_discharge_patterns_pow_143671_model:SimulationsOfMotorUnitDischargePatternsPow143671Model
+    args:
+      model_path: data/143671.zip
+  spine_neck_2:
+    class: src.spine_neck_plasticity_controls_postsynaptic_calc_116769_model:SpineNeckPlasticityControlsPostsynapticCalc116769Model
+    args:
+      model_path: data/116769.zip
+  stability_of_3:
+    class: src.stability_of_complex_spike_timing_dependent_plas_113426_model:StabilityOfComplexSpikeTimingDependentPlas113426Model
+    args:
+      model_path: data/113426.zip
+  stdp_and_4:
+    class: src.stdp_and_oscillations_produce_phase_locking_mull_143083_model:StdpAndOscillationsProducePhaseLockingMull143083Model
+    args:
+      model_path: data/143083.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: simulations_of_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: spine_neck_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: stability_of_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: stdp_and_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

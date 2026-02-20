@@ -1,0 +1,86 @@
+schema_version: '2.0'
+title: 'Neuroscience: Hippocampal Circuits (COMBO_0063)'
+description: Neuroscience hippocampal circuits comparative space with 4 models, configured
+  as non-causal co-simulation.
+models:
+- repo: Biosimulant/models-neuroscience-other-06
+  alias: modelling_reduce_1
+  manifest_path: models/neuroscience-other-modelling-reduced-excitability-in-aged-ca1-neuro-119266-model/model.yaml
+  parameters:
+    model_path: data/119266.zip
+- repo: Biosimulant/models-neuroscience-other-06
+  alias: modular_grid_2
+  manifest_path: models/neuroscience-other-modular-grid-cell-responses-as-a-basis-for-hippo-138951-model/model.yaml
+  parameters:
+    model_path: data/138951.zip
+- repo: Biosimulant/models-neuroscience-other-06
+  alias: modulation_of_3
+  manifest_path: models/neuroscience-other-modulation-of-hippocampal-rhythms-by-electric-fi-144589-model/model.yaml
+  parameters:
+    model_path: data/144589.zip
+- repo: Biosimulant/models-neuroscience-other-06
+  alias: modulation_of_4
+  manifest_path: models/neuroscience-other-modulation-of-septo-hippocampal-theta-activity-b-116567-model/model.yaml
+  parameters:
+    model_path: data/116567.zip
+- repo: Biosimulant/models-observability
+  alias: state_compare_mon
+  manifest_path: models/observability-state-comparison-monitor/model.yaml
+  parameters:
+    max_points: 2000
+    min_dt: 1.0
+- repo: Biosimulant/models-observability
+  alias: state_metrics_mon
+  manifest_path: models/observability-state-metrics-monitor/model.yaml
+  parameters:
+    max_points: 2000
+    min_dt: 1.0
+runtime:
+  duration: 0.3
+  tick_dt: 0.01
+  initial_inputs: {}
+wiring:
+- from: modelling_reduce_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: modular_grid_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: modulation_of_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: modulation_of_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d
+scientific_context:
+  question: How do recurrent hippocampal motifs shape network dynamics over time?
+  mode: comparative
+  assumptions:
+  - Model implementations are used as published in their curated manifests without
+    biological reinterpretation.
+  - Time integration uses a shared global tick compatible with model min_dt constraints.
+  - Comparative (non-causal) mode is used because full deterministic IO coverage for
+    causal coupling was not satisfied.
+  expected_observables:
+  - Model output trajectories under shared runtime settings.
+  - Cross-model agreement/divergence in key state or metric signals.
+  - Relative behavior comparison without causal linkage claims.
+  limitations:
+  - No new biology is introduced beyond what upstream models encode.
+  - Cross-model semantic matching is rule-based and may under-connect uncertain routes.
+  provenance:
+  - 'neuroscience-other-modelling-reduced-excitability-in-aged-ca1-neuro-119266-model
+    :: modeldb:119266 :: https://modeldb.science/119266'
+  - 'neuroscience-other-modular-grid-cell-responses-as-a-basis-for-hippo-138951-model
+    :: modeldb:138951 :: https://modeldb.science/138951'
+  - 'neuroscience-other-modulation-of-hippocampal-rhythms-by-electric-fi-144589-model
+    :: modeldb:144589 :: https://modeldb.science/144589'
+  - 'neuroscience-other-modulation-of-septo-hippocampal-theta-activity-b-116567-model
+    :: modeldb:116567 :: https://modeldb.science/116567'
+  visualization_rationale: A dedicated monitor model receives all participating model
+    state streams (`state_a..state_d`) so trajectories can be compared in one place
+    without claiming causal coupling when IO semantics are incomplete.

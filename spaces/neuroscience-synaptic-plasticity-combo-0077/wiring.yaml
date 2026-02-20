@@ -1,0 +1,44 @@
+modules:
+  tag_trigger_1:
+    class: src.tag_trigger_consolidation_clopath_and_ziegler_et_118199_model:TagTriggerConsolidationClopathAndZieglerEt118199Model
+    args:
+      model_path: data/118199.zip
+  time_warp_2:
+    class: src.time_warp_invariant_neuronal_processing_gutig_an_154288_model:TimeWarpInvariantNeuronalProcessingGutigAn154288Model
+    args:
+      model_path: data/154288.zip
+  tonic_clonic_3:
+    class: src.tonic_clonic_transitions_in_a_seizure_simulation_105507_model:TonicClonicTransitionsInASeizureSimulation105507Model
+    args:
+      model_path: data/105507.zip
+  transmitter_rele_4:
+    class: src.transmitter_release_and_ca_diffusion_models_yama_120115_model:TransmitterReleaseAndCaDiffusionModelsYama120115Model
+    args:
+      model_path: data/120115.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: tag_trigger_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: time_warp_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: tonic_clonic_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: transmitter_rele_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

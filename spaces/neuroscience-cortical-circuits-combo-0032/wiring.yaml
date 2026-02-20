@@ -1,0 +1,36 @@
+modules:
+  t_channel_1:
+    class: src.t_channel_currents_vitko_et_al_2005_53965_model:TChannelCurrentsVitkoEtAl200553965Model
+    args:
+      model_path: data/53965.zip
+  t_type_2:
+    class: src.t_type_ca_current_in_thalamic_neurons_wang_et_al_53893_model:TTypeCaCurrentInThalamicNeuronsWangEtAl53893Model
+    args:
+      model_path: data/53893.zip
+  temporal_decorre_3:
+    class: src.temporal_decorrelation_by_intrinsic_cellular_dyn_84593_model:TemporalDecorrelationByIntrinsicCellularDyn84593Model
+    args:
+      model_path: data/84593.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: t_channel_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: t_type_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: temporal_decorre_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

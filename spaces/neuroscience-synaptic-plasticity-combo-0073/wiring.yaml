@@ -1,0 +1,44 @@
+modules:
+  rescue_of_1:
+    class: src.rescue_of_plasticity_by_a_computationally_predic_149162_model:RescueOfPlasticityByAComputationallyPredic149162Model
+    args:
+      model_path: data/149162.zip
+  role_of_2:
+    class: src.role_of_active_dendrites_in_rhythmically_firing_83558_model:RoleOfActiveDendritesInRhythmicallyFiring83558Model
+    args:
+      model_path: data/83558.zip
+  roles_of_3:
+    class: src.roles_of_essential_kinases_in_induction_of_late_149175_model:RolesOfEssentialKinasesInInductionOfLate149175Model
+    args:
+      model_path: data/149175.zip
+  self_influencing_4:
+    class: src.self_influencing_synaptic_plasticity_tamosiunait_87582_model:SelfInfluencingSynapticPlasticityTamosiunait87582Model
+    args:
+      model_path: data/87582.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: rescue_of_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: role_of_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: roles_of_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: self_influencing_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

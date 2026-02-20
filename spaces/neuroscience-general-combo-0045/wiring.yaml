@@ -1,0 +1,36 @@
+modules:
+  myelinated_nerve_1:
+    class: src.myelinated_nerve_fibre_myelin_resistance_depende_136296_model:MyelinatedNerveFibreMyelinResistanceDepende136296Model
+    args:
+      model_path: data/136296.zip
+  neocort_pyramida_2:
+    class: src.neocort_pyramidal_cells_subthreshold_somatic_vol_136309_model:NeocortPyramidalCellsSubthresholdSomaticVol136309Model
+    args:
+      model_path: data/136309.zip
+  network_bursts_3:
+    class: src.network_bursts_in_cultured_nn_result_from_differ_150437_model:NetworkBurstsInCulturedNnResultFromDiffer150437Model
+    args:
+      model_path: data/150437.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: myelinated_nerve_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: neocort_pyramida_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: network_bursts_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

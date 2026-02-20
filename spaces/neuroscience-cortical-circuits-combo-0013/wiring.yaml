@@ -1,0 +1,28 @@
+modules:
+  pyramidal_neuron_1:
+    class: src.pyramidal_neuron_coincidence_detection_tuned_by_83344_model:PyramidalNeuronCoincidenceDetectionTunedBy83344Model
+    args:
+      model_path: data/83344.zip
+  pyramidal_neuron_2:
+    class: src.pyramidal_neuron_conductances_state_and_stdp_del_144482_model:PyramidalNeuronConductancesStateAndStdpDel144482Model
+    args:
+      model_path: data/144482.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: pyramidal_neuron_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: pyramidal_neuron_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

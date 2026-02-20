@@ -1,0 +1,36 @@
+modules:
+  modeling_tempera_1:
+    class: src.modeling_temperature_changes_in_ampar_kinetics_p_85981_model:ModelingTemperatureChangesInAmparKineticsP85981Model
+    args:
+      model_path: data/85981.zip
+  modelling_enteri_2:
+    class: src.modelling_enteric_neuron_populations_and_muscle_136024_model:ModellingEntericNeuronPopulationsAndMuscle136024Model
+    args:
+      model_path: data/136024.zip
+  models_analysis_3:
+    class: src.models_analysis_for_auditory_nerve_synapse_zhang_126489_model:ModelsAnalysisForAuditoryNerveSynapseZhang126489Model
+    args:
+      model_path: data/126489.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: modeling_tempera_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: modelling_enteri_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: models_analysis_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

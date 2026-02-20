@@ -1,0 +1,44 @@
+modules:
+  synaptic_integra_1:
+    class: src.synaptic_integration_of_an_identified_nonspiking_84599_model:SynapticIntegrationOfAnIdentifiedNonspiking84599Model
+    args:
+      model_path: data/84599.zip
+  synaptic_plastic_2:
+    class: src.synaptic_plasticity_can_produce_and_enhance_dire_116901_model:SynapticPlasticityCanProduceAndEnhanceDire116901Model
+    args:
+      model_path: data/116901.zip
+  synaptic_scaling_3:
+    class: src.synaptic_scaling_balances_learning_in_a_spiking_147141_model:SynapticScalingBalancesLearningInASpiking147141Model
+    args:
+      model_path: data/147141.zip
+  synapticintegrat_4:
+    class: src.synapticintegration_synapticintegration_model:SynapticintegrationSynapticintegrationModel
+    args:
+      model_path: data/repo
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: synaptic_integra_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: synaptic_plastic_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: synaptic_scaling_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: synapticintegrat_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

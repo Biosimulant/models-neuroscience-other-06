@@ -1,0 +1,64 @@
+schema_version: '2.0'
+title: 'Neuroscience: Cortical Circuits (COMBO_0023)'
+description: Neuroscience cortical circuits comparative space with 2 models, configured
+  as non-causal co-simulation.
+models:
+- repo: Biosimulant/models-neuroscience-other-06
+  alias: simulated_cortic_1
+  manifest_path: models/neuroscience-other-simulated-cortical-color-opponent-receptive-fiel-152197-model/model.yaml
+  parameters:
+    model_path: data/152197.zip
+- repo: Biosimulant/models-neuroscience-other-06
+  alias: smithetal2013_l2_2
+  manifest_path: models/neuroscience-other-smithetal2013-l23dendriticspikes-smithetal2013l23dendriticspikes-model/model.yaml
+  parameters:
+    model_path: data/repo
+- repo: Biosimulant/models-observability
+  alias: state_compare_mon
+  manifest_path: models/observability-state-comparison-monitor/model.yaml
+  parameters:
+    max_points: 2000
+    min_dt: 1.0
+- repo: Biosimulant/models-observability
+  alias: state_metrics_mon
+  manifest_path: models/observability-state-metrics-monitor/model.yaml
+  parameters:
+    max_points: 2000
+    min_dt: 1.0
+runtime:
+  duration: 0.3
+  tick_dt: 0.01
+  initial_inputs: {}
+wiring:
+- from: simulated_cortic_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: smithetal2013_l2_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+scientific_context:
+  question: How do cortical circuit motifs transform and propagate activity?
+  mode: comparative
+  assumptions:
+  - Model implementations are used as published in their curated manifests without
+    biological reinterpretation.
+  - Time integration uses a shared global tick compatible with model min_dt constraints.
+  - Comparative (non-causal) mode is used because full deterministic IO coverage for
+    causal coupling was not satisfied.
+  expected_observables:
+  - Model output trajectories under shared runtime settings.
+  - Cross-model agreement/divergence in key state or metric signals.
+  - Relative behavior comparison without causal linkage claims.
+  limitations:
+  - No new biology is introduced beyond what upstream models encode.
+  - Cross-model semantic matching is rule-based and may under-connect uncertain routes.
+  provenance:
+  - 'neuroscience-other-simulated-cortical-color-opponent-receptive-fiel-152197-model
+    :: modeldb:152197 :: https://modeldb.science/152197'
+  - 'neuroscience-other-smithetal2013-l23dendriticspikes-smithetal2013l23dendriticspikes-model
+    :: opensourcebrain:SmithEtAl2013-L23DendriticSpikes :: https://github.com/OpenSourceBrain/SmithEtAl2013-L23DendriticSpikes'
+  visualization_rationale: A dedicated monitor model receives all participating model
+    state streams (`state_a..state_d`) so trajectories can be compared in one place
+    without claiming causal coupling when IO semantics are incomplete.

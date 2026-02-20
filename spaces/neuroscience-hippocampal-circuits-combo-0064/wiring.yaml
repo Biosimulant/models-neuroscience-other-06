@@ -1,0 +1,44 @@
+modules:
+  multi_comp_1:
+    class: src.multi_comp_ca1_o_lm_interneuron_model_with_varyi_182797_model:MultiCompCa1OLmInterneuronModelWithVaryi182797Model
+    args:
+      model_path: data/182797.zip
+  na_channel_2:
+    class: src.na_channel_mutations_in_the_dentate_gyrus_thomas_123848_model:NaChannelMutationsInTheDentateGyrusThomas123848Model
+    args:
+      model_path: data/123848.zip
+  network_model_3:
+    class: src.network_model_of_the_granular_layer_of_the_cereb_50219_model:NetworkModelOfTheGranularLayerOfTheCereb50219Model
+    args:
+      model_path: data/50219.zip
+  norenbergetal201_4:
+    class: src.norenbergetal2010_dgbasketcell_norenbergetal2010dgbasketcell_model:Norenbergetal2010DgbasketcellNorenbergetal2010dgbasketcellModel
+    args:
+      model_path: data/repo
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: multi_comp_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: na_channel_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: network_model_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: norenbergetal201_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

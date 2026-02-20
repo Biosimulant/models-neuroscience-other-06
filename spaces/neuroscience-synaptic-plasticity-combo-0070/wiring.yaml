@@ -1,0 +1,44 @@
+modules:
+  new_and_1:
+    class: src.new_and_corrected_simulations_of_synaptic_facili_119214_model:NewAndCorrectedSimulationsOfSynapticFacili119214Model
+    args:
+      model_path: data/119214.zip
+  nmda_subunit_2:
+    class: src.nmda_subunit_effects_on_calcium_and_stdp_evans_e_145917_model:NmdaSubunitEffectsOnCalciumAndStdpEvansE145917Model
+    args:
+      model_path: data/145917.zip
+  olfactory_bulb_3:
+    class: src.olfactory_bulb_cluster_formation_migliore_et_al_127995_model:OlfactoryBulbClusterFormationMiglioreEtAl127995Model
+    args:
+      model_path: data/127995.zip
+  olfactory_bulb_4:
+    class: src.olfactory_bulb_mitral_and_granule_cell_column_fo_114665_model:OlfactoryBulbMitralAndGranuleCellColumnFo114665Model
+    args:
+      model_path: data/114665.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: new_and_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: nmda_subunit_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: olfactory_bulb_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: olfactory_bulb_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

@@ -1,0 +1,86 @@
+schema_version: '2.0'
+title: 'Neuroscience: Synaptic Plasticity (COMBO_0069)'
+description: Neuroscience synaptic plasticity comparative space with 4 models, configured
+  as non-causal co-simulation.
+models:
+- repo: Biosimulant/models-neuroscience-other-06
+  alias: multiple_mechani_1
+  manifest_path: models/neuroscience-other-multiple-mechanisms-of-short-term-plasticity-at-113649-model/model.yaml
+  parameters:
+    model_path: data/113649.zip
+- repo: Biosimulant/models-neuroscience-other-06
+  alias: multiscale_inter_2
+  manifest_path: models/neuroscience-other-multiscale-interactions-between-chemical-and-ele-141226-model/model.yaml
+  parameters:
+    model_path: data/141226.zip
+- repo: Biosimulant/models-neuroscience-other-06
+  alias: multistability_o_3
+  manifest_path: models/neuroscience-other-multistability-of-clustered-states-in-a-globally-120227-model/model.yaml
+  parameters:
+    model_path: data/120227.zip
+- repo: Biosimulant/models-neuroscience-other-06
+  alias: netmorph_creates_4
+  manifest_path: models/neuroscience-other-netmorph-creates-nns-with-realistic-neuron-morph-182135-model/model.yaml
+  parameters:
+    model_path: data/182135.zip
+- repo: Biosimulant/models-observability
+  alias: state_compare_mon
+  manifest_path: models/observability-state-comparison-monitor/model.yaml
+  parameters:
+    max_points: 2000
+    min_dt: 1.0
+- repo: Biosimulant/models-observability
+  alias: state_metrics_mon
+  manifest_path: models/observability-state-metrics-monitor/model.yaml
+  parameters:
+    max_points: 2000
+    min_dt: 1.0
+runtime:
+  duration: 0.3
+  tick_dt: 0.01
+  initial_inputs: {}
+wiring:
+- from: multiple_mechani_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: multiscale_inter_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: multistability_o_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: netmorph_creates_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d
+scientific_context:
+  question: How do synaptic changes influence network-level outcomes?
+  mode: comparative
+  assumptions:
+  - Model implementations are used as published in their curated manifests without
+    biological reinterpretation.
+  - Time integration uses a shared global tick compatible with model min_dt constraints.
+  - Comparative (non-causal) mode is used because full deterministic IO coverage for
+    causal coupling was not satisfied.
+  expected_observables:
+  - Model output trajectories under shared runtime settings.
+  - Cross-model agreement/divergence in key state or metric signals.
+  - Relative behavior comparison without causal linkage claims.
+  limitations:
+  - No new biology is introduced beyond what upstream models encode.
+  - Cross-model semantic matching is rule-based and may under-connect uncertain routes.
+  provenance:
+  - 'neuroscience-other-multiple-mechanisms-of-short-term-plasticity-at-113649-model
+    :: modeldb:113649 :: https://modeldb.science/113649'
+  - 'neuroscience-other-multiscale-interactions-between-chemical-and-ele-141226-model
+    :: modeldb:141226 :: https://modeldb.science/141226'
+  - 'neuroscience-other-multistability-of-clustered-states-in-a-globally-120227-model
+    :: modeldb:120227 :: https://modeldb.science/120227'
+  - 'neuroscience-other-netmorph-creates-nns-with-realistic-neuron-morph-182135-model
+    :: modeldb:182135 :: https://modeldb.science/182135'
+  visualization_rationale: A dedicated monitor model receives all participating model
+    state streams (`state_a..state_d`) so trajectories can be compared in one place
+    without claiming causal coupling when IO semantics are incomplete.

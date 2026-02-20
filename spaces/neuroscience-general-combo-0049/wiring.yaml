@@ -1,0 +1,36 @@
+modules:
+  neural_query_1:
+    class: src.neural_query_system_nqs_data_mining_from_within_97874_model:NeuralQuerySystemNqsDataMiningFromWithin97874Model
+    args:
+      model_path: data/97874.zip
+  neuralensemble_d_2:
+    class: src.neuralensemble_docker_neuralensembledocker_model:NeuralensembleDockerNeuralensembledockerModel
+    args:
+      model_path: data/repo
+  neurite_electrop_3:
+    class: src.neurite_electrophysiological_mechanical_coupling_168861_model:NeuriteElectrophysiologicalMechanicalCoupling168861Model
+    args:
+      model_path: data/168861.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: neural_query_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: neuralensemble_d_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: neurite_electrop_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

@@ -1,0 +1,28 @@
+modules:
+  nonlinear_dendri_1:
+    class: src.nonlinear_dendritic_processing_in_barrel_cortex_146565_model:NonlinearDendriticProcessingInBarrelCortex146565Model
+    args:
+      model_path: data/146565.zip
+  o_lm_2:
+    class: src.o_lm_interneuron_model_lawrence_et_al_2006_102288_model:OLmInterneuronModelLawrenceEtAl2006102288Model
+    args:
+      model_path: data/102288.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: nonlinear_dendri_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: o_lm_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

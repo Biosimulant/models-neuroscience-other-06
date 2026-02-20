@@ -1,0 +1,28 @@
+modules:
+  response_propert_1:
+    class: src.response_properties_of_neocort_neurons_to_tempor_118631_model:ResponsePropertiesOfNeocortNeuronsToTempor118631Model
+    args:
+      model_path: data/118631.zip
+  reward_modulated_2:
+    class: src.reward_modulated_stdp_legenstein_et_al_2008_116837_model:RewardModulatedStdpLegensteinEtAl2008116837Model
+    args:
+      model_path: data/116837.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: response_propert_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: reward_modulated_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

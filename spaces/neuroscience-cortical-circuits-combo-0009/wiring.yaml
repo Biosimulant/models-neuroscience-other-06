@@ -1,0 +1,28 @@
+modules:
+  permeation_and_1:
+    class: src.permeation_and_inactivation_of_cav1_2_ca2_channe_118759_model:PermeationAndInactivationOfCav12Ca2Channe118759Model
+    args:
+      model_path: data/118759.zip
+  persistent_synch_2:
+    class: src.persistent_synchronized_bursting_activity_in_cor_57905_model:PersistentSynchronizedBurstingActivityInCor57905Model
+    args:
+      model_path: data/57905.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: permeation_and_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: persistent_synch_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

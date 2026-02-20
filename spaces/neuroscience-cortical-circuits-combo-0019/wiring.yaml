@@ -1,0 +1,28 @@
+modules:
+  ribbon_synapse_1:
+    class: src.ribbon_synapse_sikora_et_al_2005_50997_model:RibbonSynapseSikoraEtAl200550997Model
+    args:
+      model_path: data/50997.zip
+  rothmanetal_kole_2:
+    class: src.rothmanetal_koleetal_pyrcell_rothmanetalkoleetalpyrcell_model:RothmanetalKoleetalPyrcellRothmanetalkoleetalpyrcellModel
+    args:
+      model_path: data/repo
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: ribbon_synapse_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: rothmanetal_kole_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

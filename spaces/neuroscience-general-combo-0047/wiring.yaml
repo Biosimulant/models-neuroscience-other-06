@@ -1,0 +1,36 @@
+modules:
+  networks_of_1:
+    class: src.networks_of_spiking_neurons_a_review_of_tools_an_83319_model:NetworksOfSpikingNeuronsAReviewOfToolsAn83319Model
+    args:
+      model_path: data/83319.zip
+  neural_field_2:
+    class: src.neural_field_model_of_generalized_seizures_zhao_182906_model:NeuralFieldModelOfGeneralizedSeizuresZhao182906Model
+    args:
+      model_path: data/182906.zip
+  neural_mass_3:
+    class: src.neural_mass_model_based_on_single_cell_dynamics_155130_model:NeuralMassModelBasedOnSingleCellDynamics155130Model
+    args:
+      model_path: data/155130.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: networks_of_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: neural_field_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: neural_mass_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

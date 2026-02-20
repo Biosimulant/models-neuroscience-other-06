@@ -1,0 +1,36 @@
+modules:
+  neuronvisio_a_1:
+    class: src.neuronvisio_a_gui_with_3d_capabilities_for_neuro_147185_model:NeuronvisioAGuiWith3dCapabilitiesForNeuro147185Model
+    args:
+      model_path: data/147185.zip
+  neurophysiologic_2:
+    class: src.neurophysiological_impact_of_inactivation_pathwa_145672_model:NeurophysiologicalImpactOfInactivationPathwa145672Model
+    args:
+      model_path: data/145672.zip
+  nifshowcase_3:
+    class: src.nifshowcase_nifshowcase_model:NifshowcaseNifshowcaseModel
+    args:
+      model_path: data/repo
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: neuronvisio_a_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: neurophysiologic_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: nifshowcase_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

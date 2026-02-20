@@ -1,0 +1,44 @@
+modules:
+  paired_turbulenc_1:
+    class: src.paired_turbulence_and_light_effect_on_calcium_in_53427_model:PairedTurbulenceAndLightEffectOnCalciumIn53427Model
+    args:
+      model_path: data/53427.zip
+  paradoxical_gaba_2:
+    class: src.paradoxical_gaba_mediated_excitation_lewin_et_al_146504_model:ParadoxicalGabaMediatedExcitationLewinEtAl146504Model
+    args:
+      model_path: data/146504.zip
+  parallel_network_3:
+    class: src.parallel_network_simulations_with_neuron_miglior_64229_model:ParallelNetworkSimulationsWithNeuronMiglior64229Model
+    args:
+      model_path: data/64229.zip
+  perturbation_sen_4:
+    class: src.perturbation_sensitivity_implies_high_noise_and_144027_model:PerturbationSensitivityImpliesHighNoiseAnd144027Model
+    args:
+      model_path: data/144027.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: paired_turbulenc_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: paradoxical_gaba_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: parallel_network_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: perturbation_sen_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

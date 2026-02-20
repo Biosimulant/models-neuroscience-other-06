@@ -1,0 +1,44 @@
+modules:
+  multiscale_simul_1:
+    class: src.multiscale_simulation_of_the_striatal_medium_spi_150284_model:MultiscaleSimulationOfTheStriatalMediumSpi150284Model
+    args:
+      model_path: data/150284.zip
+  nacc_medium_2:
+    class: src.nacc_medium_spiny_neuron_effects_of_cannabinoid_126640_model:NaccMediumSpinyNeuronEffectsOfCannabinoid126640Model
+    args:
+      model_path: data/126640.zip
+  nigral_dopaminer_3:
+    class: src.nigral_dopaminergic_neurons_effects_of_ethanol_o_112359_model:NigralDopaminergicNeuronsEffectsOfEthanolO112359Model
+    args:
+      model_path: data/112359.zip
+  optimal_deep_4:
+    class: src.optimal_deep_brain_stimulation_of_the_subthalami_93449_model:OptimalDeepBrainStimulationOfTheSubthalami93449Model
+    args:
+      model_path: data/93449.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: multiscale_simul_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: nacc_medium_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: nigral_dopaminer_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: optimal_deep_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

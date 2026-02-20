@@ -1,0 +1,36 @@
+modules:
+  morrislecarmodel_1:
+    class: src.morrislecarmodel_morrislecarmodel_model:MorrislecarmodelMorrislecarmodelModel
+    args:
+      model_path: data/repo
+  motion_clouds_2:
+    class: src.motion_clouds_synthesis_of_random_textures_for_m_146953_model:MotionCloudsSynthesisOfRandomTexturesForM146953Model
+    args:
+      model_path: data/146953.zip
+  motoneuron_model_3:
+    class: src.motoneuron_model_of_self_sustained_firing_after_140788_model:MotoneuronModelOfSelfSustainedFiringAfter140788Model
+    args:
+      model_path: data/140788.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: morrislecarmodel_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: motion_clouds_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: motoneuron_model_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

@@ -1,0 +1,28 @@
+modules:
+  surround_suppres_1:
+    class: src.surround_suppression_in_v1_via_withdraw_of_balan_144096_model:SurroundSuppressionInV1ViaWithdrawOfBalan144096Model
+    args:
+      model_path: data/144096.zip
+  sympathetic_preg_2:
+    class: src.sympathetic_preganglionic_neurone_briant_et_al_2_151482_model:SympatheticPreganglionicNeuroneBriantEtAl2151482Model
+    args:
+      model_path: data/151482.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: surround_suppres_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: sympathetic_preg_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

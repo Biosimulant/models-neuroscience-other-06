@@ -1,0 +1,44 @@
+modules:
+  org_geppetto_1:
+    class: src.org_geppetto_persistence_orggeppettopersistence_model:OrgGeppettoPersistenceOrggeppettopersistenceModel
+    args:
+      model_path: data/repo
+  orientation_sele_2:
+    class: src.orientation_selectivity_in_inhibition_dominated_182759_model:OrientationSelectivityInInhibitionDominated182759Model
+    args:
+      model_path: data/182759.zip
+  osb_api_3:
+    class: src.osb_api_osbapi_model:OsbApiOsbapiModel
+    args:
+      model_path: data/repo
+  osb_homepage_4:
+    class: src.osb_homepage_osbhomepage_model:OsbHomepageOsbhomepageModel
+    args:
+      model_path: data/repo
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: org_geppetto_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: orientation_sele_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: osb_api_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: osb_homepage_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

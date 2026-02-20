@@ -1,0 +1,28 @@
+modules:
+  simulated_cortic_1:
+    class: src.simulated_cortical_color_opponent_receptive_fiel_152197_model:SimulatedCorticalColorOpponentReceptiveFiel152197Model
+    args:
+      model_path: data/152197.zip
+  smithetal2013_l2_2:
+    class: src.smithetal2013_l23dendriticspikes_smithetal2013l23dendriticspikes_model:Smithetal2013L23dendriticspikesSmithetal2013l23dendriticspikesModel
+    args:
+      model_path: data/repo
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: simulated_cortic_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: smithetal2013_l2_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

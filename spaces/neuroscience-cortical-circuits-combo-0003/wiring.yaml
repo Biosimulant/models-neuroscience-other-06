@@ -1,0 +1,28 @@
+modules:
+  neocortical_pyra_1:
+    class: src.neocortical_pyramidal_neuron_deep_effects_of_dop_82849_model:NeocorticalPyramidalNeuronDeepEffectsOfDop82849Model
+    args:
+      model_path: data/82849.zip
+  network_model_2:
+    class: src.network_model_with_neocortical_architecture_ande_141507_model:NetworkModelWithNeocorticalArchitectureAnde141507Model
+    args:
+      model_path: data/141507.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: neocortical_pyra_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: network_model_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

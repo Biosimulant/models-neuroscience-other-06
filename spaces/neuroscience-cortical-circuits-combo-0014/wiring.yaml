@@ -1,0 +1,28 @@
+modules:
+  pyramidal_neuron_1:
+    class: src.pyramidal_neuron_deep_constrained_by_experiment_93349_model:PyramidalNeuronDeepConstrainedByExperiment93349Model
+    args:
+      model_path: data/93349.zip
+  pyramidal_neuron_2:
+    class: src.pyramidal_neuron_fast_regular_and_irregular_spik_168310_model:PyramidalNeuronFastRegularAndIrregularSpik168310Model
+    args:
+      model_path: data/168310.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: pyramidal_neuron_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: pyramidal_neuron_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

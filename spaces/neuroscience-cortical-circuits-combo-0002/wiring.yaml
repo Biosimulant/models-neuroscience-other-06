@@ -1,0 +1,28 @@
+modules:
+  na_channel_1:
+    class: src.na_channel_dependence_of_ap_initiation_in_cortic_114394_model:NaChannelDependenceOfApInitiationInCortic114394Model
+    args:
+      model_path: data/114394.zip
+  nav1_sodium_2:
+    class: src.nav1_6_sodium_channel_model_in_globus_pallidus_n_105385_model:Nav16SodiumChannelModelInGlobusPallidusN105385Model
+    args:
+      model_path: data/105385.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: na_channel_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: nav1_sodium_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

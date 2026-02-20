@@ -1,0 +1,36 @@
+modules:
+  nmdar_and_1:
+    class: src.nmdar_and_gabab_kir_give_bistable_dendrites_work_169985_model:NmdarAndGababKirGiveBistableDendritesWork169985Model
+    args:
+      model_path: data/169985.zip
+  nodes_of_2:
+    class: src.nodes_of_ranvier_with_left_shifted_nav_channels_144481_model:NodesOfRanvierWithLeftShiftedNavChannels144481Model
+    args:
+      model_path: data/144481.zip
+  nodose_sensory_3:
+    class: src.nodose_sensory_neuron_schild_et_al_1994_schild_a_120521_model:NodoseSensoryNeuronSchildEtAl1994SchildA120521Model
+    args:
+      model_path: data/120521.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: nmdar_and_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: nodes_of_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: nodose_sensory_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

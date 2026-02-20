@@ -1,0 +1,36 @@
+modules:
+  the_virtual_1:
+    class: src.the_virtual_slice_setup_lytton_et_al_2008_116838_model:TheVirtualSliceSetupLyttonEtAl2008116838Model
+    args:
+      model_path: data/116838.zip
+  tight_junction_2:
+    class: src.tight_junction_model_of_cns_myelinated_axons_dev_122442_model:TightJunctionModelOfCnsMyelinatedAxonsDev122442Model
+    args:
+      model_path: data/122442.zip
+  tobinetal2017_3:
+    class: src.tobinetal2017_tobinetal2017_model:Tobinetal2017Tobinetal2017Model
+    args:
+      model_path: data/repo
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: the_virtual_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: tight_junction_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: tobinetal2017_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

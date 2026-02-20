@@ -1,0 +1,44 @@
+modules:
+  poirazi2003_ca1p_1:
+    class: src.poirazi2003_ca1pyramidalcell_poirazi2003ca1pyramidalcell_model:Poirazi2003Ca1pyramidalcellPoirazi2003ca1pyramidalcellModel
+    args:
+      model_path: data/repo
+  role_for_2:
+    class: src.role_for_short_term_plasticity_and_olm_cells_in_168314_model:RoleForShortTermPlasticityAndOlmCellsIn168314Model
+    args:
+      model_path: data/168314.zip
+  roles_of_3:
+    class: src.roles_of_i_a_and_morphology_in_ap_prop_in_ca1_py_118014_model:RolesOfIAAndMorphologyInApPropInCa1Py118014Model
+    args:
+      model_path: data/118014.zip
+  shaping_of_4:
+    class: src.shaping_of_action_potentials_by_different_types_140471_model:ShapingOfActionPotentialsByDifferentTypes140471Model
+    args:
+      model_path: data/140471.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: poirazi2003_ca1p_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: role_for_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: roles_of_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: shaping_of_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d

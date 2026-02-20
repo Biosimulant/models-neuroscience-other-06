@@ -1,0 +1,86 @@
+schema_version: '2.0'
+title: 'Neuroscience: General (COMBO_0061)'
+description: Neuroscience general comparative space with 4 models, configured as non-causal
+  co-simulation.
+models:
+- repo: Biosimulant/models-neuroscience-other-06
+  alias: oscillation_and_1
+  manifest_path: models/neuroscience-other-oscillation-and-coding-in-a-proposed-nn-model-of-123986-model/model.yaml
+  parameters:
+    model_path: data/123986.zip
+- repo: Biosimulant/models-neuroscience-other-06
+  alias: oscillations_eme_2
+  manifest_path: models/neuroscience-other-oscillations-emerging-from-noise-driven-nns-tchu-168599-model/model.yaml
+  parameters:
+    model_path: data/168599.zip
+- repo: Biosimulant/models-neuroscience-other-06
+  alias: oversampling_met_3
+  manifest_path: models/neuroscience-other-oversampling-method-to-extract-excitatory-and-in-145803-model/model.yaml
+  parameters:
+    model_path: data/145803.zip
+- repo: Biosimulant/models-neuroscience-other-06
+  alias: oxytocin_and_4
+  manifest_path: models/neuroscience-other-oxytocin-and-vip-involvement-in-prolactin-secret-91893-model/model.yaml
+  parameters:
+    model_path: data/91893.zip
+- repo: Biosimulant/models-observability
+  alias: state_compare_mon
+  manifest_path: models/observability-state-comparison-monitor/model.yaml
+  parameters:
+    max_points: 2000
+    min_dt: 1.0
+- repo: Biosimulant/models-observability
+  alias: state_metrics_mon
+  manifest_path: models/observability-state-metrics-monitor/model.yaml
+  parameters:
+    max_points: 2000
+    min_dt: 1.0
+runtime:
+  duration: 0.3
+  tick_dt: 0.01
+  initial_inputs: {}
+wiring:
+- from: oscillation_and_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: oscillations_eme_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: oversampling_met_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: oxytocin_and_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d
+scientific_context:
+  question: How do general mechanisms compare across these models?
+  mode: comparative
+  assumptions:
+  - Model implementations are used as published in their curated manifests without
+    biological reinterpretation.
+  - Time integration uses a shared global tick compatible with model min_dt constraints.
+  - Comparative (non-causal) mode is used because full deterministic IO coverage for
+    causal coupling was not satisfied.
+  expected_observables:
+  - Model output trajectories under shared runtime settings.
+  - Cross-model agreement/divergence in key state or metric signals.
+  - Relative behavior comparison without causal linkage claims.
+  limitations:
+  - No new biology is introduced beyond what upstream models encode.
+  - Cross-model semantic matching is rule-based and may under-connect uncertain routes.
+  provenance:
+  - 'neuroscience-other-oscillation-and-coding-in-a-proposed-nn-model-of-123986-model
+    :: modeldb:123986 :: https://modeldb.science/123986'
+  - 'neuroscience-other-oscillations-emerging-from-noise-driven-nns-tchu-168599-model
+    :: modeldb:168599 :: https://modeldb.science/168599'
+  - 'neuroscience-other-oversampling-method-to-extract-excitatory-and-in-145803-model
+    :: modeldb:145803 :: https://modeldb.science/145803'
+  - 'neuroscience-other-oxytocin-and-vip-involvement-in-prolactin-secret-91893-model
+    :: modeldb:91893 :: https://modeldb.science/91893'
+  visualization_rationale: A dedicated monitor model receives all participating model
+    state streams (`state_a..state_d`) so trajectories can be compared in one place
+    without claiming causal coupling when IO semantics are incomplete.

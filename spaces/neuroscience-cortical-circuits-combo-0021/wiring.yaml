@@ -1,0 +1,28 @@
+modules:
+  scaling_self_1:
+    class: src.scaling_self_organizing_maps_to_model_large_cort_76883_model:ScalingSelfOrganizingMapsToModelLargeCort76883Model
+    args:
+      model_path: data/76883.zip
+  schiz_linked_2:
+    class: src.schiz_linked_gene_effects_on_intrinsic_single_ne_169457_model:SchizLinkedGeneEffectsOnIntrinsicSingleNe169457Model
+    args:
+      model_path: data/169457.zip
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: scaling_self_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: schiz_linked_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b

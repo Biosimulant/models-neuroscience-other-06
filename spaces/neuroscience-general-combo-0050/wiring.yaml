@@ -1,0 +1,36 @@
+modules:
+  neuroconstruct_t_1:
+    class: src.neuroconstruct_to_be_deleted_neuroconstructtobedeleted_model:NeuroconstructToBeDeletedNeuroconstructtobedeletedModel
+    args:
+      model_path: data/repo
+  neuroconstructsh_2:
+    class: src.neuroconstructshowcase_neuroconstructshowcase_model:NeuroconstructshowcaseNeuroconstructshowcaseModel
+    args:
+      model_path: data/repo
+  neurodatashare_3:
+    class: src.neurodatashare_neurodatashare_model:NeurodatashareNeurodatashareModel
+    args:
+      model_path: data/repo
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: neuroconstruct_t_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: neuroconstructsh_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: neurodatashare_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
