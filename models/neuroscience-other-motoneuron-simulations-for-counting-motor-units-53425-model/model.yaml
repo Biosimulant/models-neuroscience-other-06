@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: MotoneuronSimulationsForCountingMotorUnits53425Model'
-description: '{''value'': ''Simulations of clinical methods to count the number of
-  motoneurons/motor units in human patients. Models include stimulation of motor axons
-  or voluntary activation and responses are measure'
+description: "{'value': 'Simulations of clinical methods to count the number of motoneurons/motor units in human patients. Models include stimulation of motor axons or voluntary activation and responses are measure."
 standard: other
 tags:
 - neuroscience

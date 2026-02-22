@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ModelsOfVectorNavigationWithGridCellsBush182685Model'
-description: '{"value": "Four models of vector navigation in large scale 2D space
-  using grid cell representations of location are included: \r\n(1) The ''Distance
-  Cell'' model, which directly decodes absolute start a'
+description: "{\"value\": \"Four models of vector navigation in large scale 2D space using grid cell representations of location are included: \\r\\n(1) The 'Distance Cell' model, which directly decodes absolute start a. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

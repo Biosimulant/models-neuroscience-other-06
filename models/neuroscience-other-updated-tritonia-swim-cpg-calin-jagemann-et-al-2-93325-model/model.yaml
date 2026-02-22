@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: UpdatedTritoniaSwimCpgCalinJagemannEtAl293325Model'
-description: '{''value'': ''Model of the 3-cell core CPG (DSI, C2, and VSI-B) mediating
-  escape swimming in Tritonia diomedea. Cells use a hybrid integrate-and-fire scheme
-  pioneered by Peter Getting. Each model cell is'
+description: "{'value': 'Model of the 3-cell core CPG (DSI, C2, and VSI-B) mediating escape swimming in Tritonia diomedea. Cells use a hybrid integrate-and-fire scheme pioneered by Peter Getting."
 standard: other
 tags:
 - neuroscience

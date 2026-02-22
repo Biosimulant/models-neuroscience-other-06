@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Norenbergetal2010DgbasketcellNorenbergetal2010dgbasketcellModel'
-description: Passive cable model of Dentate Gyrus Basket Cells from NorenbergEtAl2010
+description: "Passive cable model of Dentate Gyrus Basket Cells from NorenbergEtAl2010. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

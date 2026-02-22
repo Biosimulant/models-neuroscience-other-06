@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: RoleOfKcnq1AndIksInCardiacRepolarization55748Model'
-description: '{''value'': ''Detailed Markov models of IKs (the slow delayed rectifier
-  K+ current) and its alpha-subunit KCNQ1 were developed. The model is compared to
-  experiment in the paper. The role of IKs in diseas'
+description: "{'value': 'Detailed Markov models of IKs (the slow delayed rectifier K+ current) and its alpha-subunit KCNQ1 were developed. The model is compared to experiment in the paper."
 standard: other
 tags:
 - neuroscience

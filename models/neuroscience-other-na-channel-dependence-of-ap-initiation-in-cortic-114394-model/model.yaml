@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: NaChannelDependenceOfApInitiationInCortic114394Model'
-description: '{''value'': ''In this simulation action potential initiation, action
-  potential properties and the role of axon initial segment Na+ channels are investigated
-  in a realistic model of a layer 5 pyramidal ne'
+description: "{'value': 'In this simulation action potential initiation, action potential properties and the role of axon initial segment Na+ channels are investigated in a realistic model of a layer 5 pyramidal ne. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

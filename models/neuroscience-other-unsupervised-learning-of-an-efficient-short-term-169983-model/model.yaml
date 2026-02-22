@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: UnsupervisedLearningOfAnEfficientShortTerm169983Model'
-description: '{"value": "Learning in recurrent neural networks has been a topic fraught
-  with\r\ndifficulties and problems. We here report substantial progress in the\r\nunsupervised
-  learning of recurrent networks t'
+description: "{\"value\": \"Learning in recurrent neural networks has been a topic fraught with\\r\\ndifficulties and problems. We here report substantial progress in the\\r\\nunsupervised learning of recurrent networks t."
 standard: other
 tags:
 - neuroscience

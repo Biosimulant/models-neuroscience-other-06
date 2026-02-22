@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SpatialGriddingAndTemporalAccuracyInNeuron53451Model'
-description: "{'value': 'A heuristic for compartmentalization based on\r\nthe space\
-  \ constant at 100 Hz is proposed.\r\nThe paper also discusses spatio/temporal accuracy\r\
-  \nand the use of CVODE.', 'attr_id': 24}"
+description: "A heuristic for compartmentalization based on the space constant at 100 Hz is proposed. The paper also discusses spatio/temporal accuracy and the use of CVODE."
 standard: other
 tags:
 - neuroscience

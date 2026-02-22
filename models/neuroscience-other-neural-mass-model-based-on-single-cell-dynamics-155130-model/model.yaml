@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: NeuralMassModelBasedOnSingleCellDynamics155130Model'
-description: '{"value": "The model code as described in \"A neural mass model based
-  on single cell dynamics to model pathophysiology, Zandt et al. 2014, Journal of
-  Computational Neuroscience\"\r\n\r\nA Neural mass '
+description: "{\"value\": \"The model code as described in \\\"A neural mass model based on single cell dynamics to model pathophysiology, Zandt et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

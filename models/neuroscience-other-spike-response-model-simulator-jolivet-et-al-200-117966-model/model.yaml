@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SpikeResponseModelSimulatorJolivetEtAl200117966Model'
-description: '{"value": "The Spike Response Model (SRM) optimized on the experimental
-  data in the Single-Neuron modelling Competition ( www.incf.org/community/competitions
-  ) for edition 2007 and edition 2008. The S'
+description: "{\"value\": \"The Spike Response Model (SRM) optimized on the experimental data in the Single-Neuron modelling Competition ( www.incf.org/community/competitions ) for edition 2007 and edition 2008. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ParameterEstimationForHodgkinHuxleyBasedMo136808Model'
-description: '{"value": "Simulation and fitting of two-compartment (active soma, passive
-  dendrite) \r\nfor different classes of cortical neurons. The fitting technique \r\nindirectly
-  matches neuronal currents deriv'
+description: "{\"value\": \"Simulation and fitting of two-compartment (active soma, passive dendrite) \\r\\nfor different classes of cortical neurons. The fitting technique \\r\\nindirectly matches neuronal currents deriv."
 standard: other
 tags:
 - neuroscience

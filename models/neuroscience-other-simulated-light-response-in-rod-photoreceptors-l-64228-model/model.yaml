@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SimulatedLightResponseInRodPhotoreceptorsL64228Model'
-description: '{''value'': ''We developed a complete computer model of the rod, which
-  accurately reproduced the main features of the light response and allowed us to
-  demonstrate that it was suppression of Kx channels t'
+description: "{'value': 'We developed a complete computer model of the rod, which accurately reproduced the main features of the light response and allowed us to demonstrate that it was suppression of Kx channels t. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

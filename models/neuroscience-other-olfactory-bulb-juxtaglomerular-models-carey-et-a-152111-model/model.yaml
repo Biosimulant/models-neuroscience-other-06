@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: OlfactoryBulbJuxtaglomerularModelsCareyEtA152111Model'
-description: '{"value": "\" ...We investigated how OB circuits shape inhalation-driven\r\ndynamics
-  in MCs using a modeling approach that was highly constrained by experimental\r\nresults.
-  First, we constructed mode'
+description: "{\"value\": \"\\\" ...We investigated how OB circuits shape inhalation-driven\\r\\ndynamics in MCs using a modeling approach that was highly constrained by experimental\\r\\nresults. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

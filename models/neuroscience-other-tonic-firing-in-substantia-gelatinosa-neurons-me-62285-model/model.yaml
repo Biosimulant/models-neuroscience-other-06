@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: TonicFiringInSubstantiaGelatinosaNeuronsMe62285Model'
-description: "{'value': 'Ionic conductances underlying excitability in tonically firing\
-  \ neurons\r\n(TFNs) from substantia gelatinosa (SG) were studied by the patch-clamp\r\
-  \nmethod in rat spinal cord slices. ... Sup"
+description: "{'value': 'Ionic conductances underlying excitability in tonically firing neurons (TFNs) from substantia gelatinosa (SG) were studied by the patch-clamp method in rat spinal cord slices. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

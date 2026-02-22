@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Vierlingclaassenetal2010Vierlingclaassenetal2010Model'
-description: Network model from Engaging distinct oscillatory neocortical circuits,
-  Vierling-Claassen et al 2010
+description: "Network model from Engaging distinct oscillatory neocortical circuits, Vierling-Claassen et al 2010. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

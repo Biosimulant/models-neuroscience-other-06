@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SimulatingIonChannelNoiseInAnAuditoryBrai151483Model'
-description: '{"value": "\" ... Here we demonstrate that biophysical models of channel
-  noise can give rise to two\r\nkinds of recently discovered stochastic facilitation
-  effects in a Hodgkin-Huxley-like model of au'
+description: "{\"value\": \"\\\" ... Here we demonstrate that biophysical models of channel noise can give rise to two\\r\\nkinds of recently discovered stochastic facilitation effects in a Hodgkin-Huxley-like model of au."
 standard: other
 tags:
 - neuroscience

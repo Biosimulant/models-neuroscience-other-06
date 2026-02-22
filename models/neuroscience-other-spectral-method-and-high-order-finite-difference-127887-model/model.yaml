@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SpectralMethodAndHighOrderFiniteDifference127887Model'
-description: '{"value": "We use high-order approximation schemes for the space derivatives
-  in the nonlinear cable equation and investigate the behavior of numerical solution
-  errors by using exact solutions, where a'
+description: "{\"value\": \"We use high-order approximation schemes for the space derivatives in the nonlinear cable equation and investigate the behavior of numerical solution errors by using exact solutions, where a. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

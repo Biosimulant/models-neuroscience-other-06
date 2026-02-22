@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Vogelssprekeleretal2011Vogelssprekeleretal2011Model'
-description: Network from Vogels et al, Science 2011
+description: "Neuroscience Vogelssprekeleretal2011Vogelssprekeleretal2011Model represents neuroscience vogelssprekeleretal2011 vogelssprekeleretal2011 mechanisms from opensourcebrain reference opensourcebrain:VogelsSprekeler. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - neuroscience

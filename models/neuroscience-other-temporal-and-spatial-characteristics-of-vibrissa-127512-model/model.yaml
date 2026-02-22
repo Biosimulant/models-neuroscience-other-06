@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: TemporalAndSpatialCharacteristicsOfVibrissa127512Model'
-description: '{"value": "\"A mechanistic description of the generation of whisker
-  movements is essential for understanding the control of whisking and vibrissal\r\nactive
-  touch. We explore how facial-motoneuron spi'
+description: "{\"value\": \"\\\"A mechanistic description of the generation of whisker movements is essential for understanding the control of whisking and vibrissal\\r\\nactive touch. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

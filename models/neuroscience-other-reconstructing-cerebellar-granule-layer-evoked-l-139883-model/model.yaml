@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ReconstructingCerebellarGranuleLayerEvokedL139883Model'
-description: '{"value": "The model allows reconstruction of evoked local field potentials
-  as seen in the cerebellar granular layer. The approach uses a detailed model of
-  cerebellar granule neuron to generate data t'
+description: "{\"value\": \"The model allows reconstruction of evoked local field potentials as seen in the cerebellar granular layer. The approach uses a detailed model of cerebellar granule neuron to generate data t."
 standard: other
 tags:
 - neuroscience

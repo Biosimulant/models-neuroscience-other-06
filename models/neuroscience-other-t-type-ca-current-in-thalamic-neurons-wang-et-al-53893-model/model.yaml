@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: TTypeCaCurrentInThalamicNeuronsWangEtAl53893Model'
-description: "{'value': 'A model of the transient, low-threshold voltage-dependent\
-  \ (T-type)\r\nCa2+ current is constructed using whole-cell voltage-clamp \r\ndata\
-  \ from enzymatically isolated rat thalamocortical rel"
+description: "{'value': 'A model of the transient, low-threshold voltage-dependent (T-type) Ca2+ current is constructed using whole-cell voltage-clamp data from enzymatically isolated rat thalamocortical rel. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

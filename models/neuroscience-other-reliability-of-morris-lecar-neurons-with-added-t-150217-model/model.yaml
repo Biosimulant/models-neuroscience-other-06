@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ReliabilityOfMorrisLecarNeuronsWithAddedT150217Model'
-description: '{"value": "We investigated the reliability of the timing of spikes in
-  a spike train in a Morris-Lecar model with several extensions. A frozen Gaussian
-  noise current, superimposed on a DC current, was '
+description: "{\"value\": \"We investigated the reliability of the timing of spikes in a spike train in a Morris-Lecar model with several extensions. A frozen Gaussian noise current, superimposed on a DC current, was."
 standard: other
 tags:
 - neuroscience

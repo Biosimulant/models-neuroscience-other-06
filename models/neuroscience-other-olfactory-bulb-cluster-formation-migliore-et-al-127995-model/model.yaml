@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: OlfactoryBulbClusterFormationMiglioreEtAl127995Model'
-description: '{"value": "Functional roles of distributed synaptic clusters in the
-  mitral-granule cell network of the olfactory bulb.", "attr_id": 24}'
+description: "Functional roles of distributed synaptic clusters in the mitral-granule cell network of the olfactory bulb. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

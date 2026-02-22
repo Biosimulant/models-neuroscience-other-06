@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SquidAxonHodgkinHuxley1952UsedInChenEtA152897Model'
-description: '{"value": "\"... Previous work showed that magnetic electrical field-induced
-  antinoceptive action is mediated by activation of capsaicin-sensitive sensory afferents.
-  In this study, a modified Hodgkin-'
+description: "{\"value\": \"\\\"... Previous work showed that magnetic electrical field-induced antinoceptive action is mediated by activation of capsaicin-sensitive sensory afferents."
 standard: other
 tags:
 - neuroscience

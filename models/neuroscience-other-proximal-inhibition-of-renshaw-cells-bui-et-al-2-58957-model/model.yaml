@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ProximalInhibitionOfRenshawCellsBuiEtAl258957Model'
-description: "{'value': 'Inhibitory synaptic inputs to Renshaw cells are concentrated\
-  \ on the\r\nsoma and the juxtasomatic dendrites. In the present study, we \r\ninvestigated\
-  \ whether this proximal bias leads to mor"
+description: "{'value': 'Inhibitory synaptic inputs to Renshaw cells are concentrated on the soma and the juxtasomatic dendrites. In the present study, we investigated whether this proximal bias leads to mor."
 standard: other
 tags:
 - neuroscience

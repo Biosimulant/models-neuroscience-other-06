@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SpikesSynchronyAndAttentiveLearningByLamin112922Model'
-description: '{"value": "\"... The model\r\nhereby clarifies, for the first time,
-  how the following levels of brain organization coexist to realize\r\ncognitive processing
-  properties that regulate fast learning and'
+description: "{\"value\": \"\\\"... It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

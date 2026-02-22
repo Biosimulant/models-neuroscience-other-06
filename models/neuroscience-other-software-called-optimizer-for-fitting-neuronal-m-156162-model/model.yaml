@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SoftwareCalledOptimizerForFittingNeuronalM156162Model'
-description: '{"value": "\" ... Our software, called Optimizer, implements a modular
-  and extensible framework for\r\nthe optimization of neuronal models, and also features
-  a graphical interface which\r\nmakes it ea'
+description: "{\"value\": \"\\\" ... Our software, called Optimizer, implements a modular and extensible framework for\\r\\nthe optimization of neuronal models, and also features a graphical interface which\\r\\nmakes it ea."
 standard: other
 tags:
 - neuroscience

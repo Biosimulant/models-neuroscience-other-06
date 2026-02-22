@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ScalingSelfOrganizingMapsToModelLargeCort76883Model'
-description: "{'value': 'Self-organizing computational models\r\nwith specific intracortical\
-  \ connections can\r\nexplain many functional features of visual\r\ncortex, such\
-  \ as topographic orientation and\r\nocular do"
+description: "{'value': 'Self-organizing computational models with specific intracortical connections can explain many functional features of visual cortex, such as topographic orientation and ocular do. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

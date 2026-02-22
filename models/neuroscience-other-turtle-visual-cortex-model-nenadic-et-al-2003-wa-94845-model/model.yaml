@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: TurtleVisualCortexModelNenadicEtAl2003Wa94845Model'
-description: "{'value': 'This is a model of the visual cortex of freshwater turtles\
-  \ that is based upon the\r\nknown anatomy and physiology of individual neurons.\
-  \ The model was published in three\r\npapers (Nenadic "
+description: "{'value': 'This is a model of the visual cortex of freshwater turtles that is based upon the known anatomy and physiology of individual neurons. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

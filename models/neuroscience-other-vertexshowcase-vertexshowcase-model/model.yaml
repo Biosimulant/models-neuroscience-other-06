@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: VertexshowcaseVertexshowcaseModel'
-description: An OSB Showcase project to create examples of export from & import to
-  the VERTEX simulator
+description: "An OSB Showcase project to create examples of export from & import to the VERTEX simulator. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

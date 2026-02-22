@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ProstheticElectrostimulationForInformationFl141505Model'
-description: '{"value": "This model is an extension of a model ( http://modeldb.yale.edu/138379
-  ) recently published in Frontiers in Computational Neuroscience. This model consists
-  of 4700 event-driven, rule-based '
+description: "{\"value\": \"This model is an extension of a model ( http://modeldb.yale.edu/138379 ) recently published in Frontiers in Computational Neuroscience. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

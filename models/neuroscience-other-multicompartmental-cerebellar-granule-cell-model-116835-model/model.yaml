@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: MulticompartmentalCerebellarGranuleCellModel116835Model'
-description: '{"value": "A detailed multicompartmental model was used to study neuronal
-  electroresponsiveness of cerebellar granule cells in rats. Here we show that, in
-  cerebellar granule cells, Na+ channels are en'
+description: "{\"value\": \"A detailed multicompartmental model was used to study neuronal electroresponsiveness of cerebellar granule cells in rats. Here we show that, in cerebellar granule cells, Na+ channels are en."
 standard: other
 tags:
 - neuroscience

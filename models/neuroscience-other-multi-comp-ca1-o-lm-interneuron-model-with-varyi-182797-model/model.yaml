@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: MultiCompCa1OLmInterneuronModelWithVaryi182797Model'
-description: '{"value": "The model presented here was used to investigate possible
-  dendritic distributions of the HCN channel-mediated current (Ih) in models of oriens-lacunosum/moleculare
-  (O-LM) CA1 hippocampal in'
+description: "{\"value\": \"The model presented here was used to investigate possible dendritic distributions of the HCN channel-mediated current (Ih) in models of oriens-lacunosum/moleculare (O-LM) CA1 hippocampal in. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

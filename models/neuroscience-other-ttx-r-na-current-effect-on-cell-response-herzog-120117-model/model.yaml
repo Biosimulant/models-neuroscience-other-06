@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: TtxRNaCurrentEffectOnCellResponseHerzog120117Model'
-description: '{"value": "\"Small dorsal root ganglion (DRG) neurons, which include
-  nociceptors, express multiple voltage-gated sodium currents. In addition to a classical
-  fast inactivating tetrodotoxin-sensitive (T'
+description: "{\"value\": \"\\\"Small dorsal root ganglion (DRG) neurons, which include nociceptors, express multiple voltage-gated sodium currents. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ResponsePropertiesOfNeocortNeuronsToTempor118631Model'
-description: '{"value": "Neocortical neurons are classified by current\u2013frequency
-  relationship. This is a static description and it may be inadequate to interpret
-  neuronal responses to time-varying stimuli. \r\'
+description: "{\"value\": \"Neocortical neurons are classified by current\\u2013frequency relationship. This is a static description and it may be inadequate to interpret neuronal responses to time-varying stimuli."
 standard: other
 tags:
 - neuroscience

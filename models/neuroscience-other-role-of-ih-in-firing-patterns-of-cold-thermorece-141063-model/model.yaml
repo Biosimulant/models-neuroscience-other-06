@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: RoleOfIhInFiringPatternsOfColdThermorece141063Model'
-description: '{"value": "\" ... Here we investigated the role of Ih in cold-sensitive
-  (CS) nerve endings, where cold sensory transduction actually takes place. Corneal
-  CS nerve endings in mice show a rhythmic spiki'
+description: "{\"value\": \"\\\" ... Here we investigated the role of Ih in cold-sensitive (CS) nerve endings, where cold sensory transduction actually takes place."
 standard: other
 tags:
 - neuroscience

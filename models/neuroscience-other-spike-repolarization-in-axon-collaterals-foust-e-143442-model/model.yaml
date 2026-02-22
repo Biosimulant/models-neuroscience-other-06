@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SpikeRepolarizationInAxonCollateralsFoustE143442Model'
-description: '{"value": "Voltage sensing dye experiments and simulations characterize
-  the location and re-polarizing function of Kv1 channels in cortical neurons.\r\n\"...
-  (the papers) results indicate that action '
+description: "{\"value\": \"Voltage sensing dye experiments and simulations characterize the location and re-polarizing function of Kv1 channels in cortical neurons.\\r\\n\\\"... It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

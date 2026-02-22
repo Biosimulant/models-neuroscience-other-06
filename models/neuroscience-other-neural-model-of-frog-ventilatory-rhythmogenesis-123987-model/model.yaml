@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: NeuralModelOfFrogVentilatoryRhythmogenesis123987Model'
-description: '{"value": "\"In the adult frog respiratory system, periods of rhythmic
-  movements of the buccal floor are interspersed\r\nby lung ventilation episodes.
-  \r\n\r\nThe ventilatory activity results from the'
+description: "{\"value\": \"\\\"In the adult frog respiratory system, periods of rhythmic movements of the buccal floor are interspersed\\r\\nby lung ventilation episodes. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

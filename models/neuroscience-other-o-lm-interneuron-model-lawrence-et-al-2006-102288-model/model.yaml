@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: OLmInterneuronModelLawrenceEtAl2006102288Model'
-description: '{''value'': ''Exploring the kinetics and distribution of the muscarinic
-  potassium channel, IM, in 2 O-LM interneuron morphologies. Modulation of the ion
-  channel by drugs such as XE991 (antagonist) and re'
+description: "{'value': 'Exploring the kinetics and distribution of the muscarinic potassium channel, IM, in 2 O-LM interneuron morphologies. Modulation of the ion channel by drugs such as XE991 (antagonist) and re."
 standard: other
 tags:
 - neuroscience

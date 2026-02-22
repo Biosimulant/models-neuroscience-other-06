@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: TheRelationshipBetweenTwoFastSlowAnalysis154871Model'
-description: '{"value": "\"Bursting oscillations in excitable systems reflect multi-timescale
-  dynamics. \r\n\r\nThese oscillations have\r\noften been studied in mathematical
-  models by splitting the equations into f'
+description: "{\"value\": \"\\\"Bursting oscillations in excitable systems reflect multi-timescale dynamics. \\r\\n\\r\\nThese oscillations have\\r\\noften been studied in mathematical models by splitting the equations into f."
 standard: other
 tags:
 - neuroscience

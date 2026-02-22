@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: TChannelCurrentsVitkoEtAl200553965Model'
-description: '{''value'': ''Computer simulations predict that seven of the SNPs would
-  increase firing of neurons, with three of them inducing oscillations at similar
-  frequencises. 3 representative models from the pape'
+description: "{'value': 'Computer simulations predict that seven of the SNPs would increase firing of neurons, with three of them inducing oscillations at similar frequencises. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

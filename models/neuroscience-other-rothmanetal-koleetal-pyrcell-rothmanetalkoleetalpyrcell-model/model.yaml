@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: RothmanetalKoleetalPyrcellRothmanetalkoleetalpyrcellModel'
-description: GitHub repository for an OSB project containing a layer 5 pyramidal cell
-  model from Kole et al. 2008 as used by Rothman et al 2009
+description: "GitHub repository for an OSB project containing a layer 5 pyramidal cell model from Kole et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

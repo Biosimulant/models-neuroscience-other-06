@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: NeuralFieldModelOfGeneralizedSeizuresZhao182906Model'
-description: '{"value": "The mechanisms underlying generalized seizures are explored
-  with neural field theory. A corticothalamic neural field model is used to explore
-  changes leading to pathological seizure states.'
+description: "{\"value\": \"The mechanisms underlying generalized seizures are explored with neural field theory. A corticothalamic neural field model is used to explore changes leading to pathological seizure states."
 standard: other
 tags:
 - neuroscience

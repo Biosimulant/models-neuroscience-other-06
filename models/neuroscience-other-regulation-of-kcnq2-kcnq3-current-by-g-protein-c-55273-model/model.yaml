@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: RegulationOfKcnq2Kcnq3CurrentByGProteinC55273Model'
-description: "{'value': 'Receptor-mediated modulation of KCNQ channels regulates neuronal\
-  \ excitability. This study concerns\r\nthe kinetics and mechanism of M1 muscarinic\
-  \ receptor-mediated regulation of the cloned "
+description: "{'value': 'Receptor-mediated modulation of KCNQ channels regulates neuronal excitability. This study concerns the kinetics and mechanism of M1 muscarinic receptor-mediated regulation of the cloned."
 standard: other
 tags:
 - neuroscience

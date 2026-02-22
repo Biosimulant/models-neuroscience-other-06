@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: VervaekeetalGolgicellnetworkVervaekeetalgolgicellnetworkModel'
-description: GitHub repository for an OSB project containing a cerebellar Golgi cell
-  based on Vervaeke et al 2010
+description: "GitHub repository for an OSB project containing a cerebellar Golgi cell based on Vervaeke et al 2010. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

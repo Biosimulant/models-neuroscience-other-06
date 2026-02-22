@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ParametricComputationAndPersistentGammaInA144579Model'
-description: '{"value": "Using the Traub et al (2005) model of the cortex we determined
-  how 33 synaptic strength parameters control gamma oscillations. We used fractional
-  factorial design to reduce the number of ru'
+description: "{\"value\": \"Using the Traub et al (2005) model of the cortex we determined how 33 synaptic strength parameters control gamma oscillations. We used fractional factorial design to reduce the number of ru."
 standard: other
 tags:
 - neuroscience

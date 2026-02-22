@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SelfOrganizedOlfactoryPatternRecognitionKap155157Model'
-description: '{"value": "\" ...\r\nWe present a large-scale network model with single
-  and multi-compartmental Hodgkin\u2013Huxley type model neurons representing olfactory
-  receptor neurons (ORNs) in the epithelium,'
+description: "{\"value\": \"\\\" ...\\r\\nWe present a large-scale network model with single and multi-compartmental Hodgkin\\u2013Huxley type model neurons representing olfactory receptor neurons (ORNs) in the epithelium,. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

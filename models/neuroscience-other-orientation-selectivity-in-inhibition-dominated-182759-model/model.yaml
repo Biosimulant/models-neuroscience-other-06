@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: OrientationSelectivityInInhibitionDominated182759Model'
-description: '{"value": "Emergence of contrast-invariant orientation selectivity in
-  large-scale networks of excitatory and inhibitory neurons using integrate-and-fire
-  neuron models.", "attr_id": 24}'
+description: "Emergence of contrast-invariant orientation selectivity in large-scale networks of excitatory and inhibitory neurons using integrate-and-fire neuron models. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

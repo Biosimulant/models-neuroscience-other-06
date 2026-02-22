@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: NeuronvisioAGuiWith3dCapabilitiesForNeuro147185Model'
-description: '{"value": "\"The NEURON simulation environment is a commonly used tool
-  to perform electrical simulation of neurons and neuronal networks. \r\n\r\nThe NEURON
-  User Interface, based on the now discontinu'
+description: "{\"value\": \"\\\"The NEURON simulation environment is a commonly used tool to perform electrical simulation of neurons and neuronal networks. \\r\\n\\r\\nThe NEURON User Interface, based on the now discontinu."
 standard: other
 tags:
 - neuroscience

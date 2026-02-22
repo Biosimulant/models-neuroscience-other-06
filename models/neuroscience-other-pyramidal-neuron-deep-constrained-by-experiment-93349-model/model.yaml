@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: PyramidalNeuronDeepConstrainedByExperiment93349Model'
-description: '{"value": "\"... As a practical demonstration of the use of CoCoDat
-  we\r\nconstructed a detailed computer model of an intrinsically\r\nbursting (IB)
-  layer V pyramidal neuron from the rat barrel\r\ncor'
+description: "{\"value\": \"\\\"... As a practical demonstration of the use of CoCoDat we\\r\\nconstructed a detailed computer model of an intrinsically\\r\\nbursting (IB) layer V pyramidal neuron from the rat barrel\\r\\ncor."
 standard: other
 tags:
 - neuroscience

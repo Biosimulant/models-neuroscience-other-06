@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ModelsOfNaChannelsFromAPaperOnThePkcCo85112Model'
-description: '{"value": "\"The tetrodotoxin-resistant (TTX-r) persistent Na(+) current,
-  attributed to Na(V)1.9, was recorded in small (< 25 mum apparent diameter) dorsal
-  root ganglion (DRG) neurones cultured from P'
+description: "{\"value\": \"\\\"The tetrodotoxin-resistant (TTX-r) persistent Na(+) current, attributed to Na(V)1.9, was recorded in small (< 25 mum apparent diameter) dorsal root ganglion (DRG) neurones cultured from P. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

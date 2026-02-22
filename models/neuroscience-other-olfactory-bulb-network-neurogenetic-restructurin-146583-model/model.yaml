@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: OlfactoryBulbNetworkNeurogeneticRestructurin146583Model'
-description: '{"value": "Adult neurogenesis in the olfactory bulb has been shown experimentally\r\nto
-  contribute to perceptual learning. Using a computational network\r\nmodel we show
-  that fundamental aspects of th'
+description: "{\"value\": \"Adult neurogenesis in the olfactory bulb has been shown experimentally\\r\\nto contribute to perceptual learning. Using a computational network\\r\\nmodel we show that fundamental aspects of th."
 standard: other
 tags:
 - neuroscience

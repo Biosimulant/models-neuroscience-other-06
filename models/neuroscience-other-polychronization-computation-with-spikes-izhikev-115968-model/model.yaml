@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: PolychronizationComputationWithSpikesIzhikev115968Model'
-description: '{"value": "\"We present a minimal spiking network that can polychronize,
-  that is,\r\nexhibit reproducible time-locked but not synchronous firing patterns\r\nwith
-  millisecond precision, as in synfire b'
+description: "{\"value\": \"\\\"We present a minimal spiking network that can polychronize, that is,\\r\\nexhibit reproducible time-locked but not synchronous firing patterns\\r\\nwith millisecond precision, as in synfire b. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

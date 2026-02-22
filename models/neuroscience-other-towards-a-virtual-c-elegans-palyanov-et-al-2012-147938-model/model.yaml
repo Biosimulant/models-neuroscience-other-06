@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: TowardsAVirtualCElegansPalyanovEtAl2012147938Model'
-description: '{"value": "\"... Here we present a detailed demonstration of a virtual
-  C. elegans\r\naimed at integrating these data in the form of a 3D dynamic model
-  operating in a simulated physical environment. Ou'
+description: "{\"value\": \"\\\"... Here we present a detailed demonstration of a virtual C."
 standard: other
 tags:
 - neuroscience

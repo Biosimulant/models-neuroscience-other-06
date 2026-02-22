@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: VoltageBasedStdpSynapseClopathEtAl2010144566Model'
-description: '{"value": "Implementation of the STDP rule by Clopath et al., Nat. Neurosci.
-  13(3):344-352,2010\r\nSTDP mechanism added to the AlphaSynapse in NEURON.", "attr_id":
-  24}'
+description: "Implementation of the STDP rule by Clopath et al., Nat. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: NetmorphCreatesNnsWithRealisticNeuronMorph182135Model'
-description: '{"value": "NETMORPH is a simulation tool for building synaptically\r\nconnected
-  networks with realistic neuron morphologies. Axonal and\r\ndendritic morphologies
-  are created by using stochastic rules '
+description: "{\"value\": \"NETMORPH is a simulation tool for building synaptically\\r\\nconnected networks with realistic neuron morphologies. Axonal and\\r\\ndendritic morphologies are created by using stochastic rules."
 standard: other
 tags:
 - neuroscience

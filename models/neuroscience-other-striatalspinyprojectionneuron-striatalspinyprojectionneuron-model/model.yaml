@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: StriatalspinyprojectionneuronStriatalspinyprojectionneuronModel'
-description: Striatal spiny projection neuron model being developed by Avrama Blackwell.
+description: "Striatal spiny projection neuron model being developed by Avrama Blackwell. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

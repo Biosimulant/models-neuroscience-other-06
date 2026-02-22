@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: NigralDopaminergicNeuronsEffectsOfEthanolO112359Model'
-description: "{'value': 'We use a realistic computational model of dopaminergic neurons\
-  \ in vivo to suggest \r\nthat ethanol, through its effects on Ih, modifies the temporal\
-  \ structure of the spiking \r\nactivity. T"
+description: "{'value': 'We use a realistic computational model of dopaminergic neurons in vivo to suggest that ethanol, through its effects on Ih, modifies the temporal structure of the spiking activity. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

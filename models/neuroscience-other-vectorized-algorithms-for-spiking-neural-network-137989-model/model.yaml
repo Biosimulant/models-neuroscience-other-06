@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: VectorizedAlgorithmsForSpikingNeuralNetwork137989Model'
-description: '{"value": "\"... We describe a set of algorithms to simulate large spiking
-  neural networks\r\nefficiently with high-level languages using vector-based operations.\r\nThese
-  algorithms constitute the co'
+description: "{\"value\": \"\\\"... We describe a set of algorithms to simulate large spiking neural networks\\r\\nefficiently with high-level languages using vector-based operations.\\r\\nThese algorithms constitute the co."
 standard: other
 tags:
 - neuroscience

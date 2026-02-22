@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: OlfactoryBulbGranuleCellEffectsOfOdorDepr50210Model'
-description: "{'value': 'The model supports the experimental findings on the effects\
-  \ of postnatal odor deprivation, and shows that a -10mV shift in the\r\nNa activation\
-  \ or a reduction in the dendritic length of new"
+description: "{'value': 'The model supports the experimental findings on the effects of postnatal odor deprivation, and shows that a -10mV shift in the Na activation or a reduction in the dendritic length of new. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

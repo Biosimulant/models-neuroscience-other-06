@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: NeuralQuerySystemNqsDataMiningFromWithin97874Model'
-description: "{'value': 'NQS is a databasing program with a query command modeled\
-  \ loosely on the SQL select command.\r\nPlease see the manual NQS.pdf for details\
-  \ of use.\r\nAn NQS database must be populated with da"
+description: "{'value': 'NQS is a databasing program with a query command modeled loosely on the SQL select command. Please see the manual NQS.pdf for details of use."
 standard: other
 tags:
 - neuroscience

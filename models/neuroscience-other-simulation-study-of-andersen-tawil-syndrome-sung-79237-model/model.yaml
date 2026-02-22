@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SimulationStudyOfAndersenTawilSyndromeSung79237Model'
-description: "{'value': 'Patients with Andersen-Tawil syndrome (ATS) mostly have mutations\
-  \ on the KCNJ2 gene producing loss of function or \r\ndominant-negative suppression\
-  \ of the inward rectifier K(+) channel Kir2"
+description: "{'value': 'Patients with Andersen-Tawil syndrome (ATS) mostly have mutations on the KCNJ2 gene producing loss of function or dominant-negative suppression of the inward rectifier K(+) channel Kir2. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

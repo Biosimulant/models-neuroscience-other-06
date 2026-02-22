@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ModelingTemperatureChangesInAmparKineticsP85981Model'
-description: '{''value'': ''This model was used to simulate glutamatergic, AMPA receptor
-  mediated mEPSCs (miniature EPSCs, resulting from spontaneous vesicular transmitter
-  release) at the calyx of Held synapse. It was'
+description: "{'value': 'This model was used to simulate glutamatergic, AMPA receptor mediated mEPSCs (miniature EPSCs, resulting from spontaneous vesicular transmitter release) at the calyx of Held synapse. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ResourceCompetitionInGrowingNeuritesHjorth152788Model'
-description: '{"value": "Computer model of neurite outgrowth in a simplified neuron.
-  A growth limiting resource is produced in the soma, transported through the neurites
-  and consumed at the growth cones.", "attr_id'
+description: "{\"value\": \"Computer model of neurite outgrowth in a simplified neuron. A growth limiting resource is produced in the soma, transported through the neurites and consumed at the growth cones.\", \"attr_id."
 standard: other
 tags:
 - neuroscience

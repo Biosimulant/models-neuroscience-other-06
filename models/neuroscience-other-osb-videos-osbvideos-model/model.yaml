@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: OsbVideosOsbvideosModel'
-description: Some ideas for introductory video for OSB website
+description: "Neuroscience Osb Videos Osbvideos Model represents neuroscience osb videos osbvideos mechanisms from opensourcebrain reference opensourcebrain:OSB_Videos. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - neuroscience

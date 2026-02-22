@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: MouselightshowcaseMouselightshowcaseModel'
-description: Janelia MouseLight Showcase
+description: "Neuroscience Mouselightshowcase Mouselightshowcase Model represents neuroscience mouselightshowcase mouselightshowcase mechanisms from opensourcebrain reference opensourcebrain:MouseLightShowcase. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - neuroscience

@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: RoleForShortTermPlasticityAndOlmCellsIn168314Model'
-description: '{"value": "This hippocampus model was developed by matching experimental
-  data, including neuronal behavior, synaptic current dynamics, network spatial connectivity
-  patterns, and short-term synaptic pl'
+description: "{\"value\": \"This hippocampus model was developed by matching experimental data, including neuronal behavior, synaptic current dynamics, network spatial connectivity patterns, and short-term synaptic pl. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

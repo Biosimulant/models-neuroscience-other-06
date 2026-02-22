@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Poirazi2003Ca1pyramidalcellPoirazi2003ca1pyramidalcellModel'
-description: Porazi P, Brannon T, Mel BW (2003a, 2003b)
+description: "Neuroscience Poirazi2003Ca1pyramidalcell Poirazi2003ca1pyramidalcell Model models core biological dynamics as a OTHER simulation curated from opensourcebrain (opensourcebrain:Poirazi2003-CA1PyramidalCell), focu. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - neuroscience

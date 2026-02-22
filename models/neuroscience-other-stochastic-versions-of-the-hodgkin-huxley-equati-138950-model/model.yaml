@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: StochasticVersionsOfTheHodgkinHuxleyEquati138950Model'
-description: '{"value": "A Matlab gui for simulating different channel noise models
-  using the Hodgkin-Huxley equations. Methods provided and reviewed in Goldwyn and
-  Shea-Brown (2011) are: current noise, subunit noi'
+description: "{\"value\": \"A Matlab gui for simulating different channel noise models using the Hodgkin-Huxley equations. Methods provided and reviewed in Goldwyn and Shea-Brown (2011) are: current noise, subunit noi."
 standard: other
 tags:
 - neuroscience

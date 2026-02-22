@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: StateDependentDrugBindingToSodiumChannels149174Model'
-description: '{"value": "A Markov model of sodium channels was developed that includes
-  drug binding to fast inactivated states. This was incorporated into a model of the
-  dentate gyrus to investigate the effects of '
+description: "{\"value\": \"A Markov model of sodium channels was developed that includes drug binding to fast inactivated states. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

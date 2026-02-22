@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: StatusEpilepticusAltersDentateBasketCellTo155602Model'
-description: '{"value": "Status epilepticus (SE) leads to changes in dentate inhibitory
-  neuronal networks and alters synaptic and tonic inhibition in granule cells. Recently,
-  we identified that one week after piloc'
+description: "{\"value\": \"Status epilepticus (SE) leads to changes in dentate inhibitory neuronal networks and alters synaptic and tonic inhibition in granule cells. Recently, we identified that one week after piloc."
 standard: other
 tags:
 - neuroscience

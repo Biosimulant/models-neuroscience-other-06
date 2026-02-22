@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: OsbModelValidationOsbmodelvalidationModel'
-description: Tools for automated model validation in OpenSourceBrain projects
+description: "Tools for automated model validation in OpenSourceBrain projects. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

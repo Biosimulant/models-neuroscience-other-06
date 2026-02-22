@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: VoltageAndLightSensitiveChannelrhodopsin2M151549Model'
-description: '{"value": "\" ... \r\nFocusing on one of the most widely used ChR2 mutants\r\n(H134R)
-  with enhanced current, we collected a comprehensive\r\nexperimental data set of
-  the response of this ion channel t'
+description: "{\"value\": \"\\\" ... \\r\\nFocusing on one of the most widely used ChR2 mutants\\r\\n(H134R) with enhanced current, we collected a comprehensive\\r\\nexperimental data set of the response of this ion channel t."
 standard: other
 tags:
 - neuroscience

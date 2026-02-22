@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SimpleAndAccurateDiffusionApproximationAlgo141272Model'
-description: '{"value": "\" ... We derived the (Stochastic Differential Equations)
-  SDE explicitly for any given ion channel kinetic scheme. The resulting generic equations
-  were surprisingly simple and interpretable'
+description: "{\"value\": \"\\\" ... We derived the (Stochastic Differential Equations) SDE explicitly for any given ion channel kinetic scheme."
 standard: other
 tags:
 - neuroscience

@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Stochastic3dModelOfNeonatalRatSpinalMoton138273Model'
-description: '{"value": "\" ... Although existing models of motoneurons have indicated
-  the distributed role of certain conductances in\r\nregulating firing, it is unclear
-  how the spatial distribution of certain cur'
+description: "{\"value\": \"\\\" ... Although existing models of motoneurons have indicated the distributed role of certain conductances in\\r\\nregulating firing, it is unclear how the spatial distribution of certain cur."
 standard: other
 tags:
 - neuroscience

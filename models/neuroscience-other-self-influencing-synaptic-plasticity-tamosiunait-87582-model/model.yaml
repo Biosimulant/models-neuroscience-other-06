@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SelfInfluencingSynapticPlasticityTamosiunait87582Model'
-description: '{"value": "\"... Similar to a previous study (Saudargiene et al., 2004)
-  we employ a differential\r\nHebbian learning rule to emulate spike-timing dependent\r\nplasticity
-  and investigate how the intera'
+description: "{\"value\": \"\\\"... Similar to a previous study (Saudargiene et al., 2004) we employ a differential\\r\\nHebbian learning rule to emulate spike-timing dependent\\r\\nplasticity and investigate how the intera."
 standard: other
 tags:
 - neuroscience

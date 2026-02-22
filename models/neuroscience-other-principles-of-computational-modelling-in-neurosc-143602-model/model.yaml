@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: PrinciplesOfComputationalModellingInNeurosc143602Model'
-description: '{"value": "\"... This book provides a step-by-step account of how to
-  model the neuron and neural circuitry to understand the nervous system at all levels,
-  from ion channels to networks. Starting with '
+description: "{\"value\": \"\\\"... This book provides a step-by-step account of how to model the neuron and neural circuitry to understand the nervous system at all levels, from ion channels to networks."
 standard: other
 tags:
 - neuroscience

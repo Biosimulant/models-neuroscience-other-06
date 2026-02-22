@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: PreservingAxosomaticSpikingFeaturesDespiteD149100Model'
-description: '{"value": "The authors found that linearly scaling the ion channel conductance
-  densities of a reference model with the conductance load in 28 3D reconstructed
-  layer 5 thick-tufted pyramidal cells was '
+description: "{\"value\": \"The authors found that linearly scaling the ion channel conductance densities of a reference model with the conductance load in 28 3D reconstructed layer 5 thick-tufted pyramidal cells was. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

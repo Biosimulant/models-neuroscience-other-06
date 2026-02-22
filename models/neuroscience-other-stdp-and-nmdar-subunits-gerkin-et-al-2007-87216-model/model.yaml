@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: StdpAndNmdarSubunitsGerkinEtAl200787216Model'
-description: '{''value'': ''The paper argues for competing roles of NR2A- and NR2B-containing
-  NMDARs in spike-timing-dependent plasticity. This simple dynamical model recapitulates
-  the results of STDP experiments invo'
+description: "{'value': 'The paper argues for competing roles of NR2A- and NR2B-containing NMDARs in spike-timing-dependent plasticity. This simple dynamical model recapitulates the results of STDP experiments invo."
 standard: other
 tags:
 - neuroscience

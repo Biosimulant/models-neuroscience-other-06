@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ModulationOfHippocampalRhythmsByElectricFi144589Model'
-description: '{"value": "\u201c\u2026 Here we present experimental and computational
-  evidence of the interplay among hippocampal synaptic circuitry, neuronal morphology,
-  external electric fields, and network activi'
+description: "{\"value\": \"\\u201c\\u2026 Here we present experimental and computational evidence of the interplay among hippocampal synaptic circuitry, neuronal morphology, external electric fields, and network activi. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

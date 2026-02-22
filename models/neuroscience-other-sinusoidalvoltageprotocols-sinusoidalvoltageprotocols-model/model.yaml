@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SinusoidalvoltageprotocolsSinusoidalvoltageprotocolsModel'
-description: Testing sinusoidal voltage protocols
+description: "Neuroscience Sinusoidalvoltageprotocols Sinusoidalvoltageprotocols Model models core biological dynamics as a OTHER simulation curated from opensourcebrain (opensourcebrain:SinusoidalVoltageProtocols), focused. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - neuroscience

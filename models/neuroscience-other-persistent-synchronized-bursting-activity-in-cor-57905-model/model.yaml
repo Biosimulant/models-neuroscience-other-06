@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: PersistentSynchronizedBurstingActivityInCor57905Model'
-description: "{'value': 'The program simulates a one-dimensional model of a cortical\
-  \ tissue with excitatory and inhibitory populations.\r\n', 'attr_id': 24}"
+description: "The program simulates a one-dimensional model of a cortical tissue with excitatory and inhibitory populations. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

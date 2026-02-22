@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: StochasticityshowcaseStochasticityshowcaseModel'
-description: A repository for neuronal models containing stocastic elements (e.g.
-  input currents, syanpses, ion channels) in various formats
+description: "A repository for neuronal models containing stocastic elements (e.g. input currents, syanpses, ion channels) in various formats."
 standard: other
 tags:
 - neuroscience

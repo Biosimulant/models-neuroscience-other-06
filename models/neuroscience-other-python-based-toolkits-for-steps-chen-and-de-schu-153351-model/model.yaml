@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: PythonBasedToolkitsForStepsChenAndDeSchu153351Model'
-description: '{"value": "We provide two examples to demonstrate the use of the geometry
-  preparation toolkit and the visualization tool for STEPS, described in Chen W and
-  De Schutter E (2014).\r\n\r\nThe package con'
+description: "{\"value\": \"We provide two examples to demonstrate the use of the geometry preparation toolkit and the visualization tool for STEPS, described in Chen W and De Schutter E (2014).\\r\\n\\r\\nThe package con. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: NeuralensembleDockerNeuralensembledockerModel'
-description: Docker images for neuroscience
+description: "Neuroscience Neuralensemble Docker Neuralensembledocker Model models neuroscience neuralensemble docker neuralensembledocker dynamics as a OTHER simulation curated from opensourcebrain (opensourcebrain:neuralen. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - neuroscience

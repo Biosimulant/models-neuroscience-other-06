@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: RedmineGithubHookRedminegithubhookModel'
-description: Allow your Redmine installation to be notified when changes have been
-  pushed to a Github repository.
+description: "Allow your Redmine installation to be notified when changes have been pushed to a Github repository. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ThalamicNeuronZebraFinchDlmIntegrationOfP144572Model'
-description: '{"value": "This is a single-compartment model of a zebra finch thalamic
-  relay neuron from nucleus DLM. It is used to explore the interaction between cortex-like
-  glutamatergic input and pallidum-like G'
+description: "{\"value\": \"This is a single-compartment model of a zebra finch thalamic relay neuron from nucleus DLM. It is used to explore the interaction between cortex-like glutamatergic input and pallidum-like G."
 standard: other
 tags:
 - neuroscience

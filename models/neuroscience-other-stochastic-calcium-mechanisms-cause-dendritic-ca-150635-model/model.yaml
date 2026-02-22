@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: StochasticCalciumMechanismsCauseDendriticCa150635Model'
-description: '{"value": "\" ...\r\nIn single Purkinje cells, spontaneous and synaptically
-  evoked\r\ndendritic calcium bursts come in a variety of shapes with a variable number
-  of\r\nspikes. \r\n\r\nThe mechanisms c'
+description: "{\"value\": \"\\\" ...\\r\\nIn single Purkinje cells, spontaneous and synaptically evoked\\r\\ndendritic calcium bursts come in a variety of shapes with a variable number of\\r\\nspikes. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

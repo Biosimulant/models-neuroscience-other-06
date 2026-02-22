@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: TheoreticalReconstrucionOfFieldPotentialsAn156027Model'
-description: '{"value": "This\r\nwas the first application of compartmental modeling
-  using the Rall\r\napproach to brain neurons. It combined multicompartmental representation\r\nof
-  a mitral cell and a granule cell'
+description: "{\"value\": \"This\\r\\nwas the first application of compartmental modeling using the Rall\\r\\napproach to brain neurons. It combined multicompartmental representation\\r\\nof a mitral cell and a granule cell."
 standard: other
 tags:
 - neuroscience

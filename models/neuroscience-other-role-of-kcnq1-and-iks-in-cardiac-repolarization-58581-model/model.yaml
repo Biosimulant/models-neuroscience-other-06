@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: RoleOfKcnq1AndIksInCardiacRepolarization58581Model'
-description: '{''value'': ''Detailed Markov model of IKs (the slow delayed rectifier
-  K+ current) is supplied here in XPP. The model is compared to experiment in the
-  paper. The role of IKs in disease and drug treatment'
+description: "{'value': 'Detailed Markov model of IKs (the slow delayed rectifier K+ current) is supplied here in XPP. The model is compared to experiment in the paper."
 standard: other
 tags:
 - neuroscience

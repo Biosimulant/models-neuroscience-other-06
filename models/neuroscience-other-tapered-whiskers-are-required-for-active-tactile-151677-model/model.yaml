@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: TaperedWhiskersAreRequiredForActiveTactile151677Model'
-description: '{"value": "\" ... \r\nThe diverse shapes of facial whiskers reflect
-  distinct ecological niches. Rodent whiskers\r\nare conical, often with a remarkably
-  linear taper. \r\n\r\nHere we use theoretical an'
+description: "{\"value\": \"\\\" ... \\r\\nThe diverse shapes of facial whiskers reflect distinct ecological niches."
 standard: other
 tags:
 - neuroscience

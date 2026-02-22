@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SoftwareForTeachingTheHodgkinHuxleyModelH152625Model'
-description: '{"value": "\" ... The SENB software offers several advantages for teaching
-  and learning electrophysiology. First, SENB offers\r\nease and flexibility in determining
-  the number of stimuli. Second, SENB'
+description: "{\"value\": \"\\\" ... The SENB software offers several advantages for teaching and learning electrophysiology."
 standard: other
 tags:
 - neuroscience

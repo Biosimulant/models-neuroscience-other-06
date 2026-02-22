@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SmallWorldNetworksOfTypeIAndTypeIiExcit121259Model'
-description: '{"value": "Implemented with NEURON 5.9, four model neurons with varying
-  excitability properties affect the spatiotemporal patterning of small world networks
-  of homogeneous and heterogeneous cell popul'
+description: "{\"value\": \"Implemented with NEURON 5.9, four model neurons with varying excitability properties affect the spatiotemporal patterning of small world networks of homogeneous and heterogeneous cell popul. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

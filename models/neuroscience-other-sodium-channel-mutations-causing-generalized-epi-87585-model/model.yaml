@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SodiumChannelMutationsCausingGeneralizedEpi87585Model'
-description: '{''value'': ''A novel mutation, R859C, in the Nav1.1 sodium channel
-  was identified in a 4-generation, 33-member Caucasian family with a clinical presentation
-  consistent with GEFS+. The mutation neutraliz'
+description: "{'value': 'A novel mutation, R859C, in the Nav1.1 sodium channel was identified in a 4-generation, 33-member Caucasian family with a clinical presentation consistent with GEFS+. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

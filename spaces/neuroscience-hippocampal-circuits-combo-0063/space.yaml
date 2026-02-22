@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Hippocampal Circuits (COMBO_0063)'
-description: Neuroscience hippocampal circuits comparative space with 4 models, configured
-  as non-causal co-simulation.
+description: "Neuroscience Hippocampal Circuits (COMBO_0063) organizes modelling_reduce_1, modular_grid_2, modulation_of_3 into a comparative simulation setup to examine how recurrent hippocampal motifs shape network dynamics over tim. When you run it, you can compare participant trajectories through shared runtime settings and routed output streams."
 models:
 - repo: Biosimulant/models-neuroscience-other-06
   alias: modelling_reduce_1

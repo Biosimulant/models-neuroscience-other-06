@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Nav16SodiumChannelModelInGlobusPallidusN105385Model'
-description: '{''value'': ''Model files for the paper Mercer JN, Chan CS, Tkatch T,
-  Held J, Surmeier DJ. Nav1.6 sodium channels are critical to pacemaking and fast
-  spiking in globus pallidus neurons.,J Neurosci. 2007 '
+description: "{'value': 'Model files for the paper Mercer JN, Chan CS, Tkatch T, Held J, Surmeier DJ. Nav1.6 sodium channels are critical to pacemaking and fast spiking in globus pallidus neurons.,J Neurosci."
 standard: other
 tags:
 - neuroscience

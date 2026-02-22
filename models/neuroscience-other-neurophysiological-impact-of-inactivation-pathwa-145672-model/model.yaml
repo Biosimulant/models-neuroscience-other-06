@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: NeurophysiologicalImpactOfInactivationPathwa145672Model'
-description: '{"value": "These models predict the differential effects of varying
-  pathways of inactivation (closed state inactivation, CSI, or open state inactivation,
-  OSI). Specifically, Markov models of Kv4 potas'
+description: "{\"value\": \"These models predict the differential effects of varying pathways of inactivation (closed state inactivation, CSI, or open state inactivation, OSI). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

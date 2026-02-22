@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: StdpAndOscillationsProducePhaseLockingMull143083Model'
-description: '{"value": "\"... In this note, we investigate a simple mechanism for
-  learning precise LFP-to-spike coupling in feed-forward networks \u2013 the reliable,
-  periodic modulation of presynaptic firing rate'
+description: "{\"value\": \"\\\"... In this note, we investigate a simple mechanism for learning precise LFP-to-spike coupling in feed-forward networks \\u2013 the reliable, periodic modulation of presynaptic firing rate."
 standard: other
 tags:
 - neuroscience

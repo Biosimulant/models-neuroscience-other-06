@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: General (COMBO_0061)'
-description: Neuroscience general comparative space with 4 models, configured as non-causal
-  co-simulation.
+description: "Neuroscience General (COMBO_0061) brings together oscillation_and_1, oscillations_eme_2, oversampling_met_3 in a comparative space to examine how general mechanisms compare across these models. When you run it, you can compare participant trajectories through shared runtime settings and routed output streams."
 models:
 - repo: Biosimulant/models-neuroscience-other-06
   alias: oscillation_and_1

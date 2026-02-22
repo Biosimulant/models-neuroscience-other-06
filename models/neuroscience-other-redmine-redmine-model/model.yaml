@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: RedmineRedmineModel'
-description: This is a customised version of redmine for the Open Source Brain website
+description: "This is a customised version of redmine for the Open Source Brain website. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

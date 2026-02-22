@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: StablePropagationOfSynchronousSpikingInCor153988Model'
-description: '{"value": "\"...\r\nHere we show that precisely synchronized action\r\npotentials
-  can propagate within a model of cortical network activity\r\nthat recapitulates
-  many of the features of biological sys'
+description: "{\"value\": \"\\\"...\\r\\nHere we show that precisely synchronized action\\r\\npotentials can propagate within a model of cortical network activity\\r\\nthat recapitulates many of the features of biological sys. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

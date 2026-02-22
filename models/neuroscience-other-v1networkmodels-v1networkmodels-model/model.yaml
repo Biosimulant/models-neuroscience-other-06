@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: V1networkmodelsV1networkmodelsModel'
-description: Network models of primary visual cortex (V1) based on spiking point neurons
+description: "Network models of primary visual cortex (V1) based on spiking point neurons. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

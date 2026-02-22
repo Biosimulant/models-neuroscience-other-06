@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SynchronizationByD4DopamineReceptorMediated112968Model'
-description: '{"value": "\"We describe a new molecular mechanism of\r\ndopamine-induced
-  membrane protein modulation that\r\ncan tune neuronal oscillation frequency to attention
-  related\r\ngamma rhythm. This mechani'
+description: "{\"value\": \"\\\"We describe a new molecular mechanism of\\r\\ndopamine-induced membrane protein modulation that\\r\\ncan tune neuronal oscillation frequency to attention related\\r\\ngamma rhythm. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

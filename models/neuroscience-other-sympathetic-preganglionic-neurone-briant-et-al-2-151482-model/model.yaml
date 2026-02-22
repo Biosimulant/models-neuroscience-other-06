@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SympatheticPreganglionicNeuroneBriantEtAl2151482Model'
-description: '{"value": "A model of a sympathetic preganglionic neurone of muscle
-  vasoconstrictor-type.", "attr_id": 24}'
+description: "A model of a sympathetic preganglionic neurone of muscle vasoconstrictor-type. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

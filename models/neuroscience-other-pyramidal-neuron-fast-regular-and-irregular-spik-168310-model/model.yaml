@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: PyramidalNeuronFastRegularAndIrregularSpik168310Model'
-description: '{"value": "This is a model network of prefrontal cortical microcircuit
-  based primarily on rodent data. It includes 16 pyramidal model neurons, 2 fast spiking
-  interneuron models, 1 regular spiking inte'
+description: "{\"value\": \"This is a model network of prefrontal cortical microcircuit based primarily on rodent data. It includes 16 pyramidal model neurons, 2 fast spiking interneuron models, 1 regular spiking inte."
 standard: other
 tags:
 - neuroscience

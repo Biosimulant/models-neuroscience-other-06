@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SystemsLevelModelingOfNeuronalCircuitsFor114230Model'
-description: '{"value": "\"This paper describes a mathematical model of the neuronal
-  central pattern generator (CPG) that controls the rhythmic body motion of the swimming
-  leech. The systems approach is employed to'
+description: "{\"value\": \"\\\"This paper describes a mathematical model of the neuronal central pattern generator (CPG) that controls the rhythmic body motion of the swimming leech. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

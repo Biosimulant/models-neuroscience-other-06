@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: RoleOfActiveDendritesInRhythmicallyFiring83558Model'
-description: '{"value": "\"The responsiveness of rhythmically-firing neurons to synaptic
-  inputs is characterized by their phase response curve (PRC), which relates how weak
-  somatic perturbations affect the timing o'
+description: "{\"value\": \"\\\"The responsiveness of rhythmically-firing neurons to synaptic inputs is characterized by their phase response curve (PRC), which relates how weak somatic perturbations affect the timing o. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

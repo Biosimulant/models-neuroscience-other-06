@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: WangBuzsakiInterneuronTalathiEtAl2010136308Model'
-description: '{"value": "The submitted code provides the relevant C++ files, matlabfiles
-  and the data files essential to reproduce the figures in the JCNS paper titled Control
-  of neural synchrony using channelrhodo'
+description: "{\"value\": \"The submitted code provides the relevant C++ files, matlabfiles and the data files essential to reproduce the figures in the JCNS paper titled Control of neural synchrony using channelrhodo. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

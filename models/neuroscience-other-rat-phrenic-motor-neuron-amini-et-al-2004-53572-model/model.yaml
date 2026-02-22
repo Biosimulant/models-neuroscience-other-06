@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: RatPhrenicMotorNeuronAminiEtAl200453572Model'
-description: '{''value'': ''We have developed a model for the rat phrenic motor neuron
-  (PMN) that robustly replicates many experimentally observed behaviors of PMNs in
-  response to pharmacological, ionic, and electrica'
+description: "{'value': 'We have developed a model for the rat phrenic motor neuron (PMN) that robustly replicates many experimentally observed behaviors of PMNs in response to pharmacological, ionic, and electrica. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

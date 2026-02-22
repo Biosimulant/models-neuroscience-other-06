@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: StdpPromotesSynchronyOfInhibitoryNetworksI119159Model'
-description: '{"value": "\"Recently Haas et al. (J Neurophysiol 96:\r\n3305\u20133313,
-  2006), observed a novel form of spike timing\r\ndependent plasticity (iSTDP) in
-  GABAergic synaptic\r\ncouplings in layer II of '
+description: "{\"value\": \"\\\"Recently Haas et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

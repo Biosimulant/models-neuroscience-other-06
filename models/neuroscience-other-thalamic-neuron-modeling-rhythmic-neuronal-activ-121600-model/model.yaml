@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ThalamicNeuronModelingRhythmicNeuronalActiv121600Model'
-description: '{"value": "The authors use an in vitro cell model of a single acutely
-  isolated thalamic neuron in the NEURON simulation environment to address and discuss
-  questions in an undergraduate course. Topics '
+description: "{\"value\": \"The authors use an in vitro cell model of a single acutely isolated thalamic neuron in the NEURON simulation environment to address and discuss questions in an undergraduate course. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

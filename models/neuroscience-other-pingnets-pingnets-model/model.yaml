@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: PingnetsPingnetsModel'
-description: Faithful wrapper of upstream OTHER model.
+description: "Neuroscience Pingnets Pingnets Model represents neuroscience pingnets pingnets mechanisms from opensourcebrain reference opensourcebrain:PINGnets. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - neuroscience

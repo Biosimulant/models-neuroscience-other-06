@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: StdDependentAndIndependentEncodingOfInput144523Model'
-description: '{"value": "\"... We use a\r\nconductance-based model of a CN neuron
-  to study the\r\neffect of the regularity of Purkinje cell spiking on CN\r\nneuron
-  activity.\r\n\r\nWe find that increasing the irreg'
+description: "{\"value\": \"\\\"... We use a\\r\\nconductance-based model of a CN neuron to study the\\r\\neffect of the regularity of Purkinje cell spiking on CN\\r\\nneuron activity.\\r\\n\\r\\nWe find that increasing the irreg."
 standard: other
 tags:
 - neuroscience

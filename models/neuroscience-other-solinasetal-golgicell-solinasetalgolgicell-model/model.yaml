@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SolinasetalGolgicellSolinasetalgolgicellModel'
-description: GitHub repository for an OSB project containing a cerebellar Golgi cell
-  based on Solinas et al 2007
+description: "GitHub repository for an OSB project containing a cerebellar Golgi cell based on Solinas et al 2007. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

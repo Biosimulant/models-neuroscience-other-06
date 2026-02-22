@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: RegulationOfFiringFrequencyInAMidbrainDop127507Model'
-description: '{"value": "A dopaminergic (DA) neuron model with a morphologicaly realistic
-  dendritic architecture. The model captures several salient features of DA neurons
-  under different pharmacological manipulati'
+description: "{\"value\": \"A dopaminergic (DA) neuron model with a morphologicaly realistic dendritic architecture. The model captures several salient features of DA neurons under different pharmacological manipulati."
 standard: other
 tags:
 - neuroscience

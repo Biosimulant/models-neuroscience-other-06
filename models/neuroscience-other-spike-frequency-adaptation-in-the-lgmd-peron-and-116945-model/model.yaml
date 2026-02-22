@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SpikeFrequencyAdaptationInTheLgmdPeronAnd116945Model'
-description: '{"value": "This model is used in the referenced paper to demonstrate
-  that a model of an SK-like calcium-sensitive potassium (KCa) conductance can replicate
-  the spike frequency adaptation (SFA) of the '
+description: "{\"value\": \"This model is used in the referenced paper to demonstrate that a model of an SK-like calcium-sensitive potassium (KCa) conductance can replicate the spike frequency adaptation (SFA) of the. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

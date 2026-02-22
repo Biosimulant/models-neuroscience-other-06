@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SodiumCurrentsActivateWithoutADelayBaranau62673Model'
-description: "{'value': 'Hodgkin and Huxley established that sodium currents in the\
-  \ squid giant\r\naxons activate after a delay, which is explained by the model of\
-  \ a\r\nchannel with three identical independent gate"
+description: "{'value': 'Hodgkin and Huxley established that sodium currents in the squid giant axons activate after a delay, which is explained by the model of a channel with three identical independent gate. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

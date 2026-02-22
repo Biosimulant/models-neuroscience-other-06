@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: TheSubcellularDistributionOfTTypeCa2Chann156039Model'
-description: '{"value": "\" ...To study\r\nthe relationship between the (Ca2+ channel)
-  T-distribution and several (LGN interneuron) IN response properties, we here\r\nrun
-  a series of simulations where we vary the T'
+description: "{\"value\": \"\\\" ...To study\\r\\nthe relationship between the (Ca2+ channel) T-distribution and several (LGN interneuron) IN response properties, we here\\r\\nrun a series of simulations where we vary the T. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

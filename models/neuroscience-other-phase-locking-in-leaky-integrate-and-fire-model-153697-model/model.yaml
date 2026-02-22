@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: PhaseLockingInLeakyIntegrateAndFireModel153697Model'
-description: '{"value": "\"This shows the phase-locking structure of a LIF driven
-  by a sinusoidal current. When the current crosses the threshold (a<3), the model
-  almost always phase locks (in a measure-theoretical'
+description: "{\"value\": \"\\\"This shows the phase-locking structure of a LIF driven by a sinusoidal current. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

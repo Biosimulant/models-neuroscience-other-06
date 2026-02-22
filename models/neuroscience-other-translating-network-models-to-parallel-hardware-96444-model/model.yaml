@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: TranslatingNetworkModelsToParallelHardware96444Model'
-description: '{''value'': ''Shows how to move a working network model written in NEURON
-  from a serial processor to a parallel machine in such a way that the final result
-  will produce numerically identical results on e'
+description: "{'value': 'Shows how to move a working network model written in NEURON from a serial processor to a parallel machine in such a way that the final result will produce numerically identical results on e. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

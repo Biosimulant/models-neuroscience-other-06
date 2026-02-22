@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: MotorCortexMicrocircuitSimulationBasedOnBr146949Model'
-description: '{"value": "\"...\r\nWe developed a computational\r\nmodel based primarily
-  on a unified set of brain activity mapping\r\nstudies of mouse M1.\r\nThe simulation
-  consisted of 775 spiking neurons of\r\n10'
+description: "{\"value\": \"\\\"...\\r\\nWe developed a computational\\r\\nmodel based primarily on a unified set of brain activity mapping\\r\\nstudies of mouse M1.\\r\\nThe simulation consisted of 775 spiking neurons of\\r\\n10. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

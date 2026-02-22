@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: TonicNeuronInSpinalLaminaIProlongationOf53569Model'
-description: '{''value'': ''Model demonstrates mechanism whereby two kinetically distinct
-  inward currents act synergistically to prolong subthreshold depolarization. The
-  important currents are a persistent Na current '
+description: "{'value': 'Model demonstrates mechanism whereby two kinetically distinct inward currents act synergistically to prolong subthreshold depolarization. The important currents are a persistent Na current."
 standard: other
 tags:
 - neuroscience

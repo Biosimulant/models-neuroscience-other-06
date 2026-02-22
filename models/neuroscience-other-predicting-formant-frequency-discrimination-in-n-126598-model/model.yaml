@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: PredictingFormantFrequencyDiscriminationInN126598Model'
-description: '{"value": "\"To better understand how the auditory system extracts speech
-  signals in the presence of noise,\r\ndiscrimination thresholds for the second formant
-  frequency were predicted with simulation'
+description: "{\"value\": \"\\\"To better understand how the auditory system extracts speech signals in the presence of noise,\\r\\ndiscrimination thresholds for the second formant frequency were predicted with simulation. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

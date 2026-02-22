@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ShapingOfActionPotentialsByDifferentTypes140471Model'
-description: '{"value": "Dentate gyrus granule cells highly express the beta4 accessory
-  subunit which confer BK channels with type II properties. The properties of heterologously-expressed
-  BK channels (with and wit'
+description: "{\"value\": \"Dentate gyrus granule cells highly express the beta4 accessory subunit which confer BK channels with type II properties. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

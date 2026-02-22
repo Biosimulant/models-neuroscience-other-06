@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: OsbHomepageOsbhomepageModel'
-description: OSB homepage
+description: "Neuroscience Osb Homepage Osbhomepage Model models neuroscience osb homepage osbhomepage dynamics as a OTHER simulation curated from opensourcebrain (opensourcebrain:OSB_homepage), focused on neuroscience, open. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - neuroscience

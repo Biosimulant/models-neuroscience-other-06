@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: NifshowcaseNifshowcaseModel'
-description: A repository for scripts and configuation files to enable interaction
-  between NIF and OSB
+description: "A repository for scripts and configuation files to enable interaction between NIF and OSB. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

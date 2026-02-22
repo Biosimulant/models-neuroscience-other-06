@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Hippocampal Circuits (COMBO_0068)'
-description: Neuroscience hippocampal circuits comparative space with 4 models, configured
-  as non-causal co-simulation.
+description: "Neuroscience Hippocampal Circuits (COMBO_0068) organizes state_dependent_1, status_epileptic_2, stochastic_calci_3 into a comparative simulation setup to examine how recurrent hippocampal motifs shape network dynamics ov. When you run it, you can compare participant trajectories through shared runtime settings and routed output streams."
 models:
 - repo: Biosimulant/models-neuroscience-other-06
   alias: state_dependent_1

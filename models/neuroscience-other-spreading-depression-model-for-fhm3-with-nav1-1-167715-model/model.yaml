@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SpreadingDepressionModelForFhm3WithNav11167715Model'
-description: '{"value": "Familial hemiplegic migraine (FHM) is a rare subtype of migraine
-  with aura. A mutation causing FHM type 3 (FHM3) has been identified in SCN1A encoding
-  the Nav1.1 Na+ channel. This genetic d'
+description: "{\"value\": \"Familial hemiplegic migraine (FHM) is a rare subtype of migraine with aura. A mutation causing FHM type 3 (FHM3) has been identified in SCN1A encoding the Nav1.1 Na+ channel."
 standard: other
 tags:
 - neuroscience

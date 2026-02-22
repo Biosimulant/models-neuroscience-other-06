@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SpontaneousFiringCausedByStochasticChannel50391Model'
-description: "{'value': 'NEURON implementation of model of stochastic channel gating,\
-  \ resulting in spontaneous firing. Qualitatively reproduces the phenomena described\
-  \ in \r\nthe reference.', 'attr_id': 24}"
+description: "NEURON implementation of model of stochastic channel gating, resulting in spontaneous firing. Qualitatively reproduces the phenomena described in the reference."
 standard: other
 tags:
 - neuroscience

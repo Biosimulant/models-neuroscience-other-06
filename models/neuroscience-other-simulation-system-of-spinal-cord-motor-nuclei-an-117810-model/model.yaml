@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SimulationSystemOfSpinalCordMotorNucleiAn117810Model'
-description: '{"value": "A Web-based simulation system of the spinal\r\ncord circuitry
-  responsible for muscle control is described.\r\nThe simulator employs two-compartment
-  motoneuron\r\nmodels for S, FR and FF typ'
+description: "{\"value\": \"A Web-based simulation system of the spinal\\r\\ncord circuitry responsible for muscle control is described.\\r\\nThe simulator employs two-compartment motoneuron\\r\\nmodels for S, FR and FF typ. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

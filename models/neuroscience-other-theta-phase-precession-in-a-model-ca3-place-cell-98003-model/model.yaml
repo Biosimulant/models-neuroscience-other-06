@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ThetaPhasePrecessionInAModelCa3PlaceCell98003Model'
-description: '{"value": "\"... The present study concerns a neurobiologically based
-  computational model of the emergence of theta phase precession in which the responses
-  of a single model CA3 pyramidal cell are exa'
+description: "{\"value\": \"\\\"... The present study concerns a neurobiologically based computational model of the emergence of theta phase precession in which the responses of a single model CA3 pyramidal cell are exa."
 standard: other
 tags:
 - neuroscience

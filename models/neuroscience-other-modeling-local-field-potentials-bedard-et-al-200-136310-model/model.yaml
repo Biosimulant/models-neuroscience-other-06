@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ModelingLocalFieldPotentialsBedardEtAl200136310Model'
-description: '{"value": "This demo simulates a model of local field potentials (LFP)
-  with\r\nvariable resistivity. This model reproduces the low-pass\r\nfrequency filtering
-  properties of extracellular potentials. T'
+description: "{\"value\": \"This demo simulates a model of local field potentials (LFP) with\\r\\nvariable resistivity. This model reproduces the low-pass\\r\\nfrequency filtering properties of extracellular potentials."
 standard: other
 tags:
 - neuroscience

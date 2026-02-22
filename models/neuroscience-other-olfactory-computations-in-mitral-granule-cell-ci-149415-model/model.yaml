@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: OlfactoryComputationsInMitralGranuleCellCi149415Model'
-description: '{"value": "Model files for the entry \"Olfactory Computations in Mitral-Granule
-  Cell Circuits\" of the Springer Encyclopedia of Computational Neuroscience by Michele
-  Migliore and Tom Mctavish.\r\n\r\n'
+description: "{\"value\": \"Model files for the entry \\\"Olfactory Computations in Mitral-Granule Cell Circuits\\\" of the Springer Encyclopedia of Computational Neuroscience by Michele Migliore and Tom Mctavish.\\r\\n\\r\\n. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

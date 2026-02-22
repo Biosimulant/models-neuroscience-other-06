@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ReverseTimeCorrelationAnalysisForIdealized117514Model'
-description: '{"value": "\"A theoretical analysis is presented of a\r\nreverse-time
-  correlation method used in experimentally\r\ninvestigating orientation tuning dynamics
-  of\r\nneurons in the primary visual cortex.'
+description: "{\"value\": \"\\\"A theoretical analysis is presented of a\\r\\nreverse-time correlation method used in experimentally\\r\\ninvestigating orientation tuning dynamics of\\r\\nneurons in the primary visual cortex. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: RolesOfEssentialKinasesInInductionOfLate149175Model'
-description: '{"value": "\"\u2026 Convergence of multiple kinase activities to induce
-  L-LTP helps to generate a threshold whereby the amount of L-LTP varies steeply with
-  the number of brief (tetanic) electrical sti'
+description: "{\"value\": \"\\\"\\u2026 Convergence of multiple kinase activities to induce L-LTP helps to generate a threshold whereby the amount of L-LTP varies steeply with the number of brief (tetanic) electrical sti. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

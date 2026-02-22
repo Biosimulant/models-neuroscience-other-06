@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: StateAndLocationDependenceOfActionPotentia144526Model'
-description: '{"value": "With this model of a layer 5 pyramidal neuron the state and
-  location dependence of the ATP usage and the metabolic efficiency of action potentials
-  can be analyzed. Model parameters were con'
+description: "{\"value\": \"With this model of a layer 5 pyramidal neuron the state and location dependence of the ATP usage and the metabolic efficiency of action potentials can be analyzed. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

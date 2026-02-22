@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SodiumPotassiumAtpasePumpChapmanEtAl1983120692Model'
-description: '{"value": "The electrochemical properties of a widely accepted six-step
-  reaction scheme for the Na,K-ATPase have been studied by computer simulation.",
-  "attr_id": 24}'
+description: "The electrochemical properties of a widely accepted six-step reaction scheme for the Na,K-ATPase have been studied by computer simulation. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

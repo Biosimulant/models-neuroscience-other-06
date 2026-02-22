@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Synaptic Plasticity (COMBO_0075)'
-description: Neuroscience synaptic plasticity comparative space with 4 models, configured
-  as non-causal co-simulation.
+description: "Neuroscience Synaptic Plasticity (COMBO_0075) organizes stdp_depends_1, steady_state_2, storing_serial_3 into a comparative simulation setup to examine how synaptic changes influence network-level outcomes. When you run it, you can compare participant trajectories through shared runtime settings and routed output streams."
 models:
 - repo: Biosimulant/models-neuroscience-other-06
   alias: stdp_depends_1

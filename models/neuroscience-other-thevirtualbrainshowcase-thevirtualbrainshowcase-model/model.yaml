@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ThevirtualbrainshowcaseThevirtualbrainshowcaseModel'
-description: Faithful wrapper of upstream OTHER model.
+description: "Neuroscience Thevirtualbrainshowcase Thevirtualbrainshowcase Model models neuroscience thevirtualbrainshowcase thevirtualbrainshowcase dynamics as a OTHER simulation curated from opensourcebrain (opensourcebrai. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - neuroscience

@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: NewAndCorrectedSimulationsOfSynapticFacili119214Model'
-description: '{"value": "\"A three-dimensional presynaptic calcium diffusion model
-  developed to account for characteristics of transmitter release\r\nwas modified
-  to provide for binding of calcium to a receptor and'
+description: "{\"value\": \"\\\"A three-dimensional presynaptic calcium diffusion model developed to account for characteristics of transmitter release\\r\\nwas modified to provide for binding of calcium to a receptor and. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

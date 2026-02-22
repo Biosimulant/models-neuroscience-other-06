@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: OptimalDeepBrainStimulationOfTheSubthalami93449Model'
-description: '{''value'': ''Here, we use a biophysically-based model of spiking cells
-  in the basal ganglia (Terman et al., Journal of Neuroscience, 22, 2963-2976, 2002;
-  Rubin and Terman, Journal of Computational Neuro'
+description: "{'value': 'Here, we use a biophysically-based model of spiking cells in the basal ganglia (Terman et al., Journal of Neuroscience, 22, 2963-2976, 2002; Rubin and Terman, Journal of Computational Neuro. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

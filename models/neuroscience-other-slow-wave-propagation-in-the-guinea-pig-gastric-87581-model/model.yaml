@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SlowWavePropagationInTheGuineaPigGastric87581Model'
-description: '{"value": "\"(Edwards and Hirst 2006) provides an electrical description
-  of the propagation of slow waves and pacemaker potentials in the guinea-pig gastric
-  antrum in anal and circumferential directio'
+description: "{\"value\": \"\\\"(Edwards and Hirst 2006) provides an electrical description of the propagation of slow waves and pacemaker potentials in the guinea-pig gastric antrum in anal and circumferential directio. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SimulationsOfMotorUnitDischargePatternsPow143671Model'
-description: '{"value": "\" ...\r\nTo estimate the potential contributions of PIC
-  (Persistent Inward Current) activation and synaptic input patterns to\r\nmotor unit
-  discharge patterns, we examined the responses of'
+description: "{\"value\": \"\\\" ...\\r\\nTo estimate the potential contributions of PIC (Persistent Inward Current) activation and synaptic input patterns to\\r\\nmotor unit discharge patterns, we examined the responses of. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

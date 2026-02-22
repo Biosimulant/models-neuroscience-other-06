@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: MultimodalStimuliLearningInHawkmothsBalkeni116312Model'
-description: '{"value": "The moth Macroglossum stellatarum can learn the color and
-  sometimes the odor of a rewarding food\r\nsource.\r\n\r\nWe present data from 20
-  different experiments with different combinations '
+description: "{\"value\": \"The moth Macroglossum stellatarum can learn the color and sometimes the odor of a rewarding food\\r\\nsource.\\r\\n\\r\\nWe present data from 20 different experiments with different combinations. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

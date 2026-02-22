@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SchizLinkedGeneEffectsOnIntrinsicSingleNe169457Model'
-description: '{"value": "Python scripts for running NEURON simulations that model
-  a layer V pyramidal cell with certain genetic variants implemented. The genes included
-  are obtained from genome-wide association stu'
+description: "{\"value\": \"Python scripts for running NEURON simulations that model a layer V pyramidal cell with certain genetic variants implemented. The genes included are obtained from genome-wide association stu."
 standard: other
 tags:
 - neuroscience

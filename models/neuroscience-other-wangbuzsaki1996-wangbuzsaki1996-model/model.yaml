@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Wangbuzsaki1996Wangbuzsaki1996Model'
-description: 'Model from:  Wang XJ, Buzsaki G (1996) Gamma oscillation by synaptic
-  inhibition in a hippocampal interneuronal network model.'
+description: "Model from: Wang XJ, Buzsaki G (1996) Gamma oscillation by synaptic inhibition in a hippocampal interneuronal network model. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

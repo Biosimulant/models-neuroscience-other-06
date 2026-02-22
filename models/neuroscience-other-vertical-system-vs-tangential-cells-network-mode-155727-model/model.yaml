@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: VerticalSystemVsTangentialCellsNetworkMode155727Model'
-description: '{"value": "Network model of the VS tangential cell system, with 10 cells
-  per hemisphere. Each cell is a two compartment model with one compartment for dendrites
-  and one for the axon. The cells are cou'
+description: "{\"value\": \"Network model of the VS tangential cell system, with 10 cells per hemisphere. Each cell is a two compartment model with one compartment for dendrites and one for the axon."
 standard: other
 tags:
 - neuroscience

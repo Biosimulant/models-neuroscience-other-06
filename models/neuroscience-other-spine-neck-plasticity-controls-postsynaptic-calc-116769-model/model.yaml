@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SpineNeckPlasticityControlsPostsynapticCalc116769Model'
-description: '{"value": "This model was set up to dissect the relative contribution
-  of different channels to \r\nthe spine calcium transients measured at single spines.\r\n",
-  "attr_id": 24}'
+description: "This model was set up to dissect the relative contribution of different channels to the spine calcium transients measured at single spines. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

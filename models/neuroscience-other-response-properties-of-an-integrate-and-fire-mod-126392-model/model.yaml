@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ResponsePropertiesOfAnIntegrateAndFireMod126392Model'
-description: '{"value": "\"A computational technique is described for calculation
-  of the interspike interval and poststimulus time histograms for the responses of
-  an\r\nintegrate-and-fire model to arbitrary inputs.'
+description: "{\"value\": \"\\\"A computational technique is described for calculation of the interspike interval and poststimulus time histograms for the responses of an\\r\\nintegrate-and-fire model to arbitrary inputs. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

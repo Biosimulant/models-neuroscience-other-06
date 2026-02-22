@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: PhaseResponseCurveOfAGlobusPallidalNeuron143100Model'
-description: '{"value": "We investigated how changes in ionic conductances alter the
-  phase response curve (PRC) of a globus pallidal (GP) neuron and stability of a synchronous
-  activity of a GP network, using a sing'
+description: "{\"value\": \"We investigated how changes in ionic conductances alter the phase response curve (PRC) of a globus pallidal (GP) neuron and stability of a synchronous activity of a GP network, using a sing. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

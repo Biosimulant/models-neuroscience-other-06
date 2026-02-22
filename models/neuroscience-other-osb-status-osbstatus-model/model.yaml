@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: OsbStatusOsbstatusModel'
-description: Some scripts to test OSB web and API
+description: "Neuroscience Osb Status Osbstatus Model models neuroscience osb status osbstatus dynamics as a OTHER simulation curated from opensourcebrain (opensourcebrain:OSB_Status), focused on neuroscience, opensourcebrai. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - neuroscience

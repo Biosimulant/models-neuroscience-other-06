@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SpikeExchangeMethodsForABlueGenePSuperco137845Model'
-description: '{"value": "Tests several spike exchange methods on a Blue Gene/P supercomputer
-  on up to 64K cores.", "attr_id": 24}'
+description: "Tests several spike exchange methods on a Blue Gene/P supercomputer on up to 64K cores. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

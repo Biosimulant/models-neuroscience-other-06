@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: PrefrontalStriatalParkinsonsCompModelOfMul138631Model'
-description: '{"value": "\"...\r\nIn this\r\nmodel, PFC dopamine is key for attentional
-  learning, whereas\r\nbasal ganglia dopamine, consistent with other models, is key
-  for\r\nreinforcement and motor learning.\r\n'
+description: "{\"value\": \"\\\"...\\r\\nIn this\\r\\nmodel, PFC dopamine is key for attentional learning, whereas\\r\\nbasal ganglia dopamine, consistent with other models, is key for\\r\\nreinforcement and motor learning.\\r\\n. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

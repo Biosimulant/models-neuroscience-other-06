@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: PhaseOscillatorModelsForLampreyCentralPatt118392Model'
-description: '{"value": "In our paper, Varkonyi et al. 2008, we derive phase oscillator
-  models for the lamprey central pattern generator from two biophysically based segmental
-  models. We\r\nstudy intersegmental coo'
+description: "{\"value\": \"In our paper, Varkonyi et al. 2008, we derive phase oscillator models for the lamprey central pattern generator from two biophysically based segmental models."
 standard: other
 tags:
 - neuroscience

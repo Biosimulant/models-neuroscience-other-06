@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SpikeTimingBasedComputationInSoundLocaliza126465Model'
-description: '{"value": "\" ...\r\nIn neuron models consisting of spectro-temporal
-  filtering and spiking\r\nnonlinearity, we found that the binaural structure induced
-  by spatialized sounds is mapped to synchrony pa'
+description: "{\"value\": \"\\\" ...\\r\\nIn neuron models consisting of spectro-temporal filtering and spiking\\r\\nnonlinearity, we found that the binaural structure induced by spatialized sounds is mapped to synchrony pa. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

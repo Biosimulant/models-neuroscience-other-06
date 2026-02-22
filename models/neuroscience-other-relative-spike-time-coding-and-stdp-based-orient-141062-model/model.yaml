@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: RelativeSpikeTimeCodingAndStdpBasedOrient141062Model'
-description: '{"value": "Phenomenological spiking model of the cat early visual system.
-  We show how natural vision can drive spike time correlations on sufficiently fast
-  time scales to lead to the acquisition of or'
+description: "{\"value\": \"Phenomenological spiking model of the cat early visual system. We show how natural vision can drive spike time correlations on sufficiently fast time scales to lead to the acquisition of or."
 standard: other
 tags:
 - neuroscience

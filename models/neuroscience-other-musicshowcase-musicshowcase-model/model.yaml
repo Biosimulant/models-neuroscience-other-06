@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: MusicshowcaseMusicshowcaseModel'
-description: Example scripts for MUSIC
+description: "Neuroscience Musicshowcase Musicshowcase Model models neuroscience musicshowcase musicshowcase dynamics as a OTHER simulation curated from opensourcebrain (opensourcebrain:MUSICShowcase), focused on neuroscienc. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - neuroscience

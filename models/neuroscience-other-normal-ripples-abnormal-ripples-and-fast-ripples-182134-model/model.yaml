@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: NormalRipplesAbnormalRipplesAndFastRipples182134Model'
-description: '{"value": "\"...We use a computational model of hippocampus to investigate
-  possible network mechanisms underpinning normal ripples, pathological ripples, and
-  fast ripples. Our results unify several pr'
+description: "{\"value\": \"\\\"...We use a computational model of hippocampus to investigate possible network mechanisms underpinning normal ripples, pathological ripples, and fast ripples. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

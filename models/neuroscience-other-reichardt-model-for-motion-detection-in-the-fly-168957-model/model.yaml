@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ReichardtModelForMotionDetectionInTheFly168957Model'
-description: '{"value": "This simulation implements a correlation-type model for visual
-  motion detection, as originally described by Hassenstein and Reichardt (1956), and
-  analyzes the response of the model to stand'
+description: "{\"value\": \"This simulation implements a correlation-type model for visual motion detection, as originally described by Hassenstein and Reichardt (1956), and analyzes the response of the model to stand. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

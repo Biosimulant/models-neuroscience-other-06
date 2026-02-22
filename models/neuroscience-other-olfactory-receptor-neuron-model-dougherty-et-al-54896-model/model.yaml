@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: OlfactoryReceptorNeuronModelDoughertyEtAl54896Model'
-description: '{''value'': ''Demonstration of ORN model by Dougherty, Wright and Yew
-  (2005) PNAS 102: 10415-10420. This program, dwy_pnas_demo2, simulates the transduction
-  current response of a single olfactory recepto'
+description: "{'value': 'Demonstration of ORN model by Dougherty, Wright and Yew (2005) PNAS 102: 10415-10420. This program, dwy_pnas_demo2, simulates the transduction current response of a single olfactory recepto."
 standard: other
 tags:
 - neuroscience

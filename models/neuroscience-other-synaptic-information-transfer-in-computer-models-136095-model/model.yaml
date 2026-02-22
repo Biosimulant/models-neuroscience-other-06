@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SynapticInformationTransferInComputerModels136095Model'
-description: '{"value": "\"...\r\nWe sought to measure how the activity of the network
-  alters information flow from inputs to output patterns. \r\nInformation handling
-  by the network reflected the degree of interna'
+description: "{\"value\": \"\\\"...\\r\\nWe sought to measure how the activity of the network alters information flow from inputs to output patterns. \\r\\nInformation handling by the network reflected the degree of interna."
 standard: other
 tags:
 - neuroscience

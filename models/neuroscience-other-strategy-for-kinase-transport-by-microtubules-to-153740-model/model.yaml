@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: StrategyForKinaseTransportByMicrotubulesTo153740Model'
-description: '{"value": "This model was used in the computational study of the strategies
-  of protein transport in the context of JNK (c-JUN NH2-terminal kinase) transport
-  along microtubules to the terminals of neur'
+description: "{\"value\": \"This model was used in the computational study of the strategies of protein transport in the context of JNK (c-JUN NH2-terminal kinase) transport along microtubules to the terminals of neur. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

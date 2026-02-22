@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: PyramidalNeuronCoincidenceDetectionTunedBy83344Model'
-description: '{"value": "\"... We examined the relationship between dendritic arborization\r\nand
-  the coupling between somatic and dendritic action potential\r\n(AP) initiation sites
-  in layer 5 (L5) neocortical pyr'
+description: "{\"value\": \"\\\"... We examined the relationship between dendritic arborization\\r\\nand the coupling between somatic and dendritic action potential\\r\\n(AP) initiation sites in layer 5 (L5) neocortical pyr."
 standard: other
 tags:
 - neuroscience

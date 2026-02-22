@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SpikePropagationInDendritesWithStochasticI125385Model'
-description: '{"value": "\"We investigate the effects of the stochastic nature\r\nof
-  ion channels on the faithfulness, precision and reproducibility\r\nof electrical
-  signal transmission in weakly active,\r\ndendrit'
+description: "{\"value\": \"\\\"We investigate the effects of the stochastic nature\\r\\nof ion channels on the faithfulness, precision and reproducibility\\r\\nof electrical signal transmission in weakly active,\\r\\ndendrit. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

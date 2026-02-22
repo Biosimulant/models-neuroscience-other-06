@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Synaptic Plasticity (COMBO_0069)'
-description: Neuroscience synaptic plasticity comparative space with 4 models, configured
-  as non-causal co-simulation.
+description: "Neuroscience Synaptic Plasticity (COMBO_0069) organizes multiple_mechani_1, multiscale_inter_2, multistability_o_3 into a comparative simulation setup to examine how synaptic changes influence network-level outcomes. When you run it, you can compare participant trajectories through shared runtime settings and routed output streams."
 models:
 - repo: Biosimulant/models-neuroscience-other-06
   alias: multiple_mechani_1

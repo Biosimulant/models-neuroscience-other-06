@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: TemporalIntegrationByStochasticRecurrentNet105501Model'
-description: '{"value": "\"Temporal integration of externally or internally\r\ndriven
-  information is required for a variety of cognitive\r\nprocesses. This computation
-  is generally linked with graded rate\r\nchange'
+description: "{\"value\": \"\\\"Temporal integration of externally or internally\\r\\ndriven information is required for a variety of cognitive\\r\\nprocesses. This computation is generally linked with graded rate\\r\\nchange."
 standard: other
 tags:
 - neuroscience

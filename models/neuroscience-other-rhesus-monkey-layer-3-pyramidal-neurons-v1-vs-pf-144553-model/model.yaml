@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: RhesusMonkeyLayer3PyramidalNeuronsV1VsPf144553Model'
-description: '{"value": "Whole-cell patch-clamp recordings and high-resolution 3D
-  morphometric analyses of layer 3 pyramidal neurons in in vitro slices of monkey
-  primary visual cortex (V1) and dorsolateral granular'
+description: "{\"value\": \"Whole-cell patch-clamp recordings and high-resolution 3D morphometric analyses of layer 3 pyramidal neurons in in vitro slices of monkey primary visual cortex (V1) and dorsolateral granular. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

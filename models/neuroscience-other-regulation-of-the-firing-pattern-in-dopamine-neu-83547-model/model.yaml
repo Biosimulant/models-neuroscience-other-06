@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: RegulationOfTheFiringPatternInDopamineNeu83547Model'
-description: '{''value'': ''Midbrain dopaminergic (DA) neurons in vivo exhibit two
-  major firing patterns: single-spike firing and burst firing. The firing pattern
-  expressed is dependent on both the intrinsic propertie'
+description: "{'value': 'Midbrain dopaminergic (DA) neurons in vivo exhibit two major firing patterns: single-spike firing and burst firing. The firing pattern expressed is dependent on both the intrinsic propertie."
 standard: other
 tags:
 - neuroscience

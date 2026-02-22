@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: PipetteAndMembranePatchGeometryEffectsOnG127190Model'
-description: '{"value": "Ion currents, mediated by GABAa-receptors in outside-out
-  membrane patches, may alter the concentration of Chloride ions inside the pipette
-  and the membrane patch.\r\n\r\nGABAa-receptors are'
+description: "{\"value\": \"Ion currents, mediated by GABAa-receptors in outside-out membrane patches, may alter the concentration of Chloride ions inside the pipette and the membrane patch.\\r\\n\\r\\nGABAa-receptors are. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: StriatalGabaergicMicrocircuitSpatialScalesO137502Model'
-description: '{"value": "The main thrust of this paper was the development of the
-  3D anatomical network of the striatum''s GABAergic microcircuit. We grew dendrite
-  and axon models for the MSNs and FSIs and extracted'
+description: "{\"value\": \"The main thrust of this paper was the development of the 3D anatomical network of the striatum's GABAergic microcircuit. We grew dendrite and axon models for the MSNs and FSIs and extracted."
 standard: other
 tags:
 - neuroscience

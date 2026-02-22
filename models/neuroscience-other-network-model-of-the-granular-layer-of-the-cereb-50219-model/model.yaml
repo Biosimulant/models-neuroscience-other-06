@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: NetworkModelOfTheGranularLayerOfTheCereb50219Model'
-description: '{''value'': ''We computed the steady-state activity of a large-scale
-  model of the granular layer of the rat cerebellum. Within a few tens of milliseconds
-  after the start of random mossy fiber input, the '
+description: "{'value': 'We computed the steady-state activity of a large-scale model of the granular layer of the rat cerebellum. Within a few tens of milliseconds after the start of random mossy fiber input, the."
 standard: other
 tags:
 - neuroscience

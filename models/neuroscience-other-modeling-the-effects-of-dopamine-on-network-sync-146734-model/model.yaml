@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ModelingTheEffectsOfDopamineOnNetworkSync146734Model'
-description: '{"value": "Dopamine modulates cortical circuit activity in part through
-  its actions on GABAergic interneurons, including increasing the excitability of
-  fast-spiking interneurons. Though such effects h'
+description: "{\"value\": \"Dopamine modulates cortical circuit activity in part through its actions on GABAergic interneurons, including increasing the excitability of fast-spiking interneurons. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

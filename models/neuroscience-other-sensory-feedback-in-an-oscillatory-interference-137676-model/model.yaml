@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SensoryFeedbackInAnOscillatoryInterference137676Model'
-description: '{"value": "Many animals use a form of dead reckoning known as ''path
-  integration'' to maintain a sense of their location as they explore the world. However,
-  internal motion signals and the neural activi'
+description: "{\"value\": \"Many animals use a form of dead reckoning known as 'path integration' to maintain a sense of their location as they explore the world. However, internal motion signals and the neural activi."
 standard: other
 tags:
 - neuroscience

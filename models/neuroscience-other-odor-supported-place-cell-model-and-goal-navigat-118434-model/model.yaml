@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: OdorSupportedPlaceCellModelAndGoalNavigat118434Model'
-description: '{"value": "\" ...\r\nHere we model odor supported place cells by using
-  a simple feed-forward network and analyze the impact of olfactory cues on place
-  cell formation and spatial navigation. \r\n\r\nTh'
+description: "{\"value\": \"\\\" ...\\r\\nHere we model odor supported place cells by using a simple feed-forward network and analyze the impact of olfactory cues on place cell formation and spatial navigation. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

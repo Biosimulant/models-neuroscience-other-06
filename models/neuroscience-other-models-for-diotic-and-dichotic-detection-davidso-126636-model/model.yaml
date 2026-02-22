@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ModelsForDioticAndDichoticDetectionDavidso126636Model'
-description: '{"value": "Several psychophysical models for masked detection were evaluated
-  using reproducible noises.\r\n\r\nThe data were hit and false-alarm rates from three
-  psychophysical studies of detection of'
+description: "{\"value\": \"Several psychophysical models for masked detection were evaluated using reproducible noises.\\r\\n\\r\\nThe data were hit and false-alarm rates from three psychophysical studies of detection of. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SpaceClampProblemsInNeuronsWithVoltageGat110560Model'
-description: '{"value": "\" ... using numerical simulations, we show that the distortions
-  of voltage-gated K+ and Ca2+ currents are substantial even in neurons with short
-  dendrites. The simulations also demonstrate'
+description: "{\"value\": \"\\\" ... using numerical simulations, we show that the distortions of voltage-gated K+ and Ca2+ currents are substantial even in neurons with short dendrites."
 standard: other
 tags:
 - neuroscience

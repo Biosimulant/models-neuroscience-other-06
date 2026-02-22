@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: NetworkTopologiesForProducingLimitedSustain127192Model'
-description: '{"value": "Uses networks of cellular automata to test hypotheses about
-  network topologies that can produce limited, sustained activity. Inspired by empirically-based
-  ideas about neocortical architectu'
+description: "{\"value\": \"Uses networks of cellular automata to test hypotheses about network topologies that can produce limited, sustained activity. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

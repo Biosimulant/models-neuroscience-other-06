@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ParvalbuminPositiveBasketCellsDifferentiate153280Model'
-description: '{"value": "This detailed microcircuit model explores the network level
-  effects of sublayer specific connectivity in the mouse CA1. The differences in strengths
-  and numbers of synapses between PV+ bask'
+description: "{\"value\": \"This detailed microcircuit model explores the network level effects of sublayer specific connectivity in the mouse CA1. The differences in strengths and numbers of synapses between PV+ bask."
 standard: other
 tags:
 - neuroscience

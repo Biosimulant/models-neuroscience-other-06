@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: NeuronalMorphologyGoesDigitalParekhAndAsco148644Model'
-description: '{"value": "An illustration of a NEURON model and why reconstructing
-  morphologies\r\nis useful in this regard (i.e. investigating spatial/temporal aspect\r\nof
-  how different currents and voltage propag'
+description: "{\"value\": \"An illustration of a NEURON model and why reconstructing morphologies\\r\\nis useful in this regard (i.e. investigating spatial/temporal aspect\\r\\nof how different currents and voltage propag."
 standard: other
 tags:
 - neuroscience

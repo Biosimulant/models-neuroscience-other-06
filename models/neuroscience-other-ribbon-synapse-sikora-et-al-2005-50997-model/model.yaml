@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: RibbonSynapseSikoraEtAl200550997Model'
-description: '{''value'': ''A model of the ribbon synapse was developed to replicate
-  both pre- and postsynaptic functions of this glutamatergic juncture. The presynaptic
-  portion of the model is rich in anatomical and '
+description: "{'value': 'A model of the ribbon synapse was developed to replicate both pre- and postsynaptic functions of this glutamatergic juncture. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

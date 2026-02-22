@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: NaccMediumSpinyNeuronEffectsOfCannabinoid126640Model'
-description: '{"value": "Cannabinoid withdrawal produces a hypofunction of dopaminergic
-  neurons targeting medium spiny neurons (MSN) of the forebrain. Administration of
-  a CB1 receptor antagonist to control rats pro'
+description: "{\"value\": \"Cannabinoid withdrawal produces a hypofunction of dopaminergic neurons targeting medium spiny neurons (MSN) of the forebrain. Administration of a CB1 receptor antagonist to control rats pro."
 standard: other
 tags:
 - neuroscience

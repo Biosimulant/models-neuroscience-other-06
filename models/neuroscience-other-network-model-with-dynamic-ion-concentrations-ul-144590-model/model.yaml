@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: NetworkModelWithDynamicIonConcentrationsUl144590Model'
-description: '{"value": "This is a network model composed of 100 excitatory and 100
-  inhibitory neurons with dynamic ion concentrations as described in \"The Influence
-  of Sodium and Potassium Dynamics on Excitabilit'
+description: "{\"value\": \"This is a network model composed of 100 excitatory and 100 inhibitory neurons with dynamic ion concentrations as described in \\\"The Influence of Sodium and Potassium Dynamics on Excitabilit. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: PredictionForThePresenceOfVoltageGatedCa2127355Model'
-description: '{"value": "\"The objective of this current study was to investigate
-  whether voltage gated Ca(2+) channels are present \r\non axons of the adult rat
-  optic nerve (RON).\r\n\r\nSimulations of axonal exci'
+description: "{\"value\": \"\\\"The objective of this current study was to investigate whether voltage gated Ca(2+) channels are present \\r\\non axons of the adult rat optic nerve (RON).\\r\\n\\r\\nSimulations of axonal exci. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

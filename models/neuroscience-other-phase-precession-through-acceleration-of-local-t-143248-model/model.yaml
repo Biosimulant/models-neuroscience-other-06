@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: PhasePrecessionThroughAccelerationOfLocalT143248Model'
-description: '{"value": "\"... Here we\r\npresent a biophysical spiking model for
-  phase precession in\r\nhippocampal CA1 which focuses on the interaction between\r\nplace
-  cells and local inhibitory interneurons.\r\'
+description: "{\"value\": \"\\\"... Here we\\r\\npresent a biophysical spiking model for phase precession in\\r\\nhippocampal CA1 which focuses on the interaction between\\r\\nplace cells and local inhibitory interneurons.\\r\\."
 standard: other
 tags:
 - neuroscience

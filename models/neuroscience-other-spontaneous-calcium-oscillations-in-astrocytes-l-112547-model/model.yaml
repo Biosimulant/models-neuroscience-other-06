@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SpontaneousCalciumOscillationsInAstrocytesL112547Model'
-description: '{"value": "\" ... We propose here a mathematical model of how spontaneous
-  Ca2+ \r\noscillations arise in astrocytes. This model uses the calcium-induced calcium
-  release and inositol cross-coupling \r\'
+description: "{\"value\": \"\\\" ... We propose here a mathematical model of how spontaneous Ca2+ \\r\\noscillations arise in astrocytes."
 standard: other
 tags:
 - neuroscience

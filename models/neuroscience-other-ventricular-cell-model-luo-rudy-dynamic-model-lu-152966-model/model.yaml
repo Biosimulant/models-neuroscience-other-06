@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: VentricularCellModelLuoRudyDynamicModelLu152966Model'
-description: '{"value": "A mathematical model of the membrane action potential of
-  the mammalian ventricular cell introduced in Luo, Rudy 1991 and used in Wang et
-  al 2006 is made available here in XPP. The model is '
+description: "{\"value\": \"A mathematical model of the membrane action potential of the mammalian ventricular cell introduced in Luo, Rudy 1991 and used in Wang et al 2006 is made available here in XPP. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

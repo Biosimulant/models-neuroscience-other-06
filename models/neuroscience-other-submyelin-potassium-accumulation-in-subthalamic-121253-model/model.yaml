@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SubmyelinPotassiumAccumulationInSubthalamic121253Model'
-description: '{"value": "\"To better understand the direct effects of DBS (Deep brain
-  stimulation) on central neurons, a computational model of a myelinated axon has
-  been constructed which includes the effects of K'
+description: "{\"value\": \"\\\"To better understand the direct effects of DBS (Deep brain stimulation) on central neurons, a computational model of a myelinated axon has been constructed which includes the effects of K. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

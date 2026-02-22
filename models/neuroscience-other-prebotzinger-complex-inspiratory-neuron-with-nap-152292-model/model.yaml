@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: PrebotzingerComplexInspiratoryNeuronWithNap152292Model'
-description: '{"value": "We have built on earlier models to develop a single-compartment
-  Hodgkin-Huxley type model incorporating NaP and CAN currents, both of which can
-  play important roles in bursting of inspirato'
+description: "{\"value\": \"We have built on earlier models to develop a single-compartment Hodgkin-Huxley type model incorporating NaP and CAN currents, both of which can play important roles in bursting of inspirato. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

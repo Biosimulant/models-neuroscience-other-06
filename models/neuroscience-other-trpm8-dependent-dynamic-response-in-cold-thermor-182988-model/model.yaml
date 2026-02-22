@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Trpm8DependentDynamicResponseInColdThermor182988Model'
-description: '{"value": "This model reproduces the dynamic response of cold thermoreceptors,
-  transiently changing the firing rate upon heating or cooling. It also displays the
-  ''static'' or adapted firing patterns ob'
+description: "{\"value\": \"This model reproduces the dynamic response of cold thermoreceptors, transiently changing the firing rate upon heating or cooling. It also displays the 'static' or adapted firing patterns ob."
 standard: other
 tags:
 - neuroscience

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: PinskyrinzelmodelPinskyrinzelmodelModel'
-description: Reduced CA3 cell model from Pinsky & Rinzel 1994
+description: "Neuroscience Pinskyrinzelmodel Pinskyrinzelmodel Model captures neuroscience pinskyrinzelmodel pinskyrinzelmodel behavior in the context of neuroscience, opensourcebrain, pinskyrinzelmodel using a opensourcebra. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - neuroscience

@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: RateModelOfACorticalRsFsLtsNetworkHayut142199Model'
-description: '{"value": "A rate model of cortical networks composed of RS, FS and
-  LTS neurons. Synaptic depression is modelled according to the Tsodyks-Markram scheme.",
-  "attr_id": 24}'
+description: "A rate model of cortical networks composed of RS, FS and LTS neurons. Synaptic depression is modelled according to the Tsodyks-Markram scheme."
 standard: other
 tags:
 - neuroscience

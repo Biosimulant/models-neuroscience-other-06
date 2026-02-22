@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: MultiscaleSimulationOfTheStriatalMediumSpi150284Model'
-description: '{"value": "\"\u2026 We present a new event-driven algorithm to synchronize
-  different neuronal\r\nmodels, which decreases computational time and avoids superfluous
-  synchronizations.\r\n\r\nThe algorith'
+description: "{\"value\": \"\\\"\\u2026 We present a new event-driven algorithm to synchronize different neuronal\\r\\nmodels, which decreases computational time and avoids superfluous synchronizations.\\r\\n\\r\\nThe algorith. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

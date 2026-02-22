@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: StochasticAutomataNetworkMarkovModelDescrip118894Model'
-description: '{"value": "\"... Here we present a formalism by which mathematical models
-  for Ca2+-regulated Ca2+ release sites\r\nare derived from stochastic models of single-channel
-  gating that include Ca2+ activat'
+description: "{\"value\": \"\\\"... Here we present a formalism by which mathematical models for Ca2+-regulated Ca2+ release sites\\r\\nare derived from stochastic models of single-channel gating that include Ca2+ activat."
 standard: other
 tags:
 - neuroscience

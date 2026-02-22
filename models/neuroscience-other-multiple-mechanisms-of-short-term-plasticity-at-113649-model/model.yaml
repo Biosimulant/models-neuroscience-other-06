@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: MultipleMechanismsOfShortTermPlasticityAt113649Model'
-description: '{''value'': ''This is a new model of the short-term dynamics of glutamatergic
-  synaptic transmission, which incorporates multiple mechanisms acting at differing
-  sites and across a range of different time '
+description: "{'value': 'This is a new model of the short-term dynamics of glutamatergic synaptic transmission, which incorporates multiple mechanisms acting at differing sites and across a range of different time. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ReducedLeechHeartInterneuronChannellEtAl2125125Model'
-description: '{"value": "\"Spiking and bursting patterns of neurons are characterized
-  by a high degree of variability.\r\n\r\nA single neuron can demonstrate endogenously
-  various bursting patterns, changing in resp'
+description: "{\"value\": \"\\\"Spiking and bursting patterns of neurons are characterized by a high degree of variability.\\r\\n\\r\\nA single neuron can demonstrate endogenously various bursting patterns, changing in resp. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

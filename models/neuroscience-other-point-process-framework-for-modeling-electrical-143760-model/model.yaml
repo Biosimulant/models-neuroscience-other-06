@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: PointProcessFrameworkForModelingElectrical143760Model'
-description: '{"value": "A point process model of the auditory nerve that provides
-  a compact and accurate description of neural responses to electric stimulation.
-  Inspired by the framework of generalized linear mod'
+description: "{\"value\": \"A point process model of the auditory nerve that provides a compact and accurate description of neural responses to electric stimulation. Inspired by the framework of generalized linear mod."
 standard: other
 tags:
 - neuroscience

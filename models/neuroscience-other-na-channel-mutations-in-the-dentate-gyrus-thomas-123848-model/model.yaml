@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: NaChannelMutationsInTheDentateGyrusThomas123848Model'
-description: '{"value": "These are source files to generate the data in Figure 6 from\r\n\"Mossy
-  fiber sprouting interacts with sodium channel\r\nmutations to increase dentate gyrus
-  excitability\" Thomas EA, Reid C'
+description: "{\"value\": \"These are source files to generate the data in Figure 6 from\\r\\n\\\"Mossy fiber sprouting interacts with sodium channel\\r\\nmutations to increase dentate gyrus excitability\\\" Thomas EA, Reid C. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

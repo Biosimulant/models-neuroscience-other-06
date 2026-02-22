@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: TheoryOfArachnidPreyLocalizationSturzlEtA154198Model'
-description: '{"value": "\"Sand scorpions and many other arachnids locate their prey
-  through highly sensitive slit sensilla at the tips (tarsi) of their eight legs.
-  This sensor array responds to vibrations with sti'
+description: "{\"value\": \"\\\"Sand scorpions and many other arachnids locate their prey through highly sensitive slit sensilla at the tips (tarsi) of their eight legs. This sensor array responds to vibrations with sti."
 standard: other
 tags:
 - neuroscience

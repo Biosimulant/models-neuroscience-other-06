@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: StudiesOfStimulusParametersForSeizureDisru98902Model'
-description: '{''value'': ''Architecturally realistic neocortical model using seven
-  classes of excitatory and inhibitory single compartment Hodgkin-Huxley cells. Wiring
-  is adapted to minicolumn hypothesis and incorpor'
+description: "{'value': 'Architecturally realistic neocortical model using seven classes of excitatory and inhibitory single compartment Hodgkin-Huxley cells. Wiring is adapted to minicolumn hypothesis and incorpor."
 standard: other
 tags:
 - neuroscience

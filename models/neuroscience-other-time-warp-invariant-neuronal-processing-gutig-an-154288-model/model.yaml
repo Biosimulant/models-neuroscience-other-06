@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: TimeWarpInvariantNeuronalProcessingGutigAn154288Model'
-description: '{"value": "\" ... Here, we report that time-warp-invariant neuronal
-  processing can be subserved by the shunting action of synaptic conductances that
-  automatically rescales the effective integration ti'
+description: "{\"value\": \"\\\" ... Here, we report that time-warp-invariant neuronal processing can be subserved by the shunting action of synaptic conductances that automatically rescales the effective integration ti."
 standard: other
 tags:
 - neuroscience

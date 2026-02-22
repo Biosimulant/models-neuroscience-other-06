@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ProbInferenceOfShortTermSynapticPlasticity149914Model'
-description: '{"value": "\" ... As a solution (for Short Term Plasticity (STP) inference),
-  we introduce a Bayesian formulation, which yields the posterior distribution over
-  the model parameters given the data. Firs'
+description: "{\"value\": \"\\\" ... As a solution (for Short Term Plasticity (STP) inference), we introduce a Bayesian formulation, which yields the posterior distribution over the model parameters given the data."
 standard: other
 tags:
 - neuroscience

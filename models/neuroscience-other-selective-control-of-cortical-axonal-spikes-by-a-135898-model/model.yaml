@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SelectiveControlOfCorticalAxonalSpikesByA135898Model'
-description: '{"value": "We discovered a low-threshold, slowly inactivating K+ current,
-  containing Kv1.2 alpha subunits, in axon initial segment, playing a key role in
-  the modulation of spike threshold and spike du'
+description: "{\"value\": \"We discovered a low-threshold, slowly inactivating K+ current, containing Kv1.2 alpha subunits, in axon initial segment, playing a key role in the modulation of spike threshold and spike du. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

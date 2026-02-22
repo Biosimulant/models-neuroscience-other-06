@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SingleEIOscillatingNetworkWithAmplitudeMo156120Model'
-description: '{"value": "\"... Intriguingly, the amplitude of ongoing oscillations,
-  such as measured in EEG recordings, fluctuates irregularly, with episodes of high
-  amplitude (HAE) alternating with episodes of low'
+description: "{\"value\": \"\\\"... Intriguingly, the amplitude of ongoing oscillations, such as measured in EEG recordings, fluctuates irregularly, with episodes of high amplitude (HAE) alternating with episodes of low."
 standard: other
 tags:
 - neuroscience

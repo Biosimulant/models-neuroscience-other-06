@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: StriatalDopamineRampingAnExplanationByRein153573Model'
-description: '{"value": "Incorporation of decay of learned values into temporal-difference
-  (TD) learning (Sutton & Barto, 1998, Reinforcement Learning (MIT Press)) causes
-  ramping of TD reward prediction error (RPE)'
+description: "{\"value\": \"Incorporation of decay of learned values into temporal-difference (TD) learning (Sutton & Barto, 1998, Reinforcement Learning (MIT Press)) causes ramping of TD reward prediction error (RPE). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

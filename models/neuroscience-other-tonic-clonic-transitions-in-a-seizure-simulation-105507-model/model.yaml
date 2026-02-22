@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: TonicClonicTransitionsInASeizureSimulation105507Model'
-description: '{"value": "\"... The authors have ... computationally manageable networks
-  of moderate size consisting of 1,000 to 3,000 neurons with multiple intrinsic\r\nand
-  synaptic properties. \r\n\r\nExperiments '
+description: "{\"value\": \"\\\"... It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

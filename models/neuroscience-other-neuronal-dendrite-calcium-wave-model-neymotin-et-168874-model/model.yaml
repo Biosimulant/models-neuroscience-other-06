@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: NeuronalDendriteCalciumWaveModelNeymotinEt168874Model'
-description: '{"value": "\"...\r\nWe developed a reaction-diffusion model of an apical
-  dendrite with diffusible inositol triphosphate (IP3 ), diffusible Ca2+, IP3 receptors
-  (IP3 Rs), endoplasmic reticulum (ER) Ca2+'
+description: "{\"value\": \"\\\"...\\r\\nWe developed a reaction-diffusion model of an apical dendrite with diffusible inositol triphosphate (IP3 ), diffusible Ca2+, IP3 receptors (IP3 Rs), endoplasmic reticulum (ER) Ca2+. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

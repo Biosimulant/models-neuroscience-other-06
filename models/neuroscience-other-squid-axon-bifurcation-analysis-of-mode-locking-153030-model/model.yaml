@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SquidAxonBifurcationAnalysisOfModeLocking153030Model'
-description: '{"value": "The model was built with the purpose of finding mode lockings
-  between the input sinusoidal current frequency and the output frequency. Phase plase
-  plane analysis, spike statistics, mode loc'
+description: "{\"value\": \"The model was built with the purpose of finding mode lockings between the input sinusoidal current frequency and the output frequency. Phase plase plane analysis, spike statistics, mode loc."
 standard: other
 tags:
 - neuroscience

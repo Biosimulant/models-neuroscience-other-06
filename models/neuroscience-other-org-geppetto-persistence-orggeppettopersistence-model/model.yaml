@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: OrgGeppettoPersistenceOrggeppettopersistenceModel'
-description: Persistance bundle for Geppetto
+description: "Neuroscience Org Geppetto Persistence Orggeppettopersistence Model captures neuroscience org geppetto persistence orggeppettopersistence behavior in the context of neuroscience, opensourcebrain, org using a ope. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - neuroscience

@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: NetworkBurstsInCulturedNnResultFromDiffer150437Model'
-description: '{"value": "It is now well established that cultured neuron networks
-  are spontaneously active, and tend to synchronize. Synchronous events typically
-  involve the whole network, and have thus been termed'
+description: "{\"value\": \"It is now well established that cultured neuron networks are spontaneously active, and tend to synchronize. Synchronous events typically involve the whole network, and have thus been termed."
 standard: other
 tags:
 - neuroscience

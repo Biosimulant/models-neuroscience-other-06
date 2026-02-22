@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: NeocorticalPyramidalNeuronDeepEffectsOfDop82849Model'
-description: '{"value": "\"... Simulated dopamine strongly enhanced high, delay-type
-  activity but not low, spontaneous activity in the model network. Furthermore the
-  strength of an afferent stimulation needed to di'
+description: "{\"value\": \"\\\"... Simulated dopamine strongly enhanced high, delay-type activity but not low, spontaneous activity in the model network."
 standard: other
 tags:
 - neuroscience

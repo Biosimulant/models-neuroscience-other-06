@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SubthresholdInactOfKChannelsModulatesApsI83523Model'
-description: "{'value': '... In this study we show that in bitufted interneurones\r\
-  \nfrom layer 2/3 of the somatosensory cortex, the height and width of APs recorded\
-  \ at the\r\nsoma are sensitive to changes in the r"
+description: "{'value': '... In this study we show that in bitufted interneurones from layer 2/3 of the somatosensory cortex, the height and width of APs recorded at the soma are sensitive to changes in the r."
 standard: other
 tags:
 - neuroscience

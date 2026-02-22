@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ThalamicNetworkModelOfDeepBrainStimulation143633Model'
-description: '{"value": "\"... Thus the decreased effectiveness\r\nof temporally irregular
-  DBS trains is due to long pauses in the\r\nstimulus trains, not the degree of temporal
-  irregularity alone.\r\n\r\nWe also\r'
+description: "{\"value\": \"\\\"... Thus the decreased effectiveness\\r\\nof temporally irregular DBS trains is due to long pauses in the\\r\\nstimulus trains, not the degree of temporal irregularity alone.\\r\\n\\r\\nWe also\\r."
 standard: other
 tags:
 - neuroscience

@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: RapidDesynchronizationOfAnElectricallyCoupl127996Model'
-description: '{"value": "Electrical synapses between interneurons contribute to synchronized
-  firing and network oscillations in the brain. However, little is known about how
-  such networks respond to excitatory syna'
+description: "{\"value\": \"Electrical synapses between interneurons contribute to synchronized firing and network oscillations in the brain. However, little is known about how such networks respond to excitatory syna."
 standard: other
 tags:
 - neuroscience

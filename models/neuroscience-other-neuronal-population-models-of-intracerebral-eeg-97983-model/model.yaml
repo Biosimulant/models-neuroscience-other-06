@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: NeuronalPopulationModelsOfIntracerebralEeg97983Model'
-description: '{"value": "\"... In this study, the authors relate electrophysiologic
-  patterns typically observed during the transition from interictal to ictal activity
-  in human mesial temporal lobe epilepsy (MTLE) '
+description: "{\"value\": \"\\\"... In this study, the authors relate electrophysiologic patterns typically observed during the transition from interictal to ictal activity in human mesial temporal lobe epilepsy (MTLE)."
 standard: other
 tags:
 - neuroscience

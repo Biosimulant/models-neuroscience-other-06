@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: RolesOfIAAndMorphologyInApPropInCa1Py118014Model'
-description: '{"value": "\" ...Using conductance-based models of CA1 pyramidal cells,
-  we show that underlying \u201ctraveling wave attractors\u201d control action potential
-  propagation in the apical dendrites. \r\n'
+description: "{\"value\": \"\\\" ...Using conductance-based models of CA1 pyramidal cells, we show that underlying \\u201ctraveling wave attractors\\u201d control action potential propagation in the apical dendrites. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

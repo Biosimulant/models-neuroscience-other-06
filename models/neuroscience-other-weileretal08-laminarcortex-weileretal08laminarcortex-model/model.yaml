@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Weileretal08LaminarcortexWeileretal08laminarcortexModel'
-description: 'Models based on data in:  Weiler N, Wood L, Yu J, Solla SA, Shepherd
-  GM (2008) Top-down laminar organization of the excitatory network in motor cortex.
-  Nat Neurosci 11:360-6'
+description: "Models based on data in: Weiler N, Wood L, Yu J, Solla SA, Shepherd GM (2008) Top-down laminar organization of the excitatory network in motor cortex. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

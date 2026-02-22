@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ModelsAnalysisForAuditoryNerveSynapseZhang126489Model'
-description: '{"value": "\"A general mathematical approach was proposed to study phenomenological
-  models of the\r\ninner-hair-cell and auditory-nerve (AN) synapse complex. Two models
-  (Meddis, 1986; Westerman\r\nand'
+description: "{\"value\": \"\\\"A general mathematical approach was proposed to study phenomenological models of the\\r\\ninner-hair-cell and auditory-nerve (AN) synapse complex. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

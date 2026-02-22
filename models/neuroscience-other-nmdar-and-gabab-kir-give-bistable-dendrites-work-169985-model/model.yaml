@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: NmdarAndGababKirGiveBistableDendritesWork169985Model'
-description: '{"value": "\" ...Here, we show that the voltage dependence of the inwardly
-  rectifying potassium (KIR) conductance activated by GABA(B) receptors adds substantial
-  robustness to network simulations of b'
+description: "{\"value\": \"\\\" ...Here, we show that the voltage dependence of the inwardly rectifying potassium (KIR) conductance activated by GABA(B) receptors adds substantial robustness to network simulations of b. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

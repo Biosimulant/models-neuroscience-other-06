@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SensorimotorCortexReinforcementLearningOf2150245Model'
-description: '{"value": "\"...\r\nWe developed a model of sensory and motor neocortex
-  consisting\r\nof 704 spiking model-neurons. Sensory and motor populations included
-  excitatory cells\r\nand two types of interneu'
+description: "{\"value\": \"\\\"...\\r\\nWe developed a model of sensory and motor neocortex consisting\\r\\nof 704 spiking model-neurons. Sensory and motor populations included excitatory cells\\r\\nand two types of interneu."
 standard: other
 tags:
 - neuroscience

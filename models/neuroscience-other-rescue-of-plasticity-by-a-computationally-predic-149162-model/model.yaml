@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: RescueOfPlasticityByAComputationallyPredic149162Model'
-description: '{"value": "\" ... A computational model,\r\nwhich simulated molecular
-  processes underlying long-term\r\nsynaptic facilitation (LTF) induction, predicted
-  a rescue protocol of five pulses of 5-HT at non'
+description: "{\"value\": \"\\\" ... A computational model,\\r\\nwhich simulated molecular processes underlying long-term\\r\\nsynaptic facilitation (LTF) induction, predicted a rescue protocol of five pulses of 5-HT at non."
 standard: other
 tags:
 - neuroscience

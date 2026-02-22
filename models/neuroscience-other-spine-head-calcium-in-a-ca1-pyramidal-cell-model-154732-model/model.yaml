@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SpineHeadCalciumInACa1PyramidalCellModel154732Model'
-description: '{"value": "\"We use a computational model of a hippocampal CA1 pyramidal
-  cell to demonstrate that spine\r\nhead calcium provides an instantaneous readout
-  at each synapse of the postsynaptic weighted\r'
+description: "{\"value\": \"\\\"We use a computational model of a hippocampal CA1 pyramidal cell to demonstrate that spine\\r\\nhead calcium provides an instantaneous readout at each synapse of the postsynaptic weighted\\r. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

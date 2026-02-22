@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: OlfactoryBulbMitralAndGranuleCellColumnFo114665Model'
-description: '{"value": "In the olfactory bulb, the processing units for odor discrimination
-  are believed \r\nto involve dendrodendritic synaptic interactions between mitral
-  and granule cells. \r\nThere is increasi'
+description: "{\"value\": \"In the olfactory bulb, the processing units for odor discrimination are believed \\r\\nto involve dendrodendritic synaptic interactions between mitral and granule cells. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

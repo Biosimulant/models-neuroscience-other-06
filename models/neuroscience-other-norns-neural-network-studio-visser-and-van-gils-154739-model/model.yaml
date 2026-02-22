@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: NornsNeuralNetworkStudioVisserAndVanGils154739Model'
-description: '{"value": "The Norns - Neural Network Studio is a software package for
-  designing, simulation and analyzing networks of spiking neurons. It consists of
-  three parts:\r\n\r\n1. \"Urd\": a Matlab frontend'
+description: "{\"value\": \"The Norns - Neural Network Studio is a software package for designing, simulation and analyzing networks of spiking neurons. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

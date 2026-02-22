@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Sussilloandabbott2009Sussilloandabbott2009Model'
-description: Me tinkering with Sussillo and Abbot (2009)
+description: "Neuroscience Sussilloandabbott2009Sussilloandabbott2009Model represents neuroscience sussilloandabbott2009 sussilloandabbott2009 mechanisms from opensourcebrain reference opensourcebrain:SussilloAndAbbott2009. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - neuroscience

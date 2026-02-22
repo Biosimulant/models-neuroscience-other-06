@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ModulationOfSeptoHippocampalThetaActivityB116567Model'
-description: '{"value": "Theta frequency oscillation of the septo-hippocampal system
-  has been considered as a prominent activity associated with cognitive function and
-  affective processes.\r\n\r\n...\r\n\r\nIn the '
+description: "{\"value\": \"Theta frequency oscillation of the septo-hippocampal system has been considered as a prominent activity associated with cognitive function and affective processes.\\r\\n\\r\\n...\\r\\n\\r\\nIn the. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

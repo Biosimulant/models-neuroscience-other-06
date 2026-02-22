@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SpikeFrequencyAdaptationInSpinalSensoryNeu62284Model'
-description: "{'value': 'Using tight-seal recordings from rat spinal cord slices,\
-  \ intracellular\r\nlabelling and computer simulation, we analysed the mechanisms\
-  \ of spike\r\nfrequency adaptation in substantia gelati"
+description: "{'value': 'Using tight-seal recordings from rat spinal cord slices, intracellular labelling and computer simulation, we analysed the mechanisms of spike frequency adaptation in substantia gelati. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

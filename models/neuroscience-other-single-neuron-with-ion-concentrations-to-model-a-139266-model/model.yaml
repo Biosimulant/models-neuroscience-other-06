@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SingleNeuronWithIonConcentrationsToModelA139266Model'
-description: '{"value": "A minimal single neuron model, including changing ion concentrations
-  and homeostasis mechanisms. It shows the sudden depolarization that occurs after
-  prolonged anoxia/ischemia.", "attr_id":'
+description: "{\"value\": \"A minimal single neuron model, including changing ion concentrations and homeostasis mechanisms. It shows the sudden depolarization that occurs after prolonged anoxia/ischemia.\", \"attr_id\":."
 standard: other
 tags:
 - neuroscience

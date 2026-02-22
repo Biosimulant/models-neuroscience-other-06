@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ZonisamideInducedInhibitionOfTheFiringOfA84606Model'
-description: '{''value'': ''Zonisamide (ZNS), a synthetic benzisoxazole derivative,
-  has been used as an alternative choice in the treatment of epilepsy with a better
-  efficacy and safety profile. However, little is kno'
+description: "{'value': 'Zonisamide (ZNS), a synthetic benzisoxazole derivative, has been used as an alternative choice in the treatment of epilepsy with a better efficacy and safety profile. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

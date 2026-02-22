@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: OpticalStimulationOfAChannelrhodopsin2Posi153196Model'
-description: '{"value": "A computational tool to explore the underlying principles
-  of optogenetic neural stimulation. This \"light-neuron\" model consists of theoretical
-  representations of the light dynamics genera'
+description: "{\"value\": \"A computational tool to explore the underlying principles of optogenetic neural stimulation. This \\\"light-neuron\\\" model consists of theoretical representations of the light dynamics genera."
 standard: other
 tags:
 - neuroscience

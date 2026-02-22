@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Smithetal2013L23dendriticspikesSmithetal2013l23dendriticspikesModel'
-description: "Model from: Dendritic spikes enhance stimulus selectivity in cortical\
-  \ neurons in vivo, Smith, Smith,\t Branco & H\xE4usser, Nature 2013"
+description: "Model from: Dendritic spikes enhance stimulus selectivity in cortical neurons in vivo, Smith, Smith, Branco & H\u00e4usser, Nature 2013. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

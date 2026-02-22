@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: OpencortexOpencortexModel'
-description: A framework for building cortical network models on OSB
+description: "A framework for building cortical network models on OSB. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

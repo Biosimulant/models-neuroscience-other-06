@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: RegionSpecificAtrophyInDendritesNarayananN147756Model'
-description: '{"value": "...in this study, we develop an algorithm that uses statistics
-  from precise morphometric analyses to systematically remodel neuronal reconstructions.
-  We use the distribution function of the'
+description: "{\"value\": \"...in this study, we develop an algorithm that uses statistics from precise morphometric analyses to systematically remodel neuronal reconstructions. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

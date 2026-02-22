@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ThalamocorticalThalamocorticalModel'
-description: GitHub repository for an OSB project containing a thalamocortical network
-  model based on Traub et al. 2005
+description: "GitHub repository for an OSB project containing a thalamocortical network model based on Traub et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

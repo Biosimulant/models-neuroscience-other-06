@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Basal Ganglia Dopamine (COMBO_0078)'
-description: Neuroscience basal ganglia dopamine comparative space with 4 models,
-  configured as non-causal co-simulation.
+description: "Neuroscience Basal Ganglia Dopamine (COMBO_0078) brings together multiscale_simul_1, nacc_medium_2, nigral_dopaminer_3 in a comparative space to examine how basal ganglia dopamine mechanisms compare across these models. When you run it, you can compare participant trajectories through shared runtime settings and routed output streams."
 models:
 - repo: Biosimulant/models-neuroscience-other-06
   alias: multiscale_simul_1

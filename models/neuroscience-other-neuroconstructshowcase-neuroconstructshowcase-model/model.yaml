@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: NeuroconstructshowcaseNeuroconstructshowcaseModel'
-description: Example models for neuroConstruct
+description: "Neuroscience Neuroconstructshowcase Neuroconstructshowcase Model models neuroscience neuroconstructshowcase neuroconstructshowcase dynamics as a OTHER simulation curated from opensourcebrain (opensourcebrain:ne. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - neuroscience

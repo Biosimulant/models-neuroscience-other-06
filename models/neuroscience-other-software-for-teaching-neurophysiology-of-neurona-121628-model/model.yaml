@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SoftwareForTeachingNeurophysiologyOfNeurona121628Model'
-description: '{"value": "\"To circumvent the many problems in teaching neurophysiology
-  as a \u201cwet lab,\u201d we developed SWIMMY, a virtual fish that swims by moving
-  its virtual tail by means of a virtual neura'
+description: "{\"value\": \"\\\"To circumvent the many problems in teaching neurophysiology as a \\u201cwet lab,\\u201d we developed SWIMMY, a virtual fish that swims by moving its virtual tail by means of a virtual neura. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

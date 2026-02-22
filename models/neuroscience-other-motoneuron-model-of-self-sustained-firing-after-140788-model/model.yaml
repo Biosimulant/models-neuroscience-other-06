@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: MotoneuronModelOfSelfSustainedFiringAfter140788Model'
-description: '{"value": "\" ...\r\nDuring the acute-stage of spinal cord injury (SCI),
-  the endogenous ability to generate plateaus is lost; however, during the chronic-stage
-  of SCI, plateau potentials reappear with'
+description: "{\"value\": \"\\\" ...\\r\\nDuring the acute-stage of spinal cord injury (SCI), the endogenous ability to generate plateaus is lost; however, during the chronic-stage of SCI, plateau potentials reappear with. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

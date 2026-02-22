@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: TwoCellInhibitoryNetworkBurstingDynamicsCa112914Model'
-description: '{"value": "\" ... Here\r\nwe describe a simple method that allows us
-  to investigate\r\nthe existence and stability of anti-phase bursting\r\nsolutions
-  in a network of two spiking neurons, each\r\nposs'
+description: "{\"value\": \"\\\" ... Here\\r\\nwe describe a simple method that allows us to investigate\\r\\nthe existence and stability of anti-phase bursting\\r\\nsolutions in a network of two spiking neurons, each\\r\\nposs."
 standard: other
 tags:
 - neuroscience

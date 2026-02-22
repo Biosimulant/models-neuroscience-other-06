@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: NeocortPyramidalCellsSubthresholdSomaticVol136309Model'
-description: '{"value": "There is suggestive evidence that pyramidal cell axons in
-  neocortex may be coupled by gap junctions into an ``axonal plexus\" capable of generating
-  Very Fast Oscillations (VFOs) with freque'
+description: "{\"value\": \"There is suggestive evidence that pyramidal cell axons in neocortex may be coupled by gap junctions into an ``axonal plexus\\\" capable of generating Very Fast Oscillations (VFOs) with freque. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

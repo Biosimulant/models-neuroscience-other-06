@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: NeuralModelingOfAnInternalClockYamazakiAn115966Model'
-description: '{"value": "\"We studied a simple random recurrent inhibitory network.
-  Despite its simplicity, the dynamics was so rich that activity patterns of neurons\r\nevolved
-  with time without recurrence due to '
+description: "{\"value\": \"\\\"We studied a simple random recurrent inhibitory network. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

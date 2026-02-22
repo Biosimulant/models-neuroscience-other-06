@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: TheDynamicsUnderlyingPseudoPlateauBursting156470Model'
-description: '{"value": "\" ... pseudo-plateau bursts, are unlike bursts studied mathematically
-  in neurons (plateau bursting) and the standard fast-slow analysis used for plateau
-  bursting is of limited use. Using a'
+description: "{\"value\": \"\\\" ... pseudo-plateau bursts, are unlike bursts studied mathematically in neurons (plateau bursting) and the standard fast-slow analysis used for plateau bursting is of limited use."
 standard: other
 tags:
 - neuroscience

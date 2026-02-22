@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: PhaseResponseCurvesFiringRateDependencyOf155735Model'
-description: '{"value": "NEURON implementation of stochastic gating in the Khaliq-Raman
-  Purkinje cell model.\r\n\r\nNEURON implementation of the De Schutter and Bower model
-  of a Purkinje Cell.\r\n\r\nMatlab scripts'
+description: "{\"value\": \"NEURON implementation of stochastic gating in the Khaliq-Raman Purkinje cell model.\\r\\n\\r\\nNEURON implementation of the De Schutter and Bower model of a Purkinje Cell.\\r\\n\\r\\nMatlab scripts. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

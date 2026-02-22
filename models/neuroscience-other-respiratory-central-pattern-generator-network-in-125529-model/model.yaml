@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: RespiratoryCentralPatternGeneratorNetworkIn125529Model'
-description: '{"value": "This model is a reduced version of a spatially organized
-  respiratory central pattern generation network consisting of four neuronal populations
-  (pre-I, early-I, post-I, and aug-E). In this '
+description: "{\"value\": \"This model is a reduced version of a spatially organized respiratory central pattern generation network consisting of four neuronal populations (pre-I, early-I, post-I, and aug-E). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

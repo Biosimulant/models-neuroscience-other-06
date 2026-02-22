@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: MyelinatedNerveFibreMyelinResistanceDepende136296Model'
-description: '{"value": "Excitation leads to rise in paranodal [K]e under the myelin.
-  This causes structural changes in myelin structure and resistance. Current model
-  aims to simulate this aspect. This is a space-c'
+description: "{\"value\": \"Excitation leads to rise in paranodal [K]e under the myelin. This causes structural changes in myelin structure and resistance."
 standard: other
 tags:
 - neuroscience

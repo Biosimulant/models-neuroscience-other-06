@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SynchronicityOfFastSpikingInterneuronsBalan156260Model'
-description: '{"value": "This study investigates the role of feedforward and feedback
-  inhibition in maintaining the balance between D1 and D2 MSNs of the striatum. The
-  synchronized firing of FSIs are found to be cr'
+description: "{\"value\": \"This study investigates the role of feedforward and feedback inhibition in maintaining the balance between D1 and D2 MSNs of the striatum. The synchronized firing of FSIs are found to be cr."
 standard: other
 tags:
 - neuroscience

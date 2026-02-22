@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ReductionOfNonlinearOdeSystemsPossessingMu118020Model'
-description: '{"value": "\" ... We introduce a combined numerical and analytical technique
-  that aids the identification of structure in a class of systems of nonlinear ordinary
-  differential\r\nequations (ODEs) that'
+description: "{\"value\": \"\\\" ... We introduce a combined numerical and analytical technique that aids the identification of structure in a class of systems of nonlinear ordinary differential\\r\\nequations (ODEs) that."
 standard: other
 tags:
 - neuroscience

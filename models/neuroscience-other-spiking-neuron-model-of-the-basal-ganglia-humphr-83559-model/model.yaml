@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SpikingNeuronModelOfTheBasalGangliaHumphr83559Model'
-description: '{''value'': ''A spiking neuron model of the basal ganglia (BG) circuit
-  (striatum, STN, GP, SNr). Includes: parallel anatomical channels; tonic dopamine;
-  dopamine receptors in striatum, STN, and GP; burst'
+description: "{'value': 'A spiking neuron model of the basal ganglia (BG) circuit (striatum, STN, GP, SNr). Includes: parallel anatomical channels; tonic dopamine; dopamine receptors in striatum, STN, and GP; burst."
 standard: other
 tags:
 - neuroscience

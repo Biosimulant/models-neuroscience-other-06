@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SensitivityOfNoisyNeuronsToCoincidentInput153985Model'
-description: '{"value": "\"Two distant or coincident spikes are injected into a noisy
-  balanced leaky integrate-and-fire neuron. The PSTH of the neuron in response to
-  these inputs is calculated along with the extra '
+description: "{\"value\": \"\\\"Two distant or coincident spikes are injected into a noisy balanced leaky integrate-and-fire neuron. The PSTH of the neuron in response to these inputs is calculated along with the extra."
 standard: other
 tags:
 - neuroscience

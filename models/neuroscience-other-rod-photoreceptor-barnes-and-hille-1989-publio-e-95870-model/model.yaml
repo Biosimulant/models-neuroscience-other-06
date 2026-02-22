@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: RodPhotoreceptorBarnesAndHille1989PublioE95870Model'
-description: "{'value': 'This a conductance-based model of a rod photoreceptor cell\
-  \ based on other modeling works\r\n(Barnes and Hille 1989 and Publio et al. 2006\
-  \ and Kourennyi and Liu et al. 2004 ). In this\r\nmod"
+description: "{'value': 'This a conductance-based model of a rod photoreceptor cell based on other modeling works (Barnes and Hille 1989 and Publio et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

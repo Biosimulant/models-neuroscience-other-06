@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SCellNetworkMossEtAl200553559Model'
-description: "{'value': 'Excerpts from the abstract:\r\nS cells form a chain of electrically\
-  \ coupled neurons that extends the length of the leech CNS and plays a critical\
-  \ role in sensitization during whole-body sho"
+description: "{'value': 'Excerpts from the abstract: S cells form a chain of electrically coupled neurons that extends the length of the leech CNS and plays a critical role in sensitization during whole-body sho. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

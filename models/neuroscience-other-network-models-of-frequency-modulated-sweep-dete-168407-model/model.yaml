@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: NetworkModelsOfFrequencyModulatedSweepDete168407Model'
-description: '{"value": "\"Frequency modulated (FM) sweeps are common in species-specific
-  vocalizations, including human speech. Auditory neurons selective for the direction
-  and rate of frequency change in FM sweep'
+description: "{\"value\": \"\\\"Frequency modulated (FM) sweeps are common in species-specific vocalizations, including human speech. Auditory neurons selective for the direction and rate of frequency change in FM sweep."
 standard: other
 tags:
 - neuroscience

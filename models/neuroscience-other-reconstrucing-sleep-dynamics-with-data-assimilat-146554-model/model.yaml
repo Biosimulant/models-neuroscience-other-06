@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ReconstrucingSleepDynamicsWithDataAssimilat146554Model'
-description: '{"value": "We have developed a framework, based on the unscented Kalman
-  filter, for estimating hidden states and parameters of a network model of sleep.
-  The network model includes firing rates and neu'
+description: "{\"value\": \"We have developed a framework, based on the unscented Kalman filter, for estimating hidden states and parameters of a network model of sleep. The network model includes firing rates and neu."
 standard: other
 tags:
 - neuroscience

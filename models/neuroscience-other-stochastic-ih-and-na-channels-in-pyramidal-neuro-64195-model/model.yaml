@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: StochasticIhAndNaChannelsInPyramidalNeuro64195Model'
-description: '{''value'': ''The hyperpolarization-activated cation current (Ih) plays
-  an important role in regulating neuronal excitability, yet its native single-channel
-  properties in the brain are essentially unknow'
+description: "{'value': 'The hyperpolarization-activated cation current (Ih) plays an important role in regulating neuronal excitability, yet its native single-channel properties in the brain are essentially unknow. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

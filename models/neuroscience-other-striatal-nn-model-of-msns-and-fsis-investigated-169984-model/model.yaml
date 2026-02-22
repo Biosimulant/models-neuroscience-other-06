@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: StriatalNnModelOfMsnsAndFsisInvestigated169984Model'
-description: '{"value": "This study investigates the mechanisms that are affected
-  in the striatal network after dopamine depletion and identifies potential therapeutic
-  targets to restore normal activity.", "attr_id'
+description: "{\"value\": \"This study investigates the mechanisms that are affected in the striatal network after dopamine depletion and identifies potential therapeutic targets to restore normal activity.\", \"attr_id. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

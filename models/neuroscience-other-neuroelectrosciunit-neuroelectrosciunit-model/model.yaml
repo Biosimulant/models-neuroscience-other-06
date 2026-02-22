@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: NeuroelectrosciunitNeuroelectrosciunitModel'
-description: An Open Source Brain project highlighting some of the potential interactions
-  between OSB and NeuroElectro.org and SciUnit.
+description: "An Open Source Brain project highlighting some of the potential interactions between OSB and NeuroElectro.org and SciUnit. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

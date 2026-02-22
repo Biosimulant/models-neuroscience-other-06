@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: StdpDependsOnDendriticSynapseLocationLetzk108459Model'
-description: '{''value'': ''This model was published in Letzkus, Kampa & Stuart (2006)
-  J Neurosci 26(41):10420-9. The simulation creates several plots showing voltage
-  and NMDA current and conductance changes at differ'
+description: "{'value': 'This model was published in Letzkus, Kampa & Stuart (2006) J Neurosci 26(41):10420-9. The simulation creates several plots showing voltage and NMDA current and conductance changes at differ."
 standard: other
 tags:
 - neuroscience

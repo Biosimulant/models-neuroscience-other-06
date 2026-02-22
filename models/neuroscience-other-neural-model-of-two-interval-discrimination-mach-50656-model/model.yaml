@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: NeuralModelOfTwoIntervalDiscriminationMach50656Model'
-description: '{''value'': ''Two-interval discrimination involves comparison of two
-  stimuli that are presented at different times. It has three phases: loading, in
-  which the first stimulus is perceived and stored in wo'
+description: "{'value': 'Two-interval discrimination involves comparison of two stimuli that are presented at different times. It has three phases: loading, in which the first stimulus is perceived and stored in wo."
 standard: other
 tags:
 - neuroscience

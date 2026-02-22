@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ThalamicTransformationOfPallidalInputHadipo111870Model'
-description: '{"value": "\"In Parkinson\u2019s disease, neurons of the internal segment
-  of the globus pallidus (GPi) display the low-frequency tremor-related oscillations.\r\n\r\nThese
-  oscillatory activities are tr'
+description: "{\"value\": \"\\\"In Parkinson\\u2019s disease, neurons of the internal segment of the globus pallidus (GPi) display the low-frequency tremor-related oscillations.\\r\\n\\r\\nThese oscillatory activities are tr. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

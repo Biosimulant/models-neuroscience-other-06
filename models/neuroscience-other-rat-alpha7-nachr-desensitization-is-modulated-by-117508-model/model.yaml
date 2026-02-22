@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: RatAlpha7NachrDesensitizationIsModulatedBy117508Model'
-description: '{"value": "\"The rat alpha7 nicotinic acetylcholine receptor (nAChR)
-  can undergo rapid onset of desensitization; however, the mechanisms of desensitization
-  are largely unknown. \r\n\r\nThe contributio'
+description: "{\"value\": \"\\\"The rat alpha7 nicotinic acetylcholine receptor (nAChR) can undergo rapid onset of desensitization; however, the mechanisms of desensitization are largely unknown. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

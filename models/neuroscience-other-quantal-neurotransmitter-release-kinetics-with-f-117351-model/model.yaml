@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: QuantalNeurotransmitterReleaseKineticsWithF117351Model'
-description: '{"value": "\"... In this work, we used computer modeling of\r\nquanta
-  release kinetics with various levels of calcium influx\r\nand in the presence of
-  endogenous calcium buffers with\r\nvarying mobili'
+description: "{\"value\": \"\\\"... In this work, we used computer modeling of\\r\\nquanta release kinetics with various levels of calcium influx\\r\\nand in the presence of endogenous calcium buffers with\\r\\nvarying mobili."
 standard: other
 tags:
 - neuroscience

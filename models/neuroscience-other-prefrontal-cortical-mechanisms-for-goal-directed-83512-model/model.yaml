@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: PrefrontalCorticalMechanismsForGoalDirected83512Model'
-description: '{"value": "\".. a model of prefrontal cortex function emphasizing\r\nthe
-  influence of goal-related activity on the choice\r\nof the next motor output. ...\r\nDifferent
-  neocortical minicolumns represen'
+description: "{\"value\": \"\\\".. a model of prefrontal cortex function emphasizing\\r\\nthe influence of goal-related activity on the choice\\r\\nof the next motor output."
 standard: other
 tags:
 - neuroscience

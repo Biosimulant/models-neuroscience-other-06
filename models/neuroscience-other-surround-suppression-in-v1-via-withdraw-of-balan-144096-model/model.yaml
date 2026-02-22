@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SurroundSuppressionInV1ViaWithdrawOfBalan144096Model'
-description: '{"value": "The model is mean-field network models, which is set up as
-  a so-called ring-model, i. e. it is a highly idealized model of an orientation hypercolumn
-  in primary visual cortex. Long-range in'
+description: "{\"value\": \"The model is mean-field network models, which is set up as a so-called ring-model, i. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

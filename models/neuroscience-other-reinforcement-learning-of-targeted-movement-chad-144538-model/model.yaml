@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ReinforcementLearningOfTargetedMovementChad144538Model'
-description: '{"value": "\"Sensorimotor control has traditionally been considered
-  from a control theory perspective, without relation to neurobiology. In contrast,
-  here we utilized a spiking-neuron model of motor c'
+description: "{\"value\": \"\\\"Sensorimotor control has traditionally been considered from a control theory perspective, without relation to neurobiology. In contrast, here we utilized a spiking-neuron model of motor c."
 standard: other
 tags:
 - neuroscience

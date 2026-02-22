@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: MultiscaleModelOfOlfactoryReceptorNeuronIn136097Model'
-description: '{"value": "Collection of XPP (.ode) files simulating the signal transduction
-  (slow) and action potential (fast) currents in the olfactory receptor neuron of
-  mouse. Collection contains model configured'
+description: "{\"value\": \"Collection of XPP (.ode) files simulating the signal transduction (slow) and action potential (fast) currents in the olfactory receptor neuron of mouse. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

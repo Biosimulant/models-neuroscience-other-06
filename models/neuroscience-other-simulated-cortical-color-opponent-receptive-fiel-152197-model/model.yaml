@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SimulatedCorticalColorOpponentReceptiveFiel152197Model'
-description: '{"value": "\"...\r\nIn this work, we address the problem of understanding
-  the cortical processing of color information with a possible mechanism of the development
-  of the patchy distribution of color '
+description: "{\"value\": \"\\\"...\\r\\nIn this work, we address the problem of understanding the cortical processing of color information with a possible mechanism of the development of the patchy distribution of color. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

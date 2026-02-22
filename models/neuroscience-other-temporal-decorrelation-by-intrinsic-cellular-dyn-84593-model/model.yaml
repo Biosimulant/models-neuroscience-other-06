@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: TemporalDecorrelationByIntrinsicCellularDyn84593Model'
-description: '{"value": "\"... Recent investigations in primary visual (V1) cortical
-  neurons have\r\ndemonstrated that adaptation to prolonged changes in stimulus contrast\r\nis
-  mediated in part through intrinsic i'
+description: "{\"value\": \"\\\"... Recent investigations in primary visual (V1) cortical neurons have\\r\\ndemonstrated that adaptation to prolonged changes in stimulus contrast\\r\\nis mediated in part through intrinsic i."
 standard: other
 tags:
 - neuroscience

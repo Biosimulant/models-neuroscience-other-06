@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SynchronyBySynapseLocationMctavishEtAl201144054Model'
-description: '{"value": "This model considers synchrony between mitral cells induced
-  via shared\r\ngranule cell interneurons while taking into account the spatial\r\nconstraints
-  of the system. In particular, since '
+description: "{\"value\": \"This model considers synchrony between mitral cells induced via shared\\r\\ngranule cell interneurons while taking into account the spatial\\r\\nconstraints of the system. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

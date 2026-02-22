@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: ReciprocalRegulationOfRodAndConeSynapseBy64216Model'
-description: "{'value': 'We constructed models of rod and cone photoreceptors\r\n\
-  using NEURON software to predict how changes in Ca channels\r\nwould affect the\
-  \ light response in these cells and in\r\npostsynaptic "
+description: "{'value': 'We constructed models of rod and cone photoreceptors using NEURON software to predict how changes in Ca channels would affect the light response in these cells and in postsynaptic. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

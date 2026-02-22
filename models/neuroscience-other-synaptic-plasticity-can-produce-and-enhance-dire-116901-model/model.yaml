@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: SynapticPlasticityCanProduceAndEnhanceDire116901Model'
-description: '{"value": "\" ... We propose a parsimonious model of motion processing
-  that generates direction selective responses using short-term synaptic depression
-  and can reproduce salient features of direction'
+description: "{\"value\": \"\\\" ... We propose a parsimonious model of motion processing that generates direction selective responses using short-term synaptic depression and can reproduce salient features of direction."
 standard: other
 tags:
 - neuroscience

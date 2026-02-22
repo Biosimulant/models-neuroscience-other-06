@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: PyloricnetworkPyloricnetworkModel'
-description: Implementation of the pyloric network of the lobster somatogastric ganglion
-  system of Prinz, Marder, et al.
+description: "Implementation of the pyloric network of the lobster somatogastric ganglion system of Prinz, Marder, et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

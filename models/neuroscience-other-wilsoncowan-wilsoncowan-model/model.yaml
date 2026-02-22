@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: WilsoncowanWilsoncowanModel'
-description: "Wilson\u2013Cowan model"
+description: "Neuroscience Wilsoncowan Wilsoncowan Model represents neuroscience wilsoncowan wilsoncowan mechanisms from opensourcebrain reference opensourcebrain:WilsonCowan. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - neuroscience
