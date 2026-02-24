@@ -20,7 +20,7 @@ import biosim
 from biosim.signals import BioSignal, SignalMetadata
 
 class OtherPerturbationSensitivityImpliesHighNoiseAndSuggests(biosim.BioModule):
-    """BioModule wrapper for: Perturbation sensitivity implies high noise and suggests rate coding in cortex (London et al. 2010).""""""
+    """BioModule wrapper for: Perturbation sensitivity implies high noise and suggests rate coding in cortex (London et al. 2010)."""
 
     def __init__(self, model_path: str = "data/144027.zip", min_dt: float = 0.01) -> None:
         self.min_dt = min_dt
@@ -87,7 +87,7 @@ class OtherPerturbationSensitivityImpliesHighNoiseAndSuggests(biosim.BioModule):
         return {"state"}
 
     def advance_to(self, t: float) -> None:
-        """Advance simulation — dispatches to detected simulator."""
+        """Advance simulation - dispatches to detected simulator."""
         if self._extracted_dir is None:
             self.setup()
 

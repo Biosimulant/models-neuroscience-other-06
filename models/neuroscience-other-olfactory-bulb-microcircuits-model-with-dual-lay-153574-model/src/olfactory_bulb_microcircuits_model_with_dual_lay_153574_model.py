@@ -20,7 +20,7 @@ import biosim
 from biosim.signals import BioSignal, SignalMetadata
 
 class OtherOlfactoryBulbMicrocircuitsModelWithDualLayer(biosim.BioModule):
-    """BioModule wrapper for: Olfactory bulb microcircuits model with dual-layer inhibition (Gilra & Bhalla 2015).""""""
+    """BioModule wrapper for: Olfactory bulb microcircuits model with dual-layer inhibition (Gilra & Bhalla 2015)."""
 
     def __init__(self, model_path: str = "data/153574.zip", min_dt: float = 0.01) -> None:
         self.min_dt = min_dt
@@ -87,7 +87,7 @@ class OtherOlfactoryBulbMicrocircuitsModelWithDualLayer(biosim.BioModule):
         return {"state"}
 
     def advance_to(self, t: float) -> None:
-        """Advance simulation — dispatches to detected simulator."""
+        """Advance simulation - dispatches to detected simulator."""
         if self._extracted_dir is None:
             self.setup()
 

@@ -20,7 +20,7 @@ import biosim
 from biosim.signals import BioSignal, SignalMetadata
 
 class OtherOlfactoryBulbMitralAndGranuleCellColumnFormation(biosim.BioModule):
-    """BioModule wrapper for: Olfactory bulb mitral and granule cell column formation (Migliore et al. 2007).""""""
+    """BioModule wrapper for: Olfactory bulb mitral and granule cell column formation (Migliore et al. 2007)."""
 
     def __init__(self, model_path: str = "data/114665.zip", min_dt: float = 0.01) -> None:
         self.min_dt = min_dt
@@ -87,7 +87,7 @@ class OtherOlfactoryBulbMitralAndGranuleCellColumnFormation(biosim.BioModule):
         return {"state"}
 
     def advance_to(self, t: float) -> None:
-        """Advance simulation — dispatches to detected simulator."""
+        """Advance simulation - dispatches to detected simulator."""
         if self._extracted_dir is None:
             self.setup()
 

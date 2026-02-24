@@ -20,7 +20,7 @@ import biosim
 from biosim.signals import BioSignal, SignalMetadata
 
 class OtherNeurophysiologicalImpactOfInactivationPathwaysInA(biosim.BioModule):
-    """BioModule wrapper for: Neurophysiological impact of inactivation pathways in A-type K+ channels (Fineberg et al 2012).""""""
+    """BioModule wrapper for: Neurophysiological impact of inactivation pathways in A-type K+ channels (Fineberg et al 2012)."""
 
     def __init__(self, model_path: str = "data/145672.zip", min_dt: float = 0.01) -> None:
         self.min_dt = min_dt
@@ -87,7 +87,7 @@ class OtherNeurophysiologicalImpactOfInactivationPathwaysInA(biosim.BioModule):
         return {"state"}
 
     def advance_to(self, t: float) -> None:
-        """Advance simulation — dispatches to detected simulator."""
+        """Advance simulation - dispatches to detected simulator."""
         if self._extracted_dir is None:
             self.setup()
 

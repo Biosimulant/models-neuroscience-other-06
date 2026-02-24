@@ -20,7 +20,7 @@ import biosim
 from biosim.signals import BioSignal, SignalMetadata
 
 class OtherRoleOfActiveDendritesInRhythmicallyFiringNeurons(biosim.BioModule):
-    """BioModule wrapper for: Role of active dendrites in rhythmically-firing neurons (Goldberg et al 2006).""""""
+    """BioModule wrapper for: Role of active dendrites in rhythmically-firing neurons (Goldberg et al 2006)."""
 
     def __init__(self, model_path: str = "data/83558.zip", min_dt: float = 0.01) -> None:
         self.min_dt = min_dt
@@ -87,7 +87,7 @@ class OtherRoleOfActiveDendritesInRhythmicallyFiringNeurons(biosim.BioModule):
         return {"state"}
 
     def advance_to(self, t: float) -> None:
-        """Advance simulation — dispatches to detected simulator."""
+        """Advance simulation - dispatches to detected simulator."""
         if self._extracted_dir is None:
             self.setup()
 

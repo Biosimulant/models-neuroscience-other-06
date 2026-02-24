@@ -20,7 +20,7 @@ import biosim
 from biosim.signals import BioSignal, SignalMetadata
 
 class OtherRoleOfKcnq1AndIksInCardiacRepolarizationSilvaRudy2(biosim.BioModule):
-    """BioModule wrapper for: Role of KCNQ1 and IKs in cardiac repolarization (Silva, Rudy 2005) (XPP).""""""
+    """BioModule wrapper for: Role of KCNQ1 and IKs in cardiac repolarization (Silva, Rudy 2005) (XPP)."""
 
     def __init__(self, model_path: str = "data/58581.zip", min_dt: float = 0.01) -> None:
         self.min_dt = min_dt
@@ -87,7 +87,7 @@ class OtherRoleOfKcnq1AndIksInCardiacRepolarizationSilvaRudy2(biosim.BioModule):
         return {"state"}
 
     def advance_to(self, t: float) -> None:
-        """Advance simulation — dispatches to detected simulator."""
+        """Advance simulation - dispatches to detected simulator."""
         if self._extracted_dir is None:
             self.setup()
 

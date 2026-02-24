@@ -20,7 +20,7 @@ import biosim
 from biosim.signals import BioSignal, SignalMetadata
 
 class OtherTheoreticalReconstrucionOfFieldPotentialsAnd(biosim.BioModule):
-    """BioModule wrapper for: Theoretical reconstrucion of field potentials and dendrodendritic synaptic...(Rall & Shepherd 1968).""""""
+    """BioModule wrapper for: Theoretical reconstrucion of field potentials and dendrodendritic synaptic...(Rall & Shepherd 1968)."""
 
     def __init__(self, model_path: str = "data/156027.zip", min_dt: float = 0.01) -> None:
         self.min_dt = min_dt
@@ -87,7 +87,7 @@ class OtherTheoreticalReconstrucionOfFieldPotentialsAnd(biosim.BioModule):
         return {"state"}
 
     def advance_to(self, t: float) -> None:
-        """Advance simulation — dispatches to detected simulator."""
+        """Advance simulation - dispatches to detected simulator."""
         if self._extracted_dir is None:
             self.setup()
 

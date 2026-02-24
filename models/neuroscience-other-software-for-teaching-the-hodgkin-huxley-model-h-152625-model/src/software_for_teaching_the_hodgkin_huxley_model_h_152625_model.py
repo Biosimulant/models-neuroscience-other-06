@@ -20,7 +20,7 @@ import biosim
 from biosim.signals import BioSignal, SignalMetadata
 
 class OtherSoftwareForTeachingTheHodgkinHuxleyModelHernandez(biosim.BioModule):
-    """BioModule wrapper for: Software for teaching the Hodgkin-Huxley model (Hernandez & Zurek 2013) (SENB written in NEURON hoc).""""""
+    """BioModule wrapper for: Software for teaching the Hodgkin-Huxley model (Hernandez & Zurek 2013) (SENB written in NEURON hoc)."""
 
     def __init__(self, model_path: str = "data/152625.zip", min_dt: float = 0.01) -> None:
         self.min_dt = min_dt
@@ -87,7 +87,7 @@ class OtherSoftwareForTeachingTheHodgkinHuxleyModelHernandez(biosim.BioModule):
         return {"state"}
 
     def advance_to(self, t: float) -> None:
-        """Advance simulation — dispatches to detected simulator."""
+        """Advance simulation - dispatches to detected simulator."""
         if self._extracted_dir is None:
             self.setup()
 

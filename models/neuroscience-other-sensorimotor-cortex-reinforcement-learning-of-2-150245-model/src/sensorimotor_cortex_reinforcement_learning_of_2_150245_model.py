@@ -20,7 +20,7 @@ import biosim
 from biosim.signals import BioSignal, SignalMetadata
 
 class OtherSensorimotorCortexReinforcementLearningOf2Joint(biosim.BioModule):
-    """BioModule wrapper for: Sensorimotor cortex reinforcement learning of 2-joint virtual arm reaching (Neymotin et al. 2013).""""""
+    """BioModule wrapper for: Sensorimotor cortex reinforcement learning of 2-joint virtual arm reaching (Neymotin et al. 2013)."""
 
     def __init__(self, model_path: str = "data/150245.zip", min_dt: float = 0.01) -> None:
         self.min_dt = min_dt
@@ -87,7 +87,7 @@ class OtherSensorimotorCortexReinforcementLearningOf2Joint(biosim.BioModule):
         return {"state"}
 
     def advance_to(self, t: float) -> None:
-        """Advance simulation — dispatches to detected simulator."""
+        """Advance simulation - dispatches to detected simulator."""
         if self._extracted_dir is None:
             self.setup()
 

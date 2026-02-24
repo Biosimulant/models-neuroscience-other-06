@@ -20,7 +20,7 @@ import biosim
 from biosim.signals import BioSignal, SignalMetadata
 
 class OtherNodoseSensoryNeuronSchildEtAl1994SchildAndKunze(biosim.BioModule):
-    """BioModule wrapper for: Nodose sensory neuron (Schild et al. 1994, Schild and Kunze 1997).""""""
+    """BioModule wrapper for: Nodose sensory neuron (Schild et al. 1994, Schild and Kunze 1997)."""
 
     def __init__(self, model_path: str = "data/120521.zip", min_dt: float = 0.01) -> None:
         self.min_dt = min_dt
@@ -87,7 +87,7 @@ class OtherNodoseSensoryNeuronSchildEtAl1994SchildAndKunze(biosim.BioModule):
         return {"state"}
 
     def advance_to(self, t: float) -> None:
-        """Advance simulation — dispatches to detected simulator."""
+        """Advance simulation - dispatches to detected simulator."""
         if self._extracted_dir is None:
             self.setup()
 

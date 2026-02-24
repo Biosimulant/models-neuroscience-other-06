@@ -20,7 +20,7 @@ import biosim
 from biosim.signals import BioSignal, SignalMetadata
 
 class OtherParameterEstimationForHodgkinHuxleyBasedModelsOf(biosim.BioModule):
-    """BioModule wrapper for: Parameter estimation for Hodgkin-Huxley based models of cortical neurons (Lepora et al. 2011).""""""
+    """BioModule wrapper for: Parameter estimation for Hodgkin-Huxley based models of cortical neurons (Lepora et al. 2011)."""
 
     def __init__(self, model_path: str = "data/136808.zip", min_dt: float = 0.01) -> None:
         self.min_dt = min_dt
@@ -87,7 +87,7 @@ class OtherParameterEstimationForHodgkinHuxleyBasedModelsOf(biosim.BioModule):
         return {"state"}
 
     def advance_to(self, t: float) -> None:
-        """Advance simulation — dispatches to detected simulator."""
+        """Advance simulation - dispatches to detected simulator."""
         if self._extracted_dir is None:
             self.setup()
 

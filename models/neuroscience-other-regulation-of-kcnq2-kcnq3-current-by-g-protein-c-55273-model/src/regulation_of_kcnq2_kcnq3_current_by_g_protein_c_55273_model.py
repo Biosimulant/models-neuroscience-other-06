@@ -20,7 +20,7 @@ import biosim
 from biosim.signals import BioSignal, SignalMetadata
 
 class OtherRegulationOfKcnq2Kcnq3CurrentByGProteinCyclingSuh(biosim.BioModule):
-    """BioModule wrapper for: Regulation of KCNQ2/KCNQ3 current by G protein cycling (Suh et al 2004).""""""
+    """BioModule wrapper for: Regulation of KCNQ2/KCNQ3 current by G protein cycling (Suh et al 2004)."""
 
     def __init__(self, model_path: str = "data/55273.zip", min_dt: float = 0.01) -> None:
         self.min_dt = min_dt
@@ -87,7 +87,7 @@ class OtherRegulationOfKcnq2Kcnq3CurrentByGProteinCyclingSuh(biosim.BioModule):
         return {"state"}
 
     def advance_to(self, t: float) -> None:
-        """Advance simulation — dispatches to detected simulator."""
+        """Advance simulation - dispatches to detected simulator."""
         if self._extracted_dir is None:
             self.setup()
 

@@ -20,7 +20,7 @@ import biosim
 from biosim.signals import BioSignal, SignalMetadata
 
 class OtherMultiCompCa1OLmInterneuronModelWithVarying(biosim.BioModule):
-    """BioModule wrapper for: Multi-comp. CA1 O-LM interneuron model with varying dendritic Ih distributions (Sekulic et al 2015).""""""
+    """BioModule wrapper for: Multi-comp. CA1 O-LM interneuron model with varying dendritic Ih distributions (Sekulic et al 2015)."""
 
     def __init__(self, model_path: str = "data/182797.zip", min_dt: float = 0.01) -> None:
         self.min_dt = min_dt
@@ -87,7 +87,7 @@ class OtherMultiCompCa1OLmInterneuronModelWithVarying(biosim.BioModule):
         return {"state"}
 
     def advance_to(self, t: float) -> None:
-        """Advance simulation — dispatches to detected simulator."""
+        """Advance simulation - dispatches to detected simulator."""
         if self._extracted_dir is None:
             self.setup()
 

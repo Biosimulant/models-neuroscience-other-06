@@ -20,7 +20,7 @@ import biosim
 from biosim.signals import BioSignal, SignalMetadata
 
 class OtherReichardtModelForMotionDetectionInTheFlyVisual(biosim.BioModule):
-    """BioModule wrapper for: Reichardt Model for Motion Detection in the Fly Visual System  (Tuthill et al, 2011).""""""
+    """BioModule wrapper for: Reichardt Model for Motion Detection in the Fly Visual System  (Tuthill et al, 2011)."""
 
     def __init__(self, model_path: str = "data/168957.zip", min_dt: float = 0.01) -> None:
         self.min_dt = min_dt
@@ -87,7 +87,7 @@ class OtherReichardtModelForMotionDetectionInTheFlyVisual(biosim.BioModule):
         return {"state"}
 
     def advance_to(self, t: float) -> None:
-        """Advance simulation — dispatches to detected simulator."""
+        """Advance simulation - dispatches to detected simulator."""
         if self._extracted_dir is None:
             self.setup()
 

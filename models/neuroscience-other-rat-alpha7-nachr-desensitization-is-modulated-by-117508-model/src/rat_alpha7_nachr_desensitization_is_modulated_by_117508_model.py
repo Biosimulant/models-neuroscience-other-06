@@ -20,7 +20,7 @@ import biosim
 from biosim.signals import BioSignal, SignalMetadata
 
 class OtherRatAlpha7NachrDesensitizationIsModulatedByW55GayEt(biosim.BioModule):
-    """BioModule wrapper for: Rat alpha7 nAChR desensitization is modulated by W55 (Gay et al. 2008).""""""
+    """BioModule wrapper for: Rat alpha7 nAChR desensitization is modulated by W55 (Gay et al. 2008)."""
 
     def __init__(self, model_path: str = "data/117508.zip", min_dt: float = 0.01) -> None:
         self.min_dt = min_dt
@@ -87,7 +87,7 @@ class OtherRatAlpha7NachrDesensitizationIsModulatedByW55GayEt(biosim.BioModule):
         return {"state"}
 
     def advance_to(self, t: float) -> None:
-        """Advance simulation — dispatches to detected simulator."""
+        """Advance simulation - dispatches to detected simulator."""
         if self._extracted_dir is None:
             self.setup()
 

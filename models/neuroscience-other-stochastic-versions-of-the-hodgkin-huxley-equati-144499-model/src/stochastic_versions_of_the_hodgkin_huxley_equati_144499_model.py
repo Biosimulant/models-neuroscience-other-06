@@ -20,7 +20,7 @@ import biosim
 from biosim.signals import BioSignal, SignalMetadata
 
 class OtherStochasticVersionsOfTheHodgkinHuxleyEquationsGoldwyn2(biosim.BioModule):
-    """BioModule wrapper for: Stochastic versions of the Hodgkin-Huxley equations (Goldwyn, Shea-Brown 2011) (pylab).""""""
+    """BioModule wrapper for: Stochastic versions of the Hodgkin-Huxley equations (Goldwyn, Shea-Brown 2011) (pylab)."""
 
     def __init__(self, model_path: str = "data/144499.zip", min_dt: float = 0.01) -> None:
         self.min_dt = min_dt
@@ -87,7 +87,7 @@ class OtherStochasticVersionsOfTheHodgkinHuxleyEquationsGoldwyn2(biosim.BioModul
         return {"state"}
 
     def advance_to(self, t: float) -> None:
-        """Advance simulation — dispatches to detected simulator."""
+        """Advance simulation - dispatches to detected simulator."""
         if self._extracted_dir is None:
             self.setup()
 

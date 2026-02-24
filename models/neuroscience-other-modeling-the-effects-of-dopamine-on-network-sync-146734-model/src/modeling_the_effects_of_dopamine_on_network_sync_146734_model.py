@@ -20,7 +20,7 @@ import biosim
 from biosim.signals import BioSignal, SignalMetadata
 
 class OtherModelingTheEffectsOfDopamineOnNetworkSynchronization(biosim.BioModule):
-    """BioModule wrapper for: Modeling the effects of dopamine on network synchronization (Komek et al. 2012).""""""
+    """BioModule wrapper for: Modeling the effects of dopamine on network synchronization (Komek et al. 2012)."""
 
     def __init__(self, model_path: str = "data/146734.zip", min_dt: float = 0.01) -> None:
         self.min_dt = min_dt
@@ -87,7 +87,7 @@ class OtherModelingTheEffectsOfDopamineOnNetworkSynchronization(biosim.BioModule
         return {"state"}
 
     def advance_to(self, t: float) -> None:
-        """Advance simulation — dispatches to detected simulator."""
+        """Advance simulation - dispatches to detected simulator."""
         if self._extracted_dir is None:
             self.setup()
 

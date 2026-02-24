@@ -20,7 +20,7 @@ import biosim
 from biosim.signals import BioSignal, SignalMetadata
 
 class OtherStdpPromotesSynchronyOfInhibitoryNetworksInThe(biosim.BioModule):
-    """BioModule wrapper for: STDP promotes synchrony of inhibitory networks in the presence of heterogeneity (Talathi et al 2008).""""""
+    """BioModule wrapper for: STDP promotes synchrony of inhibitory networks in the presence of heterogeneity (Talathi et al 2008)."""
 
     def __init__(self, model_path: str = "data/119159.zip", min_dt: float = 0.01) -> None:
         self.min_dt = min_dt
@@ -87,7 +87,7 @@ class OtherStdpPromotesSynchronyOfInhibitoryNetworksInThe(biosim.BioModule):
         return {"state"}
 
     def advance_to(self, t: float) -> None:
-        """Advance simulation — dispatches to detected simulator."""
+        """Advance simulation - dispatches to detected simulator."""
         if self._extracted_dir is None:
             self.setup()
 

@@ -20,7 +20,7 @@ import biosim
 from biosim.signals import BioSignal, SignalMetadata
 
 class OtherNetworkModelWithNeocorticalArchitectureAndersonEtAl(biosim.BioModule):
-    """BioModule wrapper for: Network model with neocortical architecture (Anderson et al 2007,2012; Azhar et al 2012).""""""
+    """BioModule wrapper for: Network model with neocortical architecture (Anderson et al 2007,2012; Azhar et al 2012)."""
 
     def __init__(self, model_path: str = "data/141507.zip", min_dt: float = 0.01) -> None:
         self.min_dt = min_dt
@@ -87,7 +87,7 @@ class OtherNetworkModelWithNeocorticalArchitectureAndersonEtAl(biosim.BioModule)
         return {"state"}
 
     def advance_to(self, t: float) -> None:
-        """Advance simulation — dispatches to detected simulator."""
+        """Advance simulation - dispatches to detected simulator."""
         if self._extracted_dir is None:
             self.setup()
 

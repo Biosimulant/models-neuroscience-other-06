@@ -20,7 +20,7 @@ import biosim
 from biosim.signals import BioSignal, SignalMetadata
 
 class OtherPointProcessFrameworkForModelingElectricalStimulation(biosim.BioModule):
-    """BioModule wrapper for: Point process framework for modeling electrical stimulation of auditory nerve (Goldwyn et al. 2012).""""""
+    """BioModule wrapper for: Point process framework for modeling electrical stimulation of auditory nerve (Goldwyn et al. 2012)."""
 
     def __init__(self, model_path: str = "data/143760.zip", min_dt: float = 0.01) -> None:
         self.min_dt = min_dt
@@ -87,7 +87,7 @@ class OtherPointProcessFrameworkForModelingElectricalStimulation(biosim.BioModul
         return {"state"}
 
     def advance_to(self, t: float) -> None:
-        """Advance simulation — dispatches to detected simulator."""
+        """Advance simulation - dispatches to detected simulator."""
         if self._extracted_dir is None:
             self.setup()
 

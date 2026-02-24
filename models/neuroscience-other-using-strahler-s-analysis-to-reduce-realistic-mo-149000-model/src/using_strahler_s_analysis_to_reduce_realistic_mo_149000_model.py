@@ -20,7 +20,7 @@ import biosim
 from biosim.signals import BioSignal, SignalMetadata
 
 class OtherUsingStrahlerSAnalysisToReduceRealisticModels(biosim.BioModule):
-    """BioModule wrapper for: Using Strahler's analysis to reduce realistic models (Marasco et al, 2013).""""""
+    """BioModule wrapper for: Using Strahler's analysis to reduce realistic models (Marasco et al, 2013)."""
 
     def __init__(self, model_path: str = "data/149000.zip", min_dt: float = 0.01) -> None:
         self.min_dt = min_dt
@@ -87,7 +87,7 @@ class OtherUsingStrahlerSAnalysisToReduceRealisticModels(biosim.BioModule):
         return {"state"}
 
     def advance_to(self, t: float) -> None:
-        """Advance simulation — dispatches to detected simulator."""
+        """Advance simulation - dispatches to detected simulator."""
         if self._extracted_dir is None:
             self.setup()
 

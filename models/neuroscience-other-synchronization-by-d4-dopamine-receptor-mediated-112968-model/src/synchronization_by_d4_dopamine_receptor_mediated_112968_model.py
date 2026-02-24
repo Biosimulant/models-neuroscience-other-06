@@ -20,7 +20,7 @@ import biosim
 from biosim.signals import BioSignal, SignalMetadata
 
 class OtherSynchronizationByD4DopamineReceptorMediated(biosim.BioModule):
-    """BioModule wrapper for: Synchronization by D4 dopamine receptor-mediated phospholipid methylation (Kuznetsova, Deth 2008).""""""
+    """BioModule wrapper for: Synchronization by D4 dopamine receptor-mediated phospholipid methylation (Kuznetsova, Deth 2008)."""
 
     def __init__(self, model_path: str = "data/112968.zip", min_dt: float = 0.01) -> None:
         self.min_dt = min_dt
@@ -87,7 +87,7 @@ class OtherSynchronizationByD4DopamineReceptorMediated(biosim.BioModule):
         return {"state"}
 
     def advance_to(self, t: float) -> None:
-        """Advance simulation — dispatches to detected simulator."""
+        """Advance simulation - dispatches to detected simulator."""
         if self._extracted_dir is None:
             self.setup()
 

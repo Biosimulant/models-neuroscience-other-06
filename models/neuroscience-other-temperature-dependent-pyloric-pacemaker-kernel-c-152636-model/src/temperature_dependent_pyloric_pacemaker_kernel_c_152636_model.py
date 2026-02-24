@@ -20,7 +20,7 @@ import biosim
 from biosim.signals import BioSignal, SignalMetadata
 
 class OtherTemperatureDependentPyloricPacemakerKernelCaplanJsEt(biosim.BioModule):
-    """BioModule wrapper for: Temperature-Dependent Pyloric Pacemaker Kernel (Caplan JS et al., 2014).""""""
+    """BioModule wrapper for: Temperature-Dependent Pyloric Pacemaker Kernel (Caplan JS et al., 2014)."""
 
     def __init__(self, model_path: str = "data/152636.zip", min_dt: float = 0.01) -> None:
         self.min_dt = min_dt
@@ -87,7 +87,7 @@ class OtherTemperatureDependentPyloricPacemakerKernelCaplanJsEt(biosim.BioModule
         return {"state"}
 
     def advance_to(self, t: float) -> None:
-        """Advance simulation — dispatches to detected simulator."""
+        """Advance simulation - dispatches to detected simulator."""
         if self._extracted_dir is None:
             self.setup()
 

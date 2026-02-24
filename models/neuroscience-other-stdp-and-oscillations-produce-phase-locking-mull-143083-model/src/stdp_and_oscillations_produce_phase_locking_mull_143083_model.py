@@ -20,7 +20,7 @@ import biosim
 from biosim.signals import BioSignal, SignalMetadata
 
 class OtherStdpAndOscillationsProducePhaseLockingMullerEtAl(biosim.BioModule):
-    """BioModule wrapper for: STDP and oscillations produce phase-locking (Muller et al. 2011).""""""
+    """BioModule wrapper for: STDP and oscillations produce phase-locking (Muller et al. 2011)."""
 
     def __init__(self, model_path: str = "data/143083.zip", min_dt: float = 0.01) -> None:
         self.min_dt = min_dt
@@ -87,7 +87,7 @@ class OtherStdpAndOscillationsProducePhaseLockingMullerEtAl(biosim.BioModule):
         return {"state"}
 
     def advance_to(self, t: float) -> None:
-        """Advance simulation — dispatches to detected simulator."""
+        """Advance simulation - dispatches to detected simulator."""
         if self._extracted_dir is None:
             self.setup()
 

@@ -20,7 +20,7 @@ import biosim
 from biosim.signals import BioSignal, SignalMetadata
 
 class OtherOlfactoryBulbMitralCellGapJunctionNnModelBurst(biosim.BioModule):
-    """BioModule wrapper for: Olfactory bulb mitral cell gap junction NN model: burst firing and synchrony (O`Connor et al. 2012).""""""
+    """BioModule wrapper for: Olfactory bulb mitral cell gap junction NN model: burst firing and synchrony (O`Connor et al. 2012)."""
 
     def __init__(self, model_path: str = "data/146030.zip", min_dt: float = 0.01) -> None:
         self.min_dt = min_dt
@@ -87,7 +87,7 @@ class OtherOlfactoryBulbMitralCellGapJunctionNnModelBurst(biosim.BioModule):
         return {"state"}
 
     def advance_to(self, t: float) -> None:
-        """Advance simulation — dispatches to detected simulator."""
+        """Advance simulation - dispatches to detected simulator."""
         if self._extracted_dir is None:
             self.setup()
 

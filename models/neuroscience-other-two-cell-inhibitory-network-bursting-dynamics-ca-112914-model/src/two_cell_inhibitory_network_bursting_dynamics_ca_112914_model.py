@@ -20,7 +20,7 @@ import biosim
 from biosim.signals import BioSignal, SignalMetadata
 
 class OtherTwoCellInhibitoryNetworkBurstingDynamicsCapturedInA(biosim.BioModule):
-    """BioModule wrapper for: Two-cell inhibitory network bursting dynamics captured in a one-dimensional map (Matveev et al 2007).""""""
+    """BioModule wrapper for: Two-cell inhibitory network bursting dynamics captured in a one-dimensional map (Matveev et al 2007)."""
 
     def __init__(self, model_path: str = "data/112914.zip", min_dt: float = 0.01) -> None:
         self.min_dt = min_dt
@@ -87,7 +87,7 @@ class OtherTwoCellInhibitoryNetworkBurstingDynamicsCapturedInA(biosim.BioModule)
         return {"state"}
 
     def advance_to(self, t: float) -> None:
-        """Advance simulation — dispatches to detected simulator."""
+        """Advance simulation - dispatches to detected simulator."""
         if self._extracted_dir is None:
             self.setup()
 

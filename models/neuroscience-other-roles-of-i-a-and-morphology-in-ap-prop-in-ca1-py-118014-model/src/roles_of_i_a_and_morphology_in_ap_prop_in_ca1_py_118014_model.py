@@ -20,7 +20,7 @@ import biosim
 from biosim.signals import BioSignal, SignalMetadata
 
 class OtherRolesOfIAAndMorphologyInApPropInCa1Pyramidal(biosim.BioModule):
-    """BioModule wrapper for: Roles of I(A) and morphology in AP prop. in CA1 pyramidal cell dendrites (Acker and White 2007).""""""
+    """BioModule wrapper for: Roles of I(A) and morphology in AP prop. in CA1 pyramidal cell dendrites (Acker and White 2007)."""
 
     def __init__(self, model_path: str = "data/118014.zip", min_dt: float = 0.01) -> None:
         self.min_dt = min_dt
@@ -87,7 +87,7 @@ class OtherRolesOfIAAndMorphologyInApPropInCa1Pyramidal(biosim.BioModule):
         return {"state"}
 
     def advance_to(self, t: float) -> None:
-        """Advance simulation — dispatches to detected simulator."""
+        """Advance simulation - dispatches to detected simulator."""
         if self._extracted_dir is None:
             self.setup()
 

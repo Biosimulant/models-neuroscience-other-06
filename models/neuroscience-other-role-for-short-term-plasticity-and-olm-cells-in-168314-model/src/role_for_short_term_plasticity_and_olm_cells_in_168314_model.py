@@ -20,7 +20,7 @@ import biosim
 from biosim.signals import BioSignal, SignalMetadata
 
 class OtherRoleForShortTermPlasticityAndOlmCellsInContaining(biosim.BioModule):
-    """BioModule wrapper for: Role for short term plasticity and OLM cells in containing spread of excitation (Hummos et al 2014).""""""
+    """BioModule wrapper for: Role for short term plasticity and OLM cells in containing spread of excitation (Hummos et al 2014)."""
 
     def __init__(self, model_path: str = "data/168314.zip", min_dt: float = 0.01) -> None:
         self.min_dt = min_dt
@@ -87,7 +87,7 @@ class OtherRoleForShortTermPlasticityAndOlmCellsInContaining(biosim.BioModule):
         return {"state"}
 
     def advance_to(self, t: float) -> None:
-        """Advance simulation — dispatches to detected simulator."""
+        """Advance simulation - dispatches to detected simulator."""
         if self._extracted_dir is None:
             self.setup()
 

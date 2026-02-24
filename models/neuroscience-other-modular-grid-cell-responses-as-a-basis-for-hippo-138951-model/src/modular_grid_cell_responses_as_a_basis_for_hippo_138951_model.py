@@ -20,7 +20,7 @@ import biosim
 from biosim.signals import BioSignal, SignalMetadata
 
 class OtherModularGridCellResponsesAsABasisForHippocampal(biosim.BioModule):
-    """BioModule wrapper for: Modular grid cell responses as a basis for hippocampal remapping (Monaco and Abbott 2011).""""""
+    """BioModule wrapper for: Modular grid cell responses as a basis for hippocampal remapping (Monaco and Abbott 2011)."""
 
     def __init__(self, model_path: str = "data/138951.zip", min_dt: float = 0.01) -> None:
         self.min_dt = min_dt
@@ -87,7 +87,7 @@ class OtherModularGridCellResponsesAsABasisForHippocampal(biosim.BioModule):
         return {"state"}
 
     def advance_to(self, t: float) -> None:
-        """Advance simulation — dispatches to detected simulator."""
+        """Advance simulation - dispatches to detected simulator."""
         if self._extracted_dir is None:
             self.setup()
 

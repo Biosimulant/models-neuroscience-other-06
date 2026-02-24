@@ -20,7 +20,7 @@ import biosim
 from biosim.signals import BioSignal, SignalMetadata
 
 class OtherNewAndCorrectedSimulationsOfSynapticFacilitation(biosim.BioModule):
-    """BioModule wrapper for: New and corrected simulations of synaptic facilitation (Matveev et al. 2002).""""""
+    """BioModule wrapper for: New and corrected simulations of synaptic facilitation (Matveev et al. 2002)."""
 
     def __init__(self, model_path: str = "data/119214.zip", min_dt: float = 0.01) -> None:
         self.min_dt = min_dt
@@ -87,7 +87,7 @@ class OtherNewAndCorrectedSimulationsOfSynapticFacilitation(biosim.BioModule):
         return {"state"}
 
     def advance_to(self, t: float) -> None:
-        """Advance simulation — dispatches to detected simulator."""
+        """Advance simulation - dispatches to detected simulator."""
         if self._extracted_dir is None:
             self.setup()
 

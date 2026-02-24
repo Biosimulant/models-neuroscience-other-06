@@ -20,7 +20,7 @@ import biosim
 from biosim.signals import BioSignal, SignalMetadata
 
 class OtherStructureDynamicsRelationshipsInBurstingNeuronal(biosim.BioModule):
-    """BioModule wrapper for: Structure-dynamics relationships in bursting neuronal networks revealed (Mäki-Marttunen et al. 2013).""""""
+    """BioModule wrapper for: Structure-dynamics relationships in bursting neuronal networks revealed (Mäki-Marttunen et al. 2013)."""
 
     def __init__(self, model_path: str = "data/147117.zip", min_dt: float = 0.01) -> None:
         self.min_dt = min_dt
@@ -87,7 +87,7 @@ class OtherStructureDynamicsRelationshipsInBurstingNeuronal(biosim.BioModule):
         return {"state"}
 
     def advance_to(self, t: float) -> None:
-        """Advance simulation — dispatches to detected simulator."""
+        """Advance simulation - dispatches to detected simulator."""
         if self._extracted_dir is None:
             self.setup()
 

@@ -20,7 +20,7 @@ import biosim
 from biosim.signals import BioSignal, SignalMetadata
 
 class OtherMultisensoryIntegrationInTheSuperiorColliculusA(biosim.BioModule):
-    """BioModule wrapper for: Multisensory integration in the superior colliculus: a neural network model (Ursino et al. 2009).""""""
+    """BioModule wrapper for: Multisensory integration in the superior colliculus: a neural network model (Ursino et al. 2009)."""
 
     def __init__(self, model_path: str = "data/118261.zip", min_dt: float = 0.01) -> None:
         self.min_dt = min_dt
@@ -87,7 +87,7 @@ class OtherMultisensoryIntegrationInTheSuperiorColliculusA(biosim.BioModule):
         return {"state"}
 
     def advance_to(self, t: float) -> None:
-        """Advance simulation — dispatches to detected simulator."""
+        """Advance simulation - dispatches to detected simulator."""
         if self._extracted_dir is None:
             self.setup()
 

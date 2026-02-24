@@ -20,7 +20,7 @@ import biosim
 from biosim.signals import BioSignal, SignalMetadata
 
 class OtherSmithetal2013L23dendriticspikes(biosim.BioModule):
-    """BioModule wrapper for: SmithEtAl2013-L23DendriticSpikes.""""""
+    """BioModule wrapper for: SmithEtAl2013-L23DendriticSpikes."""
 
     def __init__(self, model_path: str = "data/repo", min_dt: float = 0.01) -> None:
         self.min_dt = min_dt
@@ -87,7 +87,7 @@ class OtherSmithetal2013L23dendriticspikes(biosim.BioModule):
         return {"state"}
 
     def advance_to(self, t: float) -> None:
-        """Advance simulation — dispatches to detected simulator."""
+        """Advance simulation - dispatches to detected simulator."""
         if self._extracted_dir is None:
             self.setup()
 

@@ -20,7 +20,7 @@ import biosim
 from biosim.signals import BioSignal, SignalMetadata
 
 class OtherStatusEpilepticusAltersDentateBasketCellTonic(biosim.BioModule):
-    """BioModule wrapper for: Status epilepticus alters dentate basket cell tonic inhibition (Yu J et al 2013).""""""
+    """BioModule wrapper for: Status epilepticus alters dentate basket cell tonic inhibition (Yu J et al 2013)."""
 
     def __init__(self, model_path: str = "data/155602.zip", min_dt: float = 0.01) -> None:
         self.min_dt = min_dt
@@ -87,7 +87,7 @@ class OtherStatusEpilepticusAltersDentateBasketCellTonic(biosim.BioModule):
         return {"state"}
 
     def advance_to(self, t: float) -> None:
-        """Advance simulation — dispatches to detected simulator."""
+        """Advance simulation - dispatches to detected simulator."""
         if self._extracted_dir is None:
             self.setup()
 

@@ -20,7 +20,7 @@ import biosim
 from biosim.signals import BioSignal, SignalMetadata
 
 class OtherPropertiesOfAconitineInducedBlockOfKdrCurrentIn(biosim.BioModule):
-    """BioModule wrapper for: Properties of aconitine-induced block of KDR current in NG108-15 neurons (Lin et al. 2008).""""""
+    """BioModule wrapper for: Properties of aconitine-induced block of KDR current in NG108-15 neurons (Lin et al. 2008)."""
 
     def __init__(self, model_path: str = "data/112079.zip", min_dt: float = 0.01) -> None:
         self.min_dt = min_dt
@@ -87,7 +87,7 @@ class OtherPropertiesOfAconitineInducedBlockOfKdrCurrentIn(biosim.BioModule):
         return {"state"}
 
     def advance_to(self, t: float) -> None:
-        """Advance simulation — dispatches to detected simulator."""
+        """Advance simulation - dispatches to detected simulator."""
         if self._extracted_dir is None:
             self.setup()
 

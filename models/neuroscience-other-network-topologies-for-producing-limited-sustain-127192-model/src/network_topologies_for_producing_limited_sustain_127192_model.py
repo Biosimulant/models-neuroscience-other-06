@@ -20,7 +20,7 @@ import biosim
 from biosim.signals import BioSignal, SignalMetadata
 
 class OtherNetworkTopologiesForProducingLimitedSustained(biosim.BioModule):
-    """BioModule wrapper for: Network topologies for producing limited sustained activation (Kaiser and Hilgetag 2010).""""""
+    """BioModule wrapper for: Network topologies for producing limited sustained activation (Kaiser and Hilgetag 2010)."""
 
     def __init__(self, model_path: str = "data/127192.zip", min_dt: float = 0.01) -> None:
         self.min_dt = min_dt
@@ -87,7 +87,7 @@ class OtherNetworkTopologiesForProducingLimitedSustained(biosim.BioModule):
         return {"state"}
 
     def advance_to(self, t: float) -> None:
-        """Advance simulation — dispatches to detected simulator."""
+        """Advance simulation - dispatches to detected simulator."""
         if self._extracted_dir is None:
             self.setup()
 
