@@ -9,6 +9,7 @@ even when a wrapper falls back to stub outputs (e.g., simulator not installed).
 from __future__ import annotations
 
 import sys
+import tempfile
 from pathlib import Path
 
 import pytest
@@ -17,6 +18,7 @@ import pytest
 MODEL_ROOT = Path(__file__).resolve().parents[1]
 if str(MODEL_ROOT) not in sys.path:
     sys.path.insert(0, str(MODEL_ROOT))
+
 
 def _find_repo_root(start: Path) -> Path:
     for p in [start, *start.parents]:
@@ -68,3 +70,16 @@ def test_reset() -> None:
         module.reset()
         module.advance_to(0.1)
         assert set(module.get_outputs().keys()) == module.outputs()
+
+
+def test_zip_extracts_to_writable_cache(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
+    monkeypatch.setattr(tempfile, "gettempdir", lambda: str(tmp_path))
+
+    module = SquidAxonHodgkinHuxley1952UsedInChenEtA152897Model()
+    module.setup()
+
+    assert module._extracted_dir is not None
+    assert module._extracted_dir.is_dir()
+    assert module._extracted_dir.parent == tmp_path / "biosim-model-cache"
+    assert (module._extracted_dir / ".biosim_extracted").exists()
+    assert module._extracted_dir != module._model_path.parent / module._model_path.stem

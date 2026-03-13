@@ -10,7 +10,10 @@ Standard: other
 """
 from __future__ import annotations
 
+import hashlib
 from pathlib import Path
+import shutil
+import tempfile
 from typing import Any, Dict, Optional, Set, TYPE_CHECKING
 
 if TYPE_CHECKING:  # pragma: no cover - typing only
@@ -18,6 +21,12 @@ if TYPE_CHECKING:  # pragma: no cover - typing only
 
 import biosim
 from biosim.signals import BioSignal, SignalMetadata
+
+
+def _writable_extract_dir(archive_path: Path) -> Path:
+    digest = hashlib.sha256(str(archive_path.resolve()).encode("utf-8")).hexdigest()[:12]
+    return Path(tempfile.gettempdir()) / "biosim-model-cache" / f"{archive_path.stem}-{digest}"
+
 
 class OtherSquidAxonHodgkinHuxley1952UsedInChenEtAl2010R(biosim.BioModule):
     """BioModule wrapper for: Squid axon (Hodgkin, Huxley 1952) used in (Chen et al 2010) (R language)."""
@@ -40,10 +49,15 @@ class OtherSquidAxonHodgkinHuxley1952UsedInChenEtAl2010R(biosim.BioModule):
         data_dir = self._model_path
         if data_dir.suffix == ".zip" and data_dir.is_file():
             import zipfile
-            extract_to = data_dir.parent / data_dir.stem
-            if not extract_to.exists():
+            extract_to = _writable_extract_dir(data_dir)
+            ready_marker = extract_to / ".biosim_extracted"
+            if not ready_marker.exists():
+                if extract_to.exists():
+                    shutil.rmtree(extract_to)
+                extract_to.mkdir(parents=True, exist_ok=True)
                 with zipfile.ZipFile(data_dir, "r") as zf:
                     zf.extractall(extract_to)
+                ready_marker.write_text("", encoding="utf-8")
             data_dir = extract_to
         self._extracted_dir = data_dir
 
