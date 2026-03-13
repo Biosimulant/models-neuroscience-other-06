@@ -1,7 +1,0 @@
-type: //any
-of:
-  - type: //map
-    values: /omv/protocol_properties
-  - type: //str
-    
-  

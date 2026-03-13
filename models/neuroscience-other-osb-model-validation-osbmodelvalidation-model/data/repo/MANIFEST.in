@@ -1,3 +1,0 @@
-include README.md
-include omv/engines/utils/genesis_utils.g
-recursive-include omv/schemata *

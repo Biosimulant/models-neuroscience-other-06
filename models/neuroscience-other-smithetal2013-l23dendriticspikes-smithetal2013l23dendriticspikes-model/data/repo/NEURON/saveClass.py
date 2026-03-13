@@ -1,1 +1,0 @@
-class emptyObject(object): pass
